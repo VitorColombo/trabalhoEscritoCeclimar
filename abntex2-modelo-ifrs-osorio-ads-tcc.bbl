@@ -1,0 +1,131 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2003]{NBR6028:2003}
+\abntrefinfo{ABNT}{ABNT}{2003}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6028}: Resumo -
+  apresenta{\c c}{\~a}o.
+Rio de Janeiro, 2003. 2~p.}
+
+\bibitem[Castro e Bager 2019]{castro2019sistema}
+\abntrefinfo{Castro e Bager}{CASTRO; BAGER}{2019}
+{CASTRO Érika P.; BAGER, A. Sistema urubu: a ciência cidadã em prol da
+  conservação da biodiversidade.
+\emph{Revista Brasileira de Tecnologias Sociais}, Editora UNIVALI, v.~6, n.~2,
+  p. 111--130, 2019.
+Acesso em: 08/04/2024.
+Dispon{\'\i}vel em:
+  \url{https://periodicos.univali.br/index.php/rbts/article/view/15264}.}
+
+\bibitem[Chame et al. 2015]{chame2015sissgeo}
+\abntrefinfo{Chame et al.}{CHAME et al.}{2015}
+{CHAME, M. et al. Sistema de informação em saúde silvestre - “siss-geo”.
+\emph{Grandes Desafios da Computação no Brasil}, Sociedade Brasileira de
+  Computação, v.~3, 2015.}
+
+\bibitem[Gil et al.]{gil2002elaborar}
+\abntrefinfo{Gil et al.}{GIL et al.}{}
+{GIL, A.~C. et al. \emph{Como elaborar projetos de pesquisa}. [S.l.: s.n.].
+  v.~4.}
+
+\bibitem[{Google} 2024]{android2024}
+\abntrefinfo{{Google}}{{Google}}{2024a}
+{{Google}. \emph{{Android}}. 2024.
+Acesso em: 10 abr. 2024.
+Dispon{\'\i}vel em: \url{https://www.android.com}.}
+
+\bibitem[{Google} 2024]{googleDrive}
+\abntrefinfo{{Google}}{{Google}}{2024b}
+{{Google}. \emph{Google Drive}. 2024. \url{https://www.google.com/drive/}.
+Acesso em: 07/05/2025.}
+
+\bibitem[{Google} 2024]{playstore2024}
+\abntrefinfo{{Google}}{{Google}}{2024c}
+{{Google}. \emph{{Google Play Store}}. 2024.
+Acesso em: 10 abr. 2024.
+Dispon{\'\i}vel em: \url{https://play.google.com/store}.}
+
+\bibitem[{Governo Federal do Brasil} 2024]{govbr2024}
+\abntrefinfo{{Governo Federal do Brasil}}{{Governo Federal do Brasil}}{2024}
+{{Governo Federal do Brasil}. \emph{{Gov.br}}. 2024.
+Acesso em: 10 abr. 2024.
+Dispon{\'\i}vel em: \url{https://www.gov.br}.}
+
+\bibitem[Martins e Cabral 2021]{Martins_Cabral_2021}
+\abntrefinfo{Martins e Cabral}{MARTINS; CABRAL}{2021}
+{MARTINS, D. G. d.~M.; CABRAL, E. H. d.~S. Panorama dos principais estudos
+  sobre ciência cidadã.
+\emph{ForScience}, v.~9, n.~2, p. e01030, out. 2021.
+Dispon{\'\i}vel em:
+  \url{https://forscience.ifmg.edu.br/index.php/forscience/article/view/1030}.}
+
+\bibitem[{NAÇÕES UNIDAS} 2015]{onu2015agenda2030}
+\abntrefinfo{{NAÇÕES UNIDAS}}{{NAÇÕES UNIDAS}}{2015a}
+{{NAÇÕES UNIDAS}. \emph{Agenda 2030 para o Desenvolvimento Sustentável}.
+  2015.
+  \url{https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustentável}.
+Acesso em: 10/05/2024.}
+
+\bibitem[{NAÇÕES UNIDAS} 2015]{onu2015ods}
+\abntrefinfo{{NAÇÕES UNIDAS}}{{NAÇÕES UNIDAS}}{2015b}
+{{NAÇÕES UNIDAS}. \emph{Sobre o nosso trabalho para alcançar os Objetivos de
+  Desenvolvimento Sustentável no Brasil}. 2015.
+  \url{https://brasil.un.org/pt-br/sdgs}.
+Acesso em: 10/05/2024.}
+
+\bibitem[Ohno 1988]{ohno1988toyota}
+\abntrefinfo{Ohno}{OHNO}{1988}
+{OHNO, T. \emph{Toyota Production System: Beyond Large-Scale Production}.
+  [S.l.]: Productivity Press, 1988. 176~p.}
+
+\bibitem[Palma 2016]{palma2016monitoramento}
+\abntrefinfo{Palma}{PALMA}{2016}
+{PALMA, D.~A.
+\emph{Monitoramento de qualidade da água com o enfoque ciência cidadã:
+  estudo de cem Brazilândia}.
+76~p. Monografia --- Universidade de Brasília, Brasília, 2016.}
+
+\bibitem[Pressman 2011]{pressman2011engenharia}
+\abntrefinfo{Pressman}{PRESSMAN}{2011}
+{PRESSMAN, R.~S. \emph{Engenharia de Software -- uma Abordagem Profissional}.
+  7. ed. [S.l.]: AMGH Editora LTDA, 2011.}
+
+\bibitem[SIBBr 2024]{sibbr2024}
+\abntrefinfo{SIBBr}{SIBBR}{2024}
+{SIBBR. \emph{SIBBr: Sistema de Informação sobre a Biodiversidade
+  Brasileira}. 2024. \url{https://sibbr.gov.br/}.
+Acesso em: 08/04/2024.}
+
+\bibitem[{SISS‑Geo} 2024]{plataforma2024sissgeo}
+\abntrefinfo{{SISS‑Geo}}{{SISS‑Geo}}{2024}
+{{SISS‑Geo}. \emph{Plataforma Institucional Biodiversidade e Saúde
+  Silvestre. Sistema de Informação em Saúde Silvestre}. 2024.
+  \url{https://sissgeo.lncc.br/apresentacao.xhtml}.
+Acesso em: 12/04/2024.}
+
+\bibitem[{WhatsApp} 2024]{whatsApp}
+\abntrefinfo{{WhatsApp}}{{WhatsApp}}{2024}
+{{WhatsApp}. \emph{WhatsApp}. 2024. \url{https://www.whatsapp.com/}.
+Acesso em: 07/05/2025.}
+
+\bibitem[Wildschut 2017]{wildschut2017citizen}
+\abntrefinfo{Wildschut}{WILDSCHUT}{2017}
+{WILDSCHUT, D. The need for citizen science in the transition to a sustainable
+  peer-to-peer-society.
+\emph{Futures}, v.~91, p. 46--52, 2017.}
+
+\bibitem[Zayat e Senvar 2020]{zayat2020framework}
+\abntrefinfo{Zayat e Senvar}{ZAYAT; SENVAR}{2020}
+{ZAYAT, W.; SENVAR, O. Framework study for agile software development via scrum
+  and kanban.
+\emph{International Journal Of Innovation And Technology Management}, World
+  Scientific Pub Co Pte Ltd, v.~17, n.~04, p. 203002--1--203002--24, 2020.
+Acesso em: 16/06/2024.
+Dispon{\'\i}vel em:
+  \url{https://www.worldscientific.com/doi/10.1142/S0219877020300025}.}
+
+\end{thebibliography}

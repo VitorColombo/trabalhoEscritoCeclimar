@@ -50,6 +50,8 @@ Warning--entry type for "govbr2024" isn't style-file defined
 --line 495 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "android2024" isn't style-file defined
 --line 503 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "petrobras_simba_2024" isn't style-file defined
+--line 517 of file elementos-pos-textuais/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -60,45 +62,45 @@ Warning--campo year vazio ou faltando em gil2002elaborar
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 20 entries,
+You've used 21 entries,
             6714 wiz_defined-function locations,
-            1318 strings with 12737 characters,
-and the built_in function-call counts, 18959 in all, are:
-= -- 1990
-> -- 371
-< -- 289
-+ -- 448
-- -- 117
-* -- 1158
-:= -- 2479
-add.period$ -- 85
-call.type$ -- 20
-change.case$ -- 163
-chr.to.int$ -- 38
-cite$ -- 20
-duplicate$ -- 1485
-empty$ -- 1144
-format.name$ -- 548
-if$ -- 4134
+            1324 strings with 12915 characters,
+and the built_in function-call counts, 20364 in all, are:
+= -- 2163
+> -- 386
+< -- 331
++ -- 495
+- -- 122
+* -- 1236
+:= -- 2653
+add.period$ -- 90
+call.type$ -- 21
+change.case$ -- 170
+chr.to.int$ -- 39
+cite$ -- 21
+duplicate$ -- 1638
+empty$ -- 1202
+format.name$ -- 571
+if$ -- 4408
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 346
-newline$ -- 109
-num.names$ -- 90
-pop$ -- 432
+missing$ -- 363
+newline$ -- 115
+num.names$ -- 95
+pop$ -- 454
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 69
 quote$ -- 0
-skip$ -- 1574
+skip$ -- 1731
 stack$ -- 1
-substring$ -- 804
-swap$ -- 586
-text.length$ -- 19
+substring$ -- 866
+swap$ -- 639
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 1
-while$ -- 125
+while$ -- 132
 width$ -- 0
-write$ -- 309
-(There were 8 warnings)
+write$ -- 324
+(There were 9 warnings)

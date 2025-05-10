@@ -1,0 +1,109 @@
+\chapter{Resultados Obtidos}
+Este capítulo demonstra os artefatos produzidos para o \textit{software}, incluindo todas as informações associadas desde a análise até os testes, de acordo com o escopo da disciplina Projeto I.
+
+\section{Engenharia de Requisitos}
+
+Os requisitos foram organizados em duas categorias: funcionais e não funcionais. A seguir são apresentados os artefatos e resultados desta etapa.
+ TODO REFERENCIAR EXPLIOCACAO DE REQUISITOS
+\subsection{Requisitos Funcionais}
+
+\begin{table}[H]
+    \centering
+    \caption{Requisitos funcionais do sistema}
+    \label{tab:req-funcionais}
+    \begin{tabular}{|p{2cm}|p{11cm}|}
+    \hline
+    \textbf{Código} & \textbf{Descrição} \\ \hline
+    RF01 & O sistema deve permitir o login via Firebase Authentication com e-mail e senha. \\ \hline
+    RF02 & O sistema deve permitir o login via conta Google integrada ao Firebase Authentication. \\ \hline
+    RF03 & O sistema deve unificar dados quando uma conta possui ambos os métodos de login. \\ \hline
+    RF04 & O sistema deve permitir atualização do perfil de usuário (nome, foto, e-mail). \\ \hline
+    RF05 & O sistema deve permitir redefinição de senha através do fluxo do Firebase Authentication (envio de e-mail de redefinição). \\ \hline
+    RF06 & O sistema deve permitir a exclusão da conta do usuário e remoção de todos os seus dados (incluindo imagem de perfil armazenada no Firebase Storage). \\ \hline
+    RF07 & O sistema deve manter os registros do usuário (subcollection) mesmo após a exclusão da conta, para preservação de dados científicos. \\ \hline
+    RF08 & O sistema deve permitir envio de registros simples e técnicos com campos específicos. \\ \hline
+    RF09 & O sistema deve permitir envio de até 2 imagens por registro, sendo uma obrigatória. \\ \hline
+    RF10 & O sistema deve permitir envio de registros utilizando GPS do dispositivo em tempo real para obter as coordenadas geográficas. \\ \hline
+    RF11 & O sistema deve permitir envio de registros utilizando a opção número da guarita para basear as coordenadas geográficas. \\ \hline
+    RF12 & O sistema deve permitir envio de registros utilizando coordenadas da cidade para definir a localização. \\ \hline
+    RF13 & O sistema deve permitir envio de registros utilizando ponto de referência como campo aberto. \\ \hline
+    RF14 & O sistema deve funcionar offline, salvando localmente até 40 registros utilizando o Hive para posterior sincronização. \\ \hline
+    RF15 & O sistema deve detectar automaticamente a reconexão de rede e enviar os registros pendentes. \\ \hline
+    RF16 & O sistema deve validar os formulários de envio de registros com restrições específicas (ex.: limite de caracteres). \\ \hline
+    RF17 & O sistema deve implementar um sistema de conquistas para monitoramento de número de registros de aves, répteis e mamíferos. \\ \hline
+    RF18 & O sistema deve diferenciar dois tipos de usuários: cientista cidadão (user) e pesquisador (admin). \\ \hline
+    RF19 & O sistema deve permitir que um pesquisador cadastre outro pesquisador, com geração automática de senha segura (8 dígitos alfanuméricos e caracteres especiais). \\ \hline
+    RF20 & O sistema deve exibir no perfil do usuário o total de registros, conquistas, últimos 10 registros, opções de editar perfil e logout. \\ \hline
+    RF21 & O sistema deve apresentar menu inferior com opções: início, registros, novo registro, perfil e sobre. \\ \hline
+    RF22 & O sistema deve disponibilizar um painel de registros com estatísticas, mapas e filtros detalhados para acompanhamento. \\ \hline
+    RF23 & O sistema deve permitir avaliação de registros por pesquisadores, incluindo visualização, validação, comentários e inserção de novos animais no banco. \\ \hline
+    \end{tabular}
+    \end{table}
+
+\subsection{Requisitos Não Funcionais}
+
+\begin{table}[H]
+    \centering
+    \caption{Requisitos não funcionais do sistema}
+    \label{tab:req-nao-funcionais}
+    \begin{tabular}{|p{2cm}|p{11cm}|}
+    \hline
+    \textbf{Código} & \textbf{Descrição} \\ \hline
+    RNF01 & O sistema deve ser desenvolvido utilizando Flutter e Dart, garantindo compatibilidade multiplataforma. \\ \hline
+    RNF02 & O sistema deve utilizar autenticação segura via Firebase, com criptografia adequada para senhas e tokens. \\ \hline
+    RNF03 & O sistema deve apresentar alta disponibilidade e ser resiliente a falhas de rede (offline-first). \\ \hline
+    RNF04 & O sistema deve ser capaz de armazenar localmente até 40 registros offline utilizando Hive e sincronizar automaticamente após reconexão. \\ \hline
+    RNF05 & O sistema deve seguir as melhores práticas de UX, com validação clara de formulários e feedbacks visuais para os usuários. \\ \hline
+    RNF06 & O sistema deve garantir a privacidade dos dados do usuário, omitindo dados sensíveis em exportações para cientistas cidadãos. \\ \hline
+    RNF07 & O sistema deve apresentar desempenho aceitável mesmo em dispositivos móveis de média capacidade. \\ \hline
+    RNF08 & O sistema deve fornecer acessibilidade básica, permitindo navegação simples e intuitiva. \\ \hline
+    \end{tabular}
+    \end{table}
+
+\section{Projeto Comportamental e Estrutural}
+
+O sistema implementa o fluxo de autenticação e as estruturas de dados conforme o planejamento estabelecido.
+
+\subsection{Fluxo de Autenticação}
+
+O sistema utiliza o Firebase Authentication como provedor principal para autenticação e gerenciamento de usuários. (descreve como já feito anteriormente)
+
+\subsection{Estrutura de Dados}
+
+\begin{table}[H]
+    \centering
+    \caption{Estrutura de collections do banco de dados}
+    \label{tab:estrutura-dados}
+    \begin{tabular}{|p{3cm}|p{10cm}|}
+    \hline
+    \textbf{Collection} & \textbf{Descrição} \\ \hline
+    \texttt{counters} & Armazena contadores gerais (ex.: número total de animais cadastrados e registros realizados). \\ \hline
+    \texttt{animals} & Armazena todas as espécies já registradas no sistema, com dados taxonômicos completos. \\ \hline
+    \texttt{users} & Armazena informações dos usuários. Cada usuário contém uma subcollection \texttt{registers} com seus registros individuais. \\ \hline
+    \end{tabular}
+\end{table}
+    
+
+\section{Projeto Arquitetural}
+
+(O conteúdo descritivo será detalhado com diagramas e justificativas da arquitetura, conforme discutido.)
+
+\section{Projeto e Implementação da Interface com o Usuário}
+
+(Apresenta telas, wireframes e decisões visuais adotadas.)
+
+\section{Projeto Gerencial do Protótipo}
+
+(Detalhamento sobre cronogramas, milestones e gestão de atividades do Projeto I.)
+
+\section{Implementação do Protótipo}
+
+(Apresentação da implementação já realizada, destacando módulos ou telas entregues.)
+
+\section{Projeto e Execução de Testes e Verificação de Qualidade do Protótipo}
+
+(Descrever testes aplicados, resultados parciais e estratégias futuras.)
+
+\section*{Considerações Finais}
+
+O capítulo consolidou os resultados até aqui obtidos, alinhando-os ao planejamento inicial do projeto, garantindo rastreabilidade entre requisitos, projeto e implementação.

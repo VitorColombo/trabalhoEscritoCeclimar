@@ -27,6 +27,30 @@ Dispon{\'\i}vel em:
 \emph{Grandes Desafios da Computação no Brasil}, Sociedade Brasileira de
   Computação, v.~3, 2015.}
 
+\bibitem[Chen 2024]{graphic_flutter}
+\abntrefinfo{Chen}{CHEN}{2024}
+{CHEN, L. \emph{graphic: A Flutter data visualization library}. 2024.
+  \url{https://pub.dev/packages/graphic}.
+MIT License. Accessed: 10 May 2025.}
+
+\bibitem[{Dart} 2025]{dartDocs2025}
+\abntrefinfo{{Dart}}{{Dart}}{2025}
+{{Dart}. \emph{Dart Documentation}. 2025.
+Accessed: 2025-05-08.
+Dispon{\'\i}vel em: \url{https://dart.dev/docs}.}
+
+\bibitem[{Flutter} 2025]{flutterDocs2025}
+\abntrefinfo{{Flutter}}{{Flutter}}{2025}
+{{Flutter}. \emph{Flutter Documentation}. 2025.
+Accessed: 2025-05-08.
+Dispon{\'\i}vel em: \url{https://docs.flutter.dev/}.}
+
+\bibitem[flutter\_map 2025]{flutter_map_doc}
+\abntrefinfo{flutter\_map}{FLUTTER\_MAP}{2025}
+{FLUTTER\_MAP. \emph{flutter\_map: Interactive maps for Flutter based on
+  Leaflet}. 2025. \url{https://pub.dev/packages/flutter_map}.
+BSD 3-Clause License. Accessed: 10 May 2025.}
+
 \bibitem[Gil et al.]{gil2002elaborar}
 \abntrefinfo{Gil et al.}{GIL et al.}{}
 {GIL, A.~C. et al. \emph{Como elaborar projetos de pesquisa}. [S.l.: s.n.].
@@ -49,11 +73,25 @@ Acesso em: 07/05/2025.}
 Acesso em: 10 abr. 2024.
 Dispon{\'\i}vel em: \url{https://play.google.com/store}.}
 
+\bibitem[{Google Firebase} 2025]{firebase2025}
+\abntrefinfo{{Google Firebase}}{{Google Firebase}}{2025}
+{{Google Firebase}. \emph{Firebase Documentation}. 2025.
+Acesso em: 10 maio 2025.
+Dispon{\'\i}vel em:
+  \url{https://firebase.google.com/docs?authuser=0&hl=pt-br}.}
+
 \bibitem[{Governo Federal do Brasil} 2024]{govbr2024}
 \abntrefinfo{{Governo Federal do Brasil}}{{Governo Federal do Brasil}}{2024}
 {{Governo Federal do Brasil}. \emph{{Gov.br}}. 2024.
 Acesso em: 18 abr. 2024.
 Dispon{\'\i}vel em: \url{https://www.gov.br}.}
+
+\bibitem[Leier e contributors 2025]{hive2025}
+\abntrefinfo{Leier e contributors}{LEIER; CONTRIBUTORS}{2025}
+{LEIER, S.; CONTRIBUTORS. \emph{Hive - Lightweight and blazing fast key-value
+  database written in pure Dart}. 2025.
+  \url{https://pub.dev/documentation/hive/latest/}.
+Acessado em: maio 2025.}
 
 \bibitem[Martins e Cabral 2021]{Martins_Cabral_2021}
 \abntrefinfo{Martins e Cabral}{MARTINS; CABRAL}{2021}
@@ -106,6 +144,12 @@ Dispon{\'\i}vel em: \url{https://simba.petrobras.com.br/simba/web/}.}
 {SIBBR. \emph{SIBBr: Sistema de Informação sobre a Biodiversidade
   Brasileira}. 2024. \url{https://sibbr.gov.br/}.
 Acesso em: 08/04/2024.}
+
+\bibitem[Singh 2021]{excel_flutter}
+\abntrefinfo{Singh}{SINGH}{2021}
+{SINGH, K. \emph{excel: A Flutter and Dart library for reading and writing
+  Excel files}. 2021. \url{https://pub.dev/packages/excel}.
+MIT License. Accessed: 10 May 2025.}
 
 \bibitem[{SISS‑Geo} 2024]{plataforma2024sissgeo}
 \abntrefinfo{{SISS‑Geo}}{{SISS‑Geo}}{2024}

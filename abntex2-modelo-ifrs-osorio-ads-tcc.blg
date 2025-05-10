@@ -9,6 +9,10 @@ Reallocating 'name_of_file' (item size: 1) to 54 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-4-referencial-teorico.aux
 Reallocating 'name_of_file' (item size: 1) to 55 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-5-trabalhos-correlatos.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-6-tecnologias.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-7-resultados.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: elementos-textuais/conclusao.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
@@ -52,6 +56,18 @@ Warning--entry type for "android2024" isn't style-file defined
 --line 503 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "petrobras_simba_2024" isn't style-file defined
 --line 517 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "hive2025" isn't style-file defined
+--line 525 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "flutterDocs2025" isn't style-file defined
+--line 533 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "dartDocs2025" isn't style-file defined
+--line 541 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "firebase2025" isn't style-file defined
+--line 549 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "excel_flutter" isn't style-file defined
+--line 565 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "graphic_flutter" isn't style-file defined
+--line 573 of file elementos-pos-textuais/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -62,45 +78,45 @@ Warning--campo year vazio ou faltando em gil2002elaborar
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 21 entries,
+You've used 28 entries,
             6714 wiz_defined-function locations,
-            1324 strings with 12915 characters,
-and the built_in function-call counts, 20364 in all, are:
-= -- 2163
-> -- 386
-< -- 331
-+ -- 495
-- -- 122
-* -- 1236
-:= -- 2653
-add.period$ -- 90
-call.type$ -- 21
-change.case$ -- 170
-chr.to.int$ -- 39
-cite$ -- 21
-duplicate$ -- 1638
-empty$ -- 1202
-format.name$ -- 571
-if$ -- 4408
+            1362 strings with 13933 characters,
+and the built_in function-call counts, 26711 in all, are:
+= -- 2805
+> -- 508
+< -- 432
++ -- 638
+- -- 162
+* -- 1608
+:= -- 3482
+add.period$ -- 125
+call.type$ -- 28
+change.case$ -- 227
+chr.to.int$ -- 46
+cite$ -- 28
+duplicate$ -- 2153
+empty$ -- 1609
+format.name$ -- 756
+if$ -- 5780
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 363
-newline$ -- 115
-num.names$ -- 95
-pop$ -- 454
+missing$ -- 487
+newline$ -- 153
+num.names$ -- 130
+pop$ -- 613
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 91
 quote$ -- 0
-skip$ -- 1731
+skip$ -- 2269
 stack$ -- 1
-substring$ -- 866
-swap$ -- 639
-text.length$ -- 20
+substring$ -- 1111
+swap$ -- 831
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 1
-while$ -- 132
+while$ -- 177
 width$ -- 0
-write$ -- 324
-(There were 9 warnings)
+write$ -- 429
+(There were 15 warnings)

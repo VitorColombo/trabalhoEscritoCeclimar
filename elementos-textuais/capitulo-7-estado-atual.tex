@@ -1,0 +1,124 @@
+% ----------------------------------------------------------
+\chapter{Diagnóstico do Processo Atual} \label{chapter:diagnostico}
+% ----------------------------------------------------------
+
+\section{Visão Geral do Processo Atual}
+
+O CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade, 
+por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. Atualmente, o processo 
+ocorre de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. Esta abordagem envolve 
+várias etapas intermediárias e depende de diversas tarefaz manuais de mais de um profissional, trazendo
+uma maior probabilidade de erros e inconsistências nos dados coletadosm, além de aumentar o tempo
+de processamento e análise das informações.
+
+\section{Descrição do Fluxo de Trabalho atual}
+
+O fluxo de trabalho atual pode ser descrito em etapas principais:
+
+\begin{enumerate}
+    \item \textbf{Envio de dados:} Os participantes enviam fotos e informações descritivas a partir de diversas fontes.
+    \item \textbf{Triagem inicial:} Um pesquisador analisa as mensagens recebidas a partir de uma análise ativa em cada uma das fontes e seleciona os dados relevantes.
+    \item \textbf{Registro:} A bolsista transcreve os dados válidos para uma planilha eletrônica.
+    \item \textbf{Armazenamento de imagens:} As fotos dos registros são manualmente salvas em uma pasta no Google Drive com o id do registro na tabela.
+    \item \textbf{Validação:} O gestor revisa periodicamente os dados para verificar consistências e erros.
+\end{enumerate}
+
+A Figura~\ref{fig:fluxo_detalhado} apresenta o fluxo de trabalho atual de maneira esquemática, 
+destacando as principais etapas e interações entre os envolvidos no processo de coleta e registro de dados.
+Como é possível ver na Tabela ~\ref{tab:contagem_ocorrencias}, atualmente, a maioria (48,45\%) dos dados 
+é coletada via \citeonline{whatsApp}, mas esses envios também ocorrem por outras plataformas 
+como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{instagram2025}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    \textbf{Canal}     & \textbf{Quantidade} & \textbf{Porcentagem} \\
+    \hline
+    Ligação     & 860  & 21,52\% \\
+    E-mail       & 343  & 8,59\%  \\
+    Facebook    & 703  & 17,60\% \\
+    WhatsApp    & 1935 & 48,45\% \\
+    Instagram   & 153  & 3,83\%  \\
+    \hline
+    \textbf{Total}     & 3994 & 100\% \\
+    \hline
+    \end{tabular}
+    \caption{Contagem e porcentagem de ocorrências por canal de comunicação}
+    \label{tab:contagem_ocorrencias}
+    \legend{Fonte: Autor}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=1cm]
+    
+    \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+    \tikzstyle{input} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=yellow!30]
+    \tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+    \tikzstyle{storage} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=purple!30]
+    \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+    \tikzstyle{arrow} = [thick,->,>=stealth]
+    
+    \node (whatsapp) [input] {WhatsApp};
+    \node (email) [input, below left=1cm of whatsapp] {Email};
+    \node (instagram) [input, below=1.2cm of email] {Instagram};
+    \node (facebook) [input, below right=1cm of whatsapp] {Facebook};
+    \node (call) [input, below=1.2cm of facebook] {Ligação};
+    
+    \node (triage) [process, below=4.3cm of whatsapp] {Triagem por Pesquisador};
+    
+    \node (valid) [decision, below=1.2cm of triage] {Dados válidos?};
+    
+    \node (discard) [startstop, right=2cm of valid] {Descartar Registro};
+    \node (refactor) [startstop, left=2cm of valid] {Reestruturar Registro};
+    
+    \node (record) [process, below=1cm of valid] {Registro em Planilha (Bolsista)};
+    \node (storage) [storage, below=1cm of record] {Armazenamento de Fotos (Google Drive)};
+    \node (review) [process, below=1cm of storage] {Validação periódica (Gestor)};
+
+    \draw [arrow] (whatsapp) -- (triage);
+    \draw [arrow] (email) -- (triage);
+    \draw [arrow] (instagram) -- (triage);
+    \draw [arrow] (facebook) -- (triage);
+    \draw [arrow] (call) -- (triage);
+    
+    \draw [arrow] (triage) -- (valid);
+    \draw [arrow] (valid) -- node[above] {Não} (discard);
+    \draw [arrow] (valid) -- node[above] {Não} (refactor);
+    \draw [arrow] (valid) -- node[right] {Sim} (record);
+    \draw [arrow] (record) -- (storage);
+    \draw [arrow] (storage) -- (review);
+    \draw [arrow] (refactor) -- (record);
+    \draw [arrow, bend right=45] (review.east) to (valid.east);
+
+    \end{tikzpicture}
+    \caption{Fluxograma detalhado do processo atual de coleta e registro de dados no CECLIMAR.}
+    \legend{Fonte: Autor}
+    \label{fig:fluxo_detalhado}
+\end{figure}
+    
+\section{Problemas Identificados}
+
+Os principais problemas observados neste fluxo incluem:
+
+\begin{itemize}
+    \item Risco de erros humanos durante transcrição dos dados.
+    
+    \item Dificuldade de padronização nas descrições enviadas.
+    \begin{itemize}
+        \item Para que a tabela automatizada funcione, os dados precisam estar exatamente iguais.
+        \item Erros de digitação na taxônomia dos animais.
+        \item Problemas com formatações de campos.
+    \end{itemize}
+    
+    \item Atraso no tempo de registro e análise das ocorrências.
+    
+    \item Necessidade de revisões periódicas para manter a qualidade dos dados.
+    
+    \item Falta de integração entre os dados (planilha e fotos separadas).
+    
+    \item Necessidade de acesso a múltiplas fontes para avaliar os registros.
+    
+    \item Pouca visibilidade da participação da comunidade no projeto.
+\end{itemize}

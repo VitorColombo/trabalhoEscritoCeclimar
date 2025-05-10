@@ -11,8 +11,10 @@ Reallocating 'name_of_file' (item size: 1) to 55 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-5-trabalhos-correlatos.aux
 Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-6-tecnologias.aux
+Reallocating 'name_of_file' (item size: 1) to 47 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-7-estado-atual.aux
 Reallocating 'name_of_file' (item size: 1) to 45 items.
-A level-1 auxiliary file: elementos-textuais/capitulo-7-resultados.aux
+A level-1 auxiliary file: elementos-textuais/capitulo-8-resultados.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: elementos-textuais/conclusao.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
@@ -78,45 +80,45 @@ Warning--campo year vazio ou faltando em gil2002elaborar
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 28 entries,
+You've used 30 entries,
             6714 wiz_defined-function locations,
-            1362 strings with 13933 characters,
-and the built_in function-call counts, 26711 in all, are:
-= -- 2805
-> -- 508
+            1371 strings with 14105 characters,
+and the built_in function-call counts, 27929 in all, are:
+= -- 2895
+> -- 538
 < -- 432
-+ -- 638
-- -- 162
-* -- 1608
-:= -- 3482
-add.period$ -- 125
-call.type$ -- 28
-change.case$ -- 227
-chr.to.int$ -- 46
-cite$ -- 28
-duplicate$ -- 2153
-empty$ -- 1609
-format.name$ -- 756
-if$ -- 5780
++ -- 648
+- -- 172
+* -- 1680
+:= -- 3652
+add.period$ -- 135
+call.type$ -- 30
+change.case$ -- 243
+chr.to.int$ -- 48
+cite$ -- 30
+duplicate$ -- 2217
+empty$ -- 1725
+format.name$ -- 802
+if$ -- 6072
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 487
-newline$ -- 153
-num.names$ -- 130
-pop$ -- 613
+missing$ -- 523
+newline$ -- 163
+num.names$ -- 140
+pop$ -- 657
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 97
 quote$ -- 0
-skip$ -- 2269
+skip$ -- 2337
 stack$ -- 1
-substring$ -- 1111
-swap$ -- 831
+substring$ -- 1153
+swap$ -- 859
 text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 1
-while$ -- 177
+while$ -- 189
 width$ -- 0
-write$ -- 429
+write$ -- 459
 (There were 15 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  10 MAY 2025 03:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  10 MAY 2025 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,55 +980,18 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count409
  (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box78
-\pgfnodeparttwobox=\box79
-\pgfnodepartthreebox=\box80
-\pgfnodepartfourbox=\box81
-\pgfnodeparttwentybox=\box82
-\pgfnodepartnineteenbox=\box83
-\pgfnodeparteighteenbox=\box84
-\pgfnodepartseventeenbox=\box85
-\pgfnodepartsixteenbox=\box86
-\pgfnodepartfifteenbox=\box87
-\pgfnodepartfourteenbox=\box88
-\pgfnodepartthirteenbox=\box89
-\pgfnodeparttwelvebox=\box90
-\pgfnodepartelevenbox=\box91
-\pgfnodeparttenbox=\box92
-\pgfnodepartninebox=\box93
-\pgfnodeparteightbox=\box94
-\pgfnodepartsevenbox=\box95
-\pgfnodepartsixbox=\box96
-\pgfnodepartfivebox=\box97
-))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen346
-))
+)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
 Package hyperref Info: Option `colorlinks' set `true' on input line 200.
 \abntex2-modelo-ifrs-osorio-ads-tcc@idxfile=\write5
 \openout5 = `abntex2-modelo-ifrs-osorio-ads-tcc.idx'.
@@ -1038,7 +1001,7 @@ Writing index file abntex2-modelo-ifrs-osorio-ads-tcc.idx
 (abntex2-modelo-ifrs-osorio-ads-tcc.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported  on input line 19.
- (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
+ (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
 \openout1 = `abntex2-modelo-ifrs-osorio-ads-tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 221.
@@ -1062,13 +1025,13 @@ LaTeX Font Info:    ... okay on input line 221.
 Package hyperref Info: Link coloring ON on input line 221.
 LaTeX Info: Redefining \degres on input line 221.
 LaTeX Info: Redefining \up on input line 221.
-\myptabbox=\box98
+\myptabbox=\box78
 \myptabboxwidth=\skip265
  (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count410
 \scratchdimen=\dimen347
-\scratchbox=\box99
+\scratchbox=\box79
 \nofMPsegments=\count411
 \nofMParguments=\count412
 \everyMPshowfont=\toks50
@@ -1533,15 +1496,55 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 45.
+(Font)              using `T1/ptm/b/n' instead on input line 43.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 45.
+(Font)              using `T1/ptm/b/n' instead on input line 43.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 45.
+(Font)              using `T1/ptm/b/n' instead on input line 43.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 46.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 47.
 
 
 
@@ -1550,30 +1553,6 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 ]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 49.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 49.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 49.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 50.
 
 
@@ -1586,27 +1565,15 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 51.
+(Font)              using `T1/ptm/b/n' instead on input line 53.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 51.
+(Font)              using `T1/ptm/b/n' instead on input line 53.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 51.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 52.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 52.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 52.
+(Font)              using `T1/ptm/b/n' instead on input line 53.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1622,7 +1589,27 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 54.
+(Font)              using `T1/ptm/b/n' instead on input line 55.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 55.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 55.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 56.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 56.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1638,7 +1625,19 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 57.
+(Font)              using `T1/ptm/b/n' instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1658,67 +1657,83 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 66.
+(Font)              using `T1/ptm/b/n' instead on input line 67.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 66.
+(Font)              using `T1/ptm/b/n' instead on input line 67.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 66.
+(Font)              using `T1/ptm/b/n' instead on input line 67.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 66.
+(Font)              using `T1/ptm/b/n' instead on input line 67.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 70.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 70.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 70.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 70.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 76.
+(Font)              using `T1/ptm/b/n' instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 76.
+(Font)              using `T1/ptm/b/n' instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 76.
+(Font)              using `T1/ptm/b/n' instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 76.
+(Font)              using `T1/ptm/b/n' instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 80.
+(Font)              using `T1/ptm/b/n' instead on input line 81.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 80.
+(Font)              using `T1/ptm/b/n' instead on input line 81.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 80.
+(Font)              using `T1/ptm/b/n' instead on input line 81.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 80.
+(Font)              using `T1/ptm/b/n' instead on input line 81.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 85.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 85.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 85.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 85.
 
 )
 
@@ -1789,7 +1804,7 @@ LaTeX Font Warning: Font shape `T1/ptm/sbc/it' undefined
 
 
 ]
-<imagens/fluxoJira.png, id=250, 1268.74pt x 847.165pt>
+<imagens/fluxoJira.png, id=263, 1268.74pt x 847.165pt>
 File: imagens/fluxoJira.png Graphic file (type png)
 <use imagens/fluxoJira.png>
 Package pdftex.def Info: imagens/fluxoJira.png  used on input line 29.
@@ -1870,7 +1885,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 [19]
 
 [20]
-<imagens/graficoPressman.png, id=324, 725.71124pt x 410.2828pt>
+<imagens/graficoPressman.png, id=337, 725.71124pt x 410.2828pt>
 File: imagens/graficoPressman.png Graphic file (type png)
 <use imagens/graficoPressman.png>
 Package pdftex.def Info: imagens/graficoPressman.png  used on input line 63.
@@ -1903,7 +1918,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 1.
 
-<imagens/sisGeoApp.png, id=355, 1387.1825pt x 591.20876pt>
+<imagens/sisGeoApp.png, id=368, 1387.1825pt x 591.20876pt>
 File: imagens/sisGeoApp.png Graphic file (type png)
 <use imagens/sisGeoApp.png>
 Package pdftex.def Info: imagens/sisGeoApp.png  used on input line 19.
@@ -1916,7 +1931,7 @@ Package pdftex.def Info: imagens/sisGeoApp.png  used on input line 19.
 
 
 ]
-<imagens/sisGeoMapa.png, id=371, 959.585pt x 490.83376pt>
+<imagens/sisGeoMapa.png, id=384, 959.585pt x 490.83376pt>
 File: imagens/sisGeoMapa.png Graphic file (type png)
 <use imagens/sisGeoMapa.png>
 Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
@@ -1924,17 +1939,17 @@ Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
 
 
 [24 <./imagens/sisGeoApp.png> <./imagens/sisGeoMapa.png>]
-<imagens/app1.png, id=384, 282.05376pt x 545.03625pt>
+<imagens/app1.png, id=397, 282.05376pt x 545.03625pt>
 File: imagens/app1.png Graphic file (type png)
 <use imagens/app1.png>
 Package pdftex.def Info: imagens/app1.png  used on input line 51.
 (pdftex.def)             Requested size: 150.15083pt x 290.14859pt.
-<imagens/app3.png, id=385, 276.03125pt x 547.04375pt>
+<imagens/app3.png, id=398, 276.03125pt x 547.04375pt>
 File: imagens/app3.png Graphic file (type png)
 <use imagens/app3.png>
 Package pdftex.def Info: imagens/app3.png  used on input line 52.
 (pdftex.def)             Requested size: 146.96411pt x 291.26735pt.
-<imagens/app2.png, id=386, 274.02374pt x 547.04375pt>
+<imagens/app2.png, id=399, 274.02374pt x 547.04375pt>
 File: imagens/app2.png Graphic file (type png)
 <use imagens/app2.png>
 Package pdftex.def Info: imagens/app2.png  used on input line 53.
@@ -1942,12 +1957,12 @@ Package pdftex.def Info: imagens/app2.png  used on input line 53.
 
 
 [25 <./imagens/app1.png> <./imagens/app3.png> <./imagens/app2.png>]
-<imagens/simbaRegistro.png, id=398, 1606.0pt x 744.7825pt>
+<imagens/simbaRegistro.png, id=411, 1606.0pt x 744.7825pt>
 File: imagens/simbaRegistro.png Graphic file (type png)
 <use imagens/simbaRegistro.png>
 Package pdftex.def Info: imagens/simbaRegistro.png  used on input line 79.
 (pdftex.def)             Requested size: 455.0pt x 211.00375pt.
-<imagens/simbaTrajetoria.png, id=405, 1606.0pt x 749.80125pt>
+<imagens/simbaTrajetoria.png, id=418, 1606.0pt x 749.80125pt>
 File: imagens/simbaTrajetoria.png Graphic file (type png)
 <use imagens/simbaTrajetoria.png>
 Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
@@ -1955,7 +1970,7 @@ Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
 
 
 [26]
-<imagens/simbaMonitoramento.png, id=416, 1606.0pt x 734.745pt>
+<imagens/simbaMonitoramento.png, id=429, 1606.0pt x 734.745pt>
 File: imagens/simbaMonitoramento.png Graphic file (type png)
 <use imagens/simbaMonitoramento.png>
 Package pdftex.def Info: imagens/simbaMonitoramento.png  used on input line 99.
@@ -2041,32 +2056,31 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 )
 
 [34]
-\openout2 = `elementos-textuais/capitulo-7-resultados.aux'.
+\openout2 = `elementos-textuais/capitulo-7-estado-atual.aux'.
 
- (elementos-textuais/capitulo-7-resultados.tex
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
+ (elementos-textuais/capitulo-7-estado-atual.tex
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 8.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -2077,29 +2091,68 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 ]
 
-[36]
+[36])
+
+[37]
+\openout2 = `elementos-textuais/capitulo-8-resultados.aux'.
+
+ (elementos-textuais/capitulo-8-resultados.tex
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 9.
+
+
+
+[38
+
+
+
+
+]
+
+[39]
 Overfull \vbox (89.84497pt too high) has occurred while \output is active []
 
 
 
-[37]
+[40]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 43.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 67.
+(Font)              using `T1/ptm/b/n' instead on input line 44.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 71.
+(Font)              using `T1/ptm/b/n' instead on input line 68.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 72.
 
 
 
-[38])
+[41])
 
-[39]
+[42]
 \openout2 = `elementos-textuais/conclusao.aux'.
 
  (elementos-textuais/conclusao.tex
@@ -2125,7 +2178,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[40
+[43
 
 
 
@@ -2142,13 +2195,13 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 bibitemlist
 
 
-[41
+[44
 
 
 
 ])
 
-[42]
+[45]
 \openout2 = `elementos-pos-textuais/apendices/apendice-a.aux'.
 
  (elementos-pos-textuais/apendices/apendice-a.tex
@@ -2174,7 +2227,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[43
+[46
 
 
 ]
@@ -2203,7 +2256,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[44
+[47
 
 
 
@@ -2234,7 +2287,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[45
+[48
 
 
 
@@ -2265,7 +2318,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[46
+[49
 
 
 
@@ -2296,7 +2349,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[47
+[50
 
 
 
@@ -2313,7 +2366,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(abntex2-modelo-ifrs-osorio-ads-tcc.aux (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
+(abntex2-modelo-ifrs-osorio-ads-tcc.aux (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2323,20 +2376,20 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `abntex2-modelo-ifrs-osorio-ads-tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 7DEFAA6D1703F7145B1AFDACB374E711;2172.
+(rerunfilecheck)             Checksum: 6D4C0BCBBC92489316FDA811E353D68F;2304.
  ) 
 Here is how much of TeX's memory you used:
- 36315 strings out of 469941
- 705109 string characters out of 5469431
- 1275197 words of memory out of 5000000
- 62052 multiletter control sequences out of 15000+600000
- 688456 words of font info for 174 fonts, out of 8000000 for 9000
+ 35309 strings out of 469941
+ 670895 string characters out of 5469431
+ 1215448 words of memory out of 5000000
+ 61053 multiletter control sequences out of 15000+600000
+ 688430 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,107p,1647b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,107p,1647b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (48 pages, 2176279 bytes).
+Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (51 pages, 2192839 bytes).
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 30188 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 30220 words of extra memory for PDF output out of 35830 (max. 10000000)
 

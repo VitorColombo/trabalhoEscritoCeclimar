@@ -38,43 +38,48 @@
 \contentsline {subsection}{\numberline {6.4.3}Excel}{34}{subsection.6.4.3}%
 \contentsline {subsection}{\numberline {6.4.4}Graphic}{34}{subsection.6.4.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Resultados Obtidos}}{35}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Engenharia de Requisitos}{35}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Requisitos Funcionais}{37}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Requisitos Não Funcionais}{38}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Projeto Comportamental e Estrutural}{38}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Fluxo de Autenticação}{38}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Estrutura de Dados}{38}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Projeto Arquitetural}{39}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Projeto e Implementação da Interface com o Usuário}{39}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Projeto Gerencial}{39}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Implementação}{39}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Execução de Testes e Verificação de Qualidade}{39}{section.7.7}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Diagnóstico do Processo Atual}}{35}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Visão Geral do Processo Atual}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Descrição do Fluxo de Trabalho atual}{35}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Problemas Identificados}{37}{section.7.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Conclusão}}{40}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Resultados Obtidos}}{38}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Engenharia de Requisitos}{38}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Requisitos Funcionais}{40}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Requisitos Não Funcionais}{41}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Projeto Comportamental e Estrutural}{41}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Fluxo de Autenticação}{41}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Estrutura de Dados}{41}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Projeto Arquitetural}{42}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Projeto e Implementação da Interface com o Usuário}{42}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Projeto Gerencial}{42}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Implementação}{42}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Execução de Testes e Verificação de Qualidade}{42}{section.8.7}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase []{Conclusão}}{43}{chapter.9}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{41}{section*.28}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{44}{section*.30}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{43}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{46}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{44}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{47}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{45}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{48}{appendix.anexochapback.1}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{46}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{49}{appendix.anexochapback.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{47}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{50}{appendix.anexochapback.3}%

@@ -1,6 +1,8 @@
 \chapter{Tecnologias e Frameworks}\label{tecnologias}
 
-Neste capítulo, serão apresentadas as tecnologias escolhidas para o desenvolvimento do aplicativo, destacando os aspectos que influenciaram nas escolhas e como elas contribuíram para o desenvolvimento do projeto.
+Neste capítulo, serão apresentadas as tecnologias escolhidas para o 
+desenvolvimento do aplicativo, destacando os aspectos que influenciaram nas 
+escolhas e como elas contribuíram para o desenvolvimento do projeto.
 
 \section{Flutter}
 
@@ -27,13 +29,11 @@ enquanto aplicação está em execução, gerando uma
 atualização em tempo real da interface do usuário e da lógica da aplicação, 
 mantendo inalterado seu estado de execução.
 
-A escolha pelo Flutter se deu principalmente pela sua capacidade multiplataforma a partir de 
-uma única base de código, otimizando tempo e recursos. Outro fator decisivo foi a integração com os 
-diversos serviços do Firebase, que facilita a implementação de funcionalidades essenciais 
-como autenticação, banco de dados em tempo real e armazenamento. 
-Além disso, o Flutter é uma tecnologia emergente que vem ganhando ampla adoção na 
-indústria de desenvolvimento mobile, oferecendo uma comunidade ativa, atualizações constantes 
-e um ecossistema em rápida evolução, o que garante maior longevidade e suporte para o projeto.
+A escolha pelo \textit{Flutter} (versão 3.29.2) se deu principalmente pela sua capacidade multiplataforma a partir de 
+uma única base de código, otimizando tempo e recursos. Outro fator decisivo foi a 
+facilidade de integração com os diversos serviços do \textit{Firebase}, 
+que facilitam a implementação de funcionalidades essenciais 
+como autenticação, banco de dados em tempo real e armazenamento.
 
 \section{Dart}
 
@@ -54,6 +54,10 @@ estado da interface.
 Após realizar o lançamento de uma versão, o \textit{Dart} usa AOT para compilar o código diretamente 
 para código nativo, o que garante um desempenho maior com relação ao JIT \cite{dartDocs2025}.
 
+A escolha do Dart (versão 3.7.2) como linguagem de programação para o projeto se deu pela sua
+proximidade com o \textit{Flutter}, pela tipagem forte, pelas características de 
+programação orientada a objetos e pela facilidade de integração com o \textit{Firebase}.
+
 \section{Firebase}
 
 O \textit{Firebase} é uma plataforma de desenvolvimento de aplicativos móveis e \textit{web} 
@@ -65,15 +69,8 @@ fornecendo soluções completas para autenticação de usuários, banco de dados
 desempenho. Além disso, a plataforma integra ferramentas para teste, distribuição 
 e acompanhamento do ciclo de vida do aplicativo com suporte multiplataforma \cite{firebase2025}.
 
-Neste projeto, o \textit{Firebase} gerencia a autenticação e o armazenamento de 
-dados, utilizando o \textit{Firebase Authentication} para autenticar usuários com diferentes métodos de login e 
-o \textit{Firebase Storage} para armazenar imagens, além do banco de dados NoSQL \textit{Cloud Firestore Database} para salvar os dados gerais do sistema.
-A escolha do \textit{Firebase} se deu pela facilidade de integração com \textit{Flutter} e pela variedade e robustez dos 
-serviços oferecidos. A aplicação foi construída com a utilização dos benefícios do plano \textit{Spark} 
-que, apesar se ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente 
-altos para projetos iniciais.
-
-Dentre os principais serviços disponibilizados no plano utilizado que foram utilizados no projeto, estão o \textit{Firebase Authentication}, 
+Dentre os principais serviços disponibilizados no plano \textit{Spark} que foram 
+utilizados no projeto, estão o \textit{Firebase Authentication}, 
 que possibilita a autenticação de usuários via e-mail/senha e \textit{Google}, com suporte 
 para até 50 mil usuários ativos mensais sem custo. O \textit{Firebase Analytics} que fornece 
 relatórios detalhados sobre o comportamento e uso do aplicativo, permitindo a 
@@ -83,6 +80,17 @@ Além do \textit{Cloud Firestore Database} que oferece até 1 GB de armazenament
 mil leituras, 20 mil gravações e 20 mil exclusões de documentos. E do \textit{Cloud Storage} que
 disponibiliza 5 GB de armazenamento, 1 GB de download diário, além de 20 mil operações 
 de upload e 50 mil operações de download por dia \cite{firebase2025}.
+
+Neste projeto, o \textit{Firebase} foi escolhido para gerenciar a autenticação e o armazenamento de 
+dados, utilizando o \textit{Firebase Authentication} para autenticar usuários com diferentes métodos de login e 
+o \textit{Firebase Storage} para armazenar imagens, além do banco de dados NoSQL 
+\textit{Cloud Firestore Database} para salvar os dados gerais do sistema e do Analytics para 
+geração de \textit{dashboards} visando analisar o funcionamento geral da aplicação.
+A definição pelo \textit{Firebase} se deu pela robustez e facilidade de integração com \textit{Flutter} 
+oferecendo uma plataforma de backend eficiente e escalável. A aplicação foi construída com a 
+utilização dos benefícios do plano \textit{Spark} descritos acima,
+que, apesar se ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente 
+altos para projetos iniciais.
 
 \section{Pacotes e Plugins do Flutter}
 
@@ -216,6 +224,3 @@ A aplicação desta biblioteca no projeto foi pensada para gerar uma
 visualização gráfica dos dados de registos coletados para maior síntese de
 algumas informações chaves.
 Para o resultado final, foram gerados gráficos na forma de pizza e barras.
-
-
-

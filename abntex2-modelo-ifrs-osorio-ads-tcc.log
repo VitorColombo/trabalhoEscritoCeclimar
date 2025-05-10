@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  10 MAY 2025 02:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  10 MAY 2025 03:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2005,12 +2005,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (13.69185pt too wide) in paragraph at lines 135--135
+Overfull \hbox (13.69185pt too wide) in paragraph at lines 143--143
 []|\T1/qtm/m/n/12 (-20) persistent_bottom_nav_bar| 
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 152--152
+Underfull \hbox (badness 1442) in paragraph at lines 160--160
 []|\T1/qtm/m/n/12 (+20) Animação ske-le-ton lo-a-der (pla-cehol-ders en-
  []
 
@@ -2024,19 +2024,19 @@ Overfull \vbox (18.09912pt too high) has occurred while \output is active []
 [33]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 170.
+(Font)              using `T1/ptm/b/n' instead on input line 178.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 182.
+(Font)              using `T1/ptm/b/n' instead on input line 190.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 199.
+(Font)              using `T1/ptm/b/n' instead on input line 207.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 206.
+(Font)              using `T1/ptm/b/n' instead on input line 214.
 
 )
 
@@ -2323,20 +2323,20 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `abntex2-modelo-ifrs-osorio-ads-tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 0FDE42275502D22FE8318D5FB8220F36;2172.
+(rerunfilecheck)             Checksum: 7DEFAA6D1703F7145B1AFDACB374E711;2172.
  ) 
 Here is how much of TeX's memory you used:
- 36305 strings out of 469941
- 705003 string characters out of 5469431
+ 36315 strings out of 469941
+ 705109 string characters out of 5469431
  1275197 words of memory out of 5000000
  62052 multiletter control sequences out of 15000+600000
- 687811 words of font info for 169 fonts, out of 8000000 for 9000
+ 688456 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,107p,1647b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (48 pages, 2176393 bytes).
+Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (48 pages, 2176279 bytes).
 PDF statistics:
- 853 PDF objects out of 1000 (max. 8388607)
+ 854 PDF objects out of 1000 (max. 8388607)
  176 named destinations out of 1000 (max. 500000)
  30188 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -22,7 +22,7 @@
 \contentsline {section}{\numberline {4.5}Kanban}{26}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Jira}{26}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Trabalhos Correlatos}}{28}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Estudo de Aplicações Correlatas}}{28}{chapter.5}%
 \contentsline {section}{\numberline {5.1}SISS-Geo}{28}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Sistema Urubu}{30}{section.5.2}%
 \contentsline {section}{\numberline {5.3}SIMBA}{32}{section.5.3}%
@@ -40,7 +40,7 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Diagnóstico do Processo Atual}}{43}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Visão Geral do Processo Atual}{43}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Descrição do Fluxo de Trabalho atual}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Descrição do Fluxo de Trabalho Atual}{43}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Problemas Identificados}{45}{section.7.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase []{Resultados Obtidos}}{47}{chapter.8}%

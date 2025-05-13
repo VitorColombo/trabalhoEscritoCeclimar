@@ -15,16 +15,16 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces Protótipo da tela de login do aplicativo.}}{55}{figure.caption.27}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Protótipo da tela de cadastro do aplicativo.}}{55}{figure.caption.27}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Protótipo da tela inicial: usuário comum (esquerda) e pesquisador (direita).}}{56}{figure.caption.28}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Tela de "Meus Registros" com estado ativo de adição de registro (direita).}}{57}{figure.caption.29}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Formulário de registro simples. Centro: \textit {bottomsheet} informativa; direita: campo adicional ativado.}}{58}{figure.caption.30}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Formulário de registro técnico com campos taxonômicos e detalhamento avançado.}}{59}{figure.caption.31}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Tela de registros pendentes, acessível apenas a pesquisadores.}}{60}{figure.caption.32}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Tela de análise de registro. Ao centro, visualização ampliada da imagem.}}{61}{figure.caption.33}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Visualização de registro validado.}}{62}{figure.caption.34}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Visualização de registro enviado, ainda não avaliado.}}{62}{figure.caption.34}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela de perfil do usuário com conquistas e histórico.}}{63}{figure.caption.35}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela de fauna local (esquerda) e detalhes da espécie (direita).}}{64}{figure.caption.36}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela de recuperação de senha: formulário (esquerda), sucesso (centro) e erro de validação (direita).}}{65}{figure.caption.37}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Protótipo das telas de "Meus Registros" com estado ativo de adição de registro (direita).}}{57}{figure.caption.29}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Protótipo do formulário de registro simples. Centro: \textit {bottomsheet} informativa; direita: campo adicional ativado.}}{58}{figure.caption.30}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Protótipo do formulário de registro técnico com campos taxonômicos e detalhamento avançado.}}{59}{figure.caption.31}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Protótipo da tela de registros pendentes, acessível apenas a pesquisadores.}}{60}{figure.caption.32}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Protótipo da tela de análise de registro. Ao centro, visualização ampliada da imagem.}}{61}{figure.caption.33}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Protótipo da visualização de registro validado.}}{62}{figure.caption.34}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Protótipo da visualização de registro enviado, ainda não avaliado.}}{62}{figure.caption.34}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Protótipo da tela de perfil do usuário com conquistas e histórico.}}{63}{figure.caption.35}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Protótipo da tela de fauna local (esquerda) e detalhes da espécie (direita).}}{64}{figure.caption.36}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Protótipo da tela de recuperação de senha: formulário (esquerda), sucesso (centro) e erro de validação (direita).}}{65}{figure.caption.37}%
 \contentsline {figure}{\numberline {26}{\ignorespaces Captura de tela do protótipo navegável desenvolvido no \textit {Figma}.}}{66}{figure.caption.38}%
 \contentsline {figure}{\numberline {27}{\ignorespaces Gráfico demonstrativo de \textit {cards} criados por mês no \textit {Jira}. As barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas. As barras em vermelho representam demandas que ainda estavam em aberto.}}{67}{figure.caption.39}%
 \contentsline {figure}{\numberline {28}{\ignorespaces Gráfico demonstrativo de \textit {cards} vs resolvidos no \textit {Jira}}}{68}{figure.caption.40}%

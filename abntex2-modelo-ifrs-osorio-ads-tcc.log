@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  13 MAY 2025 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  13 MAY 2025 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1870,7 +1870,7 @@ LaTeX Font Warning: Font shape `T1/ptm/sbc/it' undefined
 
 
 [16]
-<imagens/fluxoJira.png, id=352, 1268.74pt x 847.165pt>
+<imagens/fluxoJira.png, id=355, 1268.74pt x 847.165pt>
 File: imagens/fluxoJira.png Graphic file (type png)
 <use imagens/fluxoJira.png>
 Package pdftex.def Info: imagens/fluxoJira.png  used on input line 74.
@@ -1953,7 +1953,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 [23]
 
 [24]
-<imagens/graficoPressman.png, id=430, 725.71124pt x 410.2828pt>
+<imagens/graficoPressman.png, id=418, 725.71124pt x 410.2828pt>
 File: imagens/graficoPressman.png Graphic file (type png)
 <use imagens/graficoPressman.png>
 Package pdftex.def Info: imagens/graficoPressman.png  used on input line 63.
@@ -1996,12 +1996,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 ]
-<imagens/sisGeoApp.png, id=476, 1387.1825pt x 591.20876pt>
+<imagens/sisGeoApp.png, id=462, 1387.1825pt x 591.20876pt>
 File: imagens/sisGeoApp.png Graphic file (type png)
 <use imagens/sisGeoApp.png>
 Package pdftex.def Info: imagens/sisGeoApp.png  used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 178.25708pt.
-<imagens/sisGeoMapa.png, id=483, 959.585pt x 490.83376pt>
+<imagens/sisGeoMapa.png, id=469, 959.585pt x 490.83376pt>
 File: imagens/sisGeoMapa.png Graphic file (type png)
 <use imagens/sisGeoMapa.png>
 Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
@@ -2011,17 +2011,17 @@ Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
 [29 <./imagens/sisGeoApp.png>]
 
 [30 <./imagens/sisGeoMapa.png>]
-<imagens/app1.png, id=501, 282.05376pt x 545.03625pt>
+<imagens/app1.png, id=487, 282.05376pt x 545.03625pt>
 File: imagens/app1.png Graphic file (type png)
 <use imagens/app1.png>
 Package pdftex.def Info: imagens/app1.png  used on input line 51.
 (pdftex.def)             Requested size: 138.02448pt x 266.72081pt.
-<imagens/app3.png, id=502, 276.03125pt x 547.04375pt>
+<imagens/app3.png, id=488, 276.03125pt x 547.04375pt>
 File: imagens/app3.png Graphic file (type png)
 <use imagens/app3.png>
 Package pdftex.def Info: imagens/app3.png  used on input line 52.
 (pdftex.def)             Requested size: 135.09511pt x 267.74493pt.
-<imagens/app2.png, id=503, 274.02374pt x 547.04375pt>
+<imagens/app2.png, id=489, 274.02374pt x 547.04375pt>
 File: imagens/app2.png Graphic file (type png)
 <use imagens/app2.png>
 Package pdftex.def Info: imagens/app2.png  used on input line 53.
@@ -2029,12 +2029,12 @@ Package pdftex.def Info: imagens/app2.png  used on input line 53.
 
 
 [31 <./imagens/app1.png> <./imagens/app3.png> <./imagens/app2.png>]
-<imagens/simbaRegistro.png, id=514, 1606.0pt x 744.7825pt>
+<imagens/simbaRegistro.png, id=500, 1606.0pt x 744.7825pt>
 File: imagens/simbaRegistro.png Graphic file (type png)
 <use imagens/simbaRegistro.png>
 Package pdftex.def Info: imagens/simbaRegistro.png  used on input line 79.
 (pdftex.def)             Requested size: 418.25368pt x 193.95708pt.
-<imagens/simbaTrajetoria.png, id=521, 1606.0pt x 749.80125pt>
+<imagens/simbaTrajetoria.png, id=507, 1606.0pt x 749.80125pt>
 File: imagens/simbaTrajetoria.png Graphic file (type png)
 <use imagens/simbaTrajetoria.png>
 Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
@@ -2042,7 +2042,7 @@ Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
 
 
 [32]
-<imagens/simbaMonitoramento.png, id=532, 1606.0pt x 734.745pt>
+<imagens/simbaMonitoramento.png, id=518, 1606.0pt x 734.745pt>
 File: imagens/simbaMonitoramento.png Graphic file (type png)
 <use imagens/simbaMonitoramento.png>
 Package pdftex.def Info: imagens/simbaMonitoramento.png  used on input line 99.
@@ -2111,7 +2111,7 @@ Overfull \hbox (31.91124pt too wide) in paragraph at lines 131--175
 
 
 [39]
-Overfull \vbox (139.54897pt too high) has occurred while \output is active []
+Overfull \vbox (154.04897pt too high) has occurred while \output is active []
 
 
 
@@ -2280,12 +2280,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [52]
-<imagens/sistemaWebFaunaMar.png, id=680, 1223.32031pt x 683.55376pt>
+<imagens/sistemaWebFaunaMar.png, id=666, 1223.32031pt x 683.55376pt>
 File: imagens/sistemaWebFaunaMar.png Graphic file (type png)
 <use imagens/sistemaWebFaunaMar.png>
 Package pdftex.def Info: imagens/sistemaWebFaunaMar.png  used on input line 204.
 (pdftex.def)             Requested size: 418.25368pt x 233.69855pt.
-<imagens/identidade-app.png, id=685, 330.48468pt x 617.30624pt>
+<imagens/identidade-app.png, id=671, 330.48468pt x 617.30624pt>
 File: imagens/identidade-app.png Graphic file (type png)
 <use imagens/identidade-app.png>
 Package pdftex.def Info: imagens/identidade-app.png  used on input line 212.
@@ -2293,7 +2293,7 @@ Package pdftex.def Info: imagens/identidade-app.png  used on input line 212.
 
 
 [53 <./imagens/sistemaWebFaunaMar.png>]
-<imagens/paleta-cores.png, id=692, 571.38469pt x 227.34938pt>
+<imagens/paleta-cores.png, id=678, 571.38469pt x 227.34938pt>
 File: imagens/paleta-cores.png Graphic file (type png)
 <use imagens/paleta-cores.png>
 Package pdftex.def Info: imagens/paleta-cores.png  used on input line 220.
@@ -2306,12 +2306,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [54 <./imagens/identidade-app.png> <./imagens/paleta-cores.png>]
-<imagens/login-figma.png, id=702, 813.0375pt x 1806.75pt>
+<imagens/login-figma.png, id=688, 813.0375pt x 1806.75pt>
 File: imagens/login-figma.png Graphic file (type png)
 <use imagens/login-figma.png>
 Package pdftex.def Info: imagens/login-figma.png  used on input line 239.
 (pdftex.def)             Requested size: 159.71404pt x 354.92172pt.
-<imagens/cadastro-figma.png, id=703, 813.0375pt x 1806.75pt>
+<imagens/cadastro-figma.png, id=689, 813.0375pt x 1806.75pt>
 File: imagens/cadastro-figma.png Graphic file (type png)
 <use imagens/cadastro-figma.png>
 Package pdftex.def Info: imagens/cadastro-figma.png  used on input line 246.
@@ -2319,12 +2319,12 @@ Package pdftex.def Info: imagens/cadastro-figma.png  used on input line 246.
 
 
 [55 <./imagens/login-figma.png> <./imagens/cadastro-figma.png>]
-<imagens/menu-pesquisador-figma.png, id=711, 1125.45468pt x 1204.5pt>
+<imagens/menu-pesquisador-figma.png, id=697, 1125.45468pt x 1204.5pt>
 File: imagens/menu-pesquisador-figma.png Graphic file (type png)
 <use imagens/menu-pesquisador-figma.png>
 Package pdftex.def Info: imagens/menu-pesquisador-figma.png  used on input line 261.
 (pdftex.def)             Requested size: 331.62845pt x 354.92172pt.
-<imagens/meus-registros-figma.png, id=713, 1132.98282pt x 1204.5pt>
+<imagens/meus-registros-figma.png, id=699, 1132.98282pt x 1204.5pt>
 File: imagens/meus-registros-figma.png Graphic file (type png)
 <use imagens/meus-registros-figma.png>
 Package pdftex.def Info: imagens/meus-registros-figma.png  used on input line 275.
@@ -2332,7 +2332,7 @@ Package pdftex.def Info: imagens/meus-registros-figma.png  used on input line 27
 
 
 [56 <./imagens/menu-pesquisador-figma.png>]
-<imagens/registro-simples-figma.png, id=721, 1665.22125pt x 1204.5pt>
+<imagens/registro-simples-figma.png, id=707, 1665.22125pt x 1204.5pt>
 File: imagens/registro-simples-figma.png Graphic file (type png)
 <use imagens/registro-simples-figma.png>
 Package pdftex.def Info: imagens/registro-simples-figma.png  used on input line 292.
@@ -2340,7 +2340,7 @@ Package pdftex.def Info: imagens/registro-simples-figma.png  used on input line 
 
 
 [57 <./imagens/meus-registros-figma.png>]
-<imagens/registro-tecnico-figma.png, id=727, 1099.10625pt x 1204.5pt>
+<imagens/registro-tecnico-figma.png, id=713, 1099.10625pt x 1204.5pt>
 File: imagens/registro-tecnico-figma.png Graphic file (type png)
 <use imagens/registro-tecnico-figma.png>
 Package pdftex.def Info: imagens/registro-tecnico-figma.png  used on input line 301.
@@ -2348,7 +2348,7 @@ Package pdftex.def Info: imagens/registro-tecnico-figma.png  used on input line 
 
 
 [58 <./imagens/registro-simples-figma.png>]
-<imagens/registro-pendente-figma.png, id=734, 543.53062pt x 1204.5pt>
+<imagens/registro-pendente-figma.png, id=720, 543.53062pt x 1204.5pt>
 File: imagens/registro-pendente-figma.png Graphic file (type png)
 <use imagens/registro-pendente-figma.png>
 Package pdftex.def Info: imagens/registro-pendente-figma.png  used on input line 313.
@@ -2356,7 +2356,7 @@ Package pdftex.def Info: imagens/registro-pendente-figma.png  used on input line
 
 
 [59 <./imagens/registro-tecnico-figma.png>]
-<imagens/avaliar-registro-figma.png, id=741, 1659.95157pt x 1204.5pt>
+<imagens/avaliar-registro-figma.png, id=727, 1659.95157pt x 1204.5pt>
 File: imagens/avaliar-registro-figma.png Graphic file (type png)
 <use imagens/avaliar-registro-figma.png>
 Package pdftex.def Info: imagens/avaliar-registro-figma.png  used on input line 327.
@@ -2364,12 +2364,12 @@ Package pdftex.def Info: imagens/avaliar-registro-figma.png  used on input line 
 
 
 [60 <./imagens/registro-pendente-figma.png>]
-<imagens/ver-registro-figma.png, id=750, 535.2497pt x 1204.5pt>
+<imagens/ver-registro-figma.png, id=736, 535.2497pt x 1204.5pt>
 File: imagens/ver-registro-figma.png Graphic file (type png)
 <use imagens/ver-registro-figma.png>
 Package pdftex.def Info: imagens/ver-registro-figma.png  used on input line 344.
 (pdftex.def)             Requested size: 157.7176pt x 354.92172pt.
-<imagens/ve-registro-enviado-figma.png, id=751, 536.75531pt x 1204.5pt>
+<imagens/ve-registro-enviado-figma.png, id=737, 536.75531pt x 1204.5pt>
 File: imagens/ve-registro-enviado-figma.png Graphic file (type png)
 <use imagens/ve-registro-enviado-figma.png>
 Package pdftex.def Info: imagens/ve-registro-enviado-figma.png  used on input line 351.
@@ -2377,7 +2377,7 @@ Package pdftex.def Info: imagens/ve-registro-enviado-figma.png  used on input li
 
 
 [61 <./imagens/avaliar-registro-figma.png>]
-<imagens/perfil-figma.png, id=758, 2515.89937pt x 1806.75pt>
+<imagens/perfil-figma.png, id=744, 2515.89937pt x 1806.75pt>
 File: imagens/perfil-figma.png Graphic file (type png)
 <use imagens/perfil-figma.png>
 Package pdftex.def Info: imagens/perfil-figma.png  used on input line 364.
@@ -2385,7 +2385,7 @@ Package pdftex.def Info: imagens/perfil-figma.png  used on input line 364.
 
 
 [62 <./imagens/ver-registro-figma.png> <./imagens/ve-registro-enviado-figma.png>]
-<imagens/fauna-local-figma.png, id=766, 1112.65688pt x 1204.5pt>
+<imagens/fauna-local-figma.png, id=752, 1112.65688pt x 1204.5pt>
 File: imagens/fauna-local-figma.png Graphic file (type png)
 <use imagens/fauna-local-figma.png>
 Package pdftex.def Info: imagens/fauna-local-figma.png  used on input line 377.
@@ -2393,7 +2393,7 @@ Package pdftex.def Info: imagens/fauna-local-figma.png  used on input line 377.
 
 
 [63 <./imagens/perfil-figma.png>]
-<imagens/esqueceu-senha-figma.png, id=773, 2521.16907pt x 1806.75pt>
+<imagens/esqueceu-senha-figma.png, id=759, 2521.16907pt x 1806.75pt>
 File: imagens/esqueceu-senha-figma.png Graphic file (type png)
 <use imagens/esqueceu-senha-figma.png>
 Package pdftex.def Info: imagens/esqueceu-senha-figma.png  used on input line 389.
@@ -2405,7 +2405,7 @@ Package pdftex.def Info: imagens/esqueceu-senha-figma.png  used on input line 38
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 396.
 
-<imagens/prototipo-navegavel-figma.png, id=780, 1356.56813pt x 505.13719pt>
+<imagens/prototipo-navegavel-figma.png, id=766, 1356.56813pt x 505.13719pt>
 File: imagens/prototipo-navegavel-figma.png Graphic file (type png)
 <use imagens/prototipo-navegavel-figma.png>
 Package pdftex.def Info: imagens/prototipo-navegavel-figma.png  used on input line 409.
@@ -2413,7 +2413,7 @@ Package pdftex.def Info: imagens/prototipo-navegavel-figma.png  used on input li
 
 
 [65 <./imagens/esqueceu-senha-figma.png>]
-<imagens/itensMes.png, id=788, 687.56876pt x 458.71375pt>
+<imagens/itensMes.png, id=774, 687.56876pt x 458.71375pt>
 File: imagens/itensMes.png Graphic file (type png)
 <use imagens/itensMes.png>
 Package pdftex.def Info: imagens/itensMes.png  used on input line 433.
@@ -2421,7 +2421,7 @@ Package pdftex.def Info: imagens/itensMes.png  used on input line 433.
 
 
 [66 <./imagens/prototipo-navegavel-figma.png>]
-<imagens/burnup-jira.jpeg, id=796, 755.82375pt x 654.445pt>
+<imagens/burnup-jira.jpeg, id=782, 755.82375pt x 654.445pt>
 File: imagens/burnup-jira.jpeg Graphic file (type jpg)
 <use imagens/burnup-jira.jpeg>
 Package pdftex.def Info: imagens/burnup-jira.jpeg  used on input line 450.
@@ -2429,7 +2429,7 @@ Package pdftex.def Info: imagens/burnup-jira.jpeg  used on input line 450.
 
 
 [67 <./imagens/itensMes.png>]
-<imagens/tempo-médio-cards.png, id=804, 592.2125pt x 394.47375pt>
+<imagens/tempo-médio-cards.png, id=790, 592.2125pt x 394.47375pt>
 File: imagens/tempo-médio-cards.png Graphic file (type png)
 <use imagens/tempo-médio-cards.png>
 Package pdftex.def Info: imagens/tempo-médio-cards.png  used on input line 465.
@@ -2688,20 +2688,20 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `abntex2-modelo-ifrs-osorio-ads-tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: C28A04488DE6C2204316800CE445A0D7;2537.
+(rerunfilecheck)             Checksum: 9A180F2CAA4BA39D0527A7E50FC15E0B;2538.
  ) 
 Here is how much of TeX's memory you used:
- 36270 strings out of 469941
- 689731 string characters out of 5469431
- 1245694 words of memory out of 5000000
+ 36255 strings out of 469941
+ 689636 string characters out of 5469431
+ 1246216 words of memory out of 5000000
  61899 multiletter control sequences out of 15000+600000
- 690121 words of font info for 187 fonts, out of 8000000 for 9000
+ 690227 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,107p,1647b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (89 pages, 8899222 bytes).
+Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (89 pages, 8898297 bytes).
 PDF statistics:
- 1274 PDF objects out of 1440 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
+ 1257 PDF objects out of 1440 (max. 8388607)
+ 241 named destinations out of 1000 (max. 500000)
  32392 words of extra memory for PDF output out of 35830 (max. 10000000)
 

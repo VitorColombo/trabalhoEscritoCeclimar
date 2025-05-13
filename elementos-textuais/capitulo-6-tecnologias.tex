@@ -20,20 +20,20 @@ Com esse \textit{framework}, os aplicativos são compilados a partir de um únic
 plataformas \textit{mobile}, \textit{web} e \textit{desktop}. O desenvolvimento no \textit{Flutter} é baseado em \textit{Widgets}, 
 componentes escritos em \textit{Dart} que são responsáveis pela visualização das telas e pela interação 
 com o usuário.
-Esses componentes podem ou não estarem associados a um estado, quando estão, são chamados de \textit{Stateful} 
+Esses componentes podem ou não estar associados a um estado, quando estão, são chamados de \textit{Stateful} 
 \textit{Widgets} e, quando não, de \textit{Stateless} \textit{Widgets} \cite{flutterDocs2025}.
 
 Além disso, o \textit{Flutter} possui a funcionalidade de \textit{hot reload}. 
 Uma ferramenta que permite que alterações sejam feitas no código 
-enquanto aplicação está em execução, gerando uma 
+enquanto a aplicação está em execução, gerando uma 
 atualização em tempo real da interface do usuário e da lógica da aplicação, 
 mantendo inalterado seu estado de execução.
 
 A escolha pelo \textit{Flutter} (versão 3.29.2) se deu principalmente pela sua capacidade multiplataforma a partir de 
 uma única base de código, otimizando tempo e recursos. Outro fator decisivo foi a 
 facilidade de integração com os diversos serviços do \textit{Firebase}, 
-que facilitam a implementação de funcionalidades essenciais 
-como autenticação, banco de dados em tempo real e armazenamento.
+que facilitam a implementação de funcionalidades essenciais,  
+como a autenticação, o banco de dados em tempo real e o armazenamento.
 
 \section{Dart}
 
@@ -89,7 +89,7 @@ geração de \textit{dashboards} visando analisar o funcionamento geral da aplic
 A definição pelo \textit{Firebase} se deu pela robustez e facilidade de integração com \textit{Flutter} 
 oferecendo uma plataforma de backend eficiente e escalável. A aplicação foi construída com a 
 utilização dos benefícios do plano \textit{Spark} descritos acima,
-que, apesar se ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente 
+que, apesar de ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente 
 altos para projetos iniciais.
 
 \section{Pacotes e Plugins do Flutter}
@@ -166,7 +166,7 @@ incorporados ao aplicativo e documentar as versões exatas para fins de controle
     latlong2 & \^{}0.9.0 & Tipos de dados para latitude e longitude. \\ \hline
     open\_filex & \^{}4.3.4 & Abertura de arquivos em apps externos. \\ \hline
     excel & \^{}4.0.6 & Manipulação de arquivos Excel (.xlsx). \\ \hline
-    flutter\_map & \^{}8.1.1 & Renderização de mapas (OpenStreetMap, etc.). \\ \hline
+    flutter\_map & \^{}8.1.1 & Renderização de mapas (como o OpenStreetMap). \\ \hline
     intl & \^{}0.19.0 & Internacionalização e formatação de datas/números. \\ \hline
     permission\_handler & \^{}12.0.0+1 & Gerenciamento de permissões do sistema operacional. \\ \hline
     device\_info\_plus & \^{}11.3.3 & Informações detalhadas sobre o dispositivo. \\ \hline
@@ -223,4 +223,4 @@ para transições e carregamento dos gráficos \cite{graphic_flutter}.
 A aplicação desta biblioteca no projeto foi pensada para gerar uma 
 visualização gráfica dos dados de registos coletados para maior síntese de
 algumas informações chaves.
-Para o resultado final, foram gerados gráficos na forma de pizza e barras.
+Para o resultado final, foram gerados gráficos nos formatos de pizza e barras.

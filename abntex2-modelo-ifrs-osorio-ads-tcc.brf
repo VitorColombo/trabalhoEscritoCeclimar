@@ -10,7 +10,7 @@
 \backcite {onu2015ods}{{23}{4.2}{section.4.2}}
 \backcite {onu2015agenda2030}{{23}{4.2}{section.4.2}}
 \backcite {onu2015ods}{{23}{4.3}{section.4.3}}
-\backcite {onu2015ods}{{25}{4.3}{Item.17}}
+\backcite {onu2015ods}{{25}{4.3}{section.4.3}}
 \backcite {pressman2011engenharia}{{25}{4.4}{section.4.4}}
 \backcite {pressman2011engenharia}{{25}{4.4}{section.4.4}}
 \backcite {pressman2011engenharia}{{25}{4.4}{section.4.4}}
@@ -39,9 +39,9 @@
 \backcite {flutter_map_doc}{{41}{6.4.2}{subsection.6.4.2}}
 \backcite {excel_flutter}{{41}{6.4.3}{subsection.6.4.3}}
 \backcite {graphic_flutter}{{42}{6.4.4}{subsection.6.4.4}}
-\backcite {whatsApp}{{44}{7.2}{Item.22}}
-\backcite {facebook2025}{{44}{7.2}{Item.22}}
-\backcite {instagram2025}{{44}{7.2}{Item.22}}
+\backcite {whatsApp}{{44}{7.2}{Item.5}}
+\backcite {facebook2025}{{44}{7.2}{Item.5}}
+\backcite {instagram2025}{{44}{7.2}{Item.5}}
 \backcite {sommerville2011}{{47}{8.1}{section.8.1}}
 \backcite {guedesuml2}{{47}{8.1.1}{subsection.8.1.1}}
 \backcite {pressman2011engenharia}{{51}{8.1.2}{subsection.8.1.2}}

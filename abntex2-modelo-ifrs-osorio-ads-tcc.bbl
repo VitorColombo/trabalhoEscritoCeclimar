@@ -44,6 +44,13 @@ Dispon{\'\i}vel em: \url{https://dart.dev/docs}.}
 {{Facebook}. \emph{Facebook}. 2025. \url{https://www.facebook.com/}.
 Acesso em: 10 maio 2025.}
 
+\bibitem[{Fauna Marinha RS} 2025]{faunamarinha2025}
+\abntrefinfo{{Fauna Marinha RS}}{{Fauna Marinha RS}}{2025}
+{{Fauna Marinha RS}. \emph{Fauna Marinha RS – Animais do litoral gaúcho}.
+  2025.
+Acessado em: 12 maio 2025.
+Dispon{\'\i}vel em: \url{https://www.ufrgs.br/faunamarinhars/}.}
+
 \bibitem[{Flutter} 2025]{flutterDocs2025}
 \abntrefinfo{{Flutter}}{{Flutter}}{2025}
 {{Flutter}. \emph{Flutter Documentation}. 2025.
@@ -56,10 +63,13 @@ Dispon{\'\i}vel em: \url{https://docs.flutter.dev/}.}
   Leaflet}. 2025. \url{https://pub.dev/packages/flutter_map}.
 BSD 3-Clause License. Accessed: 10 May 2025.}
 
-\bibitem[Gil et al.]{gil2002elaborar}
-\abntrefinfo{Gil et al.}{GIL et al.}{}
-{GIL, A.~C. et al. \emph{Como elaborar projetos de pesquisa}. [S.l.: s.n.].
-  v.~4.}
+\bibitem[Gil 2002]{gil2002elaborar}
+\abntrefinfo{Gil}{GIL}{2002}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. 4. ed. São Paulo:
+  Atlas, 2002. Disponível em:
+  \url{https://files.cercomp.ufg.br/weby/up/150/o/Anexo_C1_como_elaborar_projeto_de_pesquisa_-_antonio_carlos_gil.pdf}.
+ISBN 85-224-3169-8. Dispon{\'\i}vel em:
+  \url{https://files.cercomp.ufg.br/weby/up/150/o/Anexo\_C1\_como\_elaborar\_projeto\_de\_pesquisa\_-\_antonio\_carlos\_gil.pdf}.}
 
 \bibitem[{Google} 2024]{android2024}
 \abntrefinfo{{Google}}{{Google}}{2024a}
@@ -90,6 +100,13 @@ Dispon{\'\i}vel em:
 {{Governo Federal do Brasil}. \emph{{Gov.br}}. 2024.
 Acesso em: 18 abr. 2024.
 Dispon{\'\i}vel em: \url{https://www.gov.br}.}
+
+\bibitem[Guedes 2018]{guedesuml2}
+\abntrefinfo{Guedes}{GUEDES}{2018}
+{GUEDES, G. \emph{UML 2 - Uma Abordagem Pr{\'a}tica - 3{\textordfeminine}
+  Edi{\c{c}}{\~a}o}. Novatec Editora, 2018.
+ISBN 9788575226469. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=RUdLDwAAQBAJ}.}
 
 \bibitem[{Instagram} 2025]{instagram2025}
 \abntrefinfo{{Instagram}}{{Instagram}}{2025}
@@ -167,6 +184,14 @@ MIT License. Accessed: 10 May 2025.}
   Silvestre. Sistema de Informação em Saúde Silvestre}. 2024.
   \url{https://sissgeo.lncc.br/apresentacao.xhtml}.
 Acesso em: 12/04/2024.}
+
+\bibitem[Sommerville 2011]{sommerville2011}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de Software}. 9. ed. São Paulo: Pearson
+  Prentice Hall, 2011. Tradução da obra original: Software Engineering.
+  Revisão técnica de Kechi Hirama. 3ª reimpressão – dez. 2013.
+ISBN 978-85-7936-108-1. Dispon{\'\i}vel em:
+  \url{https://www.facom.ufu.br/~william/Disciplinas\%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf}.}
 
 \bibitem[{WhatsApp} 2024]{whatsApp}
 \abntrefinfo{{WhatsApp}}{{WhatsApp}}{2024}

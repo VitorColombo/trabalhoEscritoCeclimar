@@ -2,75 +2,517 @@
 Este capítulo demonstra os artefatos produzidos para o \textit{software}, incluindo 
 as informações associadas desde a análise até os testes.
 
-\section{Engenharia de Requisitos}
+\section{Levantamento de Requisitos}
 
-Os requisitos foram organizados em duas categorias: funcionais e não funcionais. A seguir são apresentados os artefatos e resultados desta etapa.
- TODO REFERENCIAR EXPLIOCACAO DE REQUISITOS
+O levantamento de requisitos foi essencial para compreender as necessidades do projeto e orientar o 
+desenvolvimento das funcionalidades do aplicativo. Segundo 
+\citeonline{sommerville2011}, os requisitos de um sistema são as descrições do que o sistema deve 
+fazer, os serviços que ele irá oferecer e suas restrições de funcionamento. Neste projeto, a 
+definição dos requisitos prioritários para o MVP\footnote{MVP é a sigla para 
+\textit{Minimum Viable Product} (Produto Mínimo Viável), um conceito que se refere à 
+versão mais simples de um produto 
+que ainda entrega valor ao usuário e permite validações com o mínimo de esforço e 
+custo.} e das suas limitações foi orientada por reuniões 
+com o coordenador do projeto Fauna Marinha RS, especialmente com base na experiência prática dos 
+profissionais do CECLIMAR, que indicaram as funcionalidades mais relevantes para o sistema.
+
 \subsection{Requisitos Funcionais}
 
-\begin{table}[H]
-    \centering
-    \caption{Requisitos funcionais do sistema}
-    \label{tab:req-funcionais}
-    \begin{tabular}{|p{2cm}|p{11cm}|}
-    \hline
-    \textbf{Código} & \textbf{Descrição} \\ \hline
-    RF01 & O sistema deve permitir o login via Firebase Authentication com e-mail e senha. \\ \hline
-    RF02 & O sistema deve permitir o login via conta Google integrada ao Firebase Authentication. \\ \hline
-    RF03 & O sistema deve unificar dados quando uma conta possui ambos os métodos de login. \\ \hline
-    RF04 & O sistema deve permitir atualização do perfil de usuário (nome, foto, e-mail). \\ \hline
-    RF05 & O sistema deve permitir redefinição de senha através do fluxo do Firebase Authentication (envio de e-mail de redefinição). \\ \hline
-    RF06 & O sistema deve permitir a exclusão da conta do usuário e remoção de todos os seus dados (incluindo imagem de perfil armazenada no Firebase Storage). \\ \hline
-    RF07 & O sistema deve manter os registros do usuário (subcollection) mesmo após a exclusão da conta, para preservação de dados científicos. \\ \hline
-    RF08 & O sistema deve permitir envio de registros simples e técnicos com campos específicos. \\ \hline
-    RF09 & O sistema deve permitir envio de até 2 imagens por registro, sendo uma obrigatória. \\ \hline
-    RF10 & O sistema deve permitir envio de registros utilizando GPS do dispositivo em tempo real para obter as coordenadas geográficas. \\ \hline
-    RF11 & O sistema deve permitir envio de registros utilizando a opção número da guarita para basear as coordenadas geográficas. \\ \hline
-    RF12 & O sistema deve permitir envio de registros utilizando coordenadas da cidade para definir a localização. \\ \hline
-    RF13 & O sistema deve permitir envio de registros utilizando ponto de referência como campo aberto. \\ \hline
-    RF14 & O sistema deve funcionar offline, salvando localmente até 40 registros utilizando o Hive para posterior sincronização. \\ \hline
-    RF15 & O sistema deve detectar automaticamente a reconexão de rede e enviar os registros pendentes. \\ \hline
-    RF16 & O sistema deve validar os formulários de envio de registros com restrições específicas (ex.: limite de caracteres). \\ \hline
-    RF17 & O sistema deve implementar um sistema de conquistas para monitoramento de número de registros de aves, répteis e mamíferos. \\ \hline
-    RF18 & O sistema deve diferenciar dois tipos de usuários: cientista cidadão (user) e pesquisador (admin). \\ \hline
-    RF19 & O sistema deve permitir que um pesquisador cadastre outro pesquisador, com geração automática de senha segura (8 dígitos alfanuméricos e caracteres especiais). \\ \hline
-    RF20 & O sistema deve exibir no perfil do usuário o total de registros, conquistas, últimos 10 registros, opções de editar perfil e logout. \\ \hline
-    RF21 & O sistema deve apresentar menu inferior com opções: início, registros, novo registro, perfil e sobre. \\ \hline
-    RF22 & O sistema deve disponibilizar um painel de registros com estatísticas, mapas e filtros detalhados para acompanhamento. \\ \hline
-    RF23 & O sistema deve permitir avaliação de registros por pesquisadores, incluindo visualização, validação, comentários e inserção de novos animais no banco. \\ \hline
-    \end{tabular}
-    \end{table}
+Nesta seção, serão expostos os requisitos funcionais do sistema, que segundo 
+\citeonline{guedesuml2} correspondem ao que o cliente quer que o sistema realize,
+ou seja, as funcionalidades do software. Esses requisitos estão organizados em tabelas
+distintas, apresentadas a seguir. A Tabela~\ref{tab:req-funcionais} sintetiza os 63 requisitos funcionais
+da versão 2.3.6 do aplicativo, que é a versão mais atualizada até o momento da entrega deste relatório.
+Durante o desenvolvimento, os requisitos foram revisados e atualizados conforme necessário,
+com base em feedbacks e testes realizados.
+
+\begin{longtable}{@{}p{1.5cm}p{13cm}@{}}
+    \caption{Requisitos funcionais do sistema}\label{tab:req-funcionais}\\
+        \toprule
+        \textbf{Código} & \textbf{Descrição} \\ \hline
+        \midrule
+        \endfirsthead
+        
+        \toprule
+        \textbf{Código} & \textbf{Descrição} \\ \hline
+        \midrule
+        \endhead
+        
+        \midrule
+        \multicolumn{2}{r@{}}{(Continua na próxima página)} \\
+        \endfoot
+        
+        \bottomrule
+        \endlastfoot
+    % usuario
+    % registro
+    RF01 & O sistema deve permitir o registro de novos usuários com e-mail e senha. \\ \hline
+    RF02 & O sistema deve permitir o registro de novos usuários com conta Google integrada ao Firebase Authentication. \\ \hline
+    RF03 & O sistema deve diferenciar dois tipos de usuários: cientista cidadão (user) e pesquisador (admin). \\ \hline
+    RF04 & O sistema deve permitir que um pesquisador cadastre outro pesquisador, com geração automática de senha segura (8 dígitos alfanuméricos e caracteres especiais). \\ \hline
+    RF05 & O sistema deve permitir que um pesquisador conceda a outro usuário que já possui conta a role de pesquisador. \\ \hline
+
+    % login
+    RF06 & O sistema deve permitir o login via Firebase Authentication com e-mail e senha. \\ \hline
+    RF07 & O sistema deve permitir o login via conta Google integrada ao Firebase Authentication. \\ \hline
+    RF08 & O sistema deve unificar dados quando uma conta possui ambos os métodos de login. \\ \hline
+    RF09 & O sistema deve permitir redefinição de senha através do fluxo do Firebase Authentication (envio de e-mail de redefinição). \\ \hline
+    RF10 & O sistema deve permitir a recuperação da senha. \\ \hline
+    RF11 & O sistema deve permitir que o usuário faça logoff. \\ \hline
+
+    % exclusao de conta
+    RF12 & O sistema deve permitir a exclusão da conta do usuário, independente do método de cadastro. \\ \hline
+    RF13 & O sistema deve manter os registros realizados pelo usuário mesmo após a exclusão da conta, 
+    para preservação de dados científicos. \\ \hline
+
+    % editar perfil
+    RF14 & O sistema deve permitir atualização do perfil de usuário cadastrado com e-mail e senha (nome, foto, e-mail). \\ \hline
+    
+    % tela de meu perfil
+    RF15 & O sistema deve permitir ao usuário visualizar e gerenciar seu perfil. \\ \hline
+    RF16 & O sistema deve possuir um conjunto de conquistas para cada usuário. \\ \hline
+    RF17 & O sistema deve permitir ao usuário visualizar os últimos registros do seu perfil. \\ \hline
+    RF18 & O sistema deve permitir ao usuário visualizar a quantidade total de registros realizadas por ele. \\ \hline
+
+    % envio de registros
+    RF19 & O sistema deve permitir envio de registros "simples". \\ \hline
+    RF20 & O sistema deve permitir envio de registros "técnicos" com dados mais específicos. \\ \hline
+    RF21 & O sistema deve permitir envio de até 2 imagens por registro, sendo uma obrigatória. \\ \hline
+    RF22 & O sistema deve permitir envio de registros utilizando GPS do dispositivo em tempo real para obter as coordenadas geográficas. \\ \hline
+    RF23 & O sistema deve validar os formulários de envio de registros com restrições específicas (ex.: limite de caracteres). \\ \hline
+    RF24 & O sistema deve permitir que o usuário envie uma imagem a partir da galeria do celular. \\ \hline
+    RF25 & O sistema deve permitir que o usuário envie uma imagem a partir da camera do celular. \\ \hline
+    RF26 & O sistema deve permitir consultar dados de geolocalização a partir das. \\ \hline
+    RF27 & O sistema deve permitir envio de registros utilizando a opção número da guarita para basear as coordenadas geográficas. \\ \hline
+    RF28 & O sistema deve permitir envio de registros utilizando coordenadas da cidade para definir a localização. \\ \hline
+    RF29 & O sistema deve permitir envio de registros utilizando ponto de referência como campo aberto. \\ \hline
+    RF30 & O sistema deve facilitar a ativação da geolocalização do dispositivo pelo usuário. \\ \hline
+    RF31 & O sistema deve permitir visualizar a imagem de um registro em tela cheia. \\ \hline
+    RF32 & O sistema deve exibir o nome da cidade automaticamente com base na localização do registro. \\ \hline
+    RF33 & O sistema deve permitir o armazenamento de registros quando enviados offline. \\ \hline
+
+    %sobre 
+    RF34 & O sistema deve apresentar uma tela com informações sobre o projeto e os desenvolvedores. \\ \hline
+
+    % meus registros
+    RF35 & O sistema deve permitir que o usuário visualize todos registros que ele enviou. \\ \hline
+    RF36 & O sistema deve permitir que o usuário filtre os registros enviados e já validados. \\ \hline
+    RF37 & O sistema deve permitir que o usuário receba o retorno do profissional para cada registro. \\ \hline
+    RF38 & O sistema deve permitir que um pesquisador delete um registro enviado por qualquer usuário. \\ \hline
+    RF39 & O sistema deve permitir a visualização detalhada de um registro selecionado. \\ \hline
+    
+    % interface
+    RF40 & O sistema deve apresentar uma barra de navegação fixa com as opções: início, registros, 
+    novo registro, perfil e sobre. \\ \hline
+    RF41 & O sistema deve apresentar um menu inicial com todas as funcionalidades disponíveis. \\ \hline
+    RF42 & O sistema deve assegurar que apenas usuários pesquisadores tenham acesso a algumas funcionalidades. \\ \hline
+    RF43 & O sistema deve possuir uma seção para apresentar os principais animais da fauna local. \\ \hline
+    RF44 & O sistema deve possuir uma tela de carregamento inicial. \\ \hline
+
+    % painel de registros
+    RF45 & O sistema deve permitir que o usuário visualize os registros enviados por outros usuários. \\ \hline
+    RF46 & O sistema deve disponibilizar um painel de registros com estatísticas, mapas e filtros detalhados para acompanhamento. \\ \hline
+    RF47 & O sistema deve permitir que os usuários comuns exportem um arquivo CSV com dados sensíveis ocultos. \\ \hline
+    RF48 & O sistema deve permitir que os pesquisadores exportem um arquivo CSV com os dados gerais dos registros. \\ \hline
+    RF49 & O sistema deve permitir que sejam vistos todos os registros enviados ainda não avaliados. \\ \hline
+    RF50 & O sistema deve permitir que sejam vistos todos os registros já avaliados. \\ \hline
+    RF51 & O sistema deve apresentar um mapa interativo com pontos de registros. \\ \hline
+    RF52 & O sistema deve apresentar os animais que possuem mais registros documentados. \\ \hline
+    RF53 & O sistema deve incrementar o número de encontros com cada espécie após uma avaliação de pesquisador. \\ \hline
+    RF54 & O sistema deve possuir um contador por classe para os mamíferos, as aves e os répteis. \\ \hline
+    RF55 & O sistema deve permitir a busca de registros por espécie. \\ \hline
+    RF56 & O sistema deve permitir a busca de número de registros dentro de uma faixa de tempo. \\ \hline
+
+    % avaliacao de registros
+    RF57 & O sistema deve permitir que pesquisadores avaliem de todos os registros enviados. \\ \hline
+    RF58 & O sistema deve permitir a inserção de novos animais no banco de dados. \\ \hline
+    RF59 & O sistema deve permitir que o pesquisador adicione comentários aos registros enviados. \\ \hline
+    RF60 & O sistema deve permitir que os dados enviados por um usuário sejam editáveis para um pesquisador realizar
+    a avaliação. \\ \hline
+    RF61 & O sistema deve permitir ao pesquisador atualizar a localização ao avaliar um registro. \\ \hline
+
+    % fauna local
+    RF62 & O sistema deve redirecionar para o site do projeto Fauna Marinha RS para dados da fauna local. \\ \hline
+    RF63 & O sistema deve redirecionar para as redes sociais do projeto Fauna Marinha RS. \\ \hline
+\end{longtable}
+\legend{Fonte: Autor}
 
 \subsection{Requisitos Não Funcionais}
 
-\begin{table}[H]
-    \centering
-    \caption{Requisitos não funcionais do sistema}
-    \label{tab:req-nao-funcionais}
-    \begin{tabular}{|p{2cm}|p{11cm}|}
-    \hline
+Segundo \citeonline{pressman2011engenharia}, os requisitos não funcionais podem ser descritos 
+como uma característica de qualidade, desempenho, segurança ou restrição geral de um sistema. 
+Na Tabela~\ref{tab:req-nao-funcionais}, temos o detalhamento desses requisitos, com a finalidade 
+de sintetizar as propriedades essenciais que asseguram o bom funcionamento da aplicação. 
+Tais requisitos são fundamentais 
+para garantir aspectos como usabilidade, confiabilidade, portabilidade e eficiência, além de assegurar 
+conformidade com as tecnologias e práticas adotadas no desenvolvimento do sistema.
+
+\begin{longtable}{@{}p{1.5cm}p{13cm}@{}}
+    \caption{Requisitos não funcionais do sistema}\label{tab:req-nao-funcionais}\\
+    \toprule
     \textbf{Código} & \textbf{Descrição} \\ \hline
-    RNF01 & O sistema deve ser desenvolvido utilizando Flutter e Dart, garantindo compatibilidade multiplataforma. \\ \hline
-    RNF02 & O sistema deve utilizar autenticação segura via Firebase, com criptografia adequada para senhas e tokens. \\ \hline
-    RNF03 & O sistema deve apresentar alta disponibilidade e ser resiliente a falhas de rede (offline-first). \\ \hline
-    RNF04 & O sistema deve ser capaz de armazenar localmente até 40 registros offline utilizando Hive e sincronizar automaticamente após reconexão. \\ \hline
-    RNF05 & O sistema deve seguir as melhores práticas de UX, com validação clara de formulários e feedbacks visuais para os usuários. \\ \hline
-    RNF06 & O sistema deve garantir a privacidade dos dados do usuário, omitindo dados sensíveis em exportações para cientistas cidadãos. \\ \hline
-    RNF07 & O sistema deve apresentar desempenho aceitável mesmo em dispositivos móveis de média capacidade. \\ \hline
+    \midrule
+    \endfirsthead
+    
+    \toprule
+    \textbf{Código} & \textbf{Descrição} \\ \hline
+    \midrule
+    \endhead
+    
+    \midrule
+    \multicolumn{2}{r@{}}{(Continua na próxima página)} \\
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+    RNF01 & O sistema deve ser desenvolvido utilizando Flutter e Dart, garantindo compatibilidade 
+    multiplataforma. \\ \hline
+    RNF02 & O sistema deve utilizar autenticação segura via Firebase, com criptografia adequada para 
+    senhas e tokens. \\ \hline
+    RNF03 & O sistema deve apresentar alta disponibilidade e ser resiliente a falhas de rede. \\ \hline
+    RNF04 & O sistema deve indicar quando alguma funcionalidade não está disponível. \\ \hline
+    RNF05 & O sistema deve seguir as melhores práticas de UX, com validação clara de formulários e 
+    feedbacks visuais para os usuários. \\ \hline
+    RNF06 & O sistema deve garantir a privacidade dos dados do usuário, omitindo dados sensíveis em 
+    exportações para cientistas cidadãos. \\ \hline
+    RNF07 & O sistema deve apresentar desempenho aceitável mesmo em dispositivos móveis de média 
+    capacidade. \\ \hline
     RNF08 & O sistema deve fornecer acessibilidade básica, permitindo navegação simples e intuitiva. \\ \hline
-    \end{tabular}
-    \end{table}
+    RNF09 & O sistema deve apresentar feedbacks constantes sobre os status de processamento da aplicação. \\ \hline
+    RNF10 & O sistema deve ser inicialmente disponibilizado para Android. \\ \hline
+\end{longtable}
+\legend{Fonte: Autor}
 
-\section{Projeto Comportamental e Estrutural}
+\section{Prototipação da Interface com o Usuário}
+A prototipação foi dividida em quatro etapas principais, com foco na representação 
+visual da aplicação e na simulação dos fluxos de navegação dos usuários. A seguir, 
+são descritas as fases de prototipação realizadas.
 
-O sistema implementa o fluxo de autenticação e as estruturas de dados conforme o planejamento estabelecido.
+\subsection{Definição da Identidade Visual}
 
-\subsection{Fluxo de Autenticação}
+A identidade visual do aplicativo foi construída com base nos elementos gráficos já 
+existentes no projeto Fauna Marinha RS (Figura~\ref{fig:identidade-visual-web}). Foram 
+utilizadas cores similares e o logotipo oficial do projeto, com o objetivo de manter a 
+coerência visual entre as diferentes aplicações e garantir o reconhecimento por parte dos 
+usuários já familiarizados com a identidade do projeto.
 
-O sistema utiliza o Firebase Authentication como provedor principal para autenticação e gerenciamento de usuários. (descreve como já feito anteriormente)
+A paleta de cores foi definida de modo a remeter ao ambiente marinho, utilizando tons de 
+azul e uma textura que remete à água. Essa paleta é apresentada na Figura~\ref{fig:paleta-cores}.
 
-\subsection{Estrutura de Dados}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagens/sistemaWebFaunaMar.png}
+    \caption{Identidade visual do sistema web do projeto Fauna Marinha RS.}
+    \label{fig:identidade-visual-web}
+\end{figure}
+\legend{Fonte: \cite{faunamarinha2025}}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.5\textheight]{imagens/identidade-app.png}
+    \caption{Identidade visual prototipada.}
+    \label{fig:identidade-visual-mobile}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagens/paleta-cores.png}
+    \caption{Paleta de cores utilizada.}
+    \label{fig:paleta-cores}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Criação do Design das Telas}
+
+Com base na identidade visual definida, foram elaborados os layouts das principais telas do 
+aplicativo. Essa etapa concentrou-se na organização dos elementos de interface, na 
+usabilidade e na experiência do usuário.
+
+Inicialmente, foram criadas as telas de login (Figura~\ref{fig:prototipo-login}) e de 
+registro de usuário (Figura~\ref{fig:prototipo-cadastro}).
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.6\textheight]{imagens/login-figma.png}
+        \caption{Protótipo da tela de login do aplicativo.}
+        \label{fig:prototipo-login}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.6\textheight]{imagens/cadastro-figma.png}
+        \caption{Protótipo da tela de cadastro do aplicativo.}
+        \label{fig:prototipo-cadastro}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+Em seguida, foi criada a tela inicial (Figura~\ref{fig:prototipo-home}), com duas 
+variações: uma para usuários comuns e outra para pesquisadores. O layout foi pensado 
+para facilitar o acesso às funcionalidades, com botões de acesso rápido e 
+barra de navegação fixa na parte inferior da tela. A versão para pesquisadores apresenta os mesmos botões,
+com a adição das funcionalidades exclusivas, avaliação de registros e acesso ao painel geral.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.6\textheight]{imagens/menu-pesquisador-figma.png}
+    \caption{Protótipo da tela inicial: usuário comum (esquerda) e pesquisador (direita).}
+    \label{fig:prototipo-home}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela "Meus Registros" (Figura~\ref{fig:prototipo-meus-registros}) permite ao usuário 
+visualizar todos os registros já enviados, com filtros por status (enviado e validado). 
+Também foi projetado um estado com \textit{bottomsheet} acionado a partir do botão de adicionar 
+registro ("+") na barra de navegação. Esse botão está disponível em qualquer tela, permitindo 
+adicionar registros rapidamente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.6\textheight]{imagens/meus-registros-figma.png}
+    \caption{Tela de "Meus Registros" com estado ativo de adição de registro (direita).}
+    \label{fig:prototipo-meus-registros}
+\end{figure}
+\legend{Fonte: Autor}
+
+Dois tipos de formulários de registro foram projetados: um simples
+ (Figura~\ref{fig:prototipo-registro-simples}), voltado a usuários leigos e envios rápidos, e 
+ outro técnico (Figura~\ref{fig:prototipo-registro-tecnico}), com campos adicionais 
+ para coleta de dados mais detalhados. Ambos possuem validações, campos obrigatórios e 
+ opcionais, e suporte ao envio de imagens com orientações apresentadas em \textit{bottomsheet}.
+
+Os campos específicos de classe, ordem, família e gênero foram projetados para serem um dropdown,
+que apresentará as opções disponíveis para o usuário selecionar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.55\textheight, width=\textwidth]{imagens/registro-simples-figma.png}
+    \caption{Formulário de registro simples. Centro: \textit{bottomsheet} informativa; direita: campo 
+    adicional ativado.}
+    \label{fig:prototipo-registro-simples}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.6\textheight]{imagens/registro-tecnico-figma.png}
+    \caption{Formulário de registro técnico com campos taxonômicos e detalhamento avançado.}
+    \label{fig:prototipo-registro-tecnico}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela de "Registros Pendentes" (Figura~\ref{fig:prototipo-registros-pendentes}) foi projetada 
+para uso exclusivo de pesquisadores, permitindo acesso aos registros ainda não avaliados enviados 
+por todos os usuários.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.6\textheight]{imagens/registro-pendente-figma.png}
+    \caption{Tela de registros pendentes, acessível apenas a pesquisadores.}
+    \label{fig:prototipo-registros-pendentes}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela de "Analisar Registro" (Figura~\ref{fig:prototipo-avaliar-registro}) foi projetada para 
+permitir que o pesquisador visualize os dados enviados em cada registro 
+com a possibilidade de editar os dados, adicionar comentários e enviar uma atualização o registro.
+Se fez importante adicionar um estado para esta tela, onde o pesquisador consiga selecionar a imagem
+para uma visualização em tela cheia, facilitando a análise do registro.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.55\textheight, width=\textwidth]{imagens/avaliar-registro-figma.png}
+    \caption{Tela de análise de registro. Ao centro, visualização ampliada da imagem.}
+    \label{fig:prototipo-avaliar-registro}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela de "Visualizar Registro" foi projetada para permitir que o usuário visualize os dados
+enviados e validados. Para os dados já foram validados 
+(Figura~\ref{fig:prototipo-ver-registro-validado}), o registro apresentará dados extras 
+sobre aquele registro, como grau de decomposição, parecer do profissional e taxonomia avaliada.
+Já para os dados que ainda não foram validados (Figura~\ref{fig:prototipo-ver-registro-enviado}), 
+o usuário verá apenas as informações que ele mesmo enviou.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.6\textheight]{imagens/ver-registro-figma.png}
+        \caption{Visualização de registro validado.}
+        \label{fig:prototipo-ver-registro-validado}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.6\textheight]{imagens/ve-registro-enviado-figma.png}
+        \caption{Visualização de registro enviado, ainda não avaliado.}
+        \label{fig:prototipo-ver-registro-enviado}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela de perfil do usuário (Figura~\ref{fig:prototipo-perfil}) apresenta dados básicos, 
+quantidade de registros enviados, últimos registros e conquistas. As conquistas são exibidas 
+em formato de medalhas organizadas em uma grade com três colunas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.53\textheight, width=\textwidth]{imagens/perfil-figma.png}
+    \caption{Tela de perfil do usuário com conquistas e histórico.}
+    \label{fig:prototipo-perfil}
+\end{figure}
+\legend{Fonte: Autor}
+
+As telas de fauna local (Figura~\ref{fig:prototipo-fauna-local}) seguem o mesmo padrão visual 
+das demais telas do aplicativo, se assemelhando em estrutura com a de "Meus Registros" e 
+"Visualizar Registro". Elas apresentam, respectivamente, uma lista de espécies e uma 
+tela de detalhes com informações específicas sobre cada animal que for selecionado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.6\textheight]{imagens/fauna-local-figma.png}
+    \caption{Tela de fauna local (esquerda) e detalhes da espécie (direita).}
+    \label{fig:prototipo-fauna-local}
+\end{figure}
+\legend{Fonte: Autor}
+
+Por fim, foi projetada a tela de recuperação de senha (Figura~\ref{fig:prototipo-esqueci-senha}), 
+incluindo os estados de sucesso e de erro na validação dos campos de entrada. O padrão de erro 
+apresentado nesta tela foi o mesmo utilizado em outras telas do aplicativo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.53\textheight, width=\textwidth]{imagens/esqueceu-senha-figma.png}
+    \caption{Tela de recuperação de senha: formulário (esquerda), sucesso (centro) e erro de 
+    validação (direita).}
+    \label{fig:prototipo-esqueci-senha}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Desenvolvimento do Protótipo Navegável}
+
+Utilizando a ferramenta \textit{Figma} (versão gratuita \textit{online}), foi desenvolvido um
+protótipo navegável de média/alta fidelidade. Essa etapa permitiu visualizar os fluxos de 
+interação entre o usuário e o sistema, antecipar ajustes necessários e alinhar as funcionalidades 
+às expectativas.
+
+Foram criadas ligações interativas entre as principais telas, simulando os redirecionamentos e 
+ações de navegação. O protótipo também serviu como ferramenta de validação junto a terceiros e 
+como referência visual para a fase de implementação (Figura~\ref{fig:prototipo-fluxo-navegacao}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/prototipo-navegavel-figma.png}
+    \caption{Captura de tela do protótipo navegável desenvolvido no \textit{Figma}.}
+    \label{fig:prototipo-fluxo-navegacao}
+\end{figure}
+\legend{Fonte: Autor}
+
+\section{Projeto Gerencial}
+% descrever o fluxo de trabalho documentado no Jira, com cards
+A gerência desse projeto foi realizada utilizando a ferramenta \textit{Jira}, que possibilitou o
+controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho
+descrito na \hyperref[sec:metodologia-desenv-software]{Seção de metodologia} deste trabalho foi 
+seguido para garantir a organização e a eficiência
+das tarefas. Os \textit{cards} gerados no \textit{board} foram puxados para trabalho a medida que 
+havia tempo disponível para atuação. Foram catalogadas não só tarefas de codificação, como 
+também tarefas de prototipação.
+
+Foram gerados ao todo, 131 \textit{cards} desde julho de 2024 quando se deu inicio a prototipação 
+da aplicação. Na Figura \ref{gra:cards-mes} é possível observar a quantidade de itens no eixo vertical
+relacionada com o mês de criação no eixo horizontal. Com ele podemos concluir que os meses com 
+mais entrada de demandas foram os meses de novembro de 2024, janeiro de 2025 e março de 2025,
+onde o número de \textit{cards} criados foi maior que 18.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/itensMes.png}
+    \caption{Gráfico demonstrativo de \textit{cards} criados por mês no \textit{Jira}. As 
+    barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas.
+    As barras em vermelho representam demandas que ainda estavam em aberto.}
+    \label{gra:cards-mes}
+\end{figure}
+\legend{Fonte: Autor}
+
+A Figura \ref{gra:cards-vs-resolvidos} traz uma visão cumulativa do trabalho realizado no board.
+A partir dele podemos ver que, dos 131 cards criados, 113 foram concluídos, o que representa 86,26\% 
+do total. Podemos observar também que, em momentos de maior atuação no projeto, a criação de 
+cards está diretamente relacionada com a quantidade de cards resolvidos.
+Isso está principalmente relacionado com a disponibilidade de tempo para atuar no projeto, e também
+com a criação de bugs e novas demandas que surgiram durante o desenvolvimento.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/burnup-jira.jpeg}
+    \caption{Gráfico demonstrativo de \textit{cards} vs resolvidos no \textit{Jira}}
+    \label{gra:cards-vs-resolvidos}
+\end{figure}
+\legend{Fonte: Autor}
+
+A Figura~\ref{gra:tempo-medio-resolucao} apresenta o tempo médio, em dias, 
+para a resolução dos \textit{cards} ao longo das semanas. É possível notar uma grande variação 
+nos tempos médios, com valores baixos no período de novembro e um pico em maio de 2025. 
+Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dezembro vide 
+Figura\ref{gra:cards-vs-resolvidos}, o aumento na complexidade das demandas e o acumulo de 
+cards de melhoria no \textit{Backlog} que foram criados e não priorizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/tempo-médio-cards.png}
+    \caption{Gráfico demonstrativo de tempo de resolução médio dos \textit{cards} por semana no \textit{Jira}}
+    \label{gra:tempo-medio-resolucao}
+\end{figure}
+\legend{Fonte: Autor}
+
+Os \textit{cards} foram organizados em três grupos principais, que representam as diferentes
+atuações necessárias para atuar em cada uma delas.
+\subsection{Desenvolvimento Geral}
+Esses cards representam demandas que passaram por etapas de planejamento e refinamento, 
+refletindo as histórias de usuário e tarefas técnicas previstas ou requisitadas durante o desenvolvimento.
+A Tabela~\ref{tab:desenv_geral_sorted} apresenta esse conjunto de funcionalidades. Ao todo foram 66 demandas
+send 62 concluídas e 4 que ainda estão no \textit{Backlog}.
+
+% manter essa tabela aqui ou colocar no anexo?
+\input{elementos-textuais/tabela-cards-jira.tex}
+
+\subsection{Correções}
+Ao longo do processo de desenvolvimento, foram identificados e registrados bugs e falhas 
+de funcionamento, a origem da geração desses cards pode ser tanto de testes internos, quanto de 
+validações de testadores que obtiveram alguma das builds do projeto e reportaram alguma inconsistência. 
+Essas inconsistências foram tratadas por meio de cards como correções (\textit{fixes}) no ambiente Jira.
+
+A Tabela~\ref{tab:fixes_sorted} a seguir apresenta uma relação dos 43 apontamentos dessa categoria que foram documentados, desse total, 
+42 foram resolvidos e 1 ainda está no \textit{Backlog}. Isso demonstra a evolução contínua do 
+sistema em busca de estabilidade e qualidade do produto final.
+
+% manter essa tabela aqui ou colocar no anexo?
+\input{elementos-textuais/tabela-fixes-jira.tex}
+
+\subsection{Débitos Técnicos e Melhorias}
+Além das funcionalidades previstas e dos \textit{bugs} encontrados, também foram abertos \textit{cards} 
+para apontamentos de melhorias para algumas funcionalidades e respostas do sistema e débitos técnicos produzidos 
+durante a codificação. 
+Esses pontos surgiram durante a implementação de funcionalidades, revisões de código ou testes 
+exploratórios e regressivos.
+
+A Tabela~\ref{tab:dt_melhorias_sorted} apresenta as melhorias e ajustes técnicos catalogados, 
+evidenciando práticas de refatoração e aprimoramento contínuo. Ao todo foram 19 \textit{cards} abertos com esse intuito,
+dos quais 8 foram resolvidos e 11 ainda estão no \textit{Backlog}.
+
+% manter essa tabela aqui ou colocar no anexo?
+\input{elementos-textuais/tabela-melhorias-jira.tex}
+
+
+\section{Implementação do Sistema}
+% descrever a implementação do sistema, com detalhes técnicos e decisões de projeto.
+% incluir imagens de telas, fluxos de navegação, etc.
+% fazer relações com o projeto gerencial e com os requisitos funcionais e não funcionais.
+
+\subsection{Banco de Dados}
 \begin{table}[H]
     \centering
     \caption{Estrutura de collections do banco de dados}
@@ -83,27 +525,13 @@ O sistema utiliza o Firebase Authentication como provedor principal para autenti
     \texttt{users} & Armazena informações dos usuários. Cada usuário contém uma subcollection \texttt{registers} com seus registros individuais. \\ \hline
     \end{tabular}
 \end{table}
-    
-
-\section{Projeto Arquitetural}
-
-(O conteúdo descritivo será detalhado com diagramas e justificativas da arquitetura, conforme discutido.)
-
-\section{Projeto e Implementação da Interface com o Usuário}
-
-(Apresenta telas, wireframes e decisões visuais adotadas.)
-
-\section{Projeto Gerencial}
-
-(Detalhamento sobre cronogramas, milestones e gestão de atividades do Projeto I.)
-
-\section{Implementação}
-
-(Apresentação da implementação já realizada, destacando módulos ou telas entregues.)
+\legend{Fonte: Autor}
 
 \section{Execução de Testes e Verificação de Qualidade}
 
-(Descrever testes aplicados, resultados parciais e estratégias futuras.)
+% Descrever testes, citar testadores, resultados dos testes e estratégias futuras.
+% incluir gráficos representativos trazendo resultados dos testes e relacionar com 
+% cards gerados para o Jira
 
 \section*{Considerações Finais}
 

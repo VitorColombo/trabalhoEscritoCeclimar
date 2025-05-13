@@ -1,0 +1,71 @@
+@startuml Diagrama de Casos de Uso - Fauna Marinha RS - Revisado
+title Diagrama de Casos de Uso - Fauna Marinha RS - Revisado
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor "Cientista Cidadão" as CC
+actor "Pesquisador" as P
+
+P --|> CC  : Pesquisador é um Cientista Cidadão
+
+package "Autenticação e Gerenciamento de Contas" {
+    CC --> (Gerenciar Conta)
+    (Gerenciar Conta) .up.> (Registrar-se) : <<extend>>
+    (Gerenciar Conta) .up.> (Fazer Login) : <<extend>>
+    (Gerenciar Conta) .up.> (Atualizar Perfil) : <<extend>>
+    (Gerenciar Conta) .up.> (Visualizar Perfil Pessoal) : <<extend>>
+    (Gerenciar Conta) .up.> (Unificar Contas) : <<extend>>
+    (Gerenciar Conta) .up.> (Redefinir Senha) : <<extend>>
+    (Gerenciar Conta) .up.> (Fazer Logoff) : <<extend>>
+    (Gerenciar Conta) .up.> (Excluir Conta) : <<extend>>
+
+    (Fazer Login) ..> [Firebase Auth] : usa
+}
+
+package "Submissão e Gerenciamento de Registros" {
+    CC --> (Enviar Registro de Avistamento)
+    (Enviar Registro de Avistamento) ..> (Anexar Mídia) : <<include>>
+    (Enviar Registro de Avistamento) ..> (Definir Localização) : <<include>>
+    (Enviar Registro de Avistamento) ..> (Selecionar Tipo de Registro) : <<include>>
+
+    CC --> (Visualizar Meus Registros)
+    (Visualizar Meus Registros) ..> (Filtrar Registros) : <<extend>>
+    (Visualizar Meus Registros) ..> (Ver Detalhes do Registro) : <<extend>>
+
+    P --> (Avaliar Registro de Avistamento)
+    (Avaliar Registro de Avistamento) ..> (Comentar Registro) : <<include>>
+    (Avaliar Registro de Avistamento) ..> (Editar Dados do Registro) : <<include>>
+    (Avaliar Registro de Avistamento) ..> (Atualizar Localização do Registro) : <<include>>
+
+    P --> (Gerenciar Todos os Registros)
+    (Gerenciar Todos os Registros) ..> (Excluir Registro) : <<extend>>
+}
+
+package "Consulta e Exploração de Dados" {
+    CC --> (Explorar Dados Públicos de Avistamentos)
+    (Explorar Dados Públicos de Avistamentos) ..> (Visualizar Mapa Interativo) : <<extend>>
+    (Explorar Dados Públicos de Avistamentos) ..> (Buscar por Espécie/Tempo) : <<extend>>
+    (Explorar Dados Públicos de Avistamentos) ..> (Ver Estatísticas Públicas) : <<extend>>
+    CC --> (Exportar Dados Públicos CSV)
+    CC --> (Consultar Guia de Espécies Locais)
+    CC --> (Consultar Informações do Projeto)
+    CC --> (Acessar Recursos Externos)
+
+    P --> (Exportar Dados Completos CSV)
+    P --> (Analisar Dados Agregados)
+}
+
+package "Administração do Sistema e Conteúdo" {
+    P --> (Gerenciar Catálogo de Espécies)
+
+    Admin --> (Gerenciar Usuários)
+    (Gerenciar Usuários) ..> (Conceder/Revogar Acesso de Pesquisador) : <<extend>>
+    (Gerenciar Usuários) ..> (Cadastrar Novo Pesquisador) : <<extend>>
+}
+
+(Gerenciar Conta) ..> [Firebase Authentication] : usa
+(Enviar Registro de Avistamento) ..> [Serviço de Geolocalização] : usa
+(Enviar Registro de Avistamento) ..> [Câmera/Galeria do Dispositivo] : usa
+
+@enduml

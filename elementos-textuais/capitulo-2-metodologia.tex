@@ -1,14 +1,17 @@
 \chapter{Metodologia}\label{metodologia}
 % ---
+
+% MARCELO 17/05: vamos transformar numa seção do capítulo anterior.
 Para a realização do embasamento deste trabalho, foram utilizadas tanto a metodologia de pesquisa bibliográfica 
 quanto a de pesquisa documental. A primeira foi essencial para o levantamento de metodologias já consolidadas e 
 amplamente estudadas, como as que serão abordadas no referencial teórico e, a seguir, nesta seção. Já a segunda 
 foi empregada para identificar diferentes aplicações correlatas e para a elaboração do referencial teórico, além 
 de ter sido utilizada na análise de dados internos do CECLIMAR, conforme comentado na conforme comentado na 
 \hyperref[chapter:intro]{Introdução} deste trabalho.
-
+% MARCELO 13/05: remover a palavra grande. dispersos aonde? 
 Segundo \citeonline{gil2002elaborar}, a pesquisa bibliográfica é desenvolvida com base em materiais como livros 
 e artigos científicos, ou seja, materiais já consolidados. Trata-se de uma pesquisa de grande importância, pois 
+% MARCELO 13/05: remover a palavra muito.
 permite que os pesquisadores acessem diversos dados e informações dispersos que, individualmente, seriam muito 
 trabalhosos e custosos de se coletar. Nesse tipo de pesquisa, entretanto, é necessário ter cuidado com citações 
 de terceiros, que podem interpretar de forma equivocada algum dado ou informação originalmente levantados.
@@ -18,37 +21,39 @@ pesquisas bibliográficas consistem essencialmente em um apanhado de contribuiç
 determinado assunto, a pesquisa documental ocorre por meio de materiais que ainda não receberam tratamento 
 analítico ou que podem ser reelaborados, a depender dos objetos de pesquisa. As fontes da pesquisa documental 
 são mais diversas e podem incluir conversas pessoais, entrevistas, documentos ou sites.
-
+% MARCELO 13/05: colocar referência para Google Scholar
 A metodologia de pesquisa bibliográfica foi realizada através da plataforma Google Scholar, publicações 
+% MARCELO 13/05: colocar referência para SiBBr
 presentes no portal do Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr), além de livros 
 disponibilizados na biblioteca do Instituto Federal Campus Osório. Já a metodologia de pesquisa documental 
 foi levantada a partir de arquivos internos, relatórios das Nações Unidas e conteúdos disponibilizados por 
 desenvolvedores ou organizações que participaram do desenvolvimento das aplicações correlatas.
 
-Após a fase de revisão bibliográfica se iniciará o desenvolvimento do sistema. Esta fase será realizada a 
-partir do levantamento de requisitos junto de profissionais do CECLIMAR e, os requisitos levantados serão 
-cadastrados e refinados para desenvolvimento cíclico do sistema. Cada ciclo visará a entrega de um produto 
+Após a fase de revisão bibliográfica se iniciou o desenvolvimento do sistema. Esta fase foi realizada a 
+partir do levantamento de requisitos junto de profissionais do CECLIMAR e, os requisitos levantados foram 
+cadastrados e refinados para desenvolvimento cíclico do sistema. Cada ciclo visou a entrega de um produto 
 com incrementos de requisitos pré estabelecidos. Ao final de cada um dos ciclos de desenvolvimento o sistema 
-será disponibilizado para testes com servidores do CECLIMAR, os \textit{feedbacks} recebidos serão analisados, 
+foi disponibilizado para testes com servidores do CECLIMAR, os \textit{feedbacks} recebidos foram analisados, 
 refinados e postos para desenvolvimento no ciclo seguinte. Um ponto de atenção no desenvolvimento desse 
 sistema é que, por se tratar de um sistema de ciência cidadã, deve estar adequado com a LGPD para que possa 
+% MARCELO 13/05: colocar referência para PlayStore
 ser publicado na Play Store para o uso da sociedade.
 
 % ---
 \section{Metodologia de desenvolvimento de \textit{software}}\label{sec:metodologia-desenv-software}
 % ---
-
+% MARCELO 13/05: colocar referências aqui para Kanban e Jira
 Para o desenvolvimento deste projeto foi escolhida uma abordagem de metodologia ágil relacionada 
-ao ciclo iterativo incremental. Utilizando o \textit{Kanban} como método de gestão de fluxo de trabalho, a 
+ao ciclo iterativo incremental \cite{pressman2011engenharia}. Utilizando o \textit{Kanban} como método de gestão de fluxo de trabalho, a 
 fim de melhorar a eficiência e qualidade do produto final a partir da visualização das tarefas. A 
 ferramenta escolhida para realizar este gerenciamento foi o \textit{Jira}.
 
 Segundo \citeonline{pressman2011engenharia}, os ciclos de desenvolvimento incremental podem ser 
 divididos em 5 principais etapas: comunicação, planejamento, modelagem (análise e projeto), construção 
-(codificação e testes) e emprego (entrega, \textit{feedback}). As etapas por ele descritas serão 
+(codificação e testes) e emprego (entrega, \textit{feedback}). As etapas por ele descritas foram 
 aplicadas neste projeto.
-
-A comunicação será marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de
+% MARCELO 13/05: trocar para o passado
+A comunicação foi marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de
  escopo e levantamento de requisitos do sistema. O planejamento será a análise, o refinamento e as 
  definições de quais funcionalidades serão desenvolvidas em cada ciclo. Durante a modelagem será 
  realizada a prototipação e análise dos pontos levantados na etapa anterior. Na construção será o 
@@ -58,13 +63,14 @@ A comunicação será marcada por reuniões agendadas com os profissionais do CE
  para serem puxados em um ciclo posterior.
 
 %  é necessária uma nota de rodape para explicar o que é o MVP??
+% MARCELO 13/05: por enquanto vamos deixar de fora. se necessário vamos colocar no referencial teorico
 O uso desta metodologia tem o objetivo de realizar uma primeira entrega que possa ser considerada um 
 Mínimo Produto Viável (\textit{MVP}) atendendo aos requisitos básicos propostos inicialmente, mesmo que ainda 
 se note a ausência de funcionalidades complementares. Esse \textit{MVP} se tornará então a base de avaliação que 
 permitirá identificar necessidades adicionais e ajustes necessários. Com base nessa análise, é planejado 
 o próximo incremento, ajustando a primeira entrega e adicionando novas funcionalidades conforme as necessidades.
 
-Neste projeto foi montado um fluxo de trabalho no \textit{Jira} para desenvolvimento de \textit{software} visando 
+Para o desenvolvimento deste projeto, foi utilizado um fluxo de trabalho no \textit{Jira} para desenvolvimento de \textit{software} visando 
 auxiliar no processo e manter a visibilidade das tarefas de ponta a ponta. Para o \textit{workflow} principal, 
 foi montado um esquema com \textit{Backlog}, Refinamento, Em desenvolvimento, Aguardando teste, Em teste, 
 Correção de \textit{bugs} e \textit{Done} (Figura~\ref{fig:fluxoJira}).

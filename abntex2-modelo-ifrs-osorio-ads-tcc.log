@@ -1,28 +1,28 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  13 MAY 2025 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.13)  17 MAY 2025 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/vitor/Desktop/Latex-ADS-main/abntex2-modelo-ifrs-osorio-ads-tcc.tex
-(c:/Users/vitor/Desktop/Latex-ADS-main/abntex2-modelo-ifrs-osorio-ads-tcc.tex
+**c:/Users/parav/Documents/trabalhoEscritoCeclimar/abntex2-modelo-ifrs-osorio-ads-tcc.tex
+(c:/Users/parav/Documents/trabalhoEscritoCeclimar/abntex2-modelo-ifrs-osorio-ads-tcc.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
 Document Class: memoir 2025/03/10 v3.8.3b configurable book, report, article document class
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-04-14 L3 programming layer (loader) 
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count273
 ))
@@ -31,12 +31,12 @@ Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \xlvchars=\skip51
 \@memcnta=\count274
 \c@@memmarkcntra=\count275
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \trimtop=\skip52
 \trimedge=\skip53
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
 File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
 \binding=\skip54
@@ -126,7 +126,7 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforePoemTitleskip=\skip114
 \midPoemTitleskip=\skip115
 \afterPoemTitleskip=\skip116
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen151
 \ar@mcellbox=\box53
@@ -135,11 +135,11 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip117
 \backup@length=\skip118
 \ar@cellbox=\box54
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen153
 \TX@old@table=\dimen154
@@ -148,7 +148,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen157
 \TX@cols=\count294
 \TX@ftn=\toks19
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen158
 \lightrulewidth=\dimen159
@@ -204,22 +204,22 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \epigraphrule=\skip133
 LaTeX Info: Redefining \em on input line 7017.
 LaTeX Info: Redefining \emph on input line 7025.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 \c@section@level=\count305
@@ -292,7 +292,7 @@ LaTeX Info: Redefining \flushbottom on input line 8112.
 \c@pagenote=\count309
 \c@pagenoteshadow=\count310
 \mem@pn@lastkern=\skip181
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks23
 \verbatim@line=\toks24
@@ -300,7 +300,7 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 )
 \verbatimindent=\skip182
 \verbatim@out=\write3
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty
 Package: shortvrb 2024/10/23 v3.0q Standard LaTeX documentation package V3 (FMi)
 )
 \bvboxsep=\skip183
@@ -326,7 +326,7 @@ Package: shortvrb 2024/10/23 v3.0q Standard LaTeX documentation package V3 (FMi)
 \c@sheetsequence=\count325
 \c@lastsheet=\count326
 \c@lastpage=\count327
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
@@ -367,34 +367,34 @@ Package tocbibind [2008/07/23] emulated by memoir.
 Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen191
 \Hy@linkcounter=\count332
 \Hy@pagecounter=\count333
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count334
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -407,15 +407,15 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count335
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen192
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count336
@@ -428,7 +428,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -437,48 +437,48 @@ package with kernel methods
 \c@Hfootnote=\count339
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count340
 \c@bookmark@seq@number=\count341
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip191
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
 Package: memhfixc 2025/03/06 v1.23 hyperref package fixes for memoir class
 \c@memhycontfloat=\count342
 \c@mem@Hpagenote=\count343
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count344
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/04/29 v25.8 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count345
 \U@D=\dimen195
 \l@unhyphenated=\language79
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count346
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
@@ -488,9 +488,9 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
 Language: french 2024-07-25 v3.6c French support from the babel system
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
@@ -519,9 +519,9 @@ Package babel Info: Making ? an active character on input line 424.
 \leftmarginFB=\dimen258
 \parindentFFN=\dimen259
 \FBfnindent=\dimen260
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 )
@@ -531,11 +531,11 @@ Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip192
 \enit@outerparindent=\dimen261
@@ -543,7 +543,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box58
 \enit@count@id=\count355
 \enitdp@description=\count356
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count357
 \calc@Bcount=\count358
@@ -592,49 +592,49 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \ABNTEXsignskip=\skip257
 ) (customizacoes-ifrs-osorio.sty
 Package: customizacoes-ifrs-osorio 
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgtermes.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgtermes.sty
 Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+qtm on input line 116.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
 Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (HMM)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
 Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count368
 ) 
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen264
 \Gin@req@width=\dimen265
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 \MT@toks=\toks30
 \MT@tempbox=\box59
@@ -648,20 +648,20 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count370
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip258
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip259
 \LTright=\skip260
@@ -679,9 +679,9 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@tables=\count374
 \c@LT@chunks=\count375
 \LT@p@ftn=\toks32
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count376
@@ -696,14 +696,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen274
 \Gm@layoutvoffset=\dimen275
 \Gm@dimlist=\toks33
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count379
 \l__lipsum_a_int=\count380
 \l__lipsum_b_int=\count381
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count382
 \lst@gtempboxa=\box65
 \lst@token=\toks34
@@ -716,29 +716,29 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \lst@newlines=\count386
 \lst@lineno=\count387
 \lst@maxwidth=\dimen279
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count388
 \lst@skipnumbers=\count389
 \lst@framebox=\box66
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count390
 \float@exts=\toks35
 \float@box=\box67
 \@float@everytoks=\toks36
 \@floatcapt=\box68
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen280
 \captionmargin=\dimen281
@@ -750,7 +750,7 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen287
 Package caption Info: memoir document class detected.
 Package caption Info: french babel package is loaded.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.sto
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.sto
 File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to the memoir document class (AR)
 ))
 \c@caption@flags=\count391
@@ -762,36 +762,36 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
 Package: backref 2023-11-26 v1.44 Bibliographical back referencing
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
 \minimumbiblabelwidth=\skip263
 \ABCIauxlen=\skip264
 \c@ABCIaux=\count393
 \c@ABCImax=\count394
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip265
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks37
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -801,27 +801,27 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks38
 \minrowclearance=\skip266
 \rownum=\count395
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip267
 \multirow@cntb=\count396
 \multirow@dima=\skip268
 \bigstrutjot=\dimen290
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/diagbox\diagbox.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/diagbox\diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
 Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks39
@@ -843,22 +843,22 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \diagbox@insepr=\dimen302
 \diagbox@outsepl=\dimen303
 \diagbox@outsepr=\dimen304
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen305
 \pgfutil@tempdimb=\dimen306
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box72
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks41
 \pgfkeys@temptoks=\toks42
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks43
 ))
 \pgf@x=\dimen307
@@ -881,32 +881,32 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
 \pgf@sys@id@count=\count401
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+))) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count402
 \pgfsyssoftpath@bigbuffer@items=\count403
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen317
 \pgfmath@count=\count404
 \pgfmath@box=\box73
 \pgfmath@toks=\toks47
 \pgfmath@stack@operand=\toks48
 \pgfmath@stack@operation=\toks49
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count405
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen318
 \pgf@picmaxx=\dimen319
@@ -922,75 +922,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen329
 \pgf@zx=\dimen330
 \pgf@zy=\dimen331
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen332
 \pgf@path@lasty=\dimen333
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen334
 \pgf@shorten@start@additional=\dimen335
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box74
 \pgf@hbox=\box75
 \pgf@layerbox@main=\box76
 \pgf@picture@serial@count=\count406
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen336
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen337
 \pgf@pt@y=\dimen338
 \pgf@pt@temp=\dimen339
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen340
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen341
 \pgf@sys@shading@range@num=\count407
 \pgf@shadingcount=\count408
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box77
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+))) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box78
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen342
 \pgf@nodesepend=\dimen343
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen344
 \pgffor@skip=\dimen345
 \pgffor@stack=\toks50
 \pgffor@toks=\toks51
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count409
 \pgfplotmarksize=\dimen346
@@ -1011,26 +1011,26 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count411
 \tikznumberofcurrentchild=\count412
 \tikz@fig@count=\count413
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count414
 \pgfmatrixcurrentcolumn=\count415
 \pgf@matrix@numberofcolumns=\count416
 )
 \tikz@expandcount=\count417
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+))) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen355
-)) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+)) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 203.
@@ -1042,7 +1042,7 @@ Writing index file abntex2-modelo-ifrs-osorio-ads-tcc.idx
 (abntex2-modelo-ifrs-osorio-ads-tcc.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported  on input line 19.
- (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
+ (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-trabalhos-correlatos.aux) (elementos-textuais/capitulo-5-referencial-teorico.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
 \openout1 = `abntex2-modelo-ifrs-osorio-ads-tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
@@ -1068,7 +1068,7 @@ LaTeX Info: Redefining \degres on input line 224.
 LaTeX Info: Redefining \up on input line 224.
 \myptabbox=\box83
 \myptabboxwidth=\skip269
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count418
 \scratchdimen=\dimen356
@@ -1081,10 +1081,10 @@ LaTeX Info: Redefining \up on input line 224.
 \MPnumerator=\count422
 \makeMPintoPDFobject=\count423
 \everyMPtoPDFconversion=\toks53
-) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 224.
@@ -1104,7 +1104,7 @@ LaTeX Info: Redefining \showhyphens on input line 224.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+ (C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 *geometry* driver: auto-detecting
@@ -1150,7 +1150,7 @@ File: imagens/Logo_horizontal_semfundo.png Graphic file (type png)
 Package pdftex.def Info: imagens/Logo_horizontal_semfundo.png  used on input line 241.
 (pdftex.def)             Requested size: 260.17401pt x 89.43481pt.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 241.
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 
@@ -1165,12 +1165,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 [1
 
-{C:/Users/vitor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./imagens/Logo_horizontal_semfundo.png>]
+{C:/Users/parav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./imagens/Logo_horizontal_semfundo.png>]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 250.
 
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1285,19 +1285,15 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 12.
+(Font)              using `T1/ptm/b/n' instead on input line 11.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 12.
+(Font)              using `T1/ptm/b/n' instead on input line 11.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 12.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 12.
+(Font)              using `T1/ptm/b/n' instead on input line 11.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1313,35 +1309,39 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 15.
+(Font)              using `T1/ptm/b/n' instead on input line 13.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 15.
+(Font)              using `T1/ptm/b/n' instead on input line 14.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 15.
+(Font)              using `T1/ptm/b/n' instead on input line 14.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 15.
+(Font)              using `T1/ptm/b/n' instead on input line 14.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 17.
+(Font)              using `T1/ptm/b/n' instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 17.
+(Font)              using `T1/ptm/b/n' instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 17.
+(Font)              using `T1/ptm/b/n' instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 17.
+(Font)              using `T1/ptm/b/n' instead on input line 16.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 18.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1405,19 +1405,19 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 23.
+(Font)              using `T1/ptm/b/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 23.
+(Font)              using `T1/ptm/b/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 23.
+(Font)              using `T1/ptm/b/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 25.
+(Font)              using `T1/ptm/b/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1481,7 +1481,15 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 31.
+(Font)              using `T1/ptm/b/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1494,54 +1502,6 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 31.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 32.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 32.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 32.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 33.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 33.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 33.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 34.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 34.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 34.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 35.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 35.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 35.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
@@ -1824,12 +1784,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 3.
 
-)
+
 
 [13
 
 
-]
+])
 
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported  on input line 347.
@@ -1865,15 +1825,15 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 ]
 
 LaTeX Font Warning: Font shape `T1/ptm/sbc/it' undefined
-(Font)              using `T1/ptm/sbc/n' instead on input line 38.
+(Font)              using `T1/ptm/sbc/n' instead on input line 43.
 
 
 
 [16]
-<imagens/fluxoJira.png, id=355, 1268.74pt x 847.165pt>
+<imagens/fluxoJira.png, id=359, 1268.74pt x 847.165pt>
 File: imagens/fluxoJira.png Graphic file (type png)
 <use imagens/fluxoJira.png>
-Package pdftex.def Info: imagens/fluxoJira.png  used on input line 74.
+Package pdftex.def Info: imagens/fluxoJira.png  used on input line 80.
 (pdftex.def)             Requested size: 334.60422pt x 223.42473pt.
 
 
@@ -1904,7 +1864,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 1.
 
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 7.
-(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
+(C:\Users\parav\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
 
@@ -1913,33 +1873,33 @@ File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 
 
 
-{C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
+{C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
 
 [20]
 
 [21]
-\openout2 = `elementos-textuais/capitulo-4-referencial-teorico.aux'.
+\openout2 = `elementos-textuais/capitulo-4-trabalhos-correlatos.aux'.
 
- (elementos-textuais/capitulo-4-referencial-teorico.tex
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 2.
-
+ (elementos-textuais/capitulo-4-trabalhos-correlatos.tex
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 2.
+(Font)              using `T1/ptm/b/n' instead on input line 1.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 2.
+(Font)              using `T1/ptm/b/n' instead on input line 1.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 2.
+(Font)              using `T1/ptm/b/n' instead on input line 1.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 2.
+(Font)              using `T1/ptm/b/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1.
 
 
 
@@ -1949,194 +1909,176 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 ]
-
-[23]
-
-[24]
-<imagens/graficoPressman.png, id=418, 725.71124pt x 410.2828pt>
-File: imagens/graficoPressman.png Graphic file (type png)
-<use imagens/graficoPressman.png>
-Package pdftex.def Info: imagens/graficoPressman.png  used on input line 63.
-(pdftex.def)             Requested size: 334.60422pt x 189.17061pt.
-
-
-[25])
-
-[26 <./imagens/graficoPressman.png>]
-
-[27]
-\openout2 = `elementos-textuais/capitulo-5-trabalhos-correlatos.aux'.
-
- (elementos-textuais/capitulo-5-trabalhos-correlatos.tex
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
-
-
-[28
-
-
-
-
-]
-<imagens/sisGeoApp.png, id=462, 1387.1825pt x 591.20876pt>
+<imagens/sisGeoApp.png, id=404, 1387.1825pt x 591.20876pt>
 File: imagens/sisGeoApp.png Graphic file (type png)
 <use imagens/sisGeoApp.png>
 Package pdftex.def Info: imagens/sisGeoApp.png  used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 178.25708pt.
-<imagens/sisGeoMapa.png, id=469, 959.585pt x 490.83376pt>
+<imagens/sisGeoMapa.png, id=411, 959.585pt x 490.83376pt>
 File: imagens/sisGeoMapa.png Graphic file (type png)
 <use imagens/sisGeoMapa.png>
 Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
 (pdftex.def)             Requested size: 418.25368pt x 213.93785pt.
 
 
-[29 <./imagens/sisGeoApp.png>]
+[23 <./imagens/sisGeoApp.png>]
 
-[30 <./imagens/sisGeoMapa.png>]
-<imagens/app1.png, id=487, 282.05376pt x 545.03625pt>
+[24 <./imagens/sisGeoMapa.png>]
+<imagens/app1.png, id=429, 282.05376pt x 545.03625pt>
 File: imagens/app1.png Graphic file (type png)
 <use imagens/app1.png>
 Package pdftex.def Info: imagens/app1.png  used on input line 51.
 (pdftex.def)             Requested size: 138.02448pt x 266.72081pt.
-<imagens/app3.png, id=488, 276.03125pt x 547.04375pt>
+<imagens/app3.png, id=430, 276.03125pt x 547.04375pt>
 File: imagens/app3.png Graphic file (type png)
 <use imagens/app3.png>
 Package pdftex.def Info: imagens/app3.png  used on input line 52.
 (pdftex.def)             Requested size: 135.09511pt x 267.74493pt.
-<imagens/app2.png, id=489, 274.02374pt x 547.04375pt>
+<imagens/app2.png, id=431, 274.02374pt x 547.04375pt>
 File: imagens/app2.png Graphic file (type png)
 <use imagens/app2.png>
 Package pdftex.def Info: imagens/app2.png  used on input line 53.
 (pdftex.def)             Requested size: 133.84424pt x 267.20236pt.
 
 
-[31 <./imagens/app1.png> <./imagens/app3.png> <./imagens/app2.png>]
-<imagens/simbaRegistro.png, id=500, 1606.0pt x 744.7825pt>
+[25 <./imagens/app1.png> <./imagens/app3.png> <./imagens/app2.png>]
+<imagens/simbaRegistro.png, id=442, 1606.0pt x 744.7825pt>
 File: imagens/simbaRegistro.png Graphic file (type png)
 <use imagens/simbaRegistro.png>
 Package pdftex.def Info: imagens/simbaRegistro.png  used on input line 79.
 (pdftex.def)             Requested size: 418.25368pt x 193.95708pt.
-<imagens/simbaTrajetoria.png, id=507, 1606.0pt x 749.80125pt>
+<imagens/simbaTrajetoria.png, id=449, 1606.0pt x 749.80125pt>
 File: imagens/simbaTrajetoria.png Graphic file (type png)
 <use imagens/simbaTrajetoria.png>
 Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
 (pdftex.def)             Requested size: 418.25368pt x 195.26407pt.
 
 
-[32]
-<imagens/simbaMonitoramento.png, id=518, 1606.0pt x 734.745pt>
+[26]
+<imagens/simbaMonitoramento.png, id=460, 1606.0pt x 734.745pt>
 File: imagens/simbaMonitoramento.png Graphic file (type png)
 <use imagens/simbaMonitoramento.png>
 Package pdftex.def Info: imagens/simbaMonitoramento.png  used on input line 99.
 (pdftex.def)             Requested size: 418.25368pt x 191.34311pt.
 
 
-[33 <./imagens/simbaRegistro.png>])
+[27 <./imagens/simbaRegistro.png>])
 
-[34 <./imagens/simbaTrajetoria.png>]
+[28 <./imagens/simbaTrajetoria.png>]
 
-[35 <./imagens/simbaMonitoramento.png>]
-\openout2 = `elementos-textuais/capitulo-6-tecnologias.aux'.
+[29 <./imagens/simbaMonitoramento.png>]
+\openout2 = `elementos-textuais/capitulo-5-referencial-teorico.aux'.
 
- (elementos-textuais/capitulo-6-tecnologias.tex
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
-
+ (elementos-textuais/capitulo-5-referencial-teorico.tex
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 1.
+(Font)              using `T1/ptm/b/n' instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 2.
 
 
 
-[36
+[30
 
 
 
 
 ]
 
-[37]
+[31]
+
+[32]
+<imagens/graficoPressman.png, id=514, 725.71124pt x 410.2828pt>
+File: imagens/graficoPressman.png Graphic file (type png)
+<use imagens/graficoPressman.png>
+Package pdftex.def Info: imagens/graficoPressman.png  used on input line 63.
+(pdftex.def)             Requested size: 334.60422pt x 189.17061pt.
+
+
+[33]
+
+[34 <./imagens/graficoPressman.png>]
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 90.
+
+
+
+[35]
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 121.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 144.
+
+
+
+[36]
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 178.
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[38]
-Overfull \hbox (13.69185pt too wide) in paragraph at lines 143--143
+[37]
+Overfull \hbox (13.69185pt too wide) in paragraph at lines 226--226
 []|\T1/qtm/m/n/12 (-20) persistent_bottom_nav_bar| 
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 160--160
+Underfull \hbox (badness 1442) in paragraph at lines 243--243
 []|\T1/qtm/m/n/12 (+20) Anima��o ske-le-ton lo-a-der (pla-cehol-ders en-
  []
 
 
-Overfull \hbox (31.91124pt too wide) in paragraph at lines 131--175
+Overfull \hbox (31.91124pt too wide) in paragraph at lines 214--258
  [][] 
  []
 
 
 
-[39]
+[38]
 Overfull \vbox (154.04897pt too high) has occurred while \output is active []
 
 
 
-[40]
+[39]
 
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 178.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 190.
+LaTeX Font Warning: Font shape `T1/qtm/m/sl' in size <12> not available
+(Font)              Font shape `T1/qtm/m/it' tried instead on input line 261.
 
 
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 207.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 214.
+LaTeX Font Warning: Font shape `T1/qtm/b/sl' in size <12> not available
+(Font)              Font shape `T1/qtm/b/it' tried instead on input line 261.
 
 
 
-[41])
+[40])
 
-[42]
+[41]
+\openout2 = `elementos-textuais/capitulo-6-tecnologias.aux'.
+
+ (elementos-textuais/capitulo-6-tecnologias.tex)
 \openout2 = `elementos-textuais/capitulo-7-estado-atual.aux'.
 
  (elementos-textuais/capitulo-7-estado-atual.tex
@@ -2170,18 +2112,21 @@ Overfull \hbox (4.07133pt too wide) in paragraph at lines 95--96
 
 
 
-[43
+[42
+
+
+
 
 
 
 
 ]
 
-[44]
+[43]
 
-[45])
+[44])
 
-[46]
+[45]
 \openout2 = `elementos-textuais/capitulo-8-resultados.aux'.
 
  (elementos-textuais/capitulo-8-resultados.tex
@@ -2236,19 +2181,19 @@ Overfull \hbox (6.31126pt too wide) in alignment at lines 46--137
 
 
 
-[47
+[46
 
 
 
 
-] [48] [49] [50]
+] [47] [48] [49]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 140.
 
 
 
-[51]
+[50]
 Overfull \hbox (6.31126pt too wide) in alignment at lines 150--155
  [] [] 
  []
@@ -2279,21 +2224,21 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 
-[52]
-<imagens/sistemaWebFaunaMar.png, id=666, 1223.32031pt x 683.55376pt>
+[51]
+<imagens/sistemaWebFaunaMar.png, id=667, 1223.32031pt x 683.55376pt>
 File: imagens/sistemaWebFaunaMar.png Graphic file (type png)
 <use imagens/sistemaWebFaunaMar.png>
 Package pdftex.def Info: imagens/sistemaWebFaunaMar.png  used on input line 204.
 (pdftex.def)             Requested size: 418.25368pt x 233.69855pt.
-<imagens/identidade-app.png, id=671, 330.48468pt x 617.30624pt>
+<imagens/identidade-app.png, id=672, 330.48468pt x 617.30624pt>
 File: imagens/identidade-app.png Graphic file (type png)
 <use imagens/identidade-app.png>
 Package pdftex.def Info: imagens/identidade-app.png  used on input line 212.
 (pdftex.def)             Requested size: 158.34845pt x 295.76509pt.
 
 
-[53 <./imagens/sistemaWebFaunaMar.png>]
-<imagens/paleta-cores.png, id=678, 571.38469pt x 227.34938pt>
+[52 <./imagens/sistemaWebFaunaMar.png>]
+<imagens/paleta-cores.png, id=679, 571.38469pt x 227.34938pt>
 File: imagens/paleta-cores.png Graphic file (type png)
 <use imagens/paleta-cores.png>
 Package pdftex.def Info: imagens/paleta-cores.png  used on input line 220.
@@ -2305,7 +2250,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 
-[54 <./imagens/identidade-app.png> <./imagens/paleta-cores.png>]
+[53 <./imagens/identidade-app.png> <./imagens/paleta-cores.png>]
 <imagens/login-figma.png, id=688, 813.0375pt x 1806.75pt>
 File: imagens/login-figma.png Graphic file (type png)
 <use imagens/login-figma.png>
@@ -2318,52 +2263,52 @@ Package pdftex.def Info: imagens/cadastro-figma.png  used on input line 246.
 (pdftex.def)             Requested size: 159.71404pt x 354.92172pt.
 
 
-[55 <./imagens/login-figma.png> <./imagens/cadastro-figma.png>]
-<imagens/menu-pesquisador-figma.png, id=697, 1125.45468pt x 1204.5pt>
+[54 <./imagens/login-figma.png> <./imagens/cadastro-figma.png>]
+<imagens/menu-pesquisador-figma.png, id=698, 1125.45468pt x 1204.5pt>
 File: imagens/menu-pesquisador-figma.png Graphic file (type png)
 <use imagens/menu-pesquisador-figma.png>
 Package pdftex.def Info: imagens/menu-pesquisador-figma.png  used on input line 261.
 (pdftex.def)             Requested size: 331.62845pt x 354.92172pt.
-<imagens/meus-registros-figma.png, id=699, 1132.98282pt x 1204.5pt>
+<imagens/meus-registros-figma.png, id=700, 1132.98282pt x 1204.5pt>
 File: imagens/meus-registros-figma.png Graphic file (type png)
 <use imagens/meus-registros-figma.png>
 Package pdftex.def Info: imagens/meus-registros-figma.png  used on input line 275.
 (pdftex.def)             Requested size: 333.8467pt x 354.92172pt.
 
 
-[56 <./imagens/menu-pesquisador-figma.png>]
-<imagens/registro-simples-figma.png, id=707, 1665.22125pt x 1204.5pt>
+[55 <./imagens/menu-pesquisador-figma.png>]
+<imagens/registro-simples-figma.png, id=708, 1665.22125pt x 1204.5pt>
 File: imagens/registro-simples-figma.png Graphic file (type png)
 <use imagens/registro-simples-figma.png>
 Package pdftex.def Info: imagens/registro-simples-figma.png  used on input line 292.
 (pdftex.def)             Requested size: 418.2608pt x 325.348pt.
 
 
-[57 <./imagens/meus-registros-figma.png>]
-<imagens/registro-tecnico-figma.png, id=713, 1099.10625pt x 1204.5pt>
+[56 <./imagens/meus-registros-figma.png>]
+<imagens/registro-tecnico-figma.png, id=714, 1099.10625pt x 1204.5pt>
 File: imagens/registro-tecnico-figma.png Graphic file (type png)
 <use imagens/registro-tecnico-figma.png>
 Package pdftex.def Info: imagens/registro-tecnico-figma.png  used on input line 301.
 (pdftex.def)             Requested size: 323.86456pt x 354.92172pt.
 
 
-[58 <./imagens/registro-simples-figma.png>]
-<imagens/registro-pendente-figma.png, id=720, 543.53062pt x 1204.5pt>
+[57 <./imagens/registro-simples-figma.png>]
+<imagens/registro-pendente-figma.png, id=721, 543.53062pt x 1204.5pt>
 File: imagens/registro-pendente-figma.png Graphic file (type png)
 <use imagens/registro-pendente-figma.png>
 Package pdftex.def Info: imagens/registro-pendente-figma.png  used on input line 313.
 (pdftex.def)             Requested size: 160.15767pt x 354.92172pt.
 
 
-[59 <./imagens/registro-tecnico-figma.png>]
-<imagens/avaliar-registro-figma.png, id=727, 1659.95157pt x 1204.5pt>
+[58 <./imagens/registro-tecnico-figma.png>]
+<imagens/avaliar-registro-figma.png, id=728, 1659.95157pt x 1204.5pt>
 File: imagens/avaliar-registro-figma.png Graphic file (type png)
 <use imagens/avaliar-registro-figma.png>
 Package pdftex.def Info: imagens/avaliar-registro-figma.png  used on input line 327.
 (pdftex.def)             Requested size: 418.25429pt x 325.348pt.
 
 
-[60 <./imagens/registro-pendente-figma.png>]
+[59 <./imagens/registro-pendente-figma.png>]
 <imagens/ver-registro-figma.png, id=736, 535.2497pt x 1204.5pt>
 File: imagens/ver-registro-figma.png Graphic file (type png)
 <use imagens/ver-registro-figma.png>
@@ -2376,51 +2321,51 @@ Package pdftex.def Info: imagens/ve-registro-enviado-figma.png  used on input li
 (pdftex.def)             Requested size: 158.16125pt x 354.92172pt.
 
 
-[61 <./imagens/avaliar-registro-figma.png>]
-<imagens/perfil-figma.png, id=744, 2515.89937pt x 1806.75pt>
+[60 <./imagens/avaliar-registro-figma.png>]
+<imagens/perfil-figma.png, id=745, 2515.89937pt x 1806.75pt>
 File: imagens/perfil-figma.png Graphic file (type png)
 <use imagens/perfil-figma.png>
 Package pdftex.def Info: imagens/perfil-figma.png  used on input line 364.
 (pdftex.def)             Requested size: 418.25342pt x 313.51183pt.
 
 
-[62 <./imagens/ver-registro-figma.png> <./imagens/ve-registro-enviado-figma.png>]
-<imagens/fauna-local-figma.png, id=752, 1112.65688pt x 1204.5pt>
+[61 <./imagens/ver-registro-figma.png> <./imagens/ve-registro-enviado-figma.png>]
+<imagens/fauna-local-figma.png, id=753, 1112.65688pt x 1204.5pt>
 File: imagens/fauna-local-figma.png Graphic file (type png)
 <use imagens/fauna-local-figma.png>
 Package pdftex.def Info: imagens/fauna-local-figma.png  used on input line 377.
 (pdftex.def)             Requested size: 327.85742pt x 354.92172pt.
 
 
-[63 <./imagens/perfil-figma.png>]
-<imagens/esqueceu-senha-figma.png, id=759, 2521.16907pt x 1806.75pt>
+[62 <./imagens/perfil-figma.png>]
+<imagens/esqueceu-senha-figma.png, id=760, 2521.16907pt x 1806.75pt>
 File: imagens/esqueceu-senha-figma.png Graphic file (type png)
 <use imagens/esqueceu-senha-figma.png>
 Package pdftex.def Info: imagens/esqueceu-senha-figma.png  used on input line 389.
 (pdftex.def)             Requested size: 418.24467pt x 313.51183pt.
 
 
-[64 <./imagens/fauna-local-figma.png>]
+[63 <./imagens/fauna-local-figma.png>]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 396.
 
-<imagens/prototipo-navegavel-figma.png, id=766, 1356.56813pt x 505.13719pt>
+<imagens/prototipo-navegavel-figma.png, id=767, 1356.56813pt x 505.13719pt>
 File: imagens/prototipo-navegavel-figma.png Graphic file (type png)
 <use imagens/prototipo-navegavel-figma.png>
 Package pdftex.def Info: imagens/prototipo-navegavel-figma.png  used on input line 409.
 (pdftex.def)             Requested size: 418.25368pt x 155.73534pt.
 
 
-[65 <./imagens/esqueceu-senha-figma.png>]
-<imagens/itensMes.png, id=774, 687.56876pt x 458.71375pt>
+[64 <./imagens/esqueceu-senha-figma.png>]
+<imagens/itensMes.png, id=775, 687.56876pt x 458.71375pt>
 File: imagens/itensMes.png Graphic file (type png)
 <use imagens/itensMes.png>
 Package pdftex.def Info: imagens/itensMes.png  used on input line 433.
 (pdftex.def)             Requested size: 418.25368pt x 279.03804pt.
 
 
-[66 <./imagens/prototipo-navegavel-figma.png>]
+[65 <./imagens/prototipo-navegavel-figma.png>]
 <imagens/burnup-jira.jpeg, id=782, 755.82375pt x 654.445pt>
 File: imagens/burnup-jira.jpeg Graphic file (type jpg)
 <use imagens/burnup-jira.jpeg>
@@ -2428,41 +2373,41 @@ Package pdftex.def Info: imagens/burnup-jira.jpeg  used on input line 450.
 (pdftex.def)             Requested size: 418.25368pt x 362.15277pt.
 
 
-[67 <./imagens/itensMes.png>]
-<imagens/tempo-médio-cards.png, id=790, 592.2125pt x 394.47375pt>
+[66 <./imagens/itensMes.png>]
+<imagens/tempo-médio-cards.png, id=791, 592.2125pt x 394.47375pt>
 File: imagens/tempo-médio-cards.png Graphic file (type png)
 <use imagens/tempo-médio-cards.png>
 Package pdftex.def Info: imagens/tempo-médio-cards.png  used on input line 465.
 (pdftex.def)             Requested size: 418.25368pt x 278.60963pt.
 
 
-[68 <./imagens/burnup-jira.jpeg>]
+[67 <./imagens/burnup-jira.jpeg>]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 473.
 
 (elementos-textuais/tabela-cards-jira.tex
 
-[69 <./imagens/tempo-médio-cards.png>] [70] [71] [72])
+[68 <./imagens/tempo-médio-cards.png>] [69] [70] [71])
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 482.
 
-(elementos-textuais/tabela-fixes-jira.tex [73] [74] [75])
+(elementos-textuais/tabela-fixes-jira.tex [72] [73] [74])
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 495.
 
-(elementos-textuais/tabela-melhorias-jira.tex [76] [77])
+(elementos-textuais/tabela-melhorias-jira.tex [75] [76])
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 515.
 
 )
 
-[78]
+[77]
 
-[79]
+[78]
 \openout2 = `elementos-textuais/conclusao.aux'.
 
  (elementos-textuais/conclusao.tex
@@ -2488,7 +2433,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[80
+[79
 
 
 
@@ -2505,15 +2450,15 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 bibitemlist
 
 
-[81
+[80
 
 
 
 ]
 
-[82])
+[81])
 
-[83]
+[82]
 \openout2 = `elementos-pos-textuais/apendices/apendice-a.aux'.
 
  (elementos-pos-textuais/apendices/apendice-a.tex
@@ -2539,7 +2484,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[84
+[83
 
 
 ]
@@ -2568,7 +2513,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[85
+[84
 
 
 
@@ -2599,7 +2544,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[86
+[85
 
 
 
@@ -2630,7 +2575,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[87
+[86
 
 
 
@@ -2661,7 +2606,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[88
+[87
 
 
 
@@ -2678,7 +2623,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(abntex2-modelo-ifrs-osorio-ads-tcc.aux (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-referencial-teorico.aux) (elementos-textuais/capitulo-5-trabalhos-correlatos.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
+(abntex2-modelo-ifrs-osorio-ads-tcc.aux (elementos-textuais/capitulo-2-metodologia.aux) (elementos-textuais/capitulo-3-cronograma.aux) (elementos-textuais/capitulo-4-trabalhos-correlatos.aux) (elementos-textuais/capitulo-5-referencial-teorico.aux) (elementos-textuais/capitulo-6-tecnologias.aux) (elementos-textuais/capitulo-7-estado-atual.aux) (elementos-textuais/capitulo-8-resultados.aux) (elementos-textuais/conclusao.aux) (elementos-pos-textuais/apendices/apendice-a.aux) (elementos-pos-textuais/apendices/apendice-b.aux) (elementos-pos-textuais/anexos/anexo-a.aux) (elementos-pos-textuais/anexos/anexo-b.aux) (elementos-pos-textuais/anexos/anexo-c.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2688,20 +2633,20 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `abntex2-modelo-ifrs-osorio-ads-tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 9A180F2CAA4BA39D0527A7E50FC15E0B;2538.
+(rerunfilecheck)             Checksum: 745A7177DA5DECA68D0CBA884F52CA93;2667.
  ) 
 Here is how much of TeX's memory you used:
- 36255 strings out of 469941
- 689636 string characters out of 5469431
- 1246216 words of memory out of 5000000
- 61899 multiletter control sequences out of 15000+600000
- 690227 words of font info for 188 fonts, out of 8000000 for 9000
+ 36272 strings out of 469941
+ 690634 string characters out of 5469430
+ 1246417 words of memory out of 5000000
+ 61908 multiletter control sequences out of 15000+600000
+ 698989 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,107p,1647b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (89 pages, 8898297 bytes).
+ 99i,14n,107p,1658b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\parav\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/parav/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (88 pages, 8921512 bytes).
 PDF statistics:
- 1257 PDF objects out of 1440 (max. 8388607)
+ 1265 PDF objects out of 1440 (max. 8388607)
  241 named destinations out of 1000 (max. 500000)
- 32392 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 37008 words of extra memory for PDF output out of 42996 (max. 10000000)
 

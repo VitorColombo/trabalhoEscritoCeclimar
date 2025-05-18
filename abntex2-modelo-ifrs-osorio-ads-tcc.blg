@@ -5,10 +5,10 @@ Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-2-metodologia.aux
 Reallocating 'name_of_file' (item size: 1) to 45 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-3-cronograma.aux
-Reallocating 'name_of_file' (item size: 1) to 54 items.
-A level-1 auxiliary file: elementos-textuais/capitulo-4-referencial-teorico.aux
 Reallocating 'name_of_file' (item size: 1) to 55 items.
-A level-1 auxiliary file: elementos-textuais/capitulo-5-trabalhos-correlatos.aux
+A level-1 auxiliary file: elementos-textuais/capitulo-4-trabalhos-correlatos.aux
+Reallocating 'name_of_file' (item size: 1) to 54 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-5-referencial-teorico.aux
 Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: elementos-textuais/capitulo-6-tecnologias.aux
 Reallocating 'name_of_file' (item size: 1) to 47 items.
@@ -43,33 +43,33 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: elementos-pos-textuais/referencias.bib
 Warning--entry type for "onu2015agenda2030" isn't style-file defined
---line 373 of file elementos-pos-textuais/referencias.bib
+--line 745 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "onu2015ods" isn't style-file defined
---line 382 of file elementos-pos-textuais/referencias.bib
+--line 763 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "plataforma2024sissgeo" isn't style-file defined
---line 409 of file elementos-pos-textuais/referencias.bib
+--line 817 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "sibbr2024" isn't style-file defined
---line 425 of file elementos-pos-textuais/referencias.bib
+--line 849 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "playstore2024" isn't style-file defined
---line 487 of file elementos-pos-textuais/referencias.bib
+--line 973 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "govbr2024" isn't style-file defined
---line 495 of file elementos-pos-textuais/referencias.bib
+--line 989 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "android2024" isn't style-file defined
---line 503 of file elementos-pos-textuais/referencias.bib
+--line 1005 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "petrobras_simba_2024" isn't style-file defined
---line 524 of file elementos-pos-textuais/referencias.bib
+--line 1047 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "hive2025" isn't style-file defined
---line 532 of file elementos-pos-textuais/referencias.bib
+--line 1063 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "flutterDocs2025" isn't style-file defined
---line 540 of file elementos-pos-textuais/referencias.bib
+--line 1079 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "dartDocs2025" isn't style-file defined
---line 548 of file elementos-pos-textuais/referencias.bib
+--line 1095 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "firebase2025" isn't style-file defined
---line 556 of file elementos-pos-textuais/referencias.bib
+--line 1111 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "excel_flutter" isn't style-file defined
---line 572 of file elementos-pos-textuais/referencias.bib
+--line 1143 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "graphic_flutter" isn't style-file defined
---line 580 of file elementos-pos-textuais/referencias.bib
+--line 1159 of file elementos-pos-textuais/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.

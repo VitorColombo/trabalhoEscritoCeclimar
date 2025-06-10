@@ -1,0 +1,121 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: abntex2-modelo-ifrs-osorio-ads-tcc.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-2-metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 55 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-4-trabalhos-correlatos.aux
+Reallocating 'name_of_file' (item size: 1) to 54 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-5-referencial-teorico.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: elementos-textuais/capitulo-8-resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: elementos-textuais/conclusao.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+Reallocating 'name_of_file' (item size: 1) to 48 items.
+A level-1 auxiliary file: elementos-pos-textuais/apendices/apendice-a.aux
+Reallocating 'name_of_file' (item size: 1) to 48 items.
+A level-1 auxiliary file: elementos-pos-textuais/apendices/apendice-b.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: elementos-pos-textuais/anexos/anexo-a.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: elementos-pos-textuais/anexos/anexo-b.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: elementos-pos-textuais/anexos/anexo-c.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: elementos-pos-textuais/referencias.bib
+Warning--entry type for "onu2015agenda2030" isn't style-file defined
+--line 373 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "onu2015ods" isn't style-file defined
+--line 382 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "plataforma2024sissgeo" isn't style-file defined
+--line 409 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "sibbr2024" isn't style-file defined
+--line 425 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "playstore2024" isn't style-file defined
+--line 498 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "govbr2024" isn't style-file defined
+--line 506 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "android2024" isn't style-file defined
+--line 514 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "petrobras_simba_2024" isn't style-file defined
+--line 535 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "hive2025" isn't style-file defined
+--line 543 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "flutterDocs2025" isn't style-file defined
+--line 551 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "dartDocs2025" isn't style-file defined
+--line 559 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "firebase2025" isn't style-file defined
+--line 567 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "excel_flutter" isn't style-file defined
+--line 583 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "graphic_flutter" isn't style-file defined
+--line 591 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "atlassian_jira_2025" isn't style-file defined
+--line 646 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "google_scholar_2025" isn't style-file defined
+--line 654 of file elementos-pos-textuais/referencias.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 38 entries,
+            6714 wiz_defined-function locations,
+            1421 strings with 15791 characters,
+and the built_in function-call counts, 43432 in all, are:
+= -- 4958
+> -- 642
+< -- 985
++ -- 1233
+- -- 207
+* -- 2529
+:= -- 5491
+add.period$ -- 180
+call.type$ -- 38
+change.case$ -- 298
+chr.to.int$ -- 60
+cite$ -- 37
+duplicate$ -- 4126
+empty$ -- 2216
+format.name$ -- 962
+if$ -- 8952
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 668
+newline$ -- 209
+num.names$ -- 180
+pop$ -- 847
+preamble$ -- 1
+purify$ -- 120
+quote$ -- 0
+skip$ -- 4223
+stack$ -- 1
+substring$ -- 1880
+swap$ -- 1520
+text.length$ -- 30
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 246
+width$ -- 0
+write$ -- 587
+(There were 16 warnings)

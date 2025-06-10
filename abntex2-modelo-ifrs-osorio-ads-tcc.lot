@@ -1,19 +1,22 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Cronograma de desenvolvimento — Cinza: Planejamento inicial, Azul: Replanejamento, Vermelho: Prazos adiados.}}{21}{table.caption.13}%
-\contentsline {table}{\numberline {2}{\ignorespaces Dependências do Projeto \textit {Flutter}}}{39}{table.caption.21}%
-\contentsline {table}{\numberline {3}{\ignorespaces Contagem e porcentagem de ocorrências por canal de comunicação}}{43}{table.caption.22}%
-\contentsline {table}{\numberline {4}{\ignorespaces Requisitos funcionais do sistema}}{47}{table.7.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Requisitos não funcionais do sistema}}{51}{table.7.5}%
-\contentsline {table}{\numberline {6}{\ignorespaces Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{69}{table.7.6}%
-\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{70}{table.7.6}%
-\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{71}{table.7.6}%
-\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{72}{table.7.6}%
-\contentsline {table}{\numberline {7}{\ignorespaces Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{72}{table.7.7}%
-\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{73}{table.7.7}%
-\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{74}{table.7.7}%
-\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{75}{table.7.7}%
-\contentsline {table}{\numberline {8}{\ignorespaces Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{75}{table.7.8}%
-\contentsline {table}{\numberline {8}{\ignorespaces (Continuação) Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{76}{table.7.8}%
-\contentsline {table}{\numberline {8}{\ignorespaces (Continuação) Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{77}{table.7.8}%
-\contentsline {table}{\numberline {9}{\ignorespaces Estrutura de collections do banco de dados}}{77}{table.caption.42}%
+\contentsline {table}{\numberline {1}{\ignorespaces Cronograma de desenvolvimento — Cinza: Planejamento inicial, Azul: Replanejamento, Vermelho: Prazos adiados.}}{22}{table.caption.13}%
+\contentsline {table}{\numberline {2}{\ignorespaces Dependências do Projeto \textit {Flutter}}}{40}{table.caption.21}%
+\contentsline {table}{\numberline {3}{\ignorespaces Contagem e porcentagem de ocorrências por canal de comunicação}}{44}{table.caption.22}%
+\contentsline {table}{\numberline {4}{\ignorespaces Requisitos funcionais do sistema}}{47}{table.5.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Requisitos não funcionais do sistema}}{51}{table.5.5}%
+\contentsline {table}{\numberline {6}{\ignorespaces Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{69}{table.5.6}%
+\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{70}{table.5.6}%
+\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{71}{table.5.6}%
+\contentsline {table}{\numberline {6}{\ignorespaces (Continuação) Registro de desenvolvimento geral (Ordenado por Data de Entrega)}}{72}{table.5.6}%
+\contentsline {table}{\numberline {7}{\ignorespaces Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{72}{table.5.7}%
+\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{73}{table.5.7}%
+\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{74}{table.5.7}%
+\contentsline {table}{\numberline {7}{\ignorespaces (Continuação) Registro de Correções (Fixes) (Ordenado por Data de Entrega)}}{75}{table.5.7}%
+\contentsline {table}{\numberline {8}{\ignorespaces Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{75}{table.5.8}%
+\contentsline {table}{\numberline {8}{\ignorespaces (Continuação) Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{76}{table.5.8}%
+\contentsline {table}{\numberline {8}{\ignorespaces (Continuação) Registro de Débitos Técnicos e Melhorias (Ordenado por Data de Entrega)}}{77}{table.5.8}%
+\contentsline {table}{\numberline {9}{\ignorespaces Campos da coleção \texttt {users}}}{102}{table.caption.60}%
+\contentsline {table}{\numberline {10}{\ignorespaces Campos da subcoleção \texttt {users/\{id\}/registers}}}{104}{table.caption.61}%
+\contentsline {table}{\numberline {11}{\ignorespaces Campos da coleção \texttt {animals}}}{105}{table.caption.62}%
+\contentsline {table}{\numberline {12}{\ignorespaces Campos da coleção \texttt {counters}}}{106}{table.caption.63}%

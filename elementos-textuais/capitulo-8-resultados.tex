@@ -2,6 +2,137 @@
 Este capítulo demonstra os artefatos produzidos para o \textit{software}, incluindo 
 as informações associadas desde a análise até os testes.
 
+% ----------------------------------------------------------
+\section{Diagnóstico do Processo Atual} \label{chapter:diagnostico}
+% ----------------------------------------------------------
+% MARCELO 17/05: esse capítulo é um resultado das entrevistas, sendo utilizado para a construção dos requisitos. 
+% Pode unir como seção no próximo capítulo
+% VITOR 20/05: OK
+\subsection{Visão Geral do Processo Atual}
+
+Com base em informações obtidas através de entrevistas e conversar com os profissionais do CECLIMAR, foi possível 
+identificar e mapear o processo atual de coleta e registro de dados da fauna marinha no litoral do Rio Grande do Sul.
+
+Hoje, o CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade, 
+por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. O processo 
+ocorre de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. Esta abordagem envolve 
+diversas etapas intermediárias e tarefas manuais realizadas por diferentes profissionais, trazendo
+uma maior probabilidade de erros e inconsistências nos dados coletados, além de aumentar o tempo
+de processamento e análise das informações.
+
+\subsection{Descrição do Fluxo de Trabalho Atual}
+
+O fluxo de trabalho pode ser descrito em etapas principais:
+
+\begin{enumerate}
+    \item \textbf{Envio de dados:} Os participantes enviam fotos e informações descritivas a partir de diversas fontes.
+    \item \textbf{Triagem inicial:} Um pesquisador analisa as mensagens recebidas por meio de análise manual em cada uma das fontes e seleciona os dados relevantes.
+    \item \textbf{Registro:} A bolsista transcreve os dados válidos para uma planilha eletrônica.
+    \item \textbf{Armazenamento de imagens:} As fotos dos registros são manualmente salvas em uma pasta no Google Drive com o id do registro na tabela.
+    \item \textbf{Validação:} O gestor revisa periodicamente os dados para verificar consistências e erros.
+\end{enumerate}
+
+A Figura~\ref{fig:fluxo_detalhado} apresenta o fluxo de trabalho atual de maneira esquemática, 
+destacando as principais etapas e interações entre os envolvidos no processo de coleta e registro de dados.
+Como é possível ver na Tabela~\ref{tab:contagem_ocorrencias}, atualmente, a maioria (48,45\%) dos dados 
+é coletada via \citeonline{whatsApp}, mas esses envios também ocorrem por outras plataformas 
+como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{instagram2025}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    \textbf{Canal}     & \textbf{Quantidade} & \textbf{Porcentagem} \\
+    \hline
+    Ligação     & 860  & 21,52\% \\
+    E-mail       & 343  & 8,59\%  \\
+    Facebook    & 703  & 17,60\% \\
+    WhatsApp    & 1935 & 48,45\% \\
+    Instagram   & 153  & 3,83\%  \\
+    \hline
+    \textbf{Total}     & 3994 & 100\% \\
+    \hline
+    \end{tabular}
+    \caption{Contagem e porcentagem de ocorrências por canal de comunicação}
+    \label{tab:contagem_ocorrencias}
+    \legend{Fonte: Autor}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=1cm]
+    
+    \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+    \tikzstyle{input} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=yellow!30]
+    \tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+    \tikzstyle{storage} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=purple!30]
+    \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+    \tikzstyle{arrow} = [thick,->,>=stealth]
+    
+    \node (whatsapp) [input] {WhatsApp};
+    \node (email) [input, below left=1cm of whatsapp] {Email};
+    \node (instagram) [input, below=1.2cm of email] {Instagram};
+    \node (facebook) [input, below right=1cm of whatsapp] {Facebook};
+    \node (call) [input, below=1.2cm of facebook] {Ligação};
+    
+    \node (triage) [process, below=4.3cm of whatsapp] {Triagem por Pesquisador};
+    
+    \node (valid) [decision, below=1.2cm of triage] {Dados válidos?};
+    
+    \node (discard) [startstop, right=2cm of valid] {Descartar Registro};
+    \node (refactor) [startstop, left=2cm of valid] {Reestruturar Registro};
+    
+    \node (record) [process, below=1cm of valid] {Registro em Planilha (Bolsista)};
+    \node (storage) [storage, below=1cm of record] {Armazenamento de Fotos (Google Drive)};
+    \node (review) [process, below=1cm of storage] {Validação periódica (Gestor)};
+
+    \draw [arrow] (whatsapp) -- (triage);
+    \draw [arrow] (email) -- (triage);
+    \draw [arrow] (instagram) -- (triage);
+    \draw [arrow] (facebook) -- (triage);
+    \draw [arrow] (call) -- (triage);
+    
+    \draw [arrow] (triage) -- (valid);
+    \draw [arrow] (valid) -- node[above] {Não} (discard);
+    \draw [arrow] (valid) -- node[above] {Não} (refactor);
+    \draw [arrow] (valid) -- node[right] {Sim} (record);
+    \draw [arrow] (record) -- (storage);
+    \draw [arrow] (storage) -- (review);
+    \draw [arrow] (refactor) -- (record);
+    \draw [arrow, bend right=45] (review.east) to (valid.east);
+
+    \end{tikzpicture}
+    \caption{Fluxograma detalhado do processo atual de coleta e registro de dados no CECLIMAR.}
+    \legend{Fonte: Autor}
+    \label{fig:fluxo_detalhado}
+\end{figure}
+    
+\subsection{Problemas Identificados}
+
+Os principais problemas observados neste fluxo incluem:
+
+\begin{itemize}
+    \item Risco de erros humanos durante transcrição dos dados.
+    
+    \item Dificuldade de padronização nas descrições enviadas.
+    \begin{itemize}
+        \item Para que a tabela automatizada funcione, os dados precisam estar exatamente iguais.
+        \item Erros de digitação na taxônomia dos animais.
+        \item Problemas com formatações de campos.
+    \end{itemize}
+    
+    \item Atraso no tempo de registro e análise das ocorrências.
+    
+    \item Necessidade de revisões periódicas para manter a qualidade dos dados.
+    
+    \item Falta de integração entre os dados (planilha e fotos separadas).
+    
+    \item Necessidade de acesso a múltiplas fontes para avaliar os registros.
+    
+    \item Pouca visibilidade da participação da comunidade no projeto.
+\end{itemize}
+
+
 \section{Levantamento de Requisitos}
 
 O levantamento de requisitos foi essencial para compreender as necessidades do projeto e orientar o 
@@ -395,7 +526,7 @@ apresentado nesta tela foi o mesmo utilizado em outras telas do aplicativo.
 
 \subsection{Desenvolvimento do Protótipo Navegável}
 
-Utilizando a ferramenta \textit{Figma} (versão gratuita \textit{online}), foi desenvolvido um
+Utilizando a ferramenta Figma (versão gratuita \textit{online}), foi desenvolvido um
 protótipo navegável de média/alta fidelidade. Essa etapa permitiu visualizar os fluxos de 
 interação entre o usuário e o sistema, antecipar ajustes necessários e alinhar as funcionalidades 
 às expectativas.
@@ -407,14 +538,13 @@ como referência visual para a fase de implementação (Figura~\ref{fig:prototip
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{imagens/prototipo-navegavel-figma.png}
-    \caption{Captura de tela do protótipo navegável desenvolvido no \textit{Figma}.}
+    \caption{Captura de tela do protótipo navegável desenvolvido no Figma.}
     \label{fig:prototipo-fluxo-navegacao}
 \end{figure}
 \legend{Fonte: Autor}
 
 \section{Projeto Gerencial}
-% descrever o fluxo de trabalho documentado no Jira, com cards
-A gerência desse projeto foi realizada utilizando a ferramenta \textit{Jira}, que possibilitou o
+A gerência desse projeto foi realizada utilizando a ferramenta Jira, que possibilitou o
 controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho
 descrito na \hyperref[sec:metodologia-desenv-software]{Seção de metodologia} deste trabalho foi 
 seguido para garantir a organização e a eficiência
@@ -431,7 +561,7 @@ onde o número de \textit{cards} criados foi maior que 18.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{imagens/itensMes.png}
-    \caption{Gráfico demonstrativo de \textit{cards} criados por mês no \textit{Jira}. As 
+    \caption{Gráfico demonstrativo de \textit{cards} criados por mês no Jira. As 
     barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas.
     As barras em vermelho representam demandas que ainda estavam em aberto.}
     \label{gra:cards-mes}
@@ -448,7 +578,7 @@ com a criação de bugs e novas demandas que surgiram durante o desenvolvimento.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{imagens/burnup-jira.jpeg}
-    \caption{Gráfico demonstrativo de \textit{cards} vs resolvidos no \textit{Jira}}
+    \caption{Gráfico demonstrativo de \textit{cards} vs resolvidos no Jira}
     \label{gra:cards-vs-resolvidos}
 \end{figure}
 \legend{Fonte: Autor}
@@ -463,7 +593,7 @@ cards de melhoria no \textit{Backlog} que foram criados e não priorizados.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{imagens/tempo-médio-cards.png}
-    \caption{Gráfico demonstrativo de tempo de resolução médio dos \textit{cards} por semana no \textit{Jira}}
+    \caption{Gráfico demonstrativo de tempo de resolução médio dos \textit{cards} por semana no Jira}
     \label{gra:tempo-medio-resolucao}
 \end{figure}
 \legend{Fonte: Autor}
@@ -474,7 +604,7 @@ atuações necessárias para atuar em cada uma delas.
 Esses cards representam demandas que passaram por etapas de planejamento e refinamento, 
 refletindo as histórias de usuário e tarefas técnicas previstas ou requisitadas durante o desenvolvimento.
 A Tabela~\ref{tab:desenv_geral_sorted} apresenta esse conjunto de funcionalidades. Ao todo foram 66 demandas
-send 62 concluídas e 4 que ainda estão no \textit{Backlog}.
+sendo 62 concluídas e 4 que ainda estão no \textit{Backlog}.
 
 % manter essa tabela aqui ou colocar no anexo?
 \input{elementos-textuais/tabela-cards-jira.tex}
@@ -509,23 +639,565 @@ dos quais 8 foram resolvidos e 11 ainda estão no \textit{Backlog}.
 
 \section{Implementação do Sistema}
 % descrever a implementação do sistema, com detalhes técnicos e decisões de projeto.
-% incluir imagens de telas, fluxos de navegação, etc.
 % fazer relações com o projeto gerencial e com os requisitos funcionais e não funcionais.
+Nesta seção, iremos abordar a codificação do aplicativo e apresentar o produto final gerado após  
+as entrevistas, desenvolvimento, ajustes de funcionamento e correções de \textit{bugs}.
 
-\subsection{Banco de Dados}
+O aplicativo FaunaMar foi desenvolvido utilizando uma arquitetura modular baseada no padrão \textit{MVC} 
+(Model-View-Controller), que promove a separação clara entre as responsabilidades da aplicação. 
+A camada Model sendo responsável pelos dados e pela comunicação com o banco, enquanto a View, trata 
+da interface e interação com o usuário e a Controller gerencia a lógica de negócio e coordena a 
+comunicação entre as outras duas. Além disso, foram desenvolvidos widgets personalizados reutilizáveis, 
+aplicados em diversos pontos da interface, com o objetivo de padronizar elementos visuais e reduzir a 
+duplicação de código facilitando alterações na interface. Essa estrutura segue princípios fundamentais 
+da engenharia de software, como coesão, baixo acoplamento e reutilização de componentes, o 
+que contribui para a escalabilidade do sistema e a manutenção do código.
+
+As funcionalidades do sistema foram construídas de maneira independente,
+permitindo que as alterações e melhorias possam ser implementadas de forma isolada, 
+sem impactar outras partes do sistema. Existem dois tipos de usuários no sistema, os usuários comuns, 
+chamados de cientistas cidadãos, e os pesquisadores, que são os profissionais que validam os dados 
+enviados. 
+
+As principais seções do aplicativo incluem:
+
+\begin{itemize}
+    \item \textbf{Login/Cadastro:} autenticação e criação de contas de usuários;
+    \item \textbf{Menu Inicial:} tela de acesso rápido às funcionalidades principais;
+    \item \textbf{Envio de Registros:} seção destinada ao cadastro de novos avistamentos de fauna, é possível enviar dois tipos de registros, um simples e outro técnico;
+    \item \textbf{Painel de Registros:} seção que centraliza informações sobre os registros enviados, permitindo visualização, filtragem e exportação de dados;
+    \item \textbf{Meus Registros:} seção onde o usuário pode acompanhar e gerenciar os registros enviados por ele;
+    \item \textbf{Avaliar Registro:} seção exclusiva para pesquisadores, para análise e validação de dados enviados por todos os usuários;
+    \item \textbf{Fauna Local:} catálogo externo de espécies da fauna marinha local;
+    \item \textbf{Meu Perfil:} seção de visualização e edição de informações pessoais do usuário;
+    \item \textbf{Adicionar Pesquisador:} seção exclusiva para pesquisadores, permitindo a inclusão de novos usuários com perfil de pesquisador;
+    \item \textbf{Sobre o app:} informações sobre a versão e créditos do projeto.
+\end{itemize}
+
+A seguir, cada uma dessas seções será apresentada com suas respectivas telas, fluxos de interação, 
+decisões de projeto e aspectos técnicos sobre o funcionamento do sistema.
+
+\subsection{Splashscreen}
+Foi gerada uma \textit{splashscreen} para o aplicativo, essa tela traz o logo do projeto 
+Fauna Marinha RS e é apresentada durante o carregamento completo do aplicativo 
+para que o usuário tenha um feedback visual de que o aplicativo está sendo iniciado (Figura~\ref{fig:splashscreen}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imagens/sistema/device_frame/splashscreen.png}
+    \caption{\textit{Splashscreen} do aplicativo.}
+    \label{fig:splashscreen}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Login e Cadastro}
+Após a \textit{splashscreen}, caso o usuário não tenha feito login previamente, ele 
+é direcionado para a tela de login. Esta tela apresenta as seguintes opções: login com e-mail e senha, login via 
+conta Google, realizar cadastro e recuperar senha (Figura~\ref{fig:login}).
+
+A Figura~\ref{fig:fluxo-login-cadastro} apresenta o diagrama de fluxo que resume o processo de autenticação 
+do aplicativo, abrangendo os principais caminhos possíveis, como login com diferentes provedores, 
+recuperação de senha e cadastro de novos usuários. Esse diagrama auxilia na compreensão geral 
+da navegação inicial e da lógica de acesso implementada no sistema.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{diagrams/fluxograma_login-cadatro.pdf}
+    \caption{Diagrama de fluxo do processo de autenticação e cadastro no aplicativo.}
+    \label{fig:fluxo-login-cadastro}
+\end{figure}
+\legend{Fonte: Autor}
+
+Em ambos os provedores de login, o processo de autenticação é realizado por meio do Firebase Authentication,
+para garantir a segurança e a privacidade dos dados do usuário. A autenticação via Google
+é implementada utilizando o pacote \texttt{google\_sign\_in}, que permite integração com a conta Google do usuário, 
+facilitando o acesso ao aplicativo. O forumulário de login possui validações para garantir que o usuário
+informe um e-mail em formato válido (com "@" e ".com"), e uma senha que atenda o padrão esperado (Figura~\ref{fig:login-erro}).
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/login.png}
+        \caption{Tela de login com formulário de entrada.}
+        \label{fig:login}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/formularioLogin_erro.png}
+        \caption{Exemplo de erro de validação do formulário de login.}
+        \label{fig:login-erro}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+O Firebase Authentication utiliza uma versão internamente modificada do algoritmo \textit{Scrypt} 
+para realizar o \textit{hash} das senhas dos usuários \cite{firebaseScrypt2023}. Durante o processo de registro, 
+ao criar uma senha, o sistema aplica uma função de \textit{hash} criptográfica à senha fornecida, gerando uma sequência 
+de caracteres única, conhecida como \textit{hash}. Segundo \citeonline{Serafim2012}, “o \textit{hash} é irreversível. Não 
+há informação suficiente no valor do \textit{hash} h para recuperar a mensagem m”, o que assegura que a senha 
+original não possa ser obtida a partir do valor armazenado. Essa abordagem está em conformidade com a Lei Geral 
+de Proteção de Dados (LGPD), que exige que dados pessoais, como senhas, sejam tratados de 
+forma segura e responsável \cite{BRASIL2018lgpd}.
+
+Apenas o \textit{hash} gerado é armazenado no banco de dados, vinculado ao identificador do usuário. No momento do login, 
+a senha fornecida é novamente processada pela mesma função de \textit{hash} e comparada ao valor armazenado. Caso os dois 
+hashes coincidam, a autenticação é concluída com sucesso, caso contrário, o acesso é negado.
+
+Para evitar duplicidade de contas e oferecer maior flexibilidade ao usuário, optou-se pela utilização da 
+funcionalidade de vinculação de contas do Firebase. Essa funcionalidade permite que, 
+quando um usuário tenta se autenticar com um provedor (por exemplo, e-mail e senha) usando um endereço de 
+e-mail que já está associado a outro provedor (como o Google Sign-In), 
+o Firebase automaticamente une esses métodos de login em uma única chave de usuário.
+
+Caso o usuário tenha esquecido a senha, ele pode solicitar a recuperação por meio do e-mail cadastrado.
+Para isso, o usuário deve clicar em "Esqueci minha senha" na tela de login, que irá realizar o 
+redirecionamento para a tela de recuperação de senha (Figura~\ref{fig:esqueci-senha}). Após a inserção e validação 
+do e-mail, o aplicativo envia um e-mail de recuperação com um link seguro para redefinir a senha 
+(Figuras~\ref{fig:email-esqueci-senha-sucesso} e ~\ref{fig:email-esqueci-senha}). Todo esse processo 
+é realizado utilizando métodos do Firebase Authentication, que permite gerenciar o envio do e-mail e realiza 
+o processo de substituição da senha antiga pela nova.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/recuperarSenha.png}
+        \caption{Tela de recuperação de senha.}
+        \label{fig:esqueci-senha}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/recuperarSenhaEnvio.png}
+        \caption{Tela de recuperação de senha após e-mail enviado.}
+        \label{fig:email-esqueci-senha-sucesso}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/emailRecSenha.png}
+        \caption{E-mail personalizado de recuperação de senha.}
+        \label{fig:email-esqueci-senha}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+Para usuários que ainda não possuem uma conta, a tela de cadastro (Figura~\ref{fig:cadastro})
+oferece a opção de criar uma nova conta. O cadastro é realizado por meio de um formulário com validação 
+(Figura~\ref{fig:cadastro-erro}) que exige apenas dados básicos necessários para o funcionamento do sistema, 
+como nome, e-mail e senha, evitando a coleta excessiva de informações pessoais conforme as diretrizes da 
+LGPD \cite{BRASIL2018lgpd}. Todos os usuários criados por essa tela serão registrados inicialmente como usuários 
+comuns.
+A senha deve atender aos critérios de segurança, incluindo pelo menos um caractere especial, uma letra minúscula, 
+uma letra maiúscula e deve possuir, no mínimo, 6 caracteres. Após o cadastro bem sucedido, o usuário 
+é autenticado e redirecionado para o menu inicial da aplicação.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/cadastro.png}
+        \caption{Tela de cadastro de usuário com formulário simples.}
+        \label{fig:cadastro}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/formularioCadastro_erro.png}
+        \caption{Exemplo de mensagens de erro na validação do formulário de cadastro.}
+        \label{fig:cadastro-erro}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Menu Inicial e Barra de Navegação}
+Com o usuário autenticado, o aplicativo exibe o menu inicial (Figura~\ref{fig:menu-inicial-user}),
+que centraliza todas as funcionalidades do sistema em um \textit{grid} 4x2. Nele estão dispostos \textit{cards} 
+padronizados com o nome e ícones representativos para cada uma das funcionalidades existentes para facilitar a 
+navegação do usuário. 
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/menuCidadao.png}
+        \caption{Tela de Menu Inicial com funcionalidades liberadas para usuários comuns.}
+        \label{fig:menu-inicial-user}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/menuPesquisador.png}
+        \caption{Tela de Menu Inicial com funcionalidades exclusivas de pesquisadores.}
+        \label{fig:menu-inicial-admin}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+Este menu possui variações que dependem do tipo de usuário autenticado e da conexão do 
+dispositivo com a internet. Se o usuário for um cientista cidadão, ele terá acesso apenas às funcionalidades 
+básicas de "Meus Registros", "Meu Perfil", "Novo Registro", "Fauna Local" e "Painel de Registros".
+
+Por outro lado, se o usuário for um pesquisador, ele terá acesso às funcionalidades adicionais 
+de "Avaliar Registros" e "Adicionar Pesquisador" (Figura~\ref{fig:menu-inicial-admin}), porém essas 
+funcionalidades só estarão disponíveis se o dispositivo estiver conectado à internet, 
+pois dependem de acesso ao banco de dados remoto para funcionar corretamente. A Figura~\ref{fig:menu-pesq-off}
+apresenta o estado do menu inicial quando essas funcionalidades estão desabilitadas. Os \textit{cards}
+das funcionalidades em questão dão lugar a um outro que informa que elas estão indisponíveis por 
+falta de conexão com a internet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/menuPesquisadorOff.png}
+    \caption{Tela de menu inicial com funcionalidades restritas para pesquisadores.}
+    \label{fig:menu-pesq-off}
+\end{figure}
+\legend{Fonte: Autor}
+
+O aplicativo apresenta também conta com uma barra de navegação inferior fixa que apenas não está presente 
+nas telas de login e cadastro. Ela contém botões de acesso rápido com texto e ícones representativos de 
+cada funcionalidade, permitindo que o usuário navegue facilmente entre as principais seções do aplicativo. 
+
+A barra é composta por cinco elementos principais. O primeiro botão, da esquerda para a direita é o de 
+"Início", representado por um ícone de casa, que redireciona o usuário ao "Menu Inicial" da aplicação. 
+O segundo botão, "Registros", representado por um ícone de lista e leva à tela de "Meus registros". 
+Centralizado na barra existe um botão flutuante com um ícone de "+", que permite que o usuário acesse 
+rapidamente um formulário para envio de um registro. O quarto botão é o de "Perfil", identificado por um 
+ícone de usuário ele redireciona para a tela de "Meu Perfil". E, por último, o botão "Sobre", indicado por 
+um ícone de informação, redireciona para a tela de "Sobre o app".
+
+É possível identificar em qual seção o usuário está no momento, pois o ícone se torna preenchido na coloração
+preta, enquanto os demais ícones permanecem no formato vazado (Figura~\ref{fig:navbar}). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagens/sistema/device_frame/navBar.png}
+    \caption{Barra de navegação fixa com o início selecionado.}
+    \label{fig:navbar}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Meus Registros}
+A tela de "Meus Registros" é onde o usuário pode visualizar todos os registros enviados por ele, 
+tanto os que foram validados quanto os que ainda estão pendentes de avaliação.
+Essa tela apresenta uma lista de registros que possui \textit{scroll} vertical, essa lista é populada por
+registros ordenados por data de envio, do mais recente para o mais antigo, e são exibidos em blocos de
+informações que incluem o nome popular do animal, a cidade onde foi avistado, a data de envio e o status de 
+validação e uma imagem representativa (Figura~\ref{fig:meus-registros}).
+
+As informações dos registros, junto com suas imagens, são baixadas do banco de dados remoto, e 
+guardadas em cache local para trazer uma melhor performance na navegação do usuário e permitir que 
+ele possa visualizar os registros mesmo quando estiver sem conexão com a internet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/meusregistrosTodos.png}
+    \caption{Tela de meus registros apresentando os registros cadastrados pelo usuário em lista vertical.}
+    \label{fig:meus-registros}
+\end{figure}
+\legend{Fonte: Autor}
+
+Nessa tela o usuário pode realizar a filtragem dos registros baseado nos seus status de validação,
+podendo escolher entre "Todos", "Validado" e "Enviado". Por padrão, a tela é carregada com o filtro de "Todos" 
+selecionada e apresenta ambos os status. Porém, caso o usuário deseje, o filtro de "Validado" irá mostrar apenas
+registros já foram avaliados por um pesquisador e que possuem as informações conferidas, estes são 
+representados com um ponto verde ao lado do nome do animal (Figura~\ref{fig:meus-registros-validado}). 
+Enquanto o filtro de "Enviado" irá apenas mostrar registros que ainda não foram avaliados, são representados 
+com um ponto amarelo ao lado do nome do animal (Figura~\ref{fig:meus-registros-enviado}).
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/meusregistrosValidado.png}
+        \caption{Tela de Meus Registros com filtro de "Validado" aplicado.}
+        \label{fig:meus-registros-validado}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/meusregistrosEnviado.png}
+        \caption{Tela de Meus Registros com filtro de "Enviado" aplicado.}
+        \label{fig:meus-registros-enviado}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Novo Registro}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.90\textheight]{diagrams/fluxograma_registro.pdf}
+    \caption{Fluxograma de geração de novo registro.}
+    \label{fig:fluxo-novo-registro}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Avaliar Registro}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.90\textheight]{diagrams/fluxograma_avaliar_registro.pdf}
+    \caption{Fluxograma de avaliação de registro.}
+    \label{fig:fluxo-avaliar-registro}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Painel de Registros}
+
+\subsection{Adicionar Pesquisador}
+A funcionalidade de "Adicionar Pesquisador" é exclusiva para usuários com perfil de pesquisador e só 
+está disponível quando o dispositivo está conectado à internet e permite que um pesquisador adicione 
+novos usuários ao sistema com o perfil de pesquisador ou conceda permissões de pesquisador a usuários 
+comuns já cadastrados. O fluxo dessa funcionalidade é apresentado na Figura~\ref{fig:fluxo-adicionar-pesquisador}.
+
+A tela de "Adicionar Pesquisador" apresenta um formulário onde o pesquisador pode inserir o nome e o e-mail 
+do usuário que deseja adicionar ou conceder a \textit{role} de pesquisador (Figura~\ref{fig:adicionar-pesquisador}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.7\textheight]{imagens/sistema/device_frame/cadastrarPesq.png}
+    \caption{Tela de Cadastrar Pesquisador.}
+    \label{fig:adicionar-pesquisador}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.90\textheight]{diagrams/fluxograma_adicionar_pesq.pdf}
+    \caption{Fluxograma de adição de pesquisador.}
+    \label{fig:fluxo-adicionar-pesquisador}
+\end{figure}
+\legend{Fonte: Autor}
+
+Caso o usuário já esteja cadastrado no sistema, o sistema irá apresentar uma \textit{bottomsheet} informando 
+que o usuário já existe e perguntará se o usuário deseja realmente conceder a \textit{role} de pesquisador para ele, caso o usuário aceite,
+o sistema irá atualizar as permissões do usuário e informar que a ação foi realizada com sucesso 
+(Figura~\ref{fig:cadastrarPesquisador-ja-existente}).
+
+Caso o e-mail informado não esteja cadastrado, o sistema irá criar um novo usuário com as informações 
+fornecidas e gerar uma senha temporária aleatória para ele, que será apresentada em tela com opção de 
+copiar para a área de transferência (Figura~\ref{fig:cadastrarPesquisador-sucesso}).
+Essa senha temporária deve ser informada pelo novo usuário ao realizar o primeiro login, onde ele poderá 
+alterar a senha para uma de sua escolha.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/cadastrarPesqSucesso.png}
+        \caption{Tela de Cadastrar Pesquisador com senha aleatória gerada e mensagem de sucesso.}
+        \label{fig:cadastrarPesquisador-sucesso}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/cadastrarPesqJaExistente.png}
+        \caption{\textit{Bottomsheet} de confirmação para conceder \textit{role} de pesquisador para o e-mail já cadastrado.}
+        \label{fig:cadastrarPesquisador-ja-existente}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Fauna Local}
+Para a seção de fauna local, foi decidido que, em um primeiro momento,
+seria utilizado o acervo externo do projeto Fauna Marinha RS, que já possui um catálogo bem documentado 
+de espécies registradas no litoral gaúcho, com material didático e imagens representativas de cada espécie.
+Sendo assim, o card de "Fauna Local" no menu inicial redireciona o usuário para o site do projeto 
+para navegacao externa (Figura ~\ref{fig:fauna_local}).
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[height=0.7\textheight]{imagens/sistema/device_frame/faunaLocal.png}
+    \caption{Tela da página de fauna local do projeto Fauna Marinha RS.}
+    \label{fig:fauna_local}
+\end{figure}
+\legend{Fonte: Autor}
+
+
+\subsection{Sobre o app}
+A tela de "Sobre o app" apresenta a versão da build do aplicativo e
+informações sobre o projeto Fauna Marinha RS, sobre o aplicativo e seu desenvolvimento separadas em \textit{accordions}.
+Além disso, traz ícones com \textit{links} externos para as redes sociais do projeto,
+como Instagram, Facebook, YouTube, Spotify, Telegram e para a caixa de e-mail, permitindo que os 
+usuários acompanhem as atualizações e possam entrar em contato com a equipe do projeto (Figura~\ref{fig:sobre-app}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.7\textheight]{imagens/sistema/device_frame/sobre_app.png}
+    \caption{Tela de Sobre o app, apresentando \textit{accordions} com informações do projeto e links para redes sociais.}
+    \label{fig:sobre-app}
+\end{figure}
+\legend{Fonte: Autor}
+
+\subsection{Armazenamento de Dados}
+A estrutura do banco de dados do aplicativo foi implementada no Firebase Firestore e organizada 
+em coleções com responsabilidades individuais e índices de consulta específicos para melhor performance. 
+
+A coleção de \textit{users} armazena os dados básicos dos usuários cadastrados. 
+Cada documento dessa coleção representa um usuário e cada usuário possui atrelado a ele 
+uma subcoleção com seus registros (~\ref{tab:firestore-users}).
+Nessa coleção, foi utilizada uma técnica de desnormalização de dados, 
+onde campos como \texttt{mammalsFound}, \texttt{reptilesFound} e \texttt{birdsFound} 
+são armazenados diretamente no documento do usuário, para evitar a necessidade 
+de uma consulta na subcoleção de registros para obter esses dados e, posteriormente, 
+atualizá-los.
+
+Essa abordagem foi vantajosa para a funcionalidade de Meu Perfil, onde 
+o usuário pode visualizar rapidamente as estatísticas de sua conta com apenas 
+uma consulta ao documento do usuário.
+
 \begin{table}[H]
     \centering
-    \caption{Estrutura de collections do banco de dados}
-    \label{tab:estrutura-dados}
-    \begin{tabular}{|p{3cm}|p{10cm}|}
-    \hline
-    \textbf{Collection} & \textbf{Descrição} \\ \hline
-    \texttt{counters} & Armazena contadores gerais (ex.: número total de animais cadastrados e registros realizados). \\ \hline
-    \texttt{animals} & Armazena todas as espécies já registradas no sistema, com dados taxonômicos completos. \\ \hline
-    \texttt{users} & Armazena informações dos usuários. Cada usuário contém uma subcollection \texttt{registers} com seus registros individuais. \\ \hline
+    \caption{Campos da coleção \texttt{users}}
+    \label{tab:firestore-users}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|
+                    >{\raggedright\arraybackslash}p{2cm}|
+                    >{\raggedright\arraybackslash}p{7cm}|}
+        \hline
+        \textbf{Campo} & \textbf{Tipo} & \textbf{Descrição} \\ \hline
+        \texttt{name} & string & Nome completo do usuário \\ \hline
+        \texttt{email} & string & E-mail do usuário \\ \hline
+        \texttt{profileImageUrl} & string & URL da imagem de perfil \\ \hline
+        \texttt{createdAt} & timestamp & Data e hora de criação do perfil \\ \hline
+        \texttt{role} & string & Papel do usuário no sistema \\ \hline
+        \texttt{birdsFound} & number & Número de registros com aves validados que foram enviados pelo usuário \\ \hline
+        \texttt{mammalsFound} & number & Número de registros com mamíferos validados que foram enviados pelo usuário \\ \hline
+        \texttt{reptilesFound} & number & Número de registros com répteis validados que foram enviados pelo usuário \\ \hline
+        \texttt{registers} & subcoleção & Coleção com os registros enviados pelo usuário \\ \hline
+    \end{tabular}
+\end{table}
+
+A subcoleção de \textit{registers} se encontra dentro de cada documento de usuário e armazena
+todos os registros enviados por aquele usuário. Cada registro é armazenado como um documento
+dentro dessa subcoleção, permitindo que cada usuário tenha seus registros 
+organizados de forma individualizada (Tabela~\ref{tab:subcolecao-registers}).
+
+Essa abordagem foi adotada com o intuito de possibilitar consultas mais 
+rápidas e eficientes quando o sistema precisar buscar por registros de um 
+usuário específico, uma vez que o Firestore não precisará iterar sobre uma coleção 
+global de registros, mas sim acessar diretamente a subcoleção pelo \texttt{path} 
+\texttt{user/\{id\}/registers}, onde \texttt{\{id\}} é o ID do usuário. Essa medida também 
+traz escalabilidade ao sistema, pois cada usuário terá sua própria
+subcoleção de registros, e as consultas não serão afetadas pelo número 
+total de registros, mas sim pelo número de registros de cada usuário individualmente.
+
+Uma inicial desvantagem dessa abordagem seria a necessidade de realizar 
+consultas para obter todos os registros do sistema já que eles estão 
+distribuídos em várias subcoleções.
+Porém, o Firestore oferece a funcionalidade de \textit{collection group queries},
+que permite a realização de consultas em todas as subcoleções de um tipo específico.
+Essa funcionalidade foi especialmente usada para implementação do painel 
+de registros e avaliar registros, onde é necessário acessar
+todos os registros enviados por todos os usuários.
+
+Outro ponto onde a desnormalização foi empregada para economizar o número de 
+leituras e trazer mais rapidez nas consultas foi na adição dos campos de 
+\texttt{authorName} e \texttt{userId}
+em cada registro, que são preenchidos automaticamente com os dados do usuário
+que enviou o registro. Essa abordagem faz com que, ao listar registros para um 
+usuário, não seja necessário realizar uma nova consulta no documento do usuário 
+para cada item da lista.
+
+\begin{table}[H]
+    \centering
+    \caption{Campos da subcoleção \texttt{users/\{id\}/registers}}
+    \label{tab:subcolecao-registers}
+    \begin{tabular}{|p{4cm}|p{2cm}|p{7cm}|}
+        \hline
+        \textbf{Campo} & \textbf{Tipo} & \textbf{Descrição} \\ \hline
+        \texttt{registerNumber} & string & Número identificador único do registro \\ \hline
+        \texttt{animal} & map & Dados taxonômicos do animal registrado \\ \hline
+        \texttt{authorName} & string & Nome do usuário que realizou o registro \\ \hline
+        \texttt{userId} & string & ID do usuário que realizou o registro (referência à coleção \texttt{users}) \\ \hline
+        \texttt{date} & string & Data e hora do registro no formato ISO \\ \hline
+        \texttt{location.latitude} & string & Latitude geográfica do local do registro \\ \hline
+        \texttt{location.longitude} & string & Longitude geográfica do local do registro \\ \hline
+        \texttt{status} & string & Status do registro \\ \hline
+        \texttt{city} & string & Cidade onde ocorreu o registro \\ \hline
+        \texttt{beachSpot} & string & Número da guarita \\ \hline
+        \texttt{witnessed} & boolean & Indica se o animal foi testemunhado encalhando \\ \hline
+        \texttt{hour} & string & Hora do encalhe \\ \hline
+        \texttt{obs} & string & Observações adicionais feitas pelo usuário \\ \hline
+        \texttt{referencePoint} & string & Ponto de referência \\ \hline
+        \texttt{registerImageUrl} & string & URL da imagem principal do animal \\ \hline
+        \texttt{registerImageUrl2} & string & URL de uma imagem adicional \\ \hline
+        \texttt{sampleState} & number & Estado de decomposição do animal \\ \hline
+        \texttt{specialistReturn} & string & Retorno de um especialista \\ \hline
     \end{tabular}
 \end{table}
 \legend{Fonte: Autor}
+
+Além dos índices padrão criados pelo Firestore para os 
+campos utilizados em filtros (\textit{where}) e ordenações (\textit{orderBy}),
+foram criados índices personalizados para a subcoleção registers, com o 
+objetivo de garantir melhor desempenho em consultas específicas e operações 
+de filtragem. Esses índices incluem:
+
+\begin{itemize}
+    \item \texttt{register.animal.species}: para habilitar buscas por espécie de animal dentro da 
+    estrutura do objeto animal. Permitindo identificar todos os registros de uma determinada
+    espécie.
+    \item \texttt{register.date}: para habilitar buscas de registros ordenados por data em ordem 
+    crescente ou decrescente, auxiliando na exibição de listas de registros.
+    \item \texttt{register.registerNumber}: para permitir buscas por número de registro, possibilitando 
+    uma consulta rápida de um registro específico.
+\end{itemize}
+
+A coleção de \textit{animals} armazena informações sobre as espécies de animais
+registradas no sistema, incluindo dados taxonômicos e imagens representativas de cada espécie (Tabela~\ref{tab:firestore-animals}).
+Essa coleção é utilizada para fornecer informações detalhadas sobre as espécies
+e para gerar uma padronização nas avaliações dos registros.
+
+Os dados inicialmente inseridos nessa coleção são provenientes de materiais internos fornecidos
+pelo CECLIMAR e são utilizados no sistema como carga para os inputs de seleção 
+dos campos taxonômicos nos formulários de envio e avaliação de registros.
+O sistema também permite que novos animais sejam adicionados à coleção
+por pesquisadores, caso uma espécie nova seja encontrada e não esteja presente
+na base de dados. 
+
+\begin{table}[H]
+    \centering
+    \caption{Campos da coleção \texttt{animals}}
+    \label{tab:firestore-animals}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|
+                    >{\raggedright\arraybackslash}p{2cm}|
+                    >{\raggedright\arraybackslash}p{7cm}|}
+        \hline
+        \textbf{Campo} & \textbf{Tipo} & \textbf{Descrição} \\ \hline
+        \texttt{id} & number & Identificador do animal \\ \hline
+        \texttt{popularName} & string & Nome popular da espécie \\ \hline
+        \texttt{scientificName} & string & Nome científico da espécie \\ \hline
+        \texttt{class} & string & Classe taxonômica \\ \hline
+        \texttt{order} & string & Ordem taxonômica \\ \hline
+        \texttt{family} & string & Família taxonômica \\ \hline
+        \texttt{genus} & string & Gênero taxonômico \\ \hline
+        \texttt{species} & string & Espécie taxonômica \\ \hline
+        \texttt{quantity} & number & Quantidade de vezes que a espécie foi identificada em registros \\ \hline
+        \texttt{imageUrl} & string & URL de imagem da espécie \\ \hline
+    \end{tabular}
+\end{table}
+
+A coleção de \textit{counters} é utilizada para armazenar contadores gerais 
+do sistema, como o número total de registros feitos e o número total de 
+espécies cadastradas (Tabela~\ref{tab:firestore-counters}).
+
+\begin{table}[H]
+    \centering
+    \caption{Campos da coleção \texttt{counters}}
+    \label{tab:firestore-counters}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{6cm}|
+                    >{\raggedright\arraybackslash}p{2cm}|
+                    >{\raggedright\arraybackslash}p{5cm}|}
+        \hline
+        \textbf{Campo} & \textbf{Tipo} & \textbf{Descrição} \\ \hline
+        \texttt{registerCounter.count} & number & Contador total de registros feitos no sistema \\ \hline
+        \texttt{animalCounter.generalCounter} & number & Contador total de espécies cadastradas \\ \hline
+    \end{tabular}
+\end{table}
 
 \section{Execução de Testes e Verificação de Qualidade}
 

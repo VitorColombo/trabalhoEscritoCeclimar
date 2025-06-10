@@ -1,14 +1,14 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo de trabalho do \textit {Jira} gerado para o desenvolvimento do projeto.}}{17}{figure.caption.12}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Interface do sistema SISS-Geo.}}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Recorte da região costeira do litoral norte do Rio Grande do Sul.}}{24}{figure.caption.15}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Interface do Sistema Urubu.}}{25}{figure.caption.16}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Captura de tela de uma página \textit {web} de registro de visualização de ocorrências cadastradas no SIMBA.}}{27}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Captura de tela de um mapa georreferenciado gerado a partir dos dados de jornada de monitoramento cadastrado no SIMBA.}}{28}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Captura de tela da página \textit {web} de monitoramento cadastrada no SIMBA.}}{29}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Ciclo de desenvolvimento incremental.}}{34}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma detalhado do processo atual de coleta e registro de dados no CECLIMAR.}}{44}{figure.caption.23}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo de trabalho do \textit {Jira} gerado para o desenvolvimento do projeto.}}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Interface do sistema SISS-Geo.}}{24}{figure.caption.14}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Recorte da região costeira do litoral norte do Rio Grande do Sul.}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Interface do Sistema Urubu.}}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Captura de tela de uma página \textit {web} de registro de visualização de ocorrências cadastradas no SIMBA.}}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Captura de tela de um mapa georreferenciado gerado a partir dos dados de jornada de monitoramento cadastrado no SIMBA.}}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Captura de tela da página \textit {web} de monitoramento cadastrada no SIMBA.}}{30}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ciclo de desenvolvimento incremental.}}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma detalhado do processo atual de coleta e registro de dados no CECLIMAR.}}{45}{figure.caption.23}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Identidade visual do sistema web do projeto Fauna Marinha RS.}}{52}{figure.caption.24}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Identidade visual prototipada.}}{53}{figure.caption.25}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Paleta de cores utilizada.}}{53}{figure.caption.26}%
@@ -25,7 +25,31 @@
 \contentsline {figure}{\numberline {23}{\ignorespaces Protótipo da tela de perfil do usuário com conquistas e histórico.}}{62}{figure.caption.35}%
 \contentsline {figure}{\numberline {24}{\ignorespaces Protótipo da tela de fauna local (esquerda) e detalhes da espécie (direita).}}{63}{figure.caption.36}%
 \contentsline {figure}{\numberline {25}{\ignorespaces Protótipo da tela de recuperação de senha: formulário (esquerda), sucesso (centro) e erro de validação (direita).}}{64}{figure.caption.37}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Captura de tela do protótipo navegável desenvolvido no \textit {Figma}.}}{65}{figure.caption.38}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Gráfico demonstrativo de \textit {cards} criados por mês no \textit {Jira}. As barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas. As barras em vermelho representam demandas que ainda estavam em aberto.}}{66}{figure.caption.39}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Gráfico demonstrativo de \textit {cards} vs resolvidos no \textit {Jira}}}{67}{figure.caption.40}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Gráfico demonstrativo de tempo de resolução médio dos \textit {cards} por semana no \textit {Jira}}}{68}{figure.caption.41}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Captura de tela do protótipo navegável desenvolvido no Figma.}}{65}{figure.caption.38}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Gráfico demonstrativo de \textit {cards} criados por mês no Jira. As barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas. As barras em vermelho representam demandas que ainda estavam em aberto.}}{66}{figure.caption.39}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Gráfico demonstrativo de \textit {cards} vs resolvidos no Jira}}{67}{figure.caption.40}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Gráfico demonstrativo de tempo de resolução médio dos \textit {cards} por semana no Jira}}{68}{figure.caption.41}%
+\contentsline {figure}{\numberline {30}{\ignorespaces \textit {Splashscreen} do aplicativo.}}{79}{figure.caption.42}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Diagrama de fluxo do processo de autenticação e cadastro no aplicativo.}}{80}{figure.caption.43}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Tela de login com formulário de entrada.}}{81}{figure.caption.44}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Exemplo de erro de validação do formulário de login.}}{81}{figure.caption.44}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Tela de recuperação de senha.}}{83}{figure.caption.45}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Tela de recuperação de senha após e-mail enviado.}}{84}{figure.caption.46}%
+\contentsline {figure}{\numberline {36}{\ignorespaces E-mail personalizado de recuperação de senha.}}{84}{figure.caption.46}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Tela de cadastro de usuário com formulário simples.}}{85}{figure.caption.47}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Exemplo de mensagens de erro na validação do formulário de cadastro.}}{85}{figure.caption.47}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Tela de Menu Inicial com funcionalidades liberadas para usuários comuns.}}{86}{figure.caption.48}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Tela de Menu Inicial com funcionalidades exclusivas de pesquisadores.}}{86}{figure.caption.48}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Tela de menu inicial com funcionalidades restritas para pesquisadores.}}{88}{figure.caption.49}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Barra de navegação fixa com o início selecionado.}}{89}{figure.caption.50}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Tela de meus registros apresentando os registros cadastrados pelo usuário em lista vertical.}}{90}{figure.caption.51}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Tela de Meus Registros com filtro de "Validado" aplicado.}}{91}{figure.caption.52}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Tela de Meus Registros com filtro de "Enviado" aplicado.}}{91}{figure.caption.52}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Fluxograma de geração de novo registro.}}{92}{figure.caption.53}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Fluxograma de avaliação de registro.}}{94}{figure.caption.54}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Tela de Cadastrar Pesquisador.}}{96}{figure.caption.55}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Fluxograma de adição de pesquisador.}}{97}{figure.caption.56}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Tela de Cadastrar Pesquisador com senha aleatória gerada e mensagem de sucesso.}}{99}{figure.caption.57}%
+\contentsline {figure}{\numberline {51}{\ignorespaces \textit {Bottomsheet} de confirmação para conceder \textit {role} de pesquisador para o e-mail já cadastrado.}}{99}{figure.caption.57}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Tela da página de fauna local do projeto Fauna Marinha RS.}}{100}{figure.caption.58}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Tela de Sobre o app, apresentando \textit {accordions} com informações do projeto e links para redes sociais.}}{101}{figure.caption.59}%

@@ -1,6 +1,99 @@
 \chapter{Resultados Obtidos}
-Este capítulo demonstra os artefatos produzidos para o \textit{software}, incluindo 
-as informações associadas desde a análise até os testes.
+
+Neste capítulo, são apresentados os resultados obtidos, iniciando com a comparação entre o planejamento e a execução do projeto (Seção \ref{cronograma}), sendo seguida pela descrição de como ocorria o processo manual de registro. Posteriormente, é apresentada os requisitos, a prototipação da interface, a descrição da implementação do sistema e pela execução de testes.
+
+
+\section{Evolução Temporal do Projeto}\label{cronograma}
+% MARCELO 17/05: UNIR COM A SEÇÃO DO CAPÍTULO ANTERIOR.
+% VITOR 20/05: OK
+% VITOR 07/06: o que acha desse titulo?
+
+A Tabela ~\ref{tab:cronograma} representa a trajetória de 
+desenvolvimento do projeto ao longo de 16 meses, bem como as divergências e 
+replanejamentos que foram realizados no decorrer do tempo. O trabalho teve seu 
+início no dia 28 de março de 2024, com a realização de uma reunião de definição 
+de escopo junto do orientador Marcelo Paravisi. No dia 1º de abril, deu-se 
+continuidade com a definição do tema, em uma reunião externa com um membro do 
+CECLIMAR. Essa etapa foi fundamental para delimitar o foco do trabalho e aprofundar 
+a compreensão das dificuldades, necessidades, oportunidades e pontos críticos do projeto
+
+Os meses seguintes, de maio a julho de 2024, foram dedicados à revisão bibliográfica 
+e à definição metodológica. A definição metodológica se deu durante o mês de maio 
+tendo início no dia 06, enquanto a parte de revisão bibliográfica se iniciou no 
+dia 05 do mesmo mês e foi finalizada no final de julho. 
+
+O levantamento de requisitos e regras de negócio se deu a partir do dia 10 de 
+maio e se estendeu até o final de agosto para que os alinhamentos de definições 
+com a equipe do CECLIMAR fossem mais abertos e constantes. É importante ressaltar 
+que durante o desenvolvimento houve mudanças de funcionalidades e ajustes de regras 
+de negócio durante o período de testes que fizeram com que fosse necessário 
+revisitar esse tópico. 
+
+Esse período inicial de estruturação se mostrou essencial para assegurar uma base 
+sólida para iniciar o desenvolvimento. A parte de desenvolvimento técnica se 
+iniciou com a organização da implementação do sistema no dia 20 de maio de 2024 
+e, com base nisso, se iniciou a codificação do aplicativo no dia 1º de julho do mesmo ano. 
+
+Inicialmente, o desenvolvimento tinha um planejamento de conclusão para o final 
+de outubro, porém, embora as atividades tenham progredido conforme o cronograma, 
+em uma reunião com o orientador do projeto foi decido realizar uma alteração no 
+cronograma adicionando uma etapa de testes disponibilizando a aplicação com 
+testadores tanto do projeto parceiro, como terceiros que contribuíram para que 
+a aplicação adquirisse uma maturidade maior. Com isso, o prazo final de codificação 
+foi replanejado para o início de maio de 2025 (Tabela ~\ref{tab:cronograma}).
+
+A parte de redação da parte escrita do trabalho de conclusão foi iniciada 
+no mês de junho para obter uma documentação mais precisa 
+do processo e estava planejada para ser concluída até o final de novembro 
+de 2024, porém, também foi afetada pelo replanejamento. Em vermelho na 
+Tabela ~\ref{tab:cronograma} podemos ver que esta etapa foi realizada dentro 
+do prazo previsto até o mes de outubro, porém em novembro foi adiada para maio 
+e junho para priorizar a conclusão da codificação e o aprimoramento da qualidade 
+da aplicação.
+O desenvolvimento continuou sendo a atividade central até maio de 2025, acompanhado 
+de execuções constantes de testes. No mês de maio de 2025 a redação do trabalho 
+retornou e se estendeu, junto da revisão textual, até o final de junho para ser 
+entregue dentro da data máxima de 26 de junho. A apresentação para a banca até o 
+momento havia sido definida, porém tem prazo máximo de 11 de julho de 2025.
+
+Esse cronograma evidencia o fluxo de trabalho realizado desde o início do 
+planejamento do projeto, bem como as alterações ocorridas durante seu desenvolvimento. 
+Para a elaboração desse material, foi fundamental que os períodos de escrita e codificação 
+estivessem bem alinhados, permitindo traçar e documentar, com maior precisão, a linha do 
+tempo apresentada, desde o início até a entrega final planejada.
+
+%VITOR 20/05: a tabela realmente ficou bem representativa? 
+\begin{table}[ht]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|>{\bfseries}l|*{11}{>{\centering\arraybackslash}p{1.6cm}|}}
+\hline
+\rowcolor{gray!20}
+Meses & \rotatebox{90}{Reunião def. de escopo} & \rotatebox{90}{Definição de tema} & \rotatebox{90}{Revisão bibliográfica} & \rotatebox{90}{Def. metodológica} & \rotatebox{90}{Levantamento de requisitos  } & \rotatebox{90}{Organização de implementação} & \rotatebox{90}{Desenvolvimento} & \rotatebox{90}{Redação de TCC} & \rotatebox{90}{Revisão textual} & \rotatebox{90}{Apresentação} & \rotatebox{90}{Testes} \\ \hline
+Mar/24 & \cellcolor{gray!30} & & & & & & & & & & \\ \hline
+Abr/24 & & \cellcolor{gray!30} & & & & & & & & & \\ \hline
+Mai/24 & & & \cellcolor{gray!30} & \cellcolor{gray!30} & \cellcolor{gray!30} & \cellcolor{gray!30} & & & & & \\ \hline
+Jun/24 & & & \cellcolor{gray!30} & & \cellcolor{gray!30} & \cellcolor{gray!30} & & \cellcolor{gray!30} & & & \\ \hline
+Jul/24 & & & \cellcolor{gray!30} & & \cellcolor{gray!30} & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & \\ \hline
+Ago/24 & & & & & \cellcolor{gray!30} & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & \\ \hline
+Set/24 & & & & & & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & \\ \hline
+Out/24 & & & & & & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & \\ \hline
+Nov/24 & & & & & & & \cellcolor{blue!30} & \cellcolor{red!30} & \cellcolor{red!30} & & \\ \hline
+Dez/24 & & & & & & & \cellcolor{blue!30} & & & \cellcolor{red!30} & \cellcolor{blue!30} \\ \hline
+Jan/25 & & & & & & & \cellcolor{blue!30} & & & & \cellcolor{blue!30} \\ \hline
+Fev/25 & & & & & & & \cellcolor{blue!30} & & & & \cellcolor{blue!30} \\ \hline
+Mar/25 & & & & & & & \cellcolor{blue!30} & & & & \cellcolor{blue!30} \\ \hline
+Abr/25 & & & & & & & \cellcolor{blue!30} & & & & \cellcolor{blue!30} \\ \hline
+Mai/25 & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & & & \cellcolor{blue!30} \\ \hline
+Jun/25 & & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{blue!30} \\ \hline
+\end{tabular}%
+}
+\caption{Cronograma de desenvolvimento — Cinza: Planejamento inicial, Azul: Replanejamento, Vermelho: Prazos adiados.}
+\label{tab:cronograma}
+\legend{Fonte: Autor}
+\end{table}
 
 % ----------------------------------------------------------
 \section{Diagnóstico do Processo Atual} \label{chapter:diagnostico}
@@ -8,21 +101,16 @@ as informações associadas desde a análise até os testes.
 % MARCELO 17/05: esse capítulo é um resultado das entrevistas, sendo utilizado para a construção dos requisitos. 
 % Pode unir como seção no próximo capítulo
 % VITOR 20/05: OK
-\subsection{Visão Geral do Processo Atual}
+%\subsection{Visão Geral do Processo Atual}
 
-Com base em informações obtidas através de entrevistas e conversar com os profissionais do CECLIMAR, foi possível 
-identificar e mapear o processo atual de coleta e registro de dados da fauna marinha no litoral do Rio Grande do Sul.
+Com base em informações obtidas através de entrevistas e conversar com os profissionais do CECLIMAR, foi possível identificar e mapear o processo manual de coleta e registro de dados da fauna marinha no litoral do Rio Grande do Sul.
+%MARCELO 17/06: 
 
-Hoje, o CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade, 
-por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. O processo 
-ocorre de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. Esta abordagem envolve 
-diversas etapas intermediárias e tarefas manuais realizadas por diferentes profissionais, trazendo
-uma maior probabilidade de erros e inconsistências nos dados coletados, além de aumentar o tempo
-de processamento e análise das informações.
+Ou seja, identificou-se que o CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade,  por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. O processo estava ocorrendo de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. Esta abordagem envolve  diversas etapas intermediárias e tarefas manuais realizadas por diferentes profissionais, trazendo uma maior probabilidade de erros e inconsistências nos dados coletados, além de aumentar o tempo de processamento e análise das informações.
 
-\subsection{Descrição do Fluxo de Trabalho Atual}
+%\subsection{Descrição do Fluxo de Trabalho Atual}
 
-O fluxo de trabalho pode ser descrito em etapas principais:
+Neste contexto, observou-se que o fluxo de trabalho pode ser descrito em etapas principais:
 
 \begin{enumerate}
     \item \textbf{Envio de dados:} Os participantes enviam fotos e informações descritivas a partir de diversas fontes.
@@ -107,9 +195,8 @@ como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{i
     \label{fig:fluxo_detalhado}
 \end{figure}
     
-\subsection{Problemas Identificados}
-
-Os principais problemas observados neste fluxo incluem:
+%\subsection{Problemas Identificados}
+Além disso, com a análise das entrevistas e das conversas, pode-se identificar os seguintes riscos e limitações que podiam afetar os dados do monitoramento da fauna costeira:
 
 \begin{itemize}
     \item Risco de erros humanos durante transcrição dos dados.
@@ -135,7 +222,7 @@ Os principais problemas observados neste fluxo incluem:
 
 \section{Levantamento de Requisitos}
 
-O levantamento de requisitos foi essencial para compreender as necessidades do projeto e orientar o 
+Por meio das entrevistas, também foi possível o levantamento de requisitos foi essencial para compreender as necessidades do projeto e orientar o 
 desenvolvimento das funcionalidades do aplicativo. Segundo 
 \citeonline{sommerville2011}, os requisitos de um sistema são as descrições do que o sistema deve 
 fazer, os serviços que ele irá oferecer e suas restrições de funcionamento. Neste projeto, a 
@@ -153,7 +240,7 @@ Nesta seção, serão expostos os requisitos funcionais do sistema, que segundo
 \citeonline{guedesuml2} correspondem ao que o cliente quer que o sistema realize,
 ou seja, as funcionalidades do software. Esses requisitos estão organizados em tabelas
 distintas, apresentadas a seguir. A Tabela~\ref{tab:req-funcionais} sintetiza os 63 requisitos funcionais
-da versão 2.3.6 do aplicativo, que é a versão mais atualizada até o momento da entrega deste relatório.
+da versão 2.3.6 do aplicativo, que é a versão mais atualizada até o momento da entrega deste documento.
 Durante o desenvolvimento, os requisitos foram revisados e atualizados conforme necessário,
 com base em feedbacks e testes realizados.
 
@@ -415,7 +502,7 @@ Dois tipos de formulários de registro foram projetados: um simples
  para coleta de dados mais detalhados. Ambos possuem validações, campos obrigatórios e 
  opcionais, e suporte ao envio de imagens com orientações apresentadas em \textit{bottomsheet}.
 
-Os campos específicos de classe, ordem, família e gênero foram projetados para serem um dropdown,
+Os campos específicos de classe, ordem, família e gênero foram projetados para serem um \textit{dropdown},
 que apresentará as opções disponíveis para o usuário selecionar.
 
 \begin{figure}[H]
@@ -546,7 +633,7 @@ como referência visual para a fase de implementação (Figura~\ref{fig:prototip
 \section{Projeto Gerencial}
 A gerência desse projeto foi realizada utilizando a ferramenta Jira, que possibilitou o
 controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho
-descrito na \hyperref[sec:metodologia-desenv-software]{Seção de metodologia} deste trabalho foi 
+da Figura \ref{fig:fluxoJira} foi 
 seguido para garantir a organização e a eficiência
 das tarefas. Os \textit{cards} gerados no \textit{board} foram puxados para trabalho a medida que 
 havia tempo disponível para atuação. Foram catalogadas não só tarefas de codificação, como 
@@ -587,7 +674,7 @@ A Figura~\ref{gra:tempo-medio-resolucao} apresenta o tempo médio, em dias,
 para a resolução dos \textit{cards} ao longo das semanas. É possível notar uma grande variação 
 nos tempos médios, com valores baixos no período de novembro e um pico em maio de 2025. 
 Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dezembro vide 
-Figura\ref{gra:cards-vs-resolvidos}, o aumento na complexidade das demandas e o acumulo de 
+Figura \ref{gra:cards-vs-resolvidos}, o aumento na complexidade das demandas e o acumulo de 
 cards de melhoria no \textit{Backlog} que foram criados e não priorizados.
 
 \begin{figure}[H]
@@ -640,8 +727,7 @@ dos quais 8 foram resolvidos e 11 ainda estão no \textit{Backlog}.
 \section{Implementação do Sistema}
 % descrever a implementação do sistema, com detalhes técnicos e decisões de projeto.
 % fazer relações com o projeto gerencial e com os requisitos funcionais e não funcionais.
-Nesta seção, iremos abordar a codificação do aplicativo e apresentar o produto final gerado após  
-as entrevistas, desenvolvimento, ajustes de funcionamento e correções de \textit{bugs}.
+Nesta seção, iremos abordar a codificação do aplicativo e apresentar o produto final gerado após desenvolvimento, ajustes de funcionamento e correções de \textit{bugs}.
 
 O aplicativo FaunaMar foi desenvolvido utilizando uma arquitetura modular baseada no padrão \textit{MVC} 
 (Model-View-Controller), que promove a separação clara entre as responsabilidades da aplicação. 
@@ -679,7 +765,7 @@ decisões de projeto e aspectos técnicos sobre o funcionamento do sistema.
 
 \subsection{Splashscreen}
 Foi gerada uma \textit{splashscreen} para o aplicativo, essa tela traz o logo do projeto 
-Fauna Marinha RS e é apresentada durante o carregamento completo do aplicativo 
+FaunaMar e é apresentada durante o carregamento completo do aplicativo 
 para que o usuário tenha um feedback visual de que o aplicativo está sendo iniciado (Figura~\ref{fig:splashscreen}).
 
 \begin{figure}[H]
@@ -752,7 +838,7 @@ e-mail que já está associado a outro provedor (como o Google Sign-In),
 o Firebase automaticamente une esses métodos de login em uma única chave de usuário.
 
 Caso o usuário tenha esquecido a senha, ele pode solicitar a recuperação por meio do e-mail cadastrado.
-Para isso, o usuário deve clicar em "Esqueci minha senha" na tela de login, que irá realizar o 
+Para isso, o usuário deve clicar em "Esqueci minha senha"  na tela de login, que irá realizar o 
 redirecionamento para a tela de recuperação de senha (Figura~\ref{fig:esqueci-senha}). Após a inserção e validação 
 do e-mail, o aplicativo envia um e-mail de recuperação com um link seguro para redefinir a senha 
 (Figuras~\ref{fig:email-esqueci-senha-sucesso} e ~\ref{fig:email-esqueci-senha}). Todo esse processo 

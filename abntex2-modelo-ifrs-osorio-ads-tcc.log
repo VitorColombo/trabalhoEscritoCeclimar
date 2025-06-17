@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  10 JUN 2025 07:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  17 JUN 2025 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1254,11 +1254,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
+
 
 [9
 
-]
+])
 
 [10] (elementos-pre-textuais/lista-de-abreviaturas-e-siglas.tex
 
@@ -1591,128 +1591,128 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 69.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 69.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 69.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 69.
+(Font)              using `T1/ptm/b/n' instead on input line 71.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 72.
+(Font)              using `T1/ptm/b/n' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 72.
+(Font)              using `T1/ptm/b/n' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 72.
+(Font)              using `T1/ptm/b/n' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 72.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 77.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 77.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 77.
-
-
-LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 77.
+(Font)              using `T1/ptm/b/n' instead on input line 74.
 
 
 
 [13]
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 81.
+(Font)              using `T1/ptm/b/n' instead on input line 79.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 81.
+(Font)              using `T1/ptm/b/n' instead on input line 79.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 81.
+(Font)              using `T1/ptm/b/n' instead on input line 79.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 81.
+(Font)              using `T1/ptm/b/n' instead on input line 79.
 
 
-Overfull \hbox (8.4697pt too wide) in paragraph at lines 81--81
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 83.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 83.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 83.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 83.
+
+
+Overfull \hbox (8.4697pt too wide) in paragraph at lines 83--83
  [][] [][][]\T1/ptm/b/n/12 NULLAM ELE-MEN-TUM URNA VEL IM-PER- 
  []
 
 
-Overfull \hbox (21.30824pt too wide) in paragraph at lines 81--81
+Overfull \hbox (21.30824pt too wide) in paragraph at lines 83--83
  \T1/ptm/b/n/12 LI-GULA AC PRE-TIUM ANTE JUSTO A NULLA 
  []
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 85.
+(Font)              using `T1/ptm/b/n' instead on input line 87.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 85.
+(Font)              using `T1/ptm/b/n' instead on input line 87.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 85.
+(Font)              using `T1/ptm/b/n' instead on input line 87.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 85.
+(Font)              using `T1/ptm/b/n' instead on input line 87.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 91.
+(Font)              using `T1/ptm/b/n' instead on input line 93.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 91.
+(Font)              using `T1/ptm/b/n' instead on input line 93.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 91.
+(Font)              using `T1/ptm/b/n' instead on input line 93.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 91.
+(Font)              using `T1/ptm/b/n' instead on input line 93.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 95.
+(Font)              using `T1/ptm/b/n' instead on input line 97.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 95.
+(Font)              using `T1/ptm/b/n' instead on input line 97.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 95.
+(Font)              using `T1/ptm/b/n' instead on input line 97.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
-(Font)              using `T1/ptm/b/n' instead on input line 95.
+(Font)              using `T1/ptm/b/n' instead on input line 97.
 
 )
 
@@ -1783,7 +1783,7 @@ LaTeX Font Warning: Font shape `T1/ptm/sbc/it' undefined
 
 
 [18]
-<imagens/fluxoJira.png, id=456, 1268.74pt x 847.165pt>
+<imagens/fluxoJira.png, id=468, 1268.74pt x 847.165pt>
 File: imagens/fluxoJira.png Graphic file (type png)
 <use imagens/fluxoJira.png>
 Package pdftex.def Info: imagens/fluxoJira.png  used on input line 92.
@@ -1832,12 +1832,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 ]
-<imagens/sisGeoApp.png, id=494, 1387.1825pt x 591.20876pt>
+<imagens/sisGeoApp.png, id=506, 1387.1825pt x 591.20876pt>
 File: imagens/sisGeoApp.png Graphic file (type png)
 <use imagens/sisGeoApp.png>
 Package pdftex.def Info: imagens/sisGeoApp.png  used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 178.25708pt.
-<imagens/sisGeoMapa.png, id=501, 959.585pt x 490.83376pt>
+<imagens/sisGeoMapa.png, id=513, 959.585pt x 490.83376pt>
 File: imagens/sisGeoMapa.png Graphic file (type png)
 <use imagens/sisGeoMapa.png>
 Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
@@ -1847,17 +1847,17 @@ Package pdftex.def Info: imagens/sisGeoMapa.png  used on input line 31.
 [24 <./imagens/sisGeoApp.png>]
 
 [25 <./imagens/sisGeoMapa.png>]
-<imagens/app1.png, id=519, 282.05376pt x 545.03625pt>
+<imagens/app1.png, id=531, 282.05376pt x 545.03625pt>
 File: imagens/app1.png Graphic file (type png)
 <use imagens/app1.png>
 Package pdftex.def Info: imagens/app1.png  used on input line 51.
 (pdftex.def)             Requested size: 138.02448pt x 266.72081pt.
-<imagens/app3.png, id=520, 276.03125pt x 547.04375pt>
+<imagens/app3.png, id=532, 276.03125pt x 547.04375pt>
 File: imagens/app3.png Graphic file (type png)
 <use imagens/app3.png>
 Package pdftex.def Info: imagens/app3.png  used on input line 52.
 (pdftex.def)             Requested size: 135.09511pt x 267.74493pt.
-<imagens/app2.png, id=521, 274.02374pt x 547.04375pt>
+<imagens/app2.png, id=533, 274.02374pt x 547.04375pt>
 File: imagens/app2.png Graphic file (type png)
 <use imagens/app2.png>
 Package pdftex.def Info: imagens/app2.png  used on input line 53.
@@ -1865,12 +1865,12 @@ Package pdftex.def Info: imagens/app2.png  used on input line 53.
 
 
 [26 <./imagens/app1.png> <./imagens/app3.png> <./imagens/app2.png>]
-<imagens/simbaRegistro.png, id=532, 1606.0pt x 744.7825pt>
+<imagens/simbaRegistro.png, id=544, 1606.0pt x 744.7825pt>
 File: imagens/simbaRegistro.png Graphic file (type png)
 <use imagens/simbaRegistro.png>
 Package pdftex.def Info: imagens/simbaRegistro.png  used on input line 79.
 (pdftex.def)             Requested size: 418.25368pt x 193.95708pt.
-<imagens/simbaTrajetoria.png, id=539, 1606.0pt x 749.80125pt>
+<imagens/simbaTrajetoria.png, id=551, 1606.0pt x 749.80125pt>
 File: imagens/simbaTrajetoria.png Graphic file (type png)
 <use imagens/simbaTrajetoria.png>
 Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
@@ -1878,7 +1878,7 @@ Package pdftex.def Info: imagens/simbaTrajetoria.png  used on input line 89.
 
 
 [27]
-<imagens/simbaMonitoramento.png, id=550, 1606.0pt x 734.745pt>
+<imagens/simbaMonitoramento.png, id=562, 1606.0pt x 734.745pt>
 File: imagens/simbaMonitoramento.png Graphic file (type png)
 <use imagens/simbaMonitoramento.png>
 Package pdftex.def Info: imagens/simbaMonitoramento.png  used on input line 99.
@@ -1925,7 +1925,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 [32]
 
 [33]
-<imagens/graficoPressman.png, id=604, 725.71124pt x 410.2828pt>
+<imagens/graficoPressman.png, id=616, 725.71124pt x 410.2828pt>
 File: imagens/graficoPressman.png Graphic file (type png)
 <use imagens/graficoPressman.png>
 Package pdftex.def Info: imagens/graficoPressman.png  used on input line 62.
@@ -2118,12 +2118,12 @@ Overfull \hbox (6.31126pt too wide) in alignment at lines 298--314
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 322.
 
-<imagens/sistemaWebFaunaMar.png, id=753, 1223.32031pt x 683.55376pt>
+<imagens/sistemaWebFaunaMar.png, id=765, 1223.32031pt x 683.55376pt>
 File: imagens/sistemaWebFaunaMar.png Graphic file (type png)
 <use imagens/sistemaWebFaunaMar.png>
 Package pdftex.def Info: imagens/sistemaWebFaunaMar.png  used on input line 335.
 (pdftex.def)             Requested size: 418.25368pt x 233.69855pt.
-<imagens/identidade-app.png, id=758, 330.48468pt x 617.30624pt>
+<imagens/identidade-app.png, id=770, 330.48468pt x 617.30624pt>
 File: imagens/identidade-app.png Graphic file (type png)
 <use imagens/identidade-app.png>
 Package pdftex.def Info: imagens/identidade-app.png  used on input line 343.
@@ -2131,7 +2131,7 @@ Package pdftex.def Info: imagens/identidade-app.png  used on input line 343.
 
 
 [52 <./imagens/sistemaWebFaunaMar.png>]
-<imagens/paleta-cores.png, id=765, 571.38469pt x 227.34938pt>
+<imagens/paleta-cores.png, id=777, 571.38469pt x 227.34938pt>
 File: imagens/paleta-cores.png Graphic file (type png)
 <use imagens/paleta-cores.png>
 Package pdftex.def Info: imagens/paleta-cores.png  used on input line 351.
@@ -2144,12 +2144,12 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [53 <./imagens/identidade-app.png> <./imagens/paleta-cores.png>]
-<imagens/login-figma.png, id=774, 813.0375pt x 1806.75pt>
+<imagens/login-figma.png, id=786, 813.0375pt x 1806.75pt>
 File: imagens/login-figma.png Graphic file (type png)
 <use imagens/login-figma.png>
 Package pdftex.def Info: imagens/login-figma.png  used on input line 370.
 (pdftex.def)             Requested size: 159.71404pt x 354.92172pt.
-<imagens/cadastro-figma.png, id=775, 813.0375pt x 1806.75pt>
+<imagens/cadastro-figma.png, id=787, 813.0375pt x 1806.75pt>
 File: imagens/cadastro-figma.png Graphic file (type png)
 <use imagens/cadastro-figma.png>
 Package pdftex.def Info: imagens/cadastro-figma.png  used on input line 377.
@@ -2157,12 +2157,12 @@ Package pdftex.def Info: imagens/cadastro-figma.png  used on input line 377.
 
 
 [54 <./imagens/login-figma.png> <./imagens/cadastro-figma.png>]
-<imagens/menu-pesquisador-figma.png, id=784, 1125.45468pt x 1204.5pt>
+<imagens/menu-pesquisador-figma.png, id=796, 1125.45468pt x 1204.5pt>
 File: imagens/menu-pesquisador-figma.png Graphic file (type png)
 <use imagens/menu-pesquisador-figma.png>
 Package pdftex.def Info: imagens/menu-pesquisador-figma.png  used on input line 392.
 (pdftex.def)             Requested size: 331.62845pt x 354.92172pt.
-<imagens/meus-registros-figma.png, id=786, 1132.98282pt x 1204.5pt>
+<imagens/meus-registros-figma.png, id=798, 1132.98282pt x 1204.5pt>
 File: imagens/meus-registros-figma.png Graphic file (type png)
 <use imagens/meus-registros-figma.png>
 Package pdftex.def Info: imagens/meus-registros-figma.png  used on input line 406.
@@ -2170,7 +2170,7 @@ Package pdftex.def Info: imagens/meus-registros-figma.png  used on input line 40
 
 
 [55 <./imagens/menu-pesquisador-figma.png>]
-<imagens/registro-simples-figma.png, id=794, 1665.22125pt x 1204.5pt>
+<imagens/registro-simples-figma.png, id=806, 1665.22125pt x 1204.5pt>
 File: imagens/registro-simples-figma.png Graphic file (type png)
 <use imagens/registro-simples-figma.png>
 Package pdftex.def Info: imagens/registro-simples-figma.png  used on input line 423.
@@ -2178,7 +2178,7 @@ Package pdftex.def Info: imagens/registro-simples-figma.png  used on input line 
 
 
 [56 <./imagens/meus-registros-figma.png>]
-<imagens/registro-tecnico-figma.png, id=800, 1099.10625pt x 1204.5pt>
+<imagens/registro-tecnico-figma.png, id=812, 1099.10625pt x 1204.5pt>
 File: imagens/registro-tecnico-figma.png Graphic file (type png)
 <use imagens/registro-tecnico-figma.png>
 Package pdftex.def Info: imagens/registro-tecnico-figma.png  used on input line 432.
@@ -2186,7 +2186,7 @@ Package pdftex.def Info: imagens/registro-tecnico-figma.png  used on input line 
 
 
 [57 <./imagens/registro-simples-figma.png>]
-<imagens/registro-pendente-figma.png, id=807, 543.53062pt x 1204.5pt>
+<imagens/registro-pendente-figma.png, id=819, 543.53062pt x 1204.5pt>
 File: imagens/registro-pendente-figma.png Graphic file (type png)
 <use imagens/registro-pendente-figma.png>
 Package pdftex.def Info: imagens/registro-pendente-figma.png  used on input line 444.
@@ -2194,7 +2194,7 @@ Package pdftex.def Info: imagens/registro-pendente-figma.png  used on input line
 
 
 [58 <./imagens/registro-tecnico-figma.png>]
-<imagens/avaliar-registro-figma.png, id=814, 1659.95157pt x 1204.5pt>
+<imagens/avaliar-registro-figma.png, id=826, 1659.95157pt x 1204.5pt>
 File: imagens/avaliar-registro-figma.png Graphic file (type png)
 <use imagens/avaliar-registro-figma.png>
 Package pdftex.def Info: imagens/avaliar-registro-figma.png  used on input line 458.
@@ -2202,12 +2202,12 @@ Package pdftex.def Info: imagens/avaliar-registro-figma.png  used on input line 
 
 
 [59 <./imagens/registro-pendente-figma.png>]
-<imagens/ver-registro-figma.png, id=822, 535.2497pt x 1204.5pt>
+<imagens/ver-registro-figma.png, id=834, 535.2497pt x 1204.5pt>
 File: imagens/ver-registro-figma.png Graphic file (type png)
 <use imagens/ver-registro-figma.png>
 Package pdftex.def Info: imagens/ver-registro-figma.png  used on input line 475.
 (pdftex.def)             Requested size: 157.7176pt x 354.92172pt.
-<imagens/ve-registro-enviado-figma.png, id=823, 536.75531pt x 1204.5pt>
+<imagens/ve-registro-enviado-figma.png, id=835, 536.75531pt x 1204.5pt>
 File: imagens/ve-registro-enviado-figma.png Graphic file (type png)
 <use imagens/ve-registro-enviado-figma.png>
 Package pdftex.def Info: imagens/ve-registro-enviado-figma.png  used on input line 482.
@@ -2215,7 +2215,7 @@ Package pdftex.def Info: imagens/ve-registro-enviado-figma.png  used on input li
 
 
 [60 <./imagens/avaliar-registro-figma.png>]
-<imagens/perfil-figma.png, id=831, 2515.89937pt x 1806.75pt>
+<imagens/perfil-figma.png, id=843, 2515.89937pt x 1806.75pt>
 File: imagens/perfil-figma.png Graphic file (type png)
 <use imagens/perfil-figma.png>
 Package pdftex.def Info: imagens/perfil-figma.png  used on input line 495.
@@ -2223,7 +2223,7 @@ Package pdftex.def Info: imagens/perfil-figma.png  used on input line 495.
 
 
 [61 <./imagens/ver-registro-figma.png> <./imagens/ve-registro-enviado-figma.png>]
-<imagens/fauna-local-figma.png, id=839, 1112.65688pt x 1204.5pt>
+<imagens/fauna-local-figma.png, id=851, 1112.65688pt x 1204.5pt>
 File: imagens/fauna-local-figma.png Graphic file (type png)
 <use imagens/fauna-local-figma.png>
 Package pdftex.def Info: imagens/fauna-local-figma.png  used on input line 508.
@@ -2231,7 +2231,7 @@ Package pdftex.def Info: imagens/fauna-local-figma.png  used on input line 508.
 
 
 [62 <./imagens/perfil-figma.png>]
-<imagens/esqueceu-senha-figma.png, id=846, 2521.16907pt x 1806.75pt>
+<imagens/esqueceu-senha-figma.png, id=858, 2521.16907pt x 1806.75pt>
 File: imagens/esqueceu-senha-figma.png Graphic file (type png)
 <use imagens/esqueceu-senha-figma.png>
 Package pdftex.def Info: imagens/esqueceu-senha-figma.png  used on input line 520.
@@ -2243,7 +2243,7 @@ Package pdftex.def Info: imagens/esqueceu-senha-figma.png  used on input line 52
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 527.
 
-<imagens/prototipo-navegavel-figma.png, id=853, 1356.56813pt x 505.13719pt>
+<imagens/prototipo-navegavel-figma.png, id=865, 1356.56813pt x 505.13719pt>
 File: imagens/prototipo-navegavel-figma.png Graphic file (type png)
 <use imagens/prototipo-navegavel-figma.png>
 Package pdftex.def Info: imagens/prototipo-navegavel-figma.png  used on input line 540.
@@ -2251,7 +2251,7 @@ Package pdftex.def Info: imagens/prototipo-navegavel-figma.png  used on input li
 
 
 [64 <./imagens/esqueceu-senha-figma.png>]
-<imagens/itensMes.png, id=861, 687.56876pt x 458.71375pt>
+<imagens/itensMes.png, id=873, 687.56876pt x 458.71375pt>
 File: imagens/itensMes.png Graphic file (type png)
 <use imagens/itensMes.png>
 Package pdftex.def Info: imagens/itensMes.png  used on input line 563.
@@ -2259,7 +2259,7 @@ Package pdftex.def Info: imagens/itensMes.png  used on input line 563.
 
 
 [65 <./imagens/prototipo-navegavel-figma.png>]
-<imagens/burnup-jira.jpeg, id=868, 755.82375pt x 654.445pt>
+<imagens/burnup-jira.jpeg, id=880, 755.82375pt x 654.445pt>
 File: imagens/burnup-jira.jpeg Graphic file (type jpg)
 <use imagens/burnup-jira.jpeg>
 Package pdftex.def Info: imagens/burnup-jira.jpeg  used on input line 580.
@@ -2267,7 +2267,7 @@ Package pdftex.def Info: imagens/burnup-jira.jpeg  used on input line 580.
 
 
 [66 <./imagens/itensMes.png>]
-<imagens/tempo-médio-cards.png, id=877, 592.2125pt x 394.47375pt>
+<imagens/tempo-médio-cards.png, id=889, 592.2125pt x 394.47375pt>
 File: imagens/tempo-médio-cards.png Graphic file (type png)
 <use imagens/tempo-médio-cards.png>
 Package pdftex.def Info: imagens/tempo-médio-cards.png  used on input line 595.
@@ -2301,7 +2301,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [78]
-<imagens/sistema/device_frame/splashscreen.png, id=933, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/splashscreen.png, id=945, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/splashscreen.png Graphic file (type png)
 <use imagens/sistema/device_frame/splashscreen.png>
 Package pdftex.def Info: imagens/sistema/device_frame/splashscreen.png  used on input line 687.
@@ -2316,7 +2316,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 [79 <./imagens/sistema/device_frame/splashscreen.png (PNG copy)>]
 
 pdfTeX warning: pdflatex (file ./diagrams/fluxograma_login-cadatro.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<diagrams/fluxograma_login-cadatro.pdf, id=940, 903.375pt x 605.26125pt>
+<diagrams/fluxograma_login-cadatro.pdf, id=952, 903.375pt x 605.26125pt>
 File: diagrams/fluxograma_login-cadatro.pdf Graphic file (type pdf)
 <use diagrams/fluxograma_login-cadatro.pdf>
 Package pdftex.def Info: diagrams/fluxograma_login-cadatro.pdf  used on input line 705.
@@ -2324,7 +2324,7 @@ Package pdftex.def Info: diagrams/fluxograma_login-cadatro.pdf  used on input li
 
 
 [80 <./diagrams/fluxograma_login-cadatro.pdf>]
-<imagens/sistema/device_frame/login.png, id=989, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/login.png, id=1001, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/login.png Graphic file (type png)
 <use imagens/sistema/device_frame/login.png>
 Package pdftex.def Info: imagens/sistema/device_frame/login.png  used on input line 721.
@@ -2334,7 +2334,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 721--722
  [][] 
  []
 
-<imagens/sistema/device_frame/formularioLogin_erro.png, id=990, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/formularioLogin_erro.png, id=1002, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/formularioLogin_erro.png Graphic file (type png)
 <use imagens/sistema/device_frame/formularioLogin_erro.png>
 Package pdftex.def Info: imagens/sistema/device_frame/formularioLogin_erro.png  used on input line 728.
@@ -2347,7 +2347,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 728--729
 
 
 [81 <./imagens/sistema/device_frame/login.png (PNG copy)> <./imagens/sistema/device_frame/formularioLogin_erro.png (PNG copy)>]
-<imagens/sistema/device_frame/recuperarSenha.png, id=1004, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/recuperarSenha.png, id=1016, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/recuperarSenha.png Graphic file (type png)
 <use imagens/sistema/device_frame/recuperarSenha.png>
 Package pdftex.def Info: imagens/sistema/device_frame/recuperarSenha.png  used on input line 764.
@@ -2355,7 +2355,7 @@ Package pdftex.def Info: imagens/sistema/device_frame/recuperarSenha.png  used o
 
 
 [82]
-<imagens/sistema/device_frame/recuperarSenhaEnvio.png, id=1012, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/recuperarSenhaEnvio.png, id=1024, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/recuperarSenhaEnvio.png Graphic file (type png)
 <use imagens/sistema/device_frame/recuperarSenhaEnvio.png>
 Package pdftex.def Info: imagens/sistema/device_frame/recuperarSenhaEnvio.png  used on input line 774.
@@ -2365,7 +2365,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 774--775
  [][] 
  []
 
-<imagens/sistema/device_frame/emailRecSenha.png, id=1013, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/emailRecSenha.png, id=1025, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/emailRecSenha.png Graphic file (type png)
 <use imagens/sistema/device_frame/emailRecSenha.png>
 Package pdftex.def Info: imagens/sistema/device_frame/emailRecSenha.png  used on input line 781.
@@ -2380,7 +2380,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 781--782
 [83 <./imagens/sistema/device_frame/recuperarSenha.png (PNG copy)>]
 
 [84 <./imagens/sistema/device_frame/recuperarSenhaEnvio.png (PNG copy)> <./imagens/sistema/device_frame/emailRecSenha.png (PNG copy)>]
-<imagens/sistema/device_frame/cadastro.png, id=1027, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/cadastro.png, id=1039, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/cadastro.png Graphic file (type png)
 <use imagens/sistema/device_frame/cadastro.png>
 Package pdftex.def Info: imagens/sistema/device_frame/cadastro.png  used on input line 802.
@@ -2390,7 +2390,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 802--803
  [][] 
  []
 
-<imagens/sistema/device_frame/formularioCadastro_erro.png, id=1028, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/formularioCadastro_erro.png, id=1040, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/formularioCadastro_erro.png Graphic file (type png)
 <use imagens/sistema/device_frame/formularioCadastro_erro.png>
 Package pdftex.def Info: imagens/sistema/device_frame/formularioCadastro_erro.png  used on input line 809.
@@ -2407,7 +2407,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [85 <./imagens/sistema/device_frame/cadastro.png (PNG copy)> <./imagens/sistema/device_frame/formularioCadastro_erro.png (PNG copy)>]
-<imagens/sistema/device_frame/menuCidadao.png, id=1034, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/menuCidadao.png, id=1046, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/menuCidadao.png Graphic file (type png)
 <use imagens/sistema/device_frame/menuCidadao.png>
 Package pdftex.def Info: imagens/sistema/device_frame/menuCidadao.png  used on input line 826.
@@ -2417,7 +2417,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 826--827
  [][] 
  []
 
-<imagens/sistema/device_frame/menuPesquisador.png, id=1035, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/menuPesquisador.png, id=1047, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/menuPesquisador.png Graphic file (type png)
 <use imagens/sistema/device_frame/menuPesquisador.png>
 Package pdftex.def Info: imagens/sistema/device_frame/menuPesquisador.png  used on input line 833.
@@ -2430,7 +2430,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 833--834
 
 
 [86 <./imagens/sistema/device_frame/menuCidadao.png (PNG copy)> <./imagens/sistema/device_frame/menuPesquisador.png (PNG copy)>]
-<imagens/sistema/device_frame/menuPesquisadorOff.png, id=1042, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/menuPesquisadorOff.png, id=1054, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/menuPesquisadorOff.png Graphic file (type png)
 <use imagens/sistema/device_frame/menuPesquisadorOff.png>
 Package pdftex.def Info: imagens/sistema/device_frame/menuPesquisadorOff.png  used on input line 854.
@@ -2440,7 +2440,7 @@ Package pdftex.def Info: imagens/sistema/device_frame/menuPesquisadorOff.png  us
 [87]
 
 [88 <./imagens/sistema/device_frame/menuPesquisadorOff.png (PNG copy)>]
-<imagens/sistema/device_frame/navBar.png, id=1052, 350.05782pt x 94.85437pt>
+<imagens/sistema/device_frame/navBar.png, id=1064, 350.05782pt x 94.85437pt>
 File: imagens/sistema/device_frame/navBar.png Graphic file (type png)
 <use imagens/sistema/device_frame/navBar.png>
 Package pdftex.def Info: imagens/sistema/device_frame/navBar.png  used on input line 877.
@@ -2450,7 +2450,7 @@ Package pdftex.def Info: imagens/sistema/device_frame/navBar.png  used on input 
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 883.
 
-<imagens/sistema/device_frame/meusregistrosTodos.png, id=1054, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/meusregistrosTodos.png, id=1066, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/meusregistrosTodos.png Graphic file (type png)
 <use imagens/sistema/device_frame/meusregistrosTodos.png>
 Package pdftex.def Info: imagens/sistema/device_frame/meusregistrosTodos.png  used on input line 897.
@@ -2460,7 +2460,7 @@ Package pdftex.def Info: imagens/sistema/device_frame/meusregistrosTodos.png  us
 [89 <./imagens/sistema/device_frame/navBar.png (PNG copy)>]
 
 [90 <./imagens/sistema/device_frame/meusregistrosTodos.png (PNG copy)>]
-<imagens/sistema/device_frame/meusregistrosValidado.png, id=1066, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/meusregistrosValidado.png, id=1078, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/meusregistrosValidado.png Graphic file (type png)
 <use imagens/sistema/device_frame/meusregistrosValidado.png>
 Package pdftex.def Info: imagens/sistema/device_frame/meusregistrosValidado.png  used on input line 915.
@@ -2470,7 +2470,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 915--916
  [][] 
  []
 
-<imagens/sistema/device_frame/meusregistrosEnviado.png, id=1067, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/meusregistrosEnviado.png, id=1079, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/meusregistrosEnviado.png Graphic file (type png)
 <use imagens/sistema/device_frame/meusregistrosEnviado.png>
 Package pdftex.def Info: imagens/sistema/device_frame/meusregistrosEnviado.png  used on input line 922.
@@ -2487,7 +2487,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 pdfTeX warning: pdflatex (file ./diagrams/fluxograma_registro.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<diagrams/fluxograma_registro.pdf, id=1068, 451.6875pt x 975.645pt>
+<diagrams/fluxograma_registro.pdf, id=1080, 451.6875pt x 975.645pt>
 File: diagrams/fluxograma_registro.pdf Graphic file (type pdf)
 <use diagrams/fluxograma_registro.pdf>
 Package pdftex.def Info: diagrams/fluxograma_registro.pdf  used on input line 933.
@@ -2504,7 +2504,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 pdfTeX warning: pdflatex (file ./diagrams/fluxograma_avaliar_registro.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<diagrams/fluxograma_avaliar_registro.pdf, id=1122, 650.43pt x 975.645pt>
+<diagrams/fluxograma_avaliar_registro.pdf, id=1134, 650.43pt x 975.645pt>
 File: diagrams/fluxograma_avaliar_registro.pdf Graphic file (type pdf)
 <use diagrams/fluxograma_avaliar_registro.pdf>
 Package pdftex.def Info: diagrams/fluxograma_avaliar_registro.pdf  used on input line 943.
@@ -2522,7 +2522,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 (Font)              using `T1/ptm/b/n' instead on input line 951.
 
-<imagens/sistema/device_frame/cadastrarPesq.png, id=1168, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/cadastrarPesq.png, id=1180, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/cadastrarPesq.png Graphic file (type png)
 <use imagens/sistema/device_frame/cadastrarPesq.png>
 Package pdftex.def Info: imagens/sistema/device_frame/cadastrarPesq.png  used on input line 962.
@@ -2532,7 +2532,7 @@ Package pdftex.def Info: imagens/sistema/device_frame/cadastrarPesq.png  used on
 [95]
 
 pdfTeX warning: pdflatex (file ./diagrams/fluxograma_adicionar_pesq.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<diagrams/fluxograma_adicionar_pesq.pdf, id=1173, 542.025pt x 975.645pt>
+<diagrams/fluxograma_adicionar_pesq.pdf, id=1185, 542.025pt x 975.645pt>
 File: diagrams/fluxograma_adicionar_pesq.pdf Graphic file (type pdf)
 <use diagrams/fluxograma_adicionar_pesq.pdf>
 Package pdftex.def Info: diagrams/fluxograma_adicionar_pesq.pdf  used on input line 970.
@@ -2542,7 +2542,7 @@ Package pdftex.def Info: diagrams/fluxograma_adicionar_pesq.pdf  used on input l
 [96 <./imagens/sistema/device_frame/cadastrarPesq.png (PNG copy)>]
 
 [97 <./diagrams/fluxograma_adicionar_pesq.pdf>]
-<imagens/sistema/device_frame/cadastrarPesqSucesso.png, id=1216, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/cadastrarPesqSucesso.png, id=1228, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/cadastrarPesqSucesso.png Graphic file (type png)
 <use imagens/sistema/device_frame/cadastrarPesqSucesso.png>
 Package pdftex.def Info: imagens/sistema/device_frame/cadastrarPesqSucesso.png  used on input line 991.
@@ -2552,7 +2552,7 @@ Overfull \hbox (4.42842pt too wide) in paragraph at lines 991--992
  [][] 
  []
 
-<imagens/sistema/device_frame/cadastrarPesqJaExistente.png, id=1217, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/cadastrarPesqJaExistente.png, id=1229, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/cadastrarPesqJaExistente.png Graphic file (type png)
 <use imagens/sistema/device_frame/cadastrarPesqJaExistente.png>
 Package pdftex.def Info: imagens/sistema/device_frame/cadastrarPesqJaExistente.png  used on input line 998.
@@ -2572,7 +2572,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [99 <./imagens/sistema/device_frame/cadastrarPesqSucesso.png (PNG copy)> <./imagens/sistema/device_frame/cadastrarPesqJaExistente.png (PNG copy)>]
-<imagens/sistema/device_frame/faunaLocal.png, id=1227, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/faunaLocal.png, id=1239, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/faunaLocal.png Graphic file (type png)
 <use imagens/sistema/device_frame/faunaLocal.png>
 Package pdftex.def Info: imagens/sistema/device_frame/faunaLocal.png  used on input line 1014.
@@ -2585,7 +2585,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 
 [100 <./imagens/sistema/device_frame/faunaLocal.png (PNG copy)>]
-<imagens/sistema/device_frame/sobre_app.png, id=1233, 408.02437pt x 846.91406pt>
+<imagens/sistema/device_frame/sobre_app.png, id=1245, 408.02437pt x 846.91406pt>
 File: imagens/sistema/device_frame/sobre_app.png Graphic file (type png)
 <use imagens/sistema/device_frame/sobre_app.png>
 Package pdftex.def Info: imagens/sistema/device_frame/sobre_app.png  used on input line 1030.
@@ -2610,9 +2610,36 @@ Overfull \hbox (2.14127pt too wide) in paragraph at lines 1198--1198
 
 
 
-[105])
+[105]
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1205.
+
+<imagens/testadores.png, id=1273, 708.246pt x 83.71275pt>
+File: imagens/testadores.png Graphic file (type png)
+<use imagens/testadores.png>
+Package pdftex.def Info: imagens/testadores.png  used on input line 1219.
+(pdftex.def)             Requested size: 376.42575pt x 44.49399pt.
+
 
 [106]
+
+LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
+(Font)              using `T1/ptm/b/n' instead on input line 1248.
+
+
+
+[107 <./imagens/testadores.png>]
+<imagens/versionamento.png, id=1287, 890.5772pt x 532.23843pt>
+File: imagens/versionamento.png Graphic file (type png)
+<use imagens/versionamento.png>
+Package pdftex.def Info: imagens/versionamento.png  used on input line 1260.
+(pdftex.def)             Requested size: 376.42575pt x 224.95984pt.
+
+
+[108 <./imagens/versionamento.png>])
+
+[109]
 \openout2 = `elementos-textuais/conclusao.aux'.
 
  (elementos-textuais/conclusao.tex
@@ -2638,7 +2665,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[107
+[110
 
 
 
@@ -2655,17 +2682,17 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 bibitemlist
 
 
-[108
+[111
 
 
 
 ]
 
-[109]
+[112]
 
-[110])
+[113])
 
-[111]
+[114]
 \openout2 = `elementos-pos-textuais/apendices/apendice-a.aux'.
 
  (elementos-pos-textuais/apendices/apendice-a.tex
@@ -2691,7 +2718,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[112
+[115
 
 
 ]
@@ -2720,7 +2747,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[113
+[116
 
 
 
@@ -2751,7 +2778,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[114
+[117
 
 
 
@@ -2782,7 +2809,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[115
+[118
 
 
 
@@ -2813,7 +2840,7 @@ LaTeX Font Warning: Font shape `T1/ptm/bc/n' undefined
 
 )
 
-[116
+[119
 
 
 
@@ -2843,17 +2870,17 @@ Package rerunfilecheck Info: File `abntex2-modelo-ifrs-osorio-ads-tcc.brf' has n
 (rerunfilecheck)             Checksum: 76C854E36101AF396FBD626F0CE89D02;3213.
  ) 
 Here is how much of TeX's memory you used:
- 36545 strings out of 469941
- 697389 string characters out of 5469431
- 1246558 words of memory out of 5000000
- 62119 multiletter control sequences out of 15000+600000
- 700271 words of font info for 205 fonts, out of 8000000 for 9000
+ 36576 strings out of 469941
+ 698043 string characters out of 5469431
+ 1248280 words of memory out of 5000000
+ 62138 multiletter control sequences out of 15000+600000
+ 700529 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,107p,1647b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmbi.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (117 pages, 14120323 bytes).
+Output written on abntex2-modelo-ifrs-osorio-ads-tcc.pdf (120 pages, 14189182 bytes).
 PDF statistics:
- 1782 PDF objects out of 2073 (max. 8388607)
- 305 named destinations out of 1000 (max. 500000)
- 37712 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1826 PDF objects out of 2073 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
+ 37738 words of extra memory for PDF output out of 42996 (max. 10000000)
 

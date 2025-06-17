@@ -1037,7 +1037,7 @@ usuários acompanhem as atualizações e possam entrar em contato com a equipe d
 A estrutura do banco de dados do aplicativo foi implementada no Firebase Firestore e organizada 
 em coleções com responsabilidades individuais e índices de consulta específicos para melhor performance. 
 
-A coleção de \textit{users} armazena os dados básicos dos usuários cadastrados. 
+A coleção de \textit{users} armazena os dados básicos dos usuários cadastrados.
 Cada documento dessa coleção representa um usuário e cada usuário possui atrelado a ele 
 uma subcoleção com seus registros (~\ref{tab:firestore-users}).
 Nessa coleção, foi utilizada uma técnica de desnormalização de dados, 
@@ -1199,12 +1199,73 @@ espécies cadastradas (Tabela~\ref{tab:firestore-counters}).
     \end{tabular}
 \end{table}
 
-\section{Execução de Testes e Verificação de Qualidade}
+\section{Execução de Testes e Versionamento}
+A execução de testes foi realizada com o objetivo de garantir que o aplicativo atenda aos requisitos funcionais e não funcionais do sistema, além de levantar melhorias e modificações para assegurar uma experiência de usuário satisfatória no maior número de dispositivos possível. Os testes podem ser divididos em duas etapas principais: testes em tempo de desenvolvimento e testes de versão com auxilio de usuários reais. Aliado a isso, foi realizado um controle de versão do aplicativo, para que fosse possível acompanhar e documentar as mudanças realizadas ao longo do tempo.
 
-% Descrever testes, citar testadores, resultados dos testes e estratégias futuras.
-% incluir gráficos representativos trazendo resultados dos testes e relacionar com 
-% cards gerados para o Jira
+\subsection{Execução de Testes}
+
+Em tempo de desenvolvimento, os \textit{cards} de tarefas que tinham sua implementação finalizada eram passados para a coluna de 'Aguardando teste' no quadro do Jira para que, posteriormente, fossem executados testes \textit{end to end} focados nas funcionalidades específicas de cada demanda, bem como testes regressivos para garantir que as novas implementações não afetassem o funcionamento das funcionalidades já existentes. 
+Esses testes foram executados manualmente, utilizando dispositivo físico e, por vezes, o Android Studio para emular o comportamento de alguns componentes do aplicativo em diferentes tamanhos de tela e versões do Android.
+
+Os \textit{bugs} encontrados durante essa etapa foram registrados no Jira e, para a liberação de cada \textit{card}, todos os \textit{bugs}
+atribuídos a demanda deveriam ser resolvidos para que a tarefa pudesse ser validada e registrada como concluída no fluxo de trabalho.
+
+Com um conjunto de tarefas concluídas, eram geradas versões de teste do aplicativo, que eram disponibilizadas para um grupo de testadores selecionados para a realização de testes de usabilidade e funcionalidade. A distribuição dessas versões foi feita com o Firebase App Distribution, totalizando 17 versões de teste distribuídas para 7 testadores durante o período de desenvolvimento do aplicativo
+Figura~\ref{fig:testadores-versao}.
+
+\begin{figure}[H]
+    \centering
+    \caption{Última versão disponibilizada para teste no Firebase. A imagem apresenta o número da versão, a data de envio, o número de convidados e downloads realizados.}
+    \includegraphics[width=0.9\textwidth]{imagens/testadores.png}
+    \label{fig:testadores-versao}
+\end{figure}
+\legend{Fonte: Autor}
+
+Esses testadores possuíam diversos perfis, incluindo dois usuários comuns, um pesquisador do CECLIMAR, e quatro usuários com experiência no desenvolvimento de software. Os testes foram realizados com 5 diferentes dispositivos, abrangendo uma variedade de tamanhos de tela e versões do Android, garantindo que o aplicativo fosse compatível com a maioria dos dispositivos utilizados pelos usuários finais (Tabela~\ref{tab:dispositivos-testados}).
+
+\begin{table}[h!]
+    \centering
+    \caption{Especificações de Smartphones}
+    \begin{tabular}{l l c}
+    \toprule
+    \textbf{Modelo} & \textbf{Sistema Operacional} & \textbf{Tamanho da Tela (polegadas)} \\
+    \midrule
+    Redmi Note 12 Pro & Android 14 & 6.67 \\
+    Redmi Note 13 Pro 4G & Android 15 & 6.67 \\
+    F4 GT & Android 14 & 6.67 \\
+    Galaxy M54 & Android 14 & 6.7 \\
+    Redmi 12 & Android 15 & 6.79 \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:dispositivos-testados}
+\end{table}
+\legend{Fonte: Autor}
+
+Os testadores foram orientados a enviar \textit{feedbacks} sobre o uso do aplicativo, relatando problemas encontrados, sugestões de melhorias ou qualquer dificuldade encontrada durante a utilização. Esses apontamentos foram registrados no Jira no formato de \textit{cards} e priorizados para correção ou desenvolvimento. Os \textit{bugs} encontrados eram corrigidos imediatamente, enquanto as melhorias eram documentadas e priorizadas de acordo com a entrega de valor final e a viabilidade de implementação.
+
+Nas Tabelas~\ref{tab:fixes_sorted} e ~\ref{tab:dt_melhorias_sorted}, apresentadas anteriormente, é possível observar o número de demandas gerados e concluídos nessa etapa, divididos entre \textit{bugs} e melhorias/débitos técnicos. Ao todo, foram gerados \textbf{43} \textit{bugs} e \textbf{19} melhorias/débitos técnicos.
+
+\subsection{Versionamento do Aplicativo}
+
+O versionamento do aplicativo foi realizado seguindo um padrão semântico, onde cada versão era identificada por um número de versão no formato \texttt{X.Y.Z}, onde o número \texttt{X} representa a versão principal, \texttt{Y} representa a versão secundária e \texttt{Z} representa correções de bugs. Foi definido que, para que a versão principal fosse alterada, deveria haver uma incompatibilidade com a versão anterior,
+enquanto a versão secundária seria alterada para novas funcionalidades.
+
+No início do desenvolvimento, isso não era seguido, mas com o avanço do projeto, identificou-se a necessidade de estabelecer um padrão que facilitasse a distribuição e a documentação das mudanças realizadas em cada ciclo de desenvolvimento. Um dos principais ganhos com a adoção desse padrão foi a organização do histórico de versões, que permitia também que os testadores pudessem identificar com facilidade qual versão estavam testando.
+
+A Figura~\ref{fig:versionamento} apresenta um exemplo de histórico de versões do aplicativo, onde as versões são apresentadas com suas respectivas datas de envio e uma breve descrição das principais mudanças realizadas.
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplo de histórico de versões do aplicativo cadastradas no Firebase.}
+    \includegraphics[width=0.9\textwidth]{imagens/versionamento.png}
+    \label{fig:versionamento}
+\end{figure}
+\legend{Fonte: Autor}
 
 \section*{Considerações Finais}
 
 O capítulo consolidou os resultados até aqui obtidos, alinhando-os ao planejamento inicial do projeto, garantindo rastreabilidade entre requisitos, projeto e implementação.
+
+
+%alterar local das legendas de imagens e tabelas Todos devem ficar acima 
+%alterar o logo do app para FAUNAMAR

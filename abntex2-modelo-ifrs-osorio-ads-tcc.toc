@@ -52,42 +52,42 @@
 \contentsline {subsection}{\numberline {4.6.1}Splashscreen}{79}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Login e Cadastro}{80}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}Menu Inicial e Barra de Navegação}{86}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Meus Registros}{89}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}Novo Registro}{92}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6}Avaliar Registro}{94}{subsection.4.6.6}%
-\contentsline {subsection}{\numberline {4.6.7}Painel de Registros}{95}{subsection.4.6.7}%
-\contentsline {subsection}{\numberline {4.6.8}Adicionar Pesquisador}{95}{subsection.4.6.8}%
-\contentsline {subsection}{\numberline {4.6.9}Fauna Local}{99}{subsection.4.6.9}%
-\contentsline {subsection}{\numberline {4.6.10}Sobre o app}{101}{subsection.4.6.10}%
-\contentsline {subsection}{\numberline {4.6.11}Armazenamento de Dados}{102}{subsection.4.6.11}%
-\contentsline {section}{\numberline {4.7}Execução de Testes e Versionamento}{106}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Execução de Testes}{106}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Versionamento do Aplicativo}{108}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.6.4}Meus Registros}{90}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Novo Registro}{93}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Avaliar Registro}{95}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}Painel de Registros}{96}{subsection.4.6.7}%
+\contentsline {subsection}{\numberline {4.6.8}Adicionar Pesquisador}{96}{subsection.4.6.8}%
+\contentsline {subsection}{\numberline {4.6.9}Fauna Local}{101}{subsection.4.6.9}%
+\contentsline {subsection}{\numberline {4.6.10}Sobre o app}{102}{subsection.4.6.10}%
+\contentsline {subsection}{\numberline {4.6.11}Armazenamento de Dados}{103}{subsection.4.6.11}%
+\contentsline {section}{\numberline {4.7}Execução de Testes e Versionamento}{107}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Execução de Testes}{107}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Versionamento do Aplicativo}{109}{subsection.4.7.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{110}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{111}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{111}{section*.71}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{112}{section*.71}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{115}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Quisque libero justo}}{116}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{116}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{117}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{117}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Morbi ultrices rutrum lorem.}}{118}{appendix.anexochapback.1}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{118}{appendix.anexochapback.2}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{119}{appendix.anexochapback.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{119}{appendix.anexochapback.3}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase []{Fusce facilisis lacinia dui}}{120}{appendix.anexochapback.3}%

@@ -5,11 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2003]{NBR6028:2003}
-\abntrefinfo{ABNT}{ABNT}{2003}
-{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6028}: Resumo -
-  apresenta{\c c}{\~a}o.
-Rio de Janeiro, 2003. 2~p.}
+\bibitem[{Android Studio} 2025]{androidstudio2025}
+\abntrefinfo{{Android Studio}}{{Android Studio}}{2025}
+{{Android Studio}. \emph{Android Studio - O ambiente de desenvolvimento oficial
+  para Android}. 2025.
+Acesso em: 19 jun. 2025.
+Dispon{\'\i}vel em: \url{https://developer.android.com/studio?hl=pt-br}.}
 
 \bibitem[{Atlassian} 2025]{atlassian_jira_2025}
 \abntrefinfo{{Atlassian}}{{Atlassian}}{2025}

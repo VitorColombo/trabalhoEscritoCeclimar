@@ -25,7 +25,7 @@ profissionais do CECLIMAR.
 
 A aplicação possui como objetivos específicos automatizar o processo de coleta e armazenamento das 
 ocorrências para garantir precisão dos dados e facilitar os registros de observações da fauna costeira 
-com a ajuda da população a partir de uma interface amigável e intuitiva. Padronizar os registros 
+com a ajuda da população a partir de uma \textit{interface} amigável e intuitiva. Padronizar os registros 
 para garantir um banco de dados robusto, reduzindo inconsistências e minimizando a necessidade de 
 revisões periódicas, e facilitar a realização de pesquisas e a 
 análise de dados recebidos, liberando recursos para outras atividades de pesquisa. Além de promover 
@@ -60,14 +60,7 @@ analítico ou que podem ser reelaborados, a depender dos objetos de pesquisa. As
 são mais diversas e podem incluir conversas pessoais, entrevistas, documentos ou sites.
 % MARCELO 13/05: colocar referência para Google Scholar
 % VITOR 20/05: OK
-A metodologia de pesquisa bibliográfica foi realizada através da plataforma \citeonline{google_scholar_2025}, publicações 
-% MARCELO 13/05: colocar referência para SiBBr
-% VITOR 20/05: OK
-presentes no portal do \citeonline{sibbr2024}, Sistema de Informação 
-sobre a Biodiversidade Brasileira, além de livros disponibilizados na biblioteca 
-do Instituto Federal Campus Osório. Já a metodologia de pesquisa documental 
-foi levantada a partir de arquivos internos, relatórios das Nações Unidas e conteúdos disponibilizados por 
-desenvolvedores ou organizações que participaram do desenvolvimento das aplicações correlatas.
+A metodologia de pesquisa bibliográfica foi realizada através da plataforma \citeonline{google_scholar_2025}, publicações presentes no portal do \citeonline{sibbr2024}, Sistema de Informação sobre a Biodiversidade Brasileira, além de livros disponibilizados na biblioteca do Instituto Federal Campus Osório. Já a metodologia de pesquisa documental foi levantada a partir de arquivos internos, relatórios das Nações Unidas e conteúdos disponibilizados por desenvolvedores ou organizações que participaram do desenvolvimento das aplicações correlatas.
 
 Após a fase de revisão bibliográfica se iniciou o desenvolvimento do sistema. Esta fase foi realizada a 
 partir do levantamento de requisitos junto de profissionais do CECLIMAR e, os requisitos levantados foram 
@@ -89,7 +82,7 @@ Para o desenvolvimento deste projeto foi escolhida uma abordagem de metodologia 
 ao ciclo iterativo incremental \cite{pressman2011engenharia}. Utilizando o \textit{Kanban} como 
 método de gestão de fluxo de trabalho \cite{ohno1988toyota}, a fim de melhorar a eficiência e qualidade do produto 
 final a partir da visualização das tarefas. A ferramenta escolhida para realizar este 
-gerenciamento foi o Jira \cite{atlassian_jira_2025}.
+gerenciamento foi o \textit{Jira} \cite{atlassian_jira_2025}.
 
 Segundo \citeonline{pressman2011engenharia}, os ciclos de desenvolvimento incremental podem ser 
 divididos em 5 principais etapas: comunicação, planejamento, modelagem (análise e projeto), construção 
@@ -97,54 +90,28 @@ divididos em 5 principais etapas: comunicação, planejamento, modelagem (análi
 aplicadas neste projeto.
 % MARCELO 13/05: trocar para o passado
 % VITOR 20/05: OK
-A comunicação foi marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de
- escopo e levantamento de requisitos do sistema. O planejamento foi a análise, o refinamento e as 
- definições de quais funcionalidades foram desenvolvidas em cada ciclo. Durante a modelagem foi 
- realizada a prototipação e análise dos pontos levantados na etapa anterior. A construção foi o 
- momento onde a codificação e os testes da aplicação foram o foco de atuação. E, por fim, durante 
- o emprego o sistema 
- foi disponibilizado para os profissionais do CECLIMAR e uma 
- quantidade menor de usuários que contribuiram com 
- testes e retornos de \textit{feedback} para análise. Essas informações coletadas 
- foram catalogadas e inseridas no \textit{Backlog} 
- para serem puxados em um ciclo posterior.
+A comunicação foi marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de escopo e levantamento de requisitos do sistema. O planejamento foi a análise, o refinamento e as definições de quais funcionalidades foram desenvolvidas em cada ciclo. Durante a modelagem foi realizada a prototipação e análise dos pontos levantados na etapa anterior. A construção foi o momento onde a codificação e os testes da aplicação foram o foco de atuação. E, por fim, durante o emprego o sistema foi disponibilizado para os profissionais do CECLIMAR e uma quantidade menor de usuários que contribuiram com testes e retornos de \textit{feedback} para análise. Essas informações coletadas foram catalogadas e inseridas no \textit{Backlog} para serem puxados em um ciclo posterior.
 
 %  é necessária uma nota de rodape para explicar o que é o MVP??
 % MARCELO 13/05: por enquanto vamos deixar de fora. se necessário vamos colocar no referencial teorico
-O uso desta metodologia tem o objetivo de realizar uma primeira entrega que possa ser considerada um 
-Mínimo Produto Viável (\textit{MVP}) atendendo aos requisitos básicos propostos inicialmente, mesmo que ainda 
-se note a ausência de funcionalidades complementares. Esse \textit{MVP} se tornará então a base de avaliação que 
-permitirá identificar necessidades adicionais e ajustes necessários. Com base nessa análise, é planejado 
-o próximo incremento, ajustando a primeira entrega e adicionando novas funcionalidades conforme as necessidades.
+O uso desta metodologia tem o objetivo de realizar uma primeira entrega que possa ser considerada um Mínimo Produto Viável (\textit{MVP}) atendendo aos requisitos básicos propostos inicialmente, mesmo que ainda se note a ausência de funcionalidades complementares. Esse \textit{MVP} se tornará então a base de avaliação que permitirá identificar necessidades adicionais e ajustes necessários. Com base nessa análise, é planejado o próximo incremento, ajustando a primeira entrega e adicionando novas funcionalidades conforme as necessidades.
 
-Para o desenvolvimento deste projeto, foi utilizado um fluxo de trabalho no \textit{Jira} para desenvolvimento de \textit{software} visando 
-auxiliar no processo e manter a visibilidade das tarefas de ponta a ponta. Para o \textit{workflow} principal, 
-foi montado um esquema com \textit{Backlog}, Refinamento, Em desenvolvimento, Aguardando teste, Em teste, 
-Correção de \textit{bugs} e \textit{Done} (Figura~\ref{fig:fluxoJira}).
+Para o desenvolvimento deste projeto, foi utilizado um fluxo de trabalho no \textit{Jira} para desenvolvimento de \textit{software} visando auxiliar no processo e manter a visibilidade das tarefas de ponta a ponta. Para o \textit{workflow} principal, foi montado um esquema com \textit{Backlog}, Refinamento, Em desenvolvimento, Aguardando teste, Em teste, Correção de \textit{bugs} e \textit{Done} (Figura~\ref{fig:fluxoJira}).
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=0.8\textwidth]{imagens/fluxoJira.png}
     \caption{Fluxo de trabalho do \textit{Jira} gerado para o desenvolvimento do projeto.}
+    \includegraphics[width=0.8\textwidth]{imagens/fluxoJira.png}
     \legend{Fonte: Autor}
     \label{fig:fluxoJira}
 \end{figure} 
 
-O \textit{Backlog} é a coluna onde todas as tarefas, \textit{user stories} e \textit{bugs} serão inicialmente 
-posicionados. Nesta etapa, as tarefas serão priorizadas antes de andarem para o próximo estágio.
+O \textit{Backlog} é a coluna onde todas as tarefas, \textit{user stories} e \textit{bugs} serão inicialmente posicionados. Nesta etapa, as tarefas serão priorizadas antes de progredirem para o próximo estágio.
 
-No Refinamento, as tarefas puxadas do \textit{Backlog} são detalhadas para um desenvolvimento 
-mais assertivo. São refinados critérios de aceitação, estimativas de tempo e algum débito técnico.
+No Refinamento, as tarefas puxadas do \textit{Backlog} são detalhadas para um desenvolvimento mais assertivo. São refinados critérios de aceitação, estimativas de tempo e algum débito técnico.
 
-As tarefas que estiverem em desenvolvimento são as que tiveram, efetivamente, o seu 
-desenvolvimento iniciado. Assim que o desenvolvimento estiver finalizado, as tarefas 
-foram transferidas para aguardando teste, onde ficarão até serem puxadas para testes 
-mais detalhados.
+As tarefas que estiverem em desenvolvimento são as que tiveram, efetivamente, o seu desenvolvimento iniciado. Assim que o desenvolvimento estiver finalizado, as tarefas foram transferidas para aguardando teste, onde ficarão até serem puxadas para testes mais detalhados.
 
-No estágio de teste, os critérios de aceite e a presença de \textit{bugs} foram 
-testados com o intuito de manter a qualidade do produto final. As tarefas que tiverem 
-\textit{bugs} ou divergências de regras de negócio identificadas serão movidas para a coluna 
-Correção de \textit{bugs} para que sejam corrigidas.
+No estágio de teste, os critérios de aceite e a presença de \textit{bugs} foram testados com o intuito de manter a qualidade do produto final. As tarefas que tiverem \textit{bugs} ou divergências de regras de negócio identificadas serão movidas para a coluna Correção de \textit{bugs} para que sejam corrigidas.
 
-E, por último, após a homologação das tarefas nas etapas anteriores as tarefas 
-são movidas para \textit{Done} que indicará sua finalização.
+E, por último, após a homologação das tarefas nas etapas anteriores as tarefas são movidas para \textit{Done} que indicará sua finalização.

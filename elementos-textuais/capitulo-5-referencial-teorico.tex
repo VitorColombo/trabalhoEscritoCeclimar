@@ -51,7 +51,7 @@ Os itens acima são um apelo global visando acabar com a pobreza, proteger o mei
 % ---
 \section{Metodologia Iterativa Incremental}
 % ---
-A metodologia iterativa incremental é uma abordagem de desenvolvimento de \textit{software} que divide o processo em ciclos repetitivos. Cada iteração resulta em uma versão incrementada do \textit{software}, que é construída sobre a versão anterior com adições e melhorias. Segundo \citeonline{pressman2011engenharia}, essa metodologia permite que as equipes avaliem e integrem feedbacks mais rapidamente, adaptando-se às mudanças e refinando o produto ao longo do tempo. Isso contrasta com o modelo tradicional em cascata, onde cada fase deve ser concluída antes da próxima começar, sem retorno para fases anteriores.
+A metodologia iterativa incremental é uma abordagem de desenvolvimento de \textit{software} que divide o processo em ciclos repetitivos. Cada iteração resulta em uma versão incrementada do \textit{software}, que é construída sobre a versão anterior com adições e melhorias. Segundo \citeonline{pressman2011engenharia}, essa metodologia permite que as equipes avaliem e integrem \textit{feedbacks} mais rapidamente, adaptando-se às mudanças e refinando o produto ao longo do tempo. Isso contrasta com o modelo tradicional em cascata, onde cada fase deve ser concluída antes da próxima começar, sem retorno para fases anteriores.
 
 De acordo com \citeonline{pressman2011engenharia}, o modelo incremental é uma abordagem de desenvolvimento de \textit{software} que foca na entrega gradual de funcionalidades em sucessivas versões incrementais. Nesse modelo, o desenvolvimento do \textit{software} é dividido em várias partes ou incrementos, cada um entregando uma versão operante do produto, que é aprimorada e expandida em lançamentos subsequentes.
 
@@ -59,8 +59,8 @@ De acordo com \citeonline{pressman2011engenharia}, o modelo incremental é uma a
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=0.8\textwidth]{imagens/graficoPressman.png}
   \caption{Ciclo de desenvolvimento incremental.}
+  \includegraphics[width=0.8\textwidth]{imagens/graficoPressman.png}
   \legend{Fonte: \citeonline{pressman2011engenharia}.}
   \label{fig:incremental}
 \end{figure}
@@ -101,40 +101,22 @@ escolhas e como elas contribuíram para o desenvolvimento do projeto.
 
 \subsection{Flutter}
 
-O \textit{Flutter} é um conjunto de ferramentas de UI (Interface do Usuário) criado 
-pelo \textit{Google} em 2017. Se diferencia por possuir um suporte multiplataforma de código aberto 
-projetado para permitir a reutilização de código em diversos sistemas operacionais, como \textit{iOS}, 
-\textit{Android}, \textit{web} e \textit{desktop}, enquanto possibilita que as aplicações interajam 
-diretamente com os serviços de cada plataforma. Como publicado por seus desenvolvedores, 
-o \textit{Flutter} oferece 
-uma solução centralizada para o desenvolvimento multiplataforma que facilita a criação de 
-componentes visuais ao mesmo tempo em que realiza a integração com recursos nativos de cada tipo 
-de dispositivo \cite{flutterDocs2025}.
+O \textit{Flutter} é um conjunto de ferramentas de \textit{UI} (Interface do Usuário) criado 
+pelo Google em 2017. Se diferencia por possuir um suporte multiplataforma de código aberto 
+projetado para permitir a reutilização de código em diversos sistemas operacionais, como \textit{iOS}, \textit{Android}, \textit{web} e \textit{desktop}, enquanto possibilita que as aplicações interajam diretamente com os serviços de cada plataforma. Como publicado por seus desenvolvedores, o \textit{Flutter} oferece uma solução centralizada para o desenvolvimento multiplataforma que facilita a criação de componentes visuais ao mesmo tempo em que realiza a integração com recursos nativos de cada tipo de dispositivo \cite{flutterDocs2025}.
 
-Com esse \textit{framework}, os aplicativos são compilados a partir de um único código-base para as 
-plataformas \textit{mobile}, \textit{web} e \textit{desktop}. O desenvolvimento no \textit{Flutter} é baseado em \textit{Widgets}, 
-componentes escritos em \textit{Dart} que são responsáveis pela visualização das telas e pela interação 
-com o usuário.
-Esses componentes podem ou não estar associados a um estado, quando estão, são chamados de \textit{Stateful} 
-\textit{Widgets} e, quando não, de \textit{Stateless} \textit{Widgets} \cite{flutterDocs2025}.
+Com esse \textit{framework}, os aplicativos são compilados a partir de um único código-base para as plataformas \textit{mobile}, \textit{web} e \textit{desktop}. O desenvolvimento no \textit{Flutter} é baseado em \textit{Widgets}, componentes escritos em \textit{Dart} que são responsáveis pela visualização das telas e pela interação com o usuário.
+Esses componentes podem ou não estar associados a um estado, quando estão, são chamados de \textit{Stateful} \textit{Widgets} e, quando não, de \textit{Stateless} \textit{Widgets} \cite{flutterDocs2025}.
 
-Além disso, o \textit{Flutter} possui a funcionalidade de \textit{hot reload}. 
-Uma ferramenta que permite que alterações sejam feitas no código 
-enquanto a aplicação está em execução, gerando uma 
-atualização em tempo real da interface do usuário e da lógica da aplicação, 
+Além disso, o \textit{Flutter} possui a funcionalidade de \textit{hot reload}. Uma ferramenta que permite que alterações sejam feitas no código enquanto a aplicação está em execução, gerando uma atualização em tempo real da interface do usuário e da lógica da aplicação, 
 mantendo inalterado seu estado de execução.
 
-A escolha pelo \textit{Flutter} (versão 3.29.2) se deu principalmente pela sua capacidade multiplataforma a partir de 
-uma única base de código, otimizando tempo e recursos. Outro fator decisivo foi a 
-facilidade de integração com os diversos serviços do \textit{Firebase}, 
-que facilitam a implementação de funcionalidades essenciais,  
-como a autenticação, o banco de dados em tempo real e o armazenamento.
+A escolha pelo \textit{Flutter} (versão 3.29.2) se deu principalmente pela sua capacidade multiplataforma a partir de uma única base de código, otimizando tempo e recursos. Outro fator decisivo foi a facilidade de integração com os diversos serviços do \textit{Firebase}, 
+que facilitam a implementação de funcionalidades essenciais, como a autenticação, o banco de dados em tempo real e o armazenamento.
 
 \subsection{Dart}
 
-\textit{Dart} é uma linguagem de programação lançada pelo \textit{Google} em 2013, criada com foco em produtividade e 
-performance para aplicações multiplataforma. A linguagem é orientada a objetos e oferece tipagem 
-estática forte, porém também é possível optar pelo uso de tipagem dinâmica, 
+\textit{Dart} é uma linguagem de programação lançada pelo Google em 2013, criada com foco em produtividade e performance para aplicações multiplataforma. A linguagem é orientada a objetos e oferece tipagem estática forte, porém também é possível optar pelo uso de tipagem dinâmica, 
 o que pode ser útil em algumas situações. \cite{dartDocs2025}.
 
 Um aspecto importante do \textit{Dart} é sua flexibilidade de compilação. 
@@ -156,7 +138,7 @@ programação orientada a objetos e pela facilidade de integração com o \texti
 \subsection{Firebase}
 
 O \textit{Firebase} é uma plataforma de desenvolvimento de aplicativos móveis e \textit{web} 
-fornecida pelo \textit{Google}, que oferece uma ampla gama de serviços \textit{backend} para 
+fornecida pelo Google, que oferece uma ampla gama de serviços \textit{backend} para 
 facilitar a criação de aplicações robustas e escaláveis. Tem como característica 
 permitir o desenvolvimento centralizado sem a necessidade de infraestrutura própria, 
 fornecendo soluções completas para autenticação de usuários, banco de dados em tempo real, 
@@ -166,7 +148,7 @@ e acompanhamento do ciclo de vida do aplicativo com suporte multiplataforma \cit
 
 Dentre os principais serviços disponibilizados no plano \textit{Spark} que foram 
 utilizados no projeto, estão o \textit{Firebase Authentication}, 
-que possibilita a autenticação de usuários via e-mail/senha e \textit{Google}, com suporte 
+que possibilita a autenticação de usuários via e-mail/senha e Google, com suporte 
 para até 50 mil usuários ativos mensais sem custo. O \textit{Firebase Analytics} que fornece 
 relatórios detalhados sobre o comportamento e uso do aplicativo, permitindo a 
 análise de métricas essenciais. O \textit{App Distribution} que possibilita a distribuição de versões 
@@ -177,40 +159,26 @@ disponibiliza 5 GB de armazenamento, 1 GB de download diário, além de 20 mil o
 de upload e 50 mil operações de download por dia \cite{firebase2025}.
 
 Neste projeto, o \textit{Firebase} foi escolhido para gerenciar a autenticação e o armazenamento de 
-dados, utilizando o \textit{Firebase Authentication} para autenticar usuários com diferentes métodos de login e 
-o \textit{Firebase Storage} para armazenar imagens, além do banco de dados NoSQL 
-\textit{Cloud Firestore Database} para salvar os dados gerais do sistema e do Analytics para 
-geração de \textit{dashboards} visando analisar o funcionamento geral da aplicação.
-A definição pelo \textit{Firebase} se deu pela robustez e facilidade de integração com \textit{Flutter} 
-oferecendo uma plataforma de backend eficiente e escalável. A aplicação foi construída com a 
-utilização dos benefícios do plano \textit{Spark} descritos acima,
-que, apesar de ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente 
-altos para projetos iniciais.
+dados, utilizando o \textit{Firebase Authentication} para autenticar usuários com diferentes métodos de login e o \textit{Firebase Storage} para armazenar imagens, além do banco de dados NoSQL \textit{Cloud Firestore Database} para salvar os dados gerais do sistema e do \textit{Analytics} para geração de \textit{dashboards} visando analisar o funcionamento geral da aplicação.
+A definição pelo \textit{Firebase} se deu pela robustez e facilidade de integração com \textit{Flutter} oferecendo uma plataforma de \textit{backend} eficiente e escalável. A aplicação foi construída com a utilização dos benefícios do plano \textit{Spark} descritos acima, que, apesar de ser um plano gratuito, traz diversas ferramentas com limites de uso suficientemente altos para projetos iniciais.
 
 \subsection{Pacotes e Plugins do Flutter}
 
-Como o \textit{Flutter} possui uma arquitetura baseada em pacotes e \textit{plugins}, para o desenvolvimento 
-de algumas funcionalidades específicas da aplicação proposta neste trabalho foram selecionados 
-algumas dependências externas para facilitar e aumentar as possibilidades de desenvolvimento.
+Como o \textit{Flutter} possui uma arquitetura baseada em pacotes e \textit{plugins}, para o desenvolvimento de algumas funcionalidades específicas da aplicação proposta neste trabalho foram selecionados algumas dependências externas para facilitar e aumentar as possibilidades de desenvolvimento.
 
-As dependências do projeto podem ser classificadas em três categorias. Bibliotecas puramente em Dart, 
-que não interagem com \textit{APIs} nativas da 
-plataforma, como \texttt{excel} (para manipulação de planilhas), \texttt{intl} (internacionalização 
-e formatação de dados) e \texttt{diacritic} (remoção de acentos e caracteres especiais).
+As dependências do projeto podem ser classificadas em três categorias. Bibliotecas puramente em Dart, que não interagem com \textit{APIs} nativas da 
+plataforma, como \texttt{excel} (para manipulação de planilhas), \texttt{intl} (internacionalização e formatação de dados) e \texttt{diacritic} (remoção de acentos e caracteres especiais).
 
 Plugins, que integram o código \textit{Dart} com \textit{APIs} nativas dos 
 sistemas operacionais \textit{Android} e \textit{iOS}. Exemplos incluem \texttt{geolocator}
- (geolocalização), 
-\texttt{image\_picker} (acesso à câmera e galeria) e \texttt{permission\_handler} (gerenciamento 
-de permissões).
+ (geolocalização), \texttt{image\_picker} (acesso à câmera e galeria) e \texttt{permission\_handler} (gerenciamento de permissões).
 
 E as ferramentas auxiliares, que contribuem com a geração 
 de código e automação de processos durante o desenvolvimento, como \texttt{hive\_generator} 
-(geração de adaptadores para o \textit{Hive}) e \texttt{build\_runner} (execução de processos automáticos de 
-geração de código).
+(geração de adaptadores para o \textit{Hive}) e \texttt{build\_runner} (execução de processos automáticos de geração de código).
 
 Essas dependencias permitem incorporar funcionalidades reutilizáveis no projeto 
-como renderização de mapas, autenticação com Firebase e diversos formatos de gráficos 
+como renderização de mapas, autenticação com \textit{Firebase} e diversos formatos de gráficos 
 sem a necessidade de implementações manuais que seriam custosas e extensas. 
 Além disso, possibilitam o acesso a recursos nativos dos dispositivo, como a 
 geolocalização, gerenciamento de permissões, câmera e o armazenamento local no dispositivo.
@@ -227,17 +195,17 @@ incorporados ao aplicativo e documentar as versões exatas para fins de controle
     \hline
     \textbf{Dependência} & \textbf{Versão} & \textbf{Descrição breve} \\ \hline
     flutter & sdk: flutter & Framework principal para desenvolvimento de apps móveis. \\ \hline
-    flutter\_localizations & sdk: flutter & Suporte a localização (i18n) para Flutter. \\ \hline
-    cupertino\_icons & \^{}1.0.2 & Ícones estilo iOS para Flutter. \\ \hline
-    firebase\_core & \^{}3.8.1 & Inicialização e integração do Firebase. \\ \hline
-    firebase\_auth & \^{}5.3.4 & Autenticação com Firebase. \\ \hline
+    flutter\_localizations & sdk: flutter & Suporte a localização (i18n) para \textit{Flutter}. \\ \hline
+    cupertino\_icons & \^{}1.0.2 & Ícones estilo iOS para \textit{Flutter}. \\ \hline
+    firebase\_core & \^{}3.8.1 & Inicialização e integração do \textit{Firebase}. \\ \hline
+    firebase\_auth & \^{}5.3.4 & Autenticação com \textit{Firebase}. \\ \hline
     cloud\_firestore & \^{}5.4.4 & Integração com o banco Firestore. \\ \hline
     firebase\_analytics & \^{}11.3.3 & Monitoramento e análise de uso (analytics). \\ \hline
-    firebase\_app\_check & \^{}0.3.2+5 & Segurança para apps usando Firebase. \\ \hline
+    firebase\_app\_check & \^{}0.3.2+5 & Segurança para apps usando \textit{Firebase}. \\ \hline
     google\_sign\_in & \^{}6.2.2 & Autenticação via Google. \\ \hline
     persistent\_bottom\_nav\_bar & \^{}6.2.1 & Barra de navegação inferior persistente. \\ \hline
     image\_picker & \^{}1.1.2 & Seleção de imagens da galeria ou câmera. \\ \hline
-    firebase\_storage & \^{}12.3.4 & Armazenamento de arquivos no Firebase. \\ \hline
+    firebase\_storage & \^{}12.3.4 & Armazenamento de arquivos no \textit{Firebase}. \\ \hline
     diacritic & \^{}0.1.3 & Remoção de acentos (diacríticos) de strings. \\ \hline
     provider & \^{}6.1.2 & Gerenciamento de estado simplificado. \\ \hline
     photo\_view & \^{}0.15.0 & Visualização de imagens com zoom e rotação. \\ \hline
@@ -273,7 +241,7 @@ incorporados ao aplicativo e documentar as versões exatas para fins de controle
 \subsubsection{Hive}
 
 O Hive é um banco de dados leve e extremamente rápido, escrito inteiramente 
-em \textit{Dart}, projetado para ser usado em aplicações Flutter e 
+em \textit{Dart}, projetado para ser usado em aplicações \textit{Flutter} e 
 \textit{Dart} nativas. Ele segue o modelo de banco de dados chave-valor, 
 oferecendo uma alternativa eficiente ao SQLite e a outros bancos de dados 
 mais complexos, especialmente em contextos mobile \cite{hive2025}.
@@ -284,38 +252,23 @@ A principal vantagem do Hive é a simplicidade e velocidade em dispositivos móv
 
 \subsubsection{Flutter Map}
 O \textit{Flutter Map} é um plugin gratuito, multiplataforma e de código aberto
-que permite a renderização de mapas 
-dentro de aplicativos \textit{Flutter}. Oferece uma interface fácil de usar 
-para adicionar camadas, marcadores personalizados e interações em mapas.
-Possui suporte de diversos provedores de mapas, como
-\textit{OpenStreetMap}, \textit{Mapbox} e \textit{Google Maps}, 
-permitindo que os desenvolvedores 
- escolham a fonte de dados que melhor atende às suas necessidades. 
- Além disso, ele oferece suporte a recursos avançados, como 
- geolocalização, desenho de rotas e manipulação de gestos do 
- usuário, adição de \textit{layers} \cite{flutter_map_doc}.
+que permite a renderização de mapas dentro de aplicativos \textit{Flutter}. Oferece uma interface fácil de usar para adicionar camadas, marcadores personalizados e interações em mapas.
+Possui suporte de diversos provedores de mapas, como \textit{OpenStreetMap}, \textit{Mapbox} e \textit{Google Maps}, permitindo que os desenvolvedores escolham a fonte de dados que melhor atende às suas necessidades. Além disso, ele oferece suporte a recursos avançados, como geolocalização, desenho de rotas e manipulação de gestos do usuário, adição de \textit{layers} \cite{flutter_map_doc}.
  
- Neste projeto, o \textit{Flutter Map} foi utilizado para renderizar o mapa
- com marcadores personalizados das localizações dos registros realizados 
- pelos usuários, permitindo uma visão geográfica dos dados coletados.
+Neste projeto, o \textit{Flutter Map} foi utilizado para renderizar o mapa com marcadores personalizados das localizações dos registros realizados pelos usuários, permitindo uma visão geográfica dos dados coletados.
 
 \subsubsection{Excel}
 
-O \textit{excel} é uma biblioteca de código aberto para o
-\textit{Dart} que permite a leitura e escrita de arquivos do Microsoft Excel 
-no formato \textit{XLSX} com customizações avançadas de template \cite{excel_flutter}.
+O \textit{excel} é uma biblioteca de código aberto para o \textit{Dart} que permite a leitura e escrita de arquivos do Microsoft Excel no formato \textit{XLSX} com customizações avançadas de template \cite{excel_flutter}.
 Neste projeto foi utilizada para construir a planilha de registros personalizada para download e compartilhamento.
 
 \subsubsection{Graphic}
 
 \textit{Graphic} é uma biblioteca de visualização de dados para \textit{Flutter}, 
-baseada 
-na Gramática de Gráficos de Leland Wilkinson. Com ela é possível criar gráficos 
+baseada na Gramática de Gráficos de Leland Wilkinson. Com ela é possível criar gráficos 
 personalizados de diversos tipos. Além disso, oferece suporte 
-a interações avançadas como: seleção, legenda, tooltips, zoom, e animações 
+a interações avançadas como: seleção, legenda, \textit{tooltips}, \textit{zoom}, e animações 
 para transições e carregamento dos gráficos \cite{graphic_flutter}.
 
-A aplicação desta biblioteca no projeto foi pensada para gerar uma 
-visualização gráfica dos dados de registos coletados para maior síntese de
-algumas informações chaves.
+A aplicação desta biblioteca no projeto foi pensada para gerar uma visualização gráfica dos dados de registos coletados para maior síntese de algumas informações chaves.
 Para o resultado final, foram gerados gráficos nos formatos de pizza e barras.

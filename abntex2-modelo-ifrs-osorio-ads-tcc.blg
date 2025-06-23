@@ -68,6 +68,8 @@ Warning--entry type for "atlassian_jira_2025" isn't style-file defined
 --line 1291 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "google_scholar_2025" isn't style-file defined
 --line 1307 of file elementos-pos-textuais/referencias.bib
+Warning--entry type for "androidstudio2025" isn't style-file defined
+--line 1391 of file elementos-pos-textuais/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -79,43 +81,43 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 38 entries,
             6714 wiz_defined-function locations,
-            1421 strings with 15791 characters,
-and the built_in function-call counts, 43432 in all, are:
-= -- 4958
-> -- 642
-< -- 985
-+ -- 1233
-- -- 207
-* -- 2529
-:= -- 5491
-add.period$ -- 180
+            1418 strings with 15824 characters,
+and the built_in function-call counts, 44483 in all, are:
+= -- 5106
+> -- 657
+< -- 1031
++ -- 1284
+- -- 212
+* -- 2583
+:= -- 5631
+add.period$ -- 181
 call.type$ -- 38
-change.case$ -- 298
+change.case$ -- 299
 chr.to.int$ -- 60
 cite$ -- 37
-duplicate$ -- 4126
-empty$ -- 2216
-format.name$ -- 962
-if$ -- 8952
+duplicate$ -- 4265
+empty$ -- 2217
+format.name$ -- 985
+if$ -- 9116
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 668
-newline$ -- 209
-num.names$ -- 180
-pop$ -- 847
+missing$ -- 671
+newline$ -- 210
+num.names$ -- 185
+pop$ -- 857
 preamble$ -- 1
 purify$ -- 120
 quote$ -- 0
-skip$ -- 4223
+skip$ -- 4365
 stack$ -- 1
-substring$ -- 1880
-swap$ -- 1520
-text.length$ -- 30
+substring$ -- 1929
+swap$ -- 1566
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 0
-while$ -- 246
+while$ -- 252
 width$ -- 0
 write$ -- 587
-(There were 16 warnings)
+(There were 17 warnings)

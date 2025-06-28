@@ -197,8 +197,7 @@ Nesta seção, serão expostos os requisitos funcionais do sistema, que segundo
 \citeonline{guedesuml2} correspondem ao que o cliente quer que o sistema realize,
 ou seja, as funcionalidades do software. Esses requisitos estão organizados em tabelas
 distintas, apresentadas a seguir. A Tabela~\ref{tab:req-funcionais} sintetiza os 63 requisitos funcionais da versão 2.3.6 do aplicativo, que é a versão mais atualizada até o momento da entrega deste documento.
-Durante o desenvolvimento, os requisitos foram revisados e atualizados conforme necessário,
-com base em feedbacks e testes realizados.
+Durante o desenvolvimento, os requisitos foram revisados e atualizados conforme necessário, com base em \textit{feedbacks} e testes realizados.
 
 \begin{longtable}{@{}p{1.5cm}p{13cm}@{}}
     \caption{Requisitos funcionais do sistema}\label{tab:req-funcionais}\\
@@ -221,16 +220,16 @@ com base em feedbacks e testes realizados.
     % usuario
     % registro
     RF01 & O sistema deve permitir o registro de novos usuários com e-mail e senha. \\ \hline
-    RF02 & O sistema deve permitir o registro de novos usuários com conta Google integrada ao Firebase Authentication. \\ \hline
+    RF02 & O sistema deve permitir o registro de novos usuários com conta Google integrada ao \textit{Firebase Authentication}. \\ \hline
     RF03 & O sistema deve diferenciar dois tipos de usuários: cientista cidadão (user) e pesquisador (admin). \\ \hline
     RF04 & O sistema deve permitir que um pesquisador cadastre outro pesquisador, com geração automática de senha segura (8 dígitos alfanuméricos e caracteres especiais). \\ \hline
     RF05 & O sistema deve permitir que um pesquisador conceda a outro usuário que já possui conta a \textit{role} de pesquisador. \\ \hline
 
     % login
-    RF06 & O sistema deve permitir o login via Firebase Authentication com e-mail e senha. \\ \hline
-    RF07 & O sistema deve permitir o login via conta Google integrada ao Firebase Authentication. \\ \hline
+    RF06 & O sistema deve permitir o login via \textit{Firebase Authentication} com e-mail e senha. \\ \hline
+    RF07 & O sistema deve permitir o login via conta Google integrada ao \textit{Firebase Authentication}. \\ \hline
     RF08 & O sistema deve unificar dados quando uma conta possui ambos os métodos de login. \\ \hline
-    RF09 & O sistema deve permitir redefinição de senha através do fluxo do Firebase Authentication (envio de e-mail de redefinição). \\ \hline
+    RF09 & O sistema deve permitir redefinição de senha através do fluxo do \textit{Firebase Authentication} (envio de e-mail de redefinição). \\ \hline
     RF10 & O sistema deve permitir a recuperação da senha. \\ \hline
     RF11 & O sistema deve permitir que o usuário faça \textit{logoff}. \\ \hline
 
@@ -263,7 +262,7 @@ com base em feedbacks e testes realizados.
     RF30 & O sistema deve facilitar a ativação da geolocalização do dispositivo pelo usuário. \\ \hline
     RF31 & O sistema deve permitir visualizar a imagem de um registro em tela cheia. \\ \hline
     RF32 & O sistema deve exibir o nome da cidade automaticamente com base na localização do registro. \\ \hline
-    RF33 & O sistema deve permitir o armazenamento de registros quando enviados offline. \\ \hline
+    RF33 & O sistema deve permitir o armazenamento de registros quando enviados \textit{offline}. \\ \hline
 
     %sobre 
     RF34 & O sistema deve apresentar uma tela com informações sobre o projeto e os desenvolvedores. \\ \hline
@@ -339,14 +338,14 @@ conformidade com as tecnologias e práticas adotadas no desenvolvimento do siste
     
     \bottomrule
     \endlastfoot
-    RNF01 & O sistema deve ser desenvolvido utilizando Flutter e Dart, garantindo compatibilidade 
+    RNF01 & O sistema deve ser desenvolvido utilizando \textit{Flutter} e \textit{Dart}, garantindo compatibilidade 
     multiplataforma. \\ \hline
-    RNF02 & O sistema deve utilizar autenticação segura via Firebase, com criptografia adequada para 
+    RNF02 & O sistema deve utilizar autenticação segura via \textit{Firebase}, com criptografia adequada para 
     senhas e tokens. \\ \hline
     RNF03 & O sistema deve apresentar alta disponibilidade e ser resiliente a falhas de rede. \\ \hline
     RNF04 & O sistema deve indicar quando alguma funcionalidade não está disponível. \\ \hline
     RNF05 & O sistema deve seguir as melhores práticas de \textit{UX}, com validação clara de formulários e 
-    feedbacks visuais para os usuários. \\ \hline
+    \textit{feedbacks} visuais para os usuários. \\ \hline
     RNF06 & O sistema deve garantir a privacidade dos dados do usuário, omitindo dados sensíveis em 
     exportações para cientistas cidadãos. \\ \hline
     RNF07 & O sistema deve apresentar desempenho aceitável mesmo em dispositivos móveis de média 
@@ -568,14 +567,15 @@ Foram criadas ligações interativas entre as principais telas, simulando os red
 \legend{Fonte: Autor}
 
 \section{Projeto Gerencial}
-A gerência desse projeto foi realizada utilizando a ferramenta Jira, que possibilitou o controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho da Figura \ref{fig:fluxoJira} foi seguido para garantir a organização e a eficiência das tarefas. Os \textit{cards} gerados no \textit{board} foram puxados para trabalho à medida que havia tempo disponível para atuação. Foram catalogadas não só tarefas de codificação, como 
+\label{sec:gerencia-projeto}
+A gerência desse projeto foi realizada utilizando a ferramenta \textit{Jira}, que possibilitou o controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho da Figura \ref{fig:fluxoJira} foi seguido para garantir a organização e a eficiência das tarefas. Os \textit{cards} gerados no \textit{board} foram puxados para trabalho à medida que havia tempo disponível para atuação. Foram catalogadas não só tarefas de codificação, como 
 também tarefas de prototipação.
 
 Foram gerados ao todo, 131 \textit{cards} desde julho de 2024 quando se deu início  a prototipação da aplicação. Na Figura \ref{gra:cards-mes} é possível observar a quantidade de itens no eixo vertical relacionada com o mês de criação no eixo horizontal. Com ele podemos concluir que os meses com mais entrada de demandas foram os meses de novembro de 2024, janeiro de 2025 e março de 2025, onde o número de \textit{cards} criados foi maior que 18.
 
 \begin{figure}[H]
     \centering
-    \caption{Gráfico demonstrativo de \textit{cards} criados por mês no Jira. As 
+    \caption{Gráfico demonstrativo de \textit{cards} criados por mês no \textit{Jira}. As 
     barras em verde representam demandas que, até a data de criação do gráfico, já haviam sido finalizadas. As barras em vermelho representam demandas que ainda estavam em aberto.}
     \includegraphics[width=\textwidth]{imagens/itensMes.png}
     \label{gra:cards-mes}
@@ -599,7 +599,7 @@ Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dez
 
 \begin{figure}[H]
     \centering
-    \caption{Gráfico demonstrativo de tempo de resolução médio dos \textit{cards} por semana no Jira}
+    \caption{Gráfico demonstrativo de tempo de resolução médio dos \textit{cards} por semana no \textit{Jira}}
     \includegraphics[width=\textwidth]{imagens/tempo-médio-cards.png}
     \label{gra:tempo-medio-resolucao}
 \end{figure}
@@ -616,7 +616,7 @@ A Tabela~\ref{tab:desenv_geral_sorted} apresenta esse conjunto de funcionalidade
 
 \subsection{Correções}
 Ao longo do processo de desenvolvimento, foram identificados e registrados bugs e falhas 
-de funcionamento, a origem da geração desses cards pode ser tanto de testes internos, quanto de validações de testadores que obtiveram alguma das \textit{builds} do projeto e reportaram alguma inconsistência. Essas inconsistências foram tratadas por meio de cards como correções (\textit{fixes}) no ambiente Jira.
+de funcionamento, a origem da geração desses cards pode ser tanto de testes internos, quanto de validações de testadores que obtiveram alguma das \textit{builds} do projeto e reportaram alguma inconsistência. Essas inconsistências foram tratadas por meio de cards como correções (\textit{fixes}) no ambiente \textit{Jira}.
 
 A Tabela~\ref{tab:fixes_sorted} a seguir apresenta uma relação dos 43 apontamentos dessa categoria que foram documentados, desse total, 42 foram resolvidos e 1 ainda está no \textit{Backlog}. Isso demonstra a evolução contínua do sistema em busca de estabilidade e qualidade do produto final.
 
@@ -629,7 +629,7 @@ Esses pontos surgiram durante a implementação de funcionalidades, revisões de
 exploratórios e regressivos.
 
 A Tabela~\ref{tab:dt_melhorias_sorted} apresenta as melhorias e ajustes técnicos catalogados, 
-evidenciando práticas de refatoração e aprimoramento contínuo. Ao todo foram 19 \textit{cards} abertos com esse intuito, dos quais 8 foram resolvidos e 11 ainda estão no \textit{Backlog}.
+evidenciando práticas de refatoração e aprimoramento contínuo. Ao todo foram 19 \textit{cards} abertos com esse intuito, dos quais 9 foram resolvidos e 10 ainda estão no \textit{Backlog}.
 
 % manter essa tabela aqui ou colocar no anexo?
 \input{elementos-textuais/tabela-melhorias-jira.tex}
@@ -712,7 +712,7 @@ Outro ponto onde a desnormalização foi empregada para economizar o número de 
 \end{table}
 \legend{Fonte: Autor}
 
-Além dos índices padrão criados pelo \textit{Firestore} para os campos utilizados em filtros (\textit{where}) e ordenações (\textit{orderBy}), foram criados índices personalizados para a subcoleção registers, com o objetivo de garantir melhor desempenho em consultas específicas e operações de filtragem. Esses índices incluem:
+Além dos índices padrão criados pelo \textit{Firestore} para os campos utilizados em filtros (\texttt{where}) e ordenações (\texttt{orderBy}), foram criados índices personalizados para a subcoleção registers, com o objetivo de garantir melhor desempenho em consultas específicas e operações de filtragem. Esses índices incluem:
 
 \begin{itemize}
     \item \texttt{register.animal.species}: para habilitar buscas por espécie de animal dentro da 
@@ -770,11 +770,11 @@ A coleção de \texttt{counters} é utilizada para armazenar contadores gerais d
 
 \subsection{Armazenamento Local}\label{subsec:armazenamento_local}
 
-O armazenamento local foi implementado para garantir a persistência dos dados mesmo em cenários de instabilidade ou ausência de conexão com a internet. Para isso, foi utilizado o banco de dados leve e embarcado Hive.
+O armazenamento local foi implementado para garantir a persistência dos dados mesmo em cenários de instabilidade ou ausência de conexão com a internet. Para isso, foi utilizado o banco de dados leve e embarcado \textit{Hive}.
 
 Os registros enviados em cenários onde o dispositivo não possui acesso a internet são armazenados localmente na caixa denominada \texttt{registers}. Cada registro é representado por uma instância da classe \texttt{LocalRegister}, que inclui os seguintes campos: tipo de registro (técnico ou simples), dados do registro em formato \texttt{Map<String, dynamic>}, caminho das imagens associadas, data de criação e um status de envio. Esse status é controlado por um enumerador denominado \texttt{RegisterStatus}, com três estados possíveis: \texttt{pending} (ainda não enviado), \texttt{sent} (enviado com sucesso) e \texttt{error} (falha no envio).
 
-Para que esses objetos mais complexos sejam armazenados, foram criados adaptadores de tipo (\textit{TypeAdapters}) para as classes \texttt{LocalRegister} e \texttt{RegisterStatus}. Esses adaptadores são gerados a partir de anotações do pacote \textit{Hive}, e são responsáveis por converter os objetos Dart em um formato binário que pode ser persistido no disco local e posteriormente recuperado.
+Para que esses objetos mais complexos sejam armazenados, foram criados adaptadores de tipo (\textit{TypeAdapters}) para as classes \texttt{LocalRegister} e \texttt{RegisterStatus}. Esses adaptadores são gerados a partir de anotações do pacote \textit{Hive}, e são responsáveis por converter os objetos \textit{Dart} em um formato binário que pode ser persistido no disco local e posteriormente recuperado.
 
 O aplicativo monitora mudanças na conectividade do dispositivo através de um \textit{listener} de conexão. Assim que a conexão de rede é restabelecida, é iniciado um processo de tentativa de reenvio para todos os registros com status \texttt{pending} ordenados em fila baseado na data de criação. O processo de reenvio é realizado com até três tentativas por registro. Caso o envio seja realizado com sucesso, o status do registro é atualizado para \texttt{sent}. Em caso de falha, é atualizado para \texttt{error} para evitar que o sistema tente reenviar um registro com problema indefinidamente.
 
@@ -813,9 +813,8 @@ As principais seções do aplicativo incluem:
 A seguir, cada uma dessas seções será apresentada com suas respectivas telas, fluxos de interação, decisões de projeto e aspectos técnicos sobre o funcionamento do sistema.
 
 \subsection{Splashscreen}
-Foi gerada uma \textit{splashscreen} para o aplicativo, essa tela traz o logo do projeto 
-FaunaMar e é apresentada durante o carregamento completo do aplicativo 
-para que o usuário tenha um feedback visual de que o aplicativo está sendo iniciado (Figura~\ref{fig:splashscreen}).
+Foi gerada uma \textit{splashscreen} para o aplicativo, essa tela traz o logo do projeto FaunaMar e é apresentada durante o carregamento completo do aplicativo 
+para que o usuário tenha um \textit{feedback} visual de que o aplicativo está sendo iniciado (Figura~\ref{fig:splashscreen}).
 
 \begin{figure}[H]
     \centering
@@ -838,7 +837,7 @@ A Figura~\ref{fig:fluxo-login-cadastro} apresenta o diagrama de fluxo que resume
 \end{figure}
 \legend{Fonte: Autor}
 
-Em ambos os provedores de login, o processo de autenticação é realizado por meio do Firebase Authentication, para garantir a segurança e a privacidade dos dados do usuário. A autenticação via Google é implementada utilizando o pacote \texttt{google\_sign\_in}, que permite integração com a conta Google do usuário, facilitando o acesso ao aplicativo. O formulário de login possui validações para garantir que o usuário informe um e-mail em formato válido (com "@" e ".com"), e uma senha que atenda o padrão esperado (Figura~\ref{fig:login-erro}).
+Em ambos os provedores de login, o processo de autenticação é realizado por meio do \textit{Firebase Authentication}, para garantir a segurança e a privacidade dos dados do usuário. A autenticação via Google é implementada utilizando o pacote \texttt{google\_sign\_in}, que permite integração com a conta Google do usuário, facilitando o acesso ao aplicativo. O formulário de login possui validações para garantir que o usuário informe um e-mail em formato válido (com "@" e ".com"), e uma senha que atenda o padrão esperado (Figura~\ref{fig:login-erro}).
 
 \begin{figure}[H]
     \centering
@@ -858,13 +857,13 @@ Em ambos os provedores de login, o processo de autenticação é realizado por m
 \end{figure}
 \legend{Fonte: Autor}
 
-O Firebase Authentication utiliza uma versão internamente modificada do algoritmo \textit{Scrypt} para realizar o \textit{hash} das senhas dos usuários \cite{firebaseScrypt2023}. Durante o processo de registro, ao criar uma senha, o sistema aplica uma função de \textit{hash} criptográfica à senha fornecida, gerando uma sequência de caracteres única, conhecida como \textit{hash}. Segundo \citeonline{Serafim2012}, “o \textit{hash} é irreversível. Não há informação suficiente no valor do \textit{hash} h para recuperar a mensagem m”, o que assegura que a senha original não possa ser obtida a partir do valor armazenado. Essa abordagem está em conformidade com a Lei Geral de Proteção de Dados (LGPD), que exige que dados pessoais, como senhas, sejam tratados de forma segura e responsável \cite{BRASIL2018lgpd}.
+O \textit{Firebase Authentication} utiliza uma versão internamente modificada do algoritmo \textit{Scrypt} para realizar o \textit{hash} das senhas dos usuários \cite{firebaseScrypt2023}. Durante o processo de registro, ao criar uma senha, o sistema aplica uma função de \textit{hash} criptográfica à senha fornecida, gerando uma sequência de caracteres única, conhecida como \textit{hash}. Segundo \citeonline{Serafim2012}, “o \textit{hash} é irreversível. Não há informação suficiente no valor do \textit{hash} h para recuperar a mensagem m”, o que assegura que a senha original não possa ser obtida a partir do valor armazenado. Essa abordagem está em conformidade com a Lei Geral de Proteção de Dados (LGPD), que exige que dados pessoais, como senhas, sejam tratados de forma segura e responsável \cite{BRASIL2018lgpd}.
 
 Apenas o \textit{hash} gerado é armazenado no banco de dados, vinculado ao identificador do usuário. No momento do login, a senha fornecida é novamente processada pela mesma função de \textit{hash} e comparada ao valor armazenado. Caso os dois hashes coincidam, a autenticação é concluída com sucesso, caso contrário, o acesso é negado.
 
-Para evitar duplicidade de contas e oferecer maior flexibilidade ao usuário, optou-se pela utilização da funcionalidade de vinculação de contas do Firebase. Essa funcionalidade permite que, quando um usuário tenta se autenticar com um provedor (por exemplo, e-mail e senha) usando um endereço de e-mail que já está associado a outro provedor (como o Google Sign-In), o Firebase automaticamente une esses métodos de login em uma única chave de usuário.
+Para evitar duplicidade de contas e oferecer maior flexibilidade ao usuário, optou-se pela utilização da funcionalidade de vinculação de contas do \textit{Firebase}. Essa funcionalidade permite que, quando um usuário tenta se autenticar com um provedor (por exemplo, e-mail e senha) usando um endereço de e-mail que já está associado a outro provedor (como o Google Sign-In), o \textit{Firebase} automaticamente une esses métodos de login em uma única chave de usuário.
 
-Caso o usuário tenha esquecido a senha, ele pode solicitar a recuperação por meio do e-mail cadastrado. Para isso, o usuário deve clicar em "Esqueci minha senha"  na tela de login, que irá realizar o redirecionamento para a tela de recuperação de senha (Figura~\ref{fig:esqueci-senha}). Após a inserção e validação do e-mail, o aplicativo envia um e-mail de recuperação com um link seguro para redefinir a senha (Figuras~\ref{fig:email-esqueci-senha-sucesso} e ~\ref{fig:email-esqueci-senha}). Todo esse processo é realizado utilizando métodos do Firebase Authentication, que permite gerenciar o envio do e-mail e realiza o processo de substituição da senha antiga pela nova.
+Caso o usuário tenha esquecido a senha, ele pode solicitar a recuperação por meio do e-mail cadastrado. Para isso, o usuário deve clicar em "Esqueci minha senha"  na tela de login, que irá realizar o redirecionamento para a tela de recuperação de senha (Figura~\ref{fig:esqueci-senha}). Após a inserção e validação do e-mail, o aplicativo envia um e-mail de recuperação com um link seguro para redefinir a senha (Figuras~\ref{fig:email-esqueci-senha-sucesso} e ~\ref{fig:email-esqueci-senha}). Todo esse processo é realizado utilizando métodos do \textit{Firebase Authentication}, que permite gerenciar o envio do e-mail e realiza o processo de substituição da senha antiga pela nova.
 
 \begin{figure}[H]
         \centering
@@ -1074,7 +1073,7 @@ Ambos os \textit{switchs} possuem atrelados um ícone de informação que, ao se
 \end{figure}
 \legend{Fonte: Autor}
 
-O formulário técnico possui campos adicionais para coleta de informações mais detalhadas, como observações, e informações taxonômicas do animal como classe, ordem, família, gênero e espécie. Esses campos adicionais apresentam \textit{dropdowns} nos quais as opções são alimentadas dinamicamente a partir dos documentos da coleção \texttt{animals} no Firestore, descrita na Seção \ref{sec:arquitetura_dados}. Isso permite que o usuário filtre e selecione espécies já catalogadas no sistema. Caso o usuário não encontre o animal desejado, ele pode optar por preencher os campos de forma manual, utilizando os campos de texto abertos (Figura~\ref{fig:seletor-busca}). Caso o usuário preencha uma informação mais específica, como o gênero, o sistema irá pré-selecionar as opções de família, ordem e classe correspondentes e irá filtrar as opções disponíveis para o campo de espécie, facilitando o preenchimento do formulário (Figura~\ref{fig:seletor-busca2}). 
+O formulário técnico possui campos adicionais para coleta de informações mais detalhadas, como observações, e informações taxonômicas do animal como classe, ordem, família, gênero e espécie. Esses campos adicionais apresentam \textit{dropdowns} nos quais as opções são alimentadas dinamicamente a partir dos documentos da coleção \texttt{animals} no \textit{Firestore}, descrita na Seção \ref{sec:arquitetura_dados}. Isso permite que o usuário filtre e selecione espécies já catalogadas no sistema. Caso o usuário não encontre o animal desejado, ele pode optar por preencher os campos de forma manual, utilizando os campos de texto abertos (Figura~\ref{fig:seletor-busca}). Caso o usuário preencha uma informação mais específica, como o gênero, o sistema irá pré-selecionar as opções de família, ordem e classe correspondentes e irá filtrar as opções disponíveis para o campo de espécie, facilitando o preenchimento do formulário (Figura~\ref{fig:seletor-busca2}). 
 Essa regra vale para cada um dos campos taxonômicos, ou seja, ao preencher um campo mais específico, os demais campos são filtrados para apresentar apenas as opções que correspondem à seleção feita.
 
 \begin{figure}[H]
@@ -1128,7 +1127,7 @@ Com todos os dados validados e a localização definida, o sistema constrói o p
 
 A tela de "Meus Registros" é onde o usuário pode visualizar todos os registros enviados por ele, tanto os que foram validados quanto os que ainda estão pendentes de avaliação. Essa tela apresenta uma lista de registros que possui \textit{scroll} vertical, essa lista é populada por registros ordenados por data de envio, do mais recente para o mais antigo, e são exibidos em blocos de informações que incluem o nome popular do animal, a cidade onde foi avistado, a data de envio e o status de validação e uma imagem representativa (Figura~\ref{fig:meus-registros}).
 
-Para carregar os dados desta tela, o sistema realiza uma consulta à subcoleção registers específica do usuário autenticado, conforme a estrutura detalhada na Seção de Arquitetura de Dados (Seção \ref{sec:arquitetura_dados}). Os dados e as URLs das imagens são então recuperados e mantidos em cache para otimizar o desempenho e permitir que as imagens sejam exibidas até mesmo em cenários de falta de conexão com a internet.
+Para carregar os dados desta tela, o sistema realiza uma consulta à subcoleção registers específica do usuário autenticado, conforme a estrutura detalhada na Seção de Arquitetura de Dados (Seção \ref{sec:arquitetura_dados}). Os dados e as URLs das imagens são então recuperados e mantidos em \textit{cache} para otimizar o desempenho e permitir que as imagens sejam exibidas até mesmo em cenários de falta de conexão com a internet.
 
 \begin{figure}[H]
     \centering
@@ -1160,7 +1159,7 @@ Inicialmente, a coloração do estado de "enviado" era cinza, mas foi alterada p
 \end{figure}
 \legend{Fonte: Autor}
 
-Esta tela requisitou ajustes de responsividade para garantir que a listagem não tivesse algumas informações cortadas em dispositivos com telas menores. Para isso, foi necessário que os textos fossem englobados pelo widget \texttt{ellipsis}, que adiciona automaticamente reticências ao final do texto caso ele ultrapasse o espaço disponível em tela. Essa abordagem foi especialmente importante nos campos de nome popular apresentados na listagem tendo em vista que esse campo pode conter até 40 caracteres.
+Esta tela requisitou ajustes de responsividade para garantir que a listagem não tivesse algumas informações cortadas em dispositivos com telas menores. Para isso, foi necessário que os textos fossem englobados pelo widget \textit{ellipsis}, que adiciona automaticamente reticências ao final do texto caso ele ultrapasse o espaço disponível em tela. Essa abordagem foi especialmente importante nos campos de nome popular apresentados na listagem tendo em vista que esse campo pode conter até 40 caracteres.
 
 \begin{figure}[H]
     \centering
@@ -1274,12 +1273,142 @@ Outra melhoria adicionada foi a possibilidade de adicionar um animal novo que n�
 \legend{Fonte: Autor}
 
 
+\subsection{Meu Perfil}
 
-\subsection{Meu Perfil e Conquistas}
+A tela de "Meu Perfil" é onde as informações do usuário logado estão centralizadas. Nesta seção, além de ver informações pessoais, o usuário pode gerenciar sua conta, ver os últimos registros enviados e algumas estatísticas de contribuição (Figuras~\ref{fig:ultimos-registros} e~\ref{fig:gerenciar-conta}).
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{Seção de últimos registros na tela de "Meu perfil".}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/ultimosReg_perfil.png}
+        \label{fig:ultimos-registros}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{\textit{Bottomsheet} de gerenciamento de conta.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/gerenciarConta.png}
+        \label{fig:gerenciar-conta}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+A tela manteve grande parte do \textit{layout} prototipado, mas foram feitas algumas alterações para melhorar a usabilidade. Um ícone de gerenciamento foi adicionado, permitindo que o usuário acesse as opções da sua conta. Ao clicar nesse ícone, uma \textit{bottomsheet} é exibida com duas ações possíveis: "Editar perfil" e "Excluir conta".
+
+A opção de "Editar perfil" redireciona o usuário para um formulário (Figura~\ref{fig:editar-conta}) onde ele pode atualizar suas informações pessoais, como nome, e-mail, foto de perfil e senha. Para que as alterações sejam salvas, o usuário deve se reautenticar, inserindo sua senha atual no campo de verificação. Esta etapa é uma medida de segurança para garantir que apenas o titular da conta possa modificar dados sensíveis. Após a reautenticação, o sistema processa as alterações de forma individual, a atualização da foto envolve o envio do novo arquivo para o \textit{Firebase} Storage e a gravação da URL no \textit{Firestore} enquanto a alteração do e-mail aciona um fluxo de verificação via \textit{Firebase}, que exige a confirmação no novo endereço e realiza o \textit{logoff} do usuário por segurança. 
+Contas cadastradas com o método de autenticação do Google não possuem acesso a essa funcionalidade, pois o nome, o e-mail e a imagem de perfil são gerenciados diretamente pelo provedor de autenticação do Google.
+
+Já a opção de "Excluir conta" inicia um fluxo de remoção permanente dos dados. Inicialmente, o sistema exibe um modal de confirmação (Figura~\ref{fig:excluir-conta}), que também exige a reautenticação do usuário. Após a confirmação, é executada uma exclusão em múltiplas etapas para garantir a exclusao completa dos dados. A foto de perfil é removida do \textit{Firebase Storage}, o documento do usuário é deletado da coleção \texttt{users} no \textit{Firestore} e, por último, a credencial do \textit{Firebase Authentication} é removida permanentemente.
+
+Por uma decisão de projeto, a exclusão de uma conta não remove a subcoleção de \texttt{registers} do usuário. Essa abordagem foi adotada para garantir a integridade dos dados de monitoramento, visto que os registros são dados científicos valiosos para a pesquisa do CECLIMAR. Com a remoção do documento principal do usuário, a ligação entre seus dados pessoais e os registros enviados é desfeita, gerando a anonimização dos dados.
+
+\begin{figure}[H]
+        \centering
+        \caption{Formulário de atualização de conta.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/updateConta.png}
+        \label{fig:editar-conta}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \caption{Confirmação de exclusão de conta.}
+    \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/confirmarExclusao.png}
+    \label{fig:excluir-conta}
+\end{figure}
+\legend{Fonte: Autor}
+
+A seção de "Animais encontrados" deu lugar à de "Conquistas" para apresentar estatísticas de contribuição do usuário, as conquistas são separadas em três categorias: aves, mamíferos e répteis. Cada classe possui um conjunto de quatro insígnias personalizadas, que são desbloqueadas ao atingir 1, 5, 20 e 50 registros validados. As informações de progresso são obtidas a partir dos valores dos contadores \texttt{mammalsFound}, \texttt{birdsFound} e \texttt{reptilesFound} da coleção \texttt{users}(Figura~\ref{fig:conquistas-perfil}). Além disso, a tela também exibe uma conquista secreta que é desbloqueada quando o usuário alcança 100 registros avaliados de qualquer classe, incentivando a participação ativa no sistema.
+
+As insígnias possuem \textit{tooltips} informativas que são exibidas com o toque. Caso a conquista esteja bloqueada, será apresentada uma mensagem informando o progresso do usuário com relação a quantidade de registros necessários para desbloqueio. Já as conquistas desbloqueadas exibem o nome da classe a qual ela pertence. A exceção a essa regra é a conquista secreta, que não disponibiliza informações sobre o progresso do usuário, apenas informa que a conquista foi desbloqueada.
+
+Conquistas que não foram desbloqueadas são representadas por uma insígnia \textit{placeholder} como a conquista secreta apresentada na Figura~\ref{fig:conquistas-perfil2}. Essa abordagem foi adotada com o objetivo de demonstrar para o usuário que existem conquistas a serem desbloqueadas, mesmo que ele ainda não tenha alcançado os requisitos necessários.
+
+\begin{figure}[H]
+    \centering
+    \caption{Seção de conquistas na tela de "Meu perfil".}
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/conquistas_perfil.png}
+        \label{fig:conquistas-perfil}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/conquistaSecreta_perfil.png}
+        \label{fig:conquistas-perfil2}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+Para a criação das insígnias, uma arte vetorizada representando a classe aves foi elaborada. Essa imagem serviu como base para a geração das demais insígnias, utilizando recursos de inteligência artificial por meio do \textit{ChatGPT}. A imagem original foi utilizada como referência nos \textit{prompts} de geração, para garantir um visual similar nas suas variações. Com um conjunto completo de insígnias para a primeira classe, foram então produzidos os demais conjuntos, a partir de animais representativos de cada grupo taxonômico e adaptando os \textit{prompts} conforme necessário para manter o padrão visual unificado entre todas as categorias. Os animais selecionados foram: a \textit{Larus dominicanus} (gaivota) para aves, o \textit{Arctocephalus australis} (lobo-marinho-do-sul) para mamíferos e a \textit{Caretta caretta} (tartaruga-cabeçuda) para os répteis, a conquista secreta possuiu todos os animais citados (Figura~\ref{fig:badges}).
+
+\begin{figure}[H]
+    \centering
+    \caption{Insígnias de conquistas.}
+    \includegraphics[height=0.72\textheight]{imagens/badges.png}
+    \label{fig:badges}
+\end{figure}
+\legend{Fonte: Autor}
 
 \subsection{Painel de Registros}
 
+O "Painel de Registros" é um \textit{dashboard} analítico elaborado para oferecer uma visão centralizada e interativa do conjunto de dados coletados pelo aplicativo. Diferente das outras seções, que focam na experiência individual do usuário, este painel agrega as informações de todos os usuários, servindo como uma ferramenta de monitoramento e análise para os pesquisadores do CECLIMAR como também como uma área onde um cientista cidadão pode explorar mais e se sentir parte do projeto. A tela é composta por um mapa de ocorrências, gráficos de distribuição, filtros e uma funcionalidade de exportação de dados.
+
+Ao ser carregada, a tela realiza consultas no \textit{Firestore} para a obtenção dos dados. São buscados todos os documentos da coleção \texttt{animals} para gerar as estatísticas de espécies. Em seguida, é realizada uma \textit{collection group query} para obter todos os documentos da subcoleção \texttt{registers}, independentemente do usuário. Com base nesses dados, são calculados e exibidos os indicadores principais: o número total de registros, a contagem de registros pendentes e de registros já avaliados (Figura~\ref{fig:painel-registros}).
+
+A visualização geográfica dos dados é exibida em um mapa interativo, implementado com o pacote \textit{flutter\_map} e utilizando o OpenStreetMap como camada base, por ser uma fonte aberta e gratuita. Cada registro é representado por um marcador, cuja cor indica seu \textit{status}: verde para "Validado" e vermelho para "Enviado", permitindo uma análise visual da distribuição e do estado dos envios. Cada marcador é clicável e exibe uma \textit{bottomsheet} com os detalhes do registro correspondente. Para análises de frequência, um gráfico em pizza (Figura~\ref{fig:grafico-pizza}) traz uma relação das dez espécies mais registradas, enquanto um gráfico de barras (Figura~\ref{fig:grafico-barras}) permite a análise temporal, exibindo a quantidade de registros por dia dentro de um período selecionado pelo usuário. É possível também filtrar os dados para obter uma espécie específica através de um campo de busca (Figura~\ref{fig:campo-busca-especie}). Os gráficos foram gerados com as bibliotecas \textit{pie\_chart} e \textit{graphic}, respectivamente.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{Tela de Painel de Registros.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/mapa_painelReg.png}
+        \label{fig:painel-registros}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{Gráfico em pizza contendo as 10 espécies mais registradas no painel de registros.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/rankingEspecies_painelReg.png}
+        \label{fig:grafico-pizza}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{Campo para busca por espécie no painel de registros.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/buscarEspecie_painelReg.png}
+        \label{fig:campo-busca-especie}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \caption{Gráfico de barras para análise temporal dos registros no painel de registros.}
+        \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/graficoBarra_painelReg.png}
+        \label{fig:grafico-barras}
+    \end{minipage}
+\end{figure}
+\legend{Fonte: Autor}
+
+Uma funcionalidade essencial do painel é a capacidade compartilhamento dos dados de pesquisa (Figura~\ref{fig:tabela-exportacao}). Por meio de uma \textit{bottomsheet}, o usuário pode optar por baixar ou compartilhar uma planilha em formato \textit{Excel} (.xlsx) contendo os registros. Esta funcionalidade foi desenvolvida com o auxilio da biblioteca \textit{excel} para a construção e formatação da tabela e possui uma regra para garantir a privacidade dos dados. Caso o usuário não possuir o perfil de "admin", o arquivo gerado terá apenas os registros com status "Validado" e a coluna com o nome do autor do registro será anonimizada, removendo qualquer informação de identificação pessoal. Esta decisão de projeto assegura que os dados possam ser compartilhados para fins de análise sem comprometer a privacidade dos cientistas cidadãos. Exemplos das tabelas exportada podem ser vistos no Apêndice \ref{sec:anexo-tabela-exportacao}.
+
+\begin{figure}[H]
+    \centering
+    \caption{\textit{Bottomsheet} para exportação de tabela.}
+    \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/exportarTabela_painelReg.png}
+    \label{fig:tabela-exportacao}
+\end{figure}
+\legend{Fonte: Autor}
+
 \subsection{Adicionar Pesquisador}
+
 A funcionalidade de "Adicionar Pesquisador" é exclusiva para usuários com perfil de pesquisador e só está disponível quando o dispositivo está conectado à internet e permite que um pesquisador adicione novos usuários ao sistema com o perfil de pesquisador ou conceda permissões de pesquisador a usuários comuns já cadastrados. O fluxo dessa funcionalidade é apresentado na Figura~\ref{fig:fluxo-adicionar-pesquisador}.
 
 A tela de "Adicionar Pesquisador" apresenta um formulário onde o pesquisador pode inserir o nome e o e-mail do usuário que deseja adicionar ou conceder a \textit{role} de \texttt{admin} (Figura~\ref{fig:adicionar-pesquisador}).
@@ -1325,6 +1454,7 @@ alterar a senha para uma de sua escolha.
 \legend{Fonte: Autor}
 
 \subsection{Fauna Local}
+
 Para a seção de fauna local, foi decidido que, em um primeiro momento, seria utilizado o acervo externo do projeto Fauna Marinha RS, que já possui um catálogo bem documentado de espécies registradas no litoral gaúcho, com material didático e imagens representativas de cada espécie. Sendo assim, o \textit{card} de "Fauna Local" no menu inicial redireciona o usuário para o site do projeto para navegação externa (Figura ~\ref{fig:fauna_local}).
 
 \begin{figure}[H]
@@ -1336,6 +1466,7 @@ Para a seção de fauna local, foi decidido que, em um primeiro momento, seria u
 \legend{Fonte: Autor}
 
 \subsection{Sobre o app}
+
 A tela de 'Sobre o app' apresenta o número da versão da \textit{build}, que segue o padrão de versionamento semântico detalhado na Seção \ref{sec:versionamento}, além de informações sobre o projeto Fauna Marinha RS, sobre o aplicativo e seu desenvolvimento separadas em \textit{accordions}. Além disso, traz ícones com \textit{links} externos para as redes sociais do projeto, como Instagram, Facebook, YouTube, Spotify, Telegram e para a caixa de e-mail, permitindo que os usuários acompanhem as atualizações e possam entrar em contato com a equipe do projeto (Figura~\ref{fig:sobre-app}).
 
 \begin{figure}[H]
@@ -1351,22 +1482,21 @@ A execução de testes foi realizada com o objetivo de garantir que o aplicativo
 
 \subsection{Execução de Testes}
 
-Em tempo de desenvolvimento, os \textit{cards} de tarefas que tinham sua implementação finalizada eram passados para a coluna de 'Aguardando teste' no quadro do Jira para que, posteriormente, fossem executados testes \textit{end to end} focados nas funcionalidades específicas de cada demanda, bem como testes regressivos para garantir que as novas implementações não afetassem o funcionamento das funcionalidades já existentes. 
-Esses testes foram executados manualmente, utilizando dispositivo físico e, por vezes, o Android Studio \cite{androidstudio2025} para emular o comportamento de alguns componentes do aplicativo em diferentes tamanhos de tela e versões do Android.
+Em tempo de desenvolvimento, os \textit{cards} de tarefas que tinham sua implementação finalizada eram passados para a coluna de 'Aguardando teste' no quadro do \textit{Jira} para que, posteriormente, fossem executados testes \textit{end to end} focados nas funcionalidades específicas de cada demanda, bem como testes regressivos para garantir que as novas implementações não afetassem o funcionamento das funcionalidades já existentes. Esses testes foram executados manualmente, utilizando dispositivo físico e, por vezes, o \textit{Android Studio} \cite{androidstudio2025} para emular o comportamento de alguns componentes do aplicativo em diferentes tamanhos de tela e versões do Android.
 
-Os \textit{bugs} encontrados durante essa etapa foram registrados no Jira e, para a liberação de cada \textit{card}, todos os \textit{bugs} atribuídos à demanda deveriam ser resolvidos para que a tarefa pudesse ser validada e registrada como concluída no fluxo de trabalho.
+Os \textit{bugs} encontrados durante essa etapa foram registrados no \textit{Jira} e, para a liberação de cada \textit{card}, todos os \textit{bugs} atribuídos à demanda deveriam ser resolvidos para que a tarefa pudesse ser validada e registrada como concluída no fluxo de trabalho.
 
-Com um conjunto de tarefas concluídas, eram geradas versões de teste do aplicativo, que eram disponibilizadas para um grupo de testadores selecionados para a realização de testes de usabilidade e funcionalidade. A distribuição dessas versões foi feita com o Firebase App Distribution, totalizando 17 versões de teste distribuídas para 7 testadores durante o período de desenvolvimento do aplicativo Figura~\ref{fig:testadores-versao}.
+Com um conjunto de tarefas concluídas, eram geradas versões de teste do aplicativo, que eram disponibilizadas para um grupo de testadores selecionados para a realização de testes de usabilidade e funcionalidade. A distribuição dessas versões foi feita com o \textit{Firebase App Distribution}, totalizando 17 versões de teste distribuídas para 7 testadores durante o período de desenvolvimento do aplicativo Figura~\ref{fig:testadores-versao}.
 
 \begin{figure}[H]
     \centering
-    \caption{Última versão disponibilizada para teste no Firebase. A imagem apresenta o número da versão, a data de envio, o número de convidados e downloads realizados.}
+    \caption{Última versão disponibilizada para teste no \textit{Firebase}. A imagem apresenta o número da versão, a data de envio, o número de convidados e downloads realizados.}
     \includegraphics[width=0.9\textwidth]{imagens/testadores.png}
     \label{fig:testadores-versao}
 \end{figure}
 \legend{Fonte: Autor}
 
-Esses testadores possuíam diversos perfis, incluindo dois usuários comuns, um pesquisador do CECLIMAR, e quatro usuários com experiência no desenvolvimento de software. Os testes foram realizados a partir de 7 dispositivos diferentes, abrangendo uma variedade de tamanhos de tela e versões do Android, garantindo que o aplicativo fosse compatível com a maioria dos dispositivos utilizados pelos usuários finais. Além disso, foi utilizado o emulador do Android Studio para alguns testes de responsividade com telas de tamanho mais reduzido, que não foram possíveis de serem testadas com os dispositivos físicos disponíveis (Tabela~\ref{tab:dispositivos-testados}).
+Esses testadores possuíam diversos perfis, incluindo dois usuários comuns, um pesquisador do CECLIMAR, e quatro usuários com experiência no desenvolvimento de software. Os testes foram realizados a partir de 7 dispositivos diferentes, abrangendo uma variedade de tamanhos de tela e versões do Android, garantindo que o aplicativo fosse compatível com a maioria dos dispositivos utilizados pelos usuários finais. Além disso, foi utilizado o emulador do \textit{Android Studio} para alguns testes de responsividade com telas de tamanho mais reduzido, que não foram possíveis de serem testadas com os dispositivos físicos disponíveis (Tabela~\ref{tab:dispositivos-testados}).
 
 \begin{table}[h!]
     \centering
@@ -1389,7 +1519,7 @@ Esses testadores possuíam diversos perfis, incluindo dois usuários comuns, um 
 \end{table}
 \legend{Fonte: Autor}
 
-Os testadores foram orientados a enviar \textit{feedbacks} sobre o uso do aplicativo, relatando problemas encontrados, sugestões de melhorias ou qualquer dificuldade encontrada durante a utilização. Esses apontamentos foram registrados no Jira no formato de \textit{cards} e priorizados para correção ou desenvolvimento. Os \textit{bugs} encontrados eram corrigidos imediatamente, enquanto as melhorias eram documentadas e priorizadas de acordo com a entrega de valor final e a viabilidade de implementação.
+Os testadores foram orientados a enviar \textit{feedbacks} sobre o uso do aplicativo, relatando problemas encontrados, sugestões de melhorias ou qualquer dificuldade encontrada durante a utilização. Esses apontamentos foram registrados no \textit{Jira} no formato de \textit{cards} e priorizados para correção ou desenvolvimento. Os \textit{bugs} encontrados eram corrigidos imediatamente, enquanto as melhorias eram documentadas e priorizadas de acordo com a entrega de valor final e a viabilidade de implementação.
 
 Nas Tabelas~\ref{tab:fixes_sorted} e ~\ref{tab:dt_melhorias_sorted}, apresentadas anteriormente, é possível observar o número de demandas gerados e concluídos nessa etapa, divididos entre \textit{bugs} e melhorias/débitos técnicos. Ao todo, foram gerados 43 \textit{bugs} e 19 melhorias/débitos técnicos.
 
@@ -1404,12 +1534,8 @@ A Figura~\ref{fig:versionamento} apresenta um exemplo de histórico de versões 
 
 \begin{figure}[H]
     \centering
-    \caption{Exemplo de histórico de versões do aplicativo cadastradas no Firebase.}
+    \caption{Exemplo de histórico de versões do aplicativo cadastradas no \textit{Firebase}.}
     \includegraphics[width=0.9\textwidth]{imagens/versionamento.png}
     \label{fig:versionamento}
 \end{figure}
 \legend{Fonte: Autor}
-
-\section*{Considerações Finais}
-
-O capítulo consolidou os resultados até aqui obtidos, alinhando-os ao planejamento inicial do projeto, garantindo rastreabilidade entre requisitos, projeto e implementação.

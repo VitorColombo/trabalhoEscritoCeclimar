@@ -1,0 +1,76 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Metodologia}{14}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Metodologia de desenvolvimento de \textit {software}}{15}{subsection.1.1.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Estudo de Aplicações Correlatas}}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}SISS-Geo}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Sistema Urubu}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}SIMBA}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Análise Comparativa e Direcionamentos do Projeto}{23}{section.2.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Referencial Teórico}}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ciência Cidadã}{26}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Agenda 2030}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Objetivos de Desenvolvimento Sustentável (ODS)}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metodologia Iterativa Incremental}{29}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Kanban}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Jira}{30}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Tecnologias e Frameworks}{31}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Flutter}{31}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Dart}{32}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Firebase}{32}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Pacotes e Plugins do Flutter}{33}{subsection.3.7.4}%
+\contentsline {subsubsection}{\numberline {3.7.4.1}Hive}{36}{subsubsection.3.7.4.1}%
+\contentsline {subsubsection}{\numberline {3.7.4.2}Flutter Map}{36}{subsubsection.3.7.4.2}%
+\contentsline {subsubsection}{\numberline {3.7.4.3}Excel}{36}{subsubsection.3.7.4.3}%
+\contentsline {subsubsection}{\numberline {3.7.4.4}Graphic}{37}{subsubsection.3.7.4.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evolução Temporal do Projeto}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diagnóstico do Processo Atual}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Levantamento de Requisitos}{43}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Requisitos Funcionais}{44}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Requisitos Não Funcionais}{48}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Prototipação da Interface com o Usuário}{49}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Definição da Identidade Visual}{49}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Criação do Design das Telas}{52}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Desenvolvimento do Protótipo Navegável}{62}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Projeto Gerencial}{63}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Desenvolvimento Geral}{66}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Correções}{70}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Débitos Técnicos e Melhorias}{73}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Arquitetura de Dados}{75}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Armazenamento Remoto}{76}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Armazenamento Local}{80}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Implementação do Sistema}{83}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Splashscreen}{84}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Login e Cadastro}{85}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Menu Inicial e Barra de Navegação}{93}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Novo Registro}{97}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Meus Registros}{111}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Avaliar Registro}{119}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}Meu Perfil}{125}{subsection.4.7.7}%
+\contentsline {subsection}{\numberline {4.7.8}Painel de Registros}{132}{subsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.7.9}Adicionar Pesquisador}{136}{subsection.4.7.9}%
+\contentsline {subsection}{\numberline {4.7.10}Fauna Local}{141}{subsection.4.7.10}%
+\contentsline {subsection}{\numberline {4.7.11}Sobre o app}{142}{subsection.4.7.11}%
+\contentsline {section}{\numberline {4.8}Execução de Testes e Versionamento}{143}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Execução de Testes}{144}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Versionamento do Aplicativo}{145}{subsection.4.8.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{147}{chapter.5}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{150}{section*.88}%
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Tabelas de Exportação}}{154}{appendix.A}%

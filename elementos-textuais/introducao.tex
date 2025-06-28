@@ -81,37 +81,33 @@ ser publicado na \citeonline{playstore2024} para o uso da sociedade.
 Para o desenvolvimento deste projeto foi escolhida uma abordagem de metodologia ágil relacionada 
 ao ciclo iterativo incremental \cite{pressman2011engenharia}. Utilizando o \textit{Kanban} como 
 método de gestão de fluxo de trabalho \cite{ohno1988toyota}, a fim de melhorar a eficiência e qualidade do produto 
-final a partir da visualização das tarefas. A ferramenta escolhida para realizar este 
-gerenciamento foi o \textit{Jira} \cite{atlassian_jira_2025}.
-
+final a partir da visualização das tarefas. 
+%A ferramenta escolhida para realizar este gerenciamento foi o \textit{Jira} \cite{atlassian_jira_2025}.
 Segundo \citeonline{pressman2011engenharia}, os ciclos de desenvolvimento incremental podem ser 
-divididos em 5 principais etapas: comunicação, planejamento, modelagem (análise e projeto), construção 
-(codificação e testes) e emprego (entrega, \textit{feedback}). As etapas por ele descritas foram 
-aplicadas neste projeto.
-% MARCELO 13/05: trocar para o passado
-% VITOR 20/05: OK
-A comunicação foi marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de escopo e levantamento de requisitos do sistema. O planejamento foi a análise, o refinamento e as definições de quais funcionalidades foram desenvolvidas em cada ciclo. Durante a modelagem foi realizada a prototipação e análise dos pontos levantados na etapa anterior. A construção foi o momento onde a codificação e os testes da aplicação foram o foco de atuação. E, por fim, durante o emprego o sistema foi disponibilizado para os profissionais do CECLIMAR e uma quantidade menor de usuários que contribuiram com testes e retornos de \textit{feedback} para análise. Essas informações coletadas foram catalogadas e inseridas no \textit{Backlog} para serem puxados em um ciclo posterior.
+divididos em 5 principais etapas: comunicação, planejamento, modelagem, construção 
+ e emprego. Essas etapas por ele descritas foram 
+aplicados neste projeto. 
 
-%  é necessária uma nota de rodape para explicar o que é o MVP??
-% MARCELO 13/05: por enquanto vamos deixar de fora. se necessário vamos colocar no referencial teorico
-O uso desta metodologia tem o objetivo de realizar uma primeira entrega que possa ser considerada um Mínimo Produto Viável (\textit{MVP}) atendendo aos requisitos básicos propostos inicialmente, mesmo que ainda se note a ausência de funcionalidades complementares. Esse \textit{MVP} se tornará então a base de avaliação que permitirá identificar necessidades adicionais e ajustes necessários. Com base nessa análise, é planejado o próximo incremento, ajustando a primeira entrega e adicionando novas funcionalidades conforme as necessidades.
+Neste sentido, a etapa de comunicação foi marcada por reuniões agendadas com os profissionais do CECLIMAR para definição de escopo e levantamento de requisitos do sistema. Já no planejamento, realizou-se a análise, o refinamento e as definições das funcionalidades desenvolvidas em cada ciclo. Durante a modelagem, conduziu-se a prototipação e análise dos pontos levantados na etapa anterior. A construção focou na codificação e nos testes da aplicação. E, por fim, durante o emprego, disponibilizou-se o sistema para os profissionais do CECLIMAR e também para uma quantidade limitada de usuários, que contribuiram com testes e \textit{feedback} para análise. 
 
-Para o desenvolvimento deste projeto, foi utilizado um fluxo de trabalho no \textit{Jira} para desenvolvimento de \textit{software} visando auxiliar no processo e manter a visibilidade das tarefas de ponta a ponta. Para o \textit{workflow} principal, foi montado um esquema com \textit{Backlog}, Refinamento, Em desenvolvimento, Aguardando teste, Em teste, Correção de \textit{bugs} e \textit{Done} (Figura~\ref{fig:fluxoJira}).
+
+
+%A ferramenta escolhida para realizar este gerenciamento foi o \textit{Jira} \cite{atlassian_jira_2025}.
+Para o acompanhamento deste projeto, foi utilizado um fluxo de trabalho no \textit{Jira} \cite{atlassian_jira_2025} com o propósito de auxiliar no processo de desenvolvimento e de manter a visibilidade das tarefas de ponta a ponta. Para o \textit{workflow} principal, foi utilizado um esquema com \textit{Backlog}, Refinamento, Em desenvolvimento, Aguardando teste, Em teste, Correção de \textit{bugs} e \textit{Done} (Figura~\ref{fig:fluxoJira}).
 
 \begin{figure}[htb]
     \centering
-    \caption{Fluxo de trabalho do \textit{Jira} gerado para o desenvolvimento do projeto.}
+    \caption{Fluxo de trabalho do \textit{Jira} utilizado para o desenvolvimento do projeto.}
     \includegraphics[width=0.8\textwidth]{imagens/fluxoJira.png}
     \legend{Fonte: Autor}
     \label{fig:fluxoJira}
 \end{figure} 
 
-O \textit{Backlog} é a coluna onde todas as tarefas, \textit{user stories} e \textit{bugs} serão inicialmente posicionados. Nesta etapa, as tarefas serão priorizadas antes de progredirem para o próximo estágio.
+Nesse \textit{workflow} principal, o \textit{Backlog} é a coluna onde todas as tarefas, \textit{user stories} e \textit{bugs} foram inicialmente posicionados. Nesta etapa, as tarefas foram priorizadas antes de progredirem para o próximo estágio. Enquanto que no Refinamento, as tarefas puxadas do \textit{Backlog} foram detalhadas para um desenvolvimento mais assertivo. Bem como, foram refinados critérios de aceitação, estimativas de tempo e algum débito técnico.
 
-No Refinamento, as tarefas puxadas do \textit{Backlog} são detalhadas para um desenvolvimento mais assertivo. São refinados critérios de aceitação, estimativas de tempo e algum débito técnico.
+Já as tarefas que estiveram em desenvolvimento são as que tiveram, efetivamente, o seu desenvolvimento iniciado. Assim que o desenvolvimento foi finalizado, as tarefas foram transferidas para aguardando teste, onde ficaram até serem transferidas para testes mais detalhados.
 
-As tarefas que estiverem em desenvolvimento são as que tiveram, efetivamente, o seu desenvolvimento iniciado. Assim que o desenvolvimento estiver finalizado, as tarefas foram transferidas para aguardando teste, onde ficarão até serem puxadas para testes mais detalhados.
+No estágio de teste, os critérios de aceite e a presença de \textit{bugs} foram testados com o intuito de manter a qualidade do produto final. As tarefas que tiveram \textit{bugs} ou divergências de regras de negócio identificadas foram movidas para a coluna Correção de \textit{bugs} para que fossem corrigidas. E, por último, após a homologação das tarefas nas etapas anteriores as tarefas foram movidas para \textit{Done} que indicar a sua finalização.
 
-No estágio de teste, os critérios de aceite e a presença de \textit{bugs} foram testados com o intuito de manter a qualidade do produto final. As tarefas que tiverem \textit{bugs} ou divergências de regras de negócio identificadas serão movidas para a coluna Correção de \textit{bugs} para que sejam corrigidas.
 
-E, por último, após a homologação das tarefas nas etapas anteriores as tarefas são movidas para \textit{Done} que indicará sua finalização.
+%Essas informações coletadas foram catalogadas e inseridas no \textit{Backlog} para serem puxados em um ciclo posterior. Por meio dessas etapas, foi possível realizar a primeira entrega com intuito de ser  considerada um Mínimo Produto Viável (\textit{MVP}), atendendo aos requisitos básicos propostos inicialmente. Logo, esse \textit{MVP} permitiu identificar necessidades adicionais e ajustes necessários. 

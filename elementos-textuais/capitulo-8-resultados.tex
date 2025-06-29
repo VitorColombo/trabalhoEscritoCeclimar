@@ -1,11 +1,12 @@
 \chapter{Resultados Obtidos}
 
-Neste capítulo, são apresentados os resultados obtidos, iniciando com a comparação entre o planejamento e a execução do projeto (Seção \ref{cronograma}), sendo seguida pela descrição de como ocorria o processo manual de registro. Posteriormente, são apresentados os requisitos, a prototipação da \textit{interface}, a descrição da implementação do sistema e pela execução de testes.
+Neste capítulo, são apresentados os resultados obtidos, iniciando com a comparação entre o planejamento e a execução do projeto (Seção \ref{cronograma}), sendo seguida pela descrição de como ocorria o processo manual de registro. Posteriormente, são apresentados os requisitos, a prototipação da \textit{interface}, a descrição da implementação do sistema e dos testes executados.
 
 \section{Evolução Temporal do Projeto}\label{cronograma}
 % MARCELO 17/05: UNIR COM A SEÇÃO DO CAPÍTULO ANTERIOR.
 % VITOR 20/05: OK
 % VITOR 07/06: o que acha desse titulo?
+% MARCELO: gostei
 
 A Tabela ~\ref{tab:cronograma} representa a trajetória de 
 desenvolvimento do projeto ao longo de 16 meses, bem como as divergências e replanejamentos que foram realizados no decorrer do tempo. O trabalho teve seu início no dia 28 de março de 2024, com a realização de uma reunião de definição de escopo junto ao orientador Marcelo Paravisi. No dia 1º de abril, deu-se continuidade com a definição do tema, em uma reunião externa com um membro do CECLIMAR. Essa etapa foi fundamental para delimitar o foco do trabalho e aprofundar a compreensão das dificuldades, necessidades, oportunidades e pontos críticos do projeto.
@@ -17,7 +18,7 @@ O levantamento de requisitos e regras de negócio se deu a partir do dia 10 de m
 Esse período inicial de estruturação se mostrou essencial para assegurar uma base sólida para iniciar o desenvolvimento. A parte de desenvolvimento técnica se iniciou com a organização da implementação do sistema no dia 20 de maio de 2024 e, com base nisso, se iniciou a codificação do aplicativo no dia 1º de julho do mesmo ano. 
 
 Inicialmente, o desenvolvimento tinha um planejamento de conclusão para o final de outubro, porém, embora as atividades tenham progredido conforme o cronograma, em uma reunião com o orientador do projeto foi decidido realizar uma alteração no cronograma adicionando uma etapa de testes disponibilizando a aplicação com 
-testadores tanto do projeto parceiro, como terceiros que contribuíram para que a aplicação adquirisse uma maturidade maior. Com isso, o prazo final de codificação foi replanejado para o início de maio de 2025 (Tabela ~\ref{tab:cronograma}).
+usuários tanto do projeto parceiro, como terceiros que contribuíram para que a aplicação adquirisse uma maturidade maior. Com isso, o prazo final de codificação foi replanejado para o início de maio de 2025 (Tabela ~\ref{tab:cronograma}).
 
 A parte de redação da parte escrita do trabalho de conclusão foi iniciada no mês de junho para obter uma documentação mais precisa do processo e estava planejada para ser concluída até o final de novembro de 2024, porém, também foi afetada pelo replanejamento. Em vermelho na Tabela ~\ref{tab:cronograma} podemos ver que esta etapa foi realizada dentro do prazo previsto até o mês de outubro, porém em novembro foi adiada para maio e junho para priorizar a conclusão da codificação e o aprimoramento da qualidade da aplicação. O desenvolvimento continuou sendo a atividade central até maio de 2025, acompanhado de execuções constantes de testes. No mês de maio de 2025 a redação do trabalho retornou e se estendeu, junto da revisão textual, até o final de junho para ser entregue dentro da data máxima de 26 de junho. A apresentação para a banca até o momento havia sido definida, porém tem prazo máximo de 11 de julho de 2025.
 
@@ -66,22 +67,24 @@ Jun/25 & & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{bl
 
 Com base em informações obtidas através de entrevistas e conversas com os profissionais do CECLIMAR, foi possível identificar e mapear o processo manual de coleta e registro de dados da fauna marinha no litoral do Rio Grande do Sul.
 %MARCELO 17/06: 
-
-Ou seja, identificou-se que o CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade, por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. O processo estava ocorrendo de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. Esta abordagem envolve diversas etapas intermediárias e tarefas manuais realizadas por diferentes profissionais, trazendo uma maior probabilidade de erros e inconsistências nos dados coletados, além de aumentar o tempo de processamento e análise das informações.
+Ou seja, identificou-se que o CECLIMAR realiza o monitoramento da fauna costeira por meio de registros enviados pela comunidade, por pesquisadores em campo e por profissionais do Corpo de Bombeiros Militar. 
+%O processo estava ocorrendo de forma manual, como ilustrado na Figura~\ref{fig:fluxo_detalhado}. 
+Esta abordagem envolve diversas etapas intermediárias e tarefas manuais realizadas por diferentes profissionais, trazendo uma maior probabilidade de erros e inconsistências nos dados coletados, além de aumentar o tempo de processamento e análise das informações.
 
 %\subsection{Descrição do Fluxo de Trabalho Atual}
 
-Neste contexto, observou-se que o fluxo de trabalho pode ser descrito em etapas principais:
+Neste contexto, observou-se que o fluxo de trabalho pode ser resumido nas seguintes etapas:
 
 \begin{enumerate}
     \item \textbf{Envio de dados:} Os participantes enviam fotos e informações descritivas a partir de diversas fontes.
-    \item \textbf{Triagem inicial:} Um pesquisador analisa as mensagens recebidas por meio de análise manual em cada uma das fontes e seleciona os dados relevantes.
-    \item \textbf{Registro:} A bolsista transcreve os dados válidos para uma planilha eletrônica.
+    \item \textbf{Triagem inicial:} Um pesquisador analisa as mensagens recebidas por meio de análise em cada uma das fontes e seleciona os dados relevantes.
+    \item \textbf{Registro:} Uma bolsista transcreve os dados válidos para uma planilha eletrônica.
     \item \textbf{Armazenamento de imagens:} As fotos dos registros são manualmente salvas em uma pasta no \textit{Google Drive} com um número identificador do registro na tabela.
     \item \textbf{Validação:} O gestor revisa periodicamente os dados para verificar consistências e erros.
 \end{enumerate}
 
-A Figura~\ref{fig:fluxo_detalhado} apresenta o fluxo de trabalho atual de maneira esquemática, destacando as principais etapas e interações entre os envolvidos no processo de coleta e registro de dados. Como é possível ver na Tabela~\ref{tab:contagem_ocorrencias}, atualmente, a maioria (48,45\%) dos dados é coletada via \citeonline{whatsApp}, mas esses envios também ocorrem por outras plataformas como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{instagram2025}.
+Essas etapas são apresentadas no fluxograma da Figura~\ref{fig:fluxo_detalhado}, juntamente com os canais de comunicação e as interações entre os envolvidos no processo de coleta e registro de dados. No que tange aos canais de comunicação, a pesquisa documental nos dados internos do CECLIMAR revelou que a maioria (48,45\%) dos dados é obtida via \citeonline{whatsApp}, mas esses envios também ocorrem por outras plataformas como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{instagram2025} (ver Tabela~\ref{tab:contagem_ocorrencias}).
+%A Figura~\ref{fig:fluxo_detalhado} apresenta o fluxo de trabalho atual de maneira esquemática, destacando as principais etapas e interações entre os envolvidos no processo de coleta e registro de dados. Como é possível ver na Tabela~\ref{tab:contagem_ocorrencias}, atualmente, a maioria (48,45\%) dos dados é coletada via \citeonline{whatsApp}, mas esses envios também ocorrem por outras plataformas como ligações telefônicas, \citeonline{facebook2025}, e-mail, e \citeonline{instagram2025}.
 
 \begin{table}[h]
     \centering
@@ -179,17 +182,13 @@ Além disso, com a análise das entrevistas e das conversas, pode-se identificar
 
 \section{Levantamento de Requisitos}
 
-Por meio das entrevistas, também foi possível o levantamento de requisitos foi essencial para compreender as necessidades do projeto e orientar o 
-desenvolvimento das funcionalidades do aplicativo. Segundo 
-\citeonline{sommerville2011}, os requisitos de um sistema são as descrições do que o sistema deve 
-fazer, os serviços que ele irá oferecer e suas restrições de funcionamento. Neste projeto, a 
-definição dos requisitos prioritários para o \textit{MVP}\footnote{MVP é a sigla para 
+Por meio das entrevistas, também foi possível o levantamento de requisitos para compreender as necessidades do projeto e orientar o desenvolvimento das funcionalidades do aplicativo. Segundo \citeonline{sommerville2011}, os requisitos de um sistema são as descrições do que o sistema deve fazer, os serviços que ele irá oferecer e suas restrições de funcionamento. Neste projeto, a definição dos requisitos prioritários para o \textit{MVP}\footnote{MVP é a sigla para 
 \textit{Minimum Viable Product} (Produto Mínimo Viável), um conceito que se refere à 
-versão mais simples de um produto 
-que ainda entrega valor ao usuário e permite validações com o mínimo de esforço e 
-custo.} e das suas limitações foi orientada por reuniões 
-com o coordenador do projeto Fauna Marinha RS, especialmente com base na experiência prática dos 
-profissionais do CECLIMAR, que indicaram as funcionalidades mais relevantes para o sistema.
+versão mais simples de um produto que ainda entrega valor ao usuário e permite validações com o mínimo de esforço e custo.} 
+%e das suas limitações 
+foi orientada por reuniões com o coordenador do projeto Fauna Marinha RS, especialmente com base na experiência prática dos profissionais do CECLIMAR, que indicaram as funcionalidades mais relevantes para o sistema.
+
+Por meio da análise dessas reuniões, foram elaborados os requisitos funcionais e não funcionais, os quais são apresentados nas próximas seções.
 
 \subsection{Requisitos Funcionais}
 
@@ -402,8 +401,7 @@ Com base na identidade visual definida, foram elaborados os layouts das principa
 aplicativo. Essa etapa concentrou-se na organização dos elementos de interface, na 
 usabilidade e na experiência do usuário.
 
-Inicialmente, foram criadas as telas de login (Figura~\ref{fig:prototipo-login}) e de 
-registro de usuário (Figura~\ref{fig:prototipo-cadastro}).
+
 
 \begin{figure}[H]
     \centering
@@ -423,7 +421,8 @@ registro de usuário (Figura~\ref{fig:prototipo-cadastro}).
 \end{figure}
 \legend{Fonte: Autor}
 
-Em seguida, foi criada a tela inicial (Figura~\ref{fig:prototipo-home}), com duas variações: uma para usuários comuns e outra para pesquisadores. O layout foi pensado para facilitar o acesso às funcionalidades, com botões de acesso rápido e barra de navegação fixa na parte inferior da tela. A versão para pesquisadores apresenta os mesmos botões, com a adição das funcionalidades exclusivas, avaliação de registros e acesso ao painel geral.
+Inicialmente, foram criadas as telas de login (Figura~\ref{fig:prototipo-login}) e de 
+registro de usuário (Figura~\ref{fig:prototipo-cadastro}). Em seguida, foi criada a tela inicial (Figura~\ref{fig:prototipo-home}), com duas variações: uma para usuários comuns e outra para pesquisadores. O layout foi pensado para facilitar o acesso às funcionalidades, com botões de acesso rápido e barra de navegação fixa na parte inferior da tela. A versão para pesquisadores apresenta os mesmos botões, com a adição das funcionalidades exclusivas, avaliação de registros e acesso ao painel geral.
 
 \begin{figure}[H]
     \centering
@@ -433,9 +432,7 @@ Em seguida, foi criada a tela inicial (Figura~\ref{fig:prototipo-home}), com dua
 \end{figure}
 \legend{Fonte: Autor}
 
-A tela "Meus Registros" (Figura~\ref{fig:prototipo-meus-registros}) permite ao usuário 
-visualizar todos os registros já enviados, com filtros por status (enviado e validado). 
-Também foi projetado um estado com \textit{bottomsheet} acionado a partir do botão de adicionar registro ("+") na barra de navegação. Esse botão está disponível em qualquer tela, permitindo adicionar registros rapidamente.
+A tela ``Meus Registros'' (Figura~\ref{fig:prototipo-meus-registros}) permite ao usuário visualizar todos os seus registros enviados, com filtros por status (enviado e validado). Também foi projetado um estado com \textit{bottomsheet} acionado a partir do botão de adicionar registro ("+") na barra de navegação. Esse botão está disponível em qualquer tela, permitindo adicionar registros rapidamente.
 
 \begin{figure}[H]
     \centering
@@ -470,7 +467,7 @@ que apresentará as opções disponíveis para o usuário selecionar.
 \end{figure}
 \legend{Fonte: Autor}
 
-A tela de "Registros Pendentes" (Figura~\ref{fig:prototipo-registros-pendentes}) foi projetada 
+A tela de ``Registros Pendentes'' (Figura~\ref{fig:prototipo-registros-pendentes}) foi projetada 
 para uso exclusivo de pesquisadores, permitindo acesso aos registros ainda não avaliados enviados por todos os usuários.
 
 \begin{figure}[H]
@@ -481,9 +478,7 @@ para uso exclusivo de pesquisadores, permitindo acesso aos registros ainda não 
 \end{figure}
 \legend{Fonte: Autor}
 
-A tela de "Analisar Registro" (Figura~\ref{fig:prototipo-avaliar-registro}) foi projetada para 
-permitir que o pesquisador visualize os dados enviados em cada registro com a possibilidade de editar os dados, adicionar comentários e enviar uma atualização o registro.
-Se fez importante adicionar um estado para esta tela, onde o pesquisador consiga selecionar a imagem para uma visualização em tela cheia, facilitando a análise do registro.
+A tela de ``Analisar Registro'' (Figura~\ref{fig:prototipo-avaliar-registro}) foi projetada para  permitir que o pesquisador visualize os dados enviados em cada registro com a possibilidade de editar os dados, adicionar comentários e enviar uma atualização o registro. Se fez importante adicionar um estado para esta tela, onde o pesquisador consiga selecionar a imagem para uma visualização em tela cheia, facilitando a análise do registro.
 
 \begin{figure}[H]
     \centering
@@ -493,11 +488,8 @@ Se fez importante adicionar um estado para esta tela, onde o pesquisador consiga
 \end{figure}
 \legend{Fonte: Autor}
 
-A tela de "Visualizar Registro" foi projetada para permitir que o usuário visualize os dados
-enviados e validados. Para os dados já foram validados 
-(Figura~\ref{fig:prototipo-ver-registro-validado}), o registro apresentará dados extras 
-sobre aquele registro, como grau de decomposição, parecer do profissional e taxonomia avaliada.
-Já para os dados que ainda não foram validados (Figura~\ref{fig:prototipo-ver-registro-enviado}), o usuário verá apenas as informações que ele mesmo enviou.
+A tela de ``Visualizar Registro'' foi projetada para permitir que o usuário visualize os dados enviados e validados. Para os dados que já foram validados 
+(Figura~\ref{fig:prototipo-ver-registro-validado}), o registro apresentará informações extras sobre aquele registro, como grau de decomposição, parecer do profissional e taxonomia avaliada. Já para os dados que ainda não foram validados (Figura~\ref{fig:prototipo-ver-registro-enviado}), o usuário verá apenas as informações que ele mesmo enviou.
 
 \begin{figure}[H]
     \centering
@@ -529,9 +521,7 @@ em formato de medalhas organizadas em uma grade com três colunas.
 \end{figure}
 \legend{Fonte: Autor}
 
-As telas de fauna local (Figura~\ref{fig:prototipo-fauna-local}) seguem o mesmo padrão visual 
-das demais telas do aplicativo, se assemelhando em estrutura com a de "Meus Registros" e 
-"Visualizar Registro". Elas apresentam, respectivamente, uma lista de espécies e uma 
+As telas de ``Fauna local'' (Figura~\ref{fig:prototipo-fauna-local}) seguem o mesmo padrão visual das demais telas do aplicativo, se assemelhando em estrutura com a de ``Meus Registros'' e ``Visualizar Registro''. Elas apresentam, respectivamente, uma lista de espécies e uma 
 tela de detalhes com informações específicas sobre cada animal que for selecionado.
 
 \begin{figure}[H]
@@ -554,9 +544,12 @@ Por fim, foi projetada a tela de recuperação de senha (Figura~\ref{fig:prototi
 
 \subsection{Desenvolvimento do Protótipo Navegável}
 
-Utilizando a ferramenta \textit{Figma}, em sua versão gratuita \textit{online}, foi desenvolvido um protótipo navegável de média/alta fidelidade. Essa etapa permitiu visualizar os fluxos de interação entre o usuário e o sistema, antecipar ajustes necessários e alinhar as funcionalidades às expectativas.
+Utilizando a ferramenta \textit{Figma}, em sua versão gratuita \textit{online}, foi desenvolvido um protótipo navegável de alta fidelidade, no qual foram criadas ligações interativas entre as principais telas, simulando os redirecionamentos e ações de navegação. Com isso, o protótipo permitiu a visualização dos fluxos de interação entre o usuário e o sistema, o que antecipou (da fase de testes) ajustes necessários, alinhando as funcionalidades às expectativas. Além disso, serviu como referência visual para a fase de implementação (Figura~\ref{fig:prototipo-fluxo-navegacao}).
+%Essa etapa permitiu visualizar os fluxos de interação entre o usuário e o sistema, antecipar ajustes necessários e alinhar as funcionalidades às expectativas. 
 
-Foram criadas ligações interativas entre as principais telas, simulando os redirecionamentos e ações de navegação. O protótipo também serviu como ferramenta de validação junto a terceiros e como referência visual para a fase de implementação (Figura~\ref{fig:prototipo-fluxo-navegacao}).
+%Foram criadas ligações interativas entre as principais telas, simulando os redirecionamentos e ações de navegação. O protótipo também serviu como ferramenta de validação do fluxo dessa navegação e redirecionamentos
+%MARCELO 28/06: da etapa modelagem
+%junto a terceiros, além de servir como referência visual para a fase de implementação (Figura~\ref{fig:prototipo-fluxo-navegacao}).
 
 \begin{figure}[H]
     \centering
@@ -571,7 +564,7 @@ Foram criadas ligações interativas entre as principais telas, simulando os red
 A gerência desse projeto foi realizada utilizando a ferramenta \textit{Jira}, que possibilitou o controle de tarefas e o acompanhamento do progresso do desenvolvimento. O fluxo de trabalho da Figura \ref{fig:fluxoJira} foi seguido para garantir a organização e a eficiência das tarefas. Os \textit{cards} gerados no \textit{board} foram puxados para trabalho à medida que havia tempo disponível para atuação. Foram catalogadas não só tarefas de codificação, como 
 também tarefas de prototipação.
 
-Foram gerados ao todo, 131 \textit{cards} desde julho de 2024 quando se deu início  a prototipação da aplicação. Na Figura \ref{gra:cards-mes} é possível observar a quantidade de itens no eixo vertical relacionada com o mês de criação no eixo horizontal. Com ele podemos concluir que os meses com mais entrada de demandas foram os meses de novembro de 2024, janeiro de 2025 e março de 2025, onde o número de \textit{cards} criados foi maior que 18.
+Foram gerados ao todo, 131 \textit{cards} desde julho de 2024 quando se deu início  a prototipação da aplicação. Na Figura \ref{gra:cards-mes}, é possível observar a quantidade de itens no eixo vertical relacionada com o mês de criação no eixo horizontal. Com ele podemos concluir que os meses com mais entrada de demandas foram os meses de novembro de 2024, janeiro de 2025 e março de 2025, onde o número de \textit{cards} criados foi maior que 18.
 
 \begin{figure}[H]
     \centering
@@ -595,7 +588,7 @@ Isso está principalmente relacionado com a disponibilidade de tempo para atuar 
 \legend{Fonte: Autor}
 
 A Figura~\ref{gra:tempo-medio-resolucao} apresenta o tempo médio, em dias, para a resolução dos \textit{cards} ao longo das semanas. É possível notar uma grande variação nos tempos médios, com valores baixos no período de novembro e um pico em maio de 2025. 
-Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dezembro vide Figura \ref{gra:cards-vs-resolvidos}, o aumento na complexidade das demandas e o acúmulo de cards de melhoria no \textit{Backlog} que foram criados e não priorizados.
+Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dezembro (vide Figura \ref{gra:cards-vs-resolvidos}), o aumento na complexidade das demandas e o acúmulo de cards de melhoria no \textit{Backlog} que foram criados e não priorizados.
 
 \begin{figure}[H]
     \centering
@@ -605,28 +598,29 @@ Esse aumento progressivo reflete a falta de atuação evidenciada no mês de dez
 \end{figure}
 \legend{Fonte: Autor}
 
-Os \textit{cards} foram organizados em três grupos principais, que representam as diferentes
-atuações necessárias para atuar em cada uma delas.
+%Os \textit{cards} foram organizados em três grupos principais, que representam as diferentes atuações necessárias para atuar em cada uma delas.
+
+Considerando a diversidade das demandas registradas no Jira, os 131 cards criados foram organizados em três grupos principais, de acordo com a natureza das ações exigidas ao longo do projeto. Essa categorização permitiu identificar três frentes de atuação distintas: desenvolvimento geral, correções e melhorias, detalhadas nas subseções a seguir.
+
+
 \subsection{Desenvolvimento Geral}
-Esses cards representam demandas que passaram por etapas de planejamento e refinamento, 
+As demandas classificadas como desenvolvimento geral correspondem a \textit{cards} que passaram por etapas de planejamento e refinamento, 
 refletindo as histórias de usuário e tarefas técnicas previstas ou requisitadas durante o desenvolvimento.
 A Tabela~\ref{tab:desenv_geral_sorted} apresenta esse conjunto de funcionalidades. Ao todo foram 66 demandas sendo 62 concluídas e 4 que ainda estão no \textit{Backlog}.
 
 \input{elementos-textuais/tabela-cards-jira.tex}
 
 \subsection{Correções}
-Ao longo do processo de desenvolvimento, foram identificados e registrados bugs e falhas 
-de funcionamento, a origem da geração desses cards pode ser tanto de testes internos, quanto de validações de testadores que obtiveram alguma das \textit{builds} do projeto e reportaram alguma inconsistência. Essas inconsistências foram tratadas por meio de cards como correções (\textit{fixes}) no ambiente \textit{Jira}.
 
-A Tabela~\ref{tab:fixes_sorted} a seguir apresenta uma relação dos 43 apontamentos dessa categoria que foram documentados, desse total, 42 foram resolvidos e 1 ainda está no \textit{Backlog}. Isso demonstra a evolução contínua do sistema em busca de estabilidade e qualidade do produto final.
+Durante o processo de desenvolvimento, foram identificados e registrados bugs e falhas de funcionamento. Esses problemas tiveram origem tanto em testes internos quanto em validações feitas por testadores externos que acessaram \textit{builds} do projeto e relataram inconsistências. As correções foram organizadas como cards de \textit{fixes} no ambiente \textit{Jira}.
+
+A Tabela~\ref{tab:fixes_sorted} a seguir apresenta os 43 apontamentos dessa categoria que foram documentados, desse total, 42 foram resolvidos e 1 ainda está no \textit{Backlog}. Isso demonstra a evolução contínua do sistema em busca de estabilidade e qualidade do produto final.
 
 % manter essa tabela aqui ou colocar no anexo?
 \input{elementos-textuais/tabela-fixes-jira.tex}
 
 \subsection{Débitos Técnicos e Melhorias}
-Além das funcionalidades previstas e dos \textit{bugs} encontrados, também foram abertos \textit{cards} para apontamentos de melhorias para algumas funcionalidades e respostas do sistema e débitos técnicos produzidos durante a codificação. 
-Esses pontos surgiram durante a implementação de funcionalidades, revisões de código ou testes 
-exploratórios e regressivos.
+Além das funcionalidades planejadas e das correções de bugs, também foram registrados cards relacionados a melhorias em funcionalidades existentes, ajustes de desempenho e resolução de débitos técnicos gerados ao longo da codificação. Esses \textit{cards} surgiram durante a implementação de novas funcionalidades, revisões de código e testes exploratórios ou regressivos.
 
 A Tabela~\ref{tab:dt_melhorias_sorted} apresenta as melhorias e ajustes técnicos catalogados, 
 evidenciando práticas de refatoração e aprimoramento contínuo. Ao todo foram 19 \textit{cards} abertos com esse intuito, dos quais 9 foram resolvidos e 10 ainda estão no \textit{Backlog}.
@@ -634,9 +628,9 @@ evidenciando práticas de refatoração e aprimoramento contínuo. Ao todo foram
 % manter essa tabela aqui ou colocar no anexo?
 \input{elementos-textuais/tabela-melhorias-jira.tex}
 
-\section{Arquitetura de Dados}\label{sec:arquitetura_dados}
+\section{Arquitetura de Armazenamento de Dados}\label{sec:arquitetura_dados}
 
-A arquitetura de armazenamento de dados do aplicativo utiliza um banco de dados remoto para a persistência principal de dados e um sistema local para garantir a funcionalidade \textit{offline}. A estrutura principal foi implementada na nuvem, utilizando o \textit{Firebase Firestore} para os dados estruturados e o \textit{Firebase Storage} para o armazenamento das imagens. Para complementar essa arquitetura, o aplicativo também utiliza o banco de dados \textit{Hive} localmente, permitindo que registros sejam salvos no dispositivo em casos em que a internet não esteja disponível, aguardando para serem sincronizados posteriormente.
+A arquitetura de armazenamento de dados do aplicativo combina um banco de dados remoto, para a persistência principal, e um sistema local, para o funcionamento \textit{offline}. O armazenamento na nuvem foi implementado com o \textit{Firebase Firestore} , utilizado para os dados estruturados, e o \textit{Firebase Storage}, responsável pelo armazenamento das imagens. Para complementar essa arquitetura, o aplicativo também utiliza o banco de dados \textit{Hive} localmente, permitindo que registros sejam salvos no dispositivo em casos em que a internet não esteja disponível, aguardando para serem sincronizados posteriormente.
 
 \subsection{Armazenamento Remoto}\label{subsec:armazenamento_remoto}
 
@@ -789,9 +783,7 @@ O gerenciamento desses dados também possui um controle de limite na quantidade 
 \legend{Fonte: Autor}
 
 \section{Implementação do Sistema}
-Nesta seção, iremos abordar a codificação do aplicativo e apresentar o produto final gerado após desenvolvimento, ajustes de funcionamento e correções de \textit{bugs}.
-
-O aplicativo FaunaMar foi desenvolvido utilizando uma arquitetura modular baseada no padrão \textit{MVC} (\textit{Model-View-Controller}), que promove a separação clara entre as responsabilidades da aplicação. A camada \textit{Model} é responsável pelos dados e pela comunicação com o banco, enquanto a \textit{View}, trata da interface e interação com o usuário e a \textit{Controller} gerencia a lógica de negócio e coordena a comunicação entre as outras duas. Além disso, foram desenvolvidos widgets personalizados reutilizáveis, aplicados em diversos pontos da interface, com o objetivo de padronizar elementos visuais e reduzir a duplicação de código facilitando alterações na interface. Essa estrutura segue princípios fundamentais da engenharia de software, como coesão, baixo acoplamento e reutilização de componentes, o que contribui para a escalabilidade do sistema e a manutenção do código.
+Nesta seção, abordamos a codificação do aplicativo e o produto final gerado após desenvolvimento, ajustes de funcionamento e correções de \textit{bugs}. O sistema construído utilizando uma arquitetura modular baseada no padrão \textit{MVC} (\textit{Model-View-Controller}), que promove a separação clara entre as responsabilidades da aplicação. A camada \textit{Model} é responsável pelos dados e pela comunicação com o banco, enquanto a \textit{View}, trata da interface e interação com o usuário e a \textit{Controller} gerencia a lógica de negócio e coordena a comunicação entre as outras duas. Além disso, foram desenvolvidos widgets personalizados reutilizáveis, aplicados em diversos pontos da interface, com o objetivo de padronizar elementos visuais e reduzir a duplicação de código facilitando alterações na interface. Essa estrutura segue princípios fundamentais da engenharia de software, como coesão, baixo acoplamento e reutilização de componentes, o que contribui para a escalabilidade do sistema e a manutenção do código.
 
 As funcionalidades do sistema foram construídas de maneira independente, permitindo que as alterações e melhorias possam ser implementadas de forma isolada, sem impactar outras partes do sistema. Existem dois tipos de usuários no sistema, os usuários comuns, chamados de cientistas cidadãos, e os pesquisadores, que são os profissionais que validam os dados enviados. 
 
@@ -1137,20 +1129,20 @@ Para carregar os dados desta tela, o sistema realiza uma consulta à subcoleçã
 \end{figure}
 \legend{Fonte: Autor}
 
-Nessa tela o usuário pode realizar a filtragem dos registros baseado nos seus status de validação, podendo escolher entre "Todos", "Validado" e "Enviado". Por padrão, a tela é carregada com o filtro de "Todos" selecionada e apresenta ambos os status. Caso o usuário deseje, a aplicação do filtro de "Validado" irá mostrar apenas registros já passaram ela avaliação de um pesquisador, estes são representados com um ponto verde ao lado do nome do animal (Figura~\ref{fig:meus-registros-validado}). Enquanto o filtro de "Enviado" irá apenas mostrar registros que ainda não foram avaliados, representados com um ponto amarelo ao lado do nome do animal (Figura~\ref{fig:meus-registros-enviado}). 
+Nessa tela, o usuário pode realizar a filtragem dos registros baseado nos seus status de validação, podendo escolher entre ``Todos'', ``Validado'' e ``Enviado''. Por padrão, a tela é carregada com o filtro de ``Todos'' selecionada e apresenta ambos os status. Caso o usuário deseje, a aplicação do filtro de ``Validado'' irá mostrar apenas registros já que passaram pela avaliação de um pesquisador. Estes são representados com um ponto verde ao lado do nome do animal (Figura~\ref{fig:meus-registros-validado}). Enquanto que o filtro de "Enviado" irá apenas mostrar registros que ainda não foram avaliados, representados com um ponto amarelo ao lado do nome do animal (Figura~\ref{fig:meus-registros-enviado}). 
 
-Inicialmente, a coloração do estado de "enviado" era cinza, mas foi alterada para amarelo para trazer melhor contraste e representatividade para o estado do registro. Já o filtro de "Todos", foi adicionado para melhorar a navegação e permitir que o usuário tenha mais controle sobre a visualização dos seus registros.
+Inicialmente, a coloração do estado de ``enviado'' era cinza, mas foi alterada para amarelo para trazer melhor contraste e representatividade para o estado do registro. Já o filtro de ``Todos'', foi adicionado para melhorar a navegação e permitir que o usuário tenha mais controle sobre a visualização dos seus registros.
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}[t]{0.48\textwidth}
+    \begin{minipage}[t]{0.45\textwidth}
         \centering
         \caption{Tela de Meus Registros com filtro de "Validado" aplicado.}
         \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/meusregistrosValidado.png}
         \label{fig:meus-registros-validado}
     \end{minipage}
     \hfill
-    \begin{minipage}[t]{0.48\textwidth}
+    \begin{minipage}[t]{0.45\textwidth}
         \centering
         \caption{Tela de Meus Registros com filtro de "Enviado" aplicado.}
         \includegraphics[height=0.72\textheight]{imagens/sistema/device_frame/meusregistrosEnviado.png}
@@ -1524,7 +1516,7 @@ Os testadores foram orientados a enviar \textit{feedbacks} sobre o uso do aplica
 Nas Tabelas~\ref{tab:fixes_sorted} e ~\ref{tab:dt_melhorias_sorted}, apresentadas anteriormente, é possível observar o número de demandas gerados e concluídos nessa etapa, divididos entre \textit{bugs} e melhorias/débitos técnicos. Ao todo, foram gerados 43 \textit{bugs} e 19 melhorias/débitos técnicos.
 
 \subsection{Versionamento do Aplicativo}
-
+\label{sec:versionamento}
 O versionamento do aplicativo foi realizado seguindo um padrão semântico, onde cada versão era identificada por um número de versão no formato \texttt{X.Y.Z}, onde o número \texttt{X} representa a versão principal, \texttt{Y} representa a versão secundária e \texttt{Z} representa correções de bugs. Foi definido que, para que a versão principal fosse alterada, deveria haver uma incompatibilidade com a versão anterior,
 enquanto a versão secundária seria alterada para novas funcionalidades.
 

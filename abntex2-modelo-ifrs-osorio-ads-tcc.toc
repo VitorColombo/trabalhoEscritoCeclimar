@@ -18,19 +18,19 @@
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Referencial Teórico}}{26}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Ciência Cidadã}{26}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Agenda 2030}{26}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Objetivos de Desenvolvimento Sustentável (ODS)}{27}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metodologia Iterativa Incremental}{29}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Kanban}{30}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Jira}{30}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Tecnologias e Frameworks}{31}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Flutter}{31}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Dart}{32}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Firebase}{32}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Pacotes e Plugins do Flutter}{33}{subsection.3.7.4}%
-\contentsline {subsubsection}{\numberline {3.7.4.1}Hive}{36}{subsubsection.3.7.4.1}%
-\contentsline {subsubsection}{\numberline {3.7.4.2}Flutter Map}{36}{subsubsection.3.7.4.2}%
-\contentsline {subsubsection}{\numberline {3.7.4.3}Excel}{36}{subsubsection.3.7.4.3}%
-\contentsline {subsubsection}{\numberline {3.7.4.4}Graphic}{37}{subsubsection.3.7.4.4}%
+\contentsline {subsection}{\numberline {3.2.1}Objetivos de Desenvolvimento Sustentável (ODS)}{27}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Metodologia Iterativa Incremental}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Kanban}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Jira}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Tecnologias e Frameworks}{31}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Flutter}{31}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Dart}{32}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Firebase}{32}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Pacotes e Plugins do Flutter}{33}{subsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.4.1}Hive}{36}{subsubsection.3.6.4.1}%
+\contentsline {subsubsection}{\numberline {3.6.4.2}Flutter Map}{36}{subsubsection.3.6.4.2}%
+\contentsline {subsubsection}{\numberline {3.6.4.3}Excel}{36}{subsubsection.3.6.4.3}%
+\contentsline {subsubsection}{\numberline {3.6.4.4}Graphic}{37}{subsubsection.3.6.4.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{38}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Evolução Temporal do Projeto}{38}{section.4.1}%
@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {4.5.1}Desenvolvimento Geral}{66}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Correções}{70}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Débitos Técnicos e Melhorias}{73}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Arquitetura de Dados}{75}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Arquitetura de Armazenamento de Dados}{75}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Armazenamento Remoto}{76}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Armazenamento Local}{80}{subsection.4.6.2}%
 \contentsline {section}{\numberline {4.7}Implementação do Sistema}{83}{section.4.7}%

@@ -5,13 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[{Android Studio} 2025]{androidstudio2025}
-\abntrefinfo{{Android Studio}}{{Android Studio}}{2025}
-{{Android Studio}. \emph{Android Studio - O ambiente de desenvolvimento oficial
-  para Android}. 2025.
-Acesso em: 19 jun. 2025.
-Dispon{\'\i}vel em: \url{https://developer.android.com/studio?hl=pt-br}.}
-
 \bibitem[{Atlassian} 2025]{atlassian_jira_2025}
 \abntrefinfo{{Atlassian}}{{Atlassian}}{2025}
 {{Atlassian}. \emph{Jira | Software para acompanhamento de itens e projetos}.
@@ -67,6 +60,11 @@ Acesso em 10 de maio de 2025.}
 Acesso em 12 de maio de 2025.
 Dispon{\'\i}vel em: \url{https://www.ufrgs.br/faunamarinhars/}.}
 
+\bibitem[{Figma} 2025]{figma2025}
+\abntrefinfo{{Figma}}{{Figma}}{2025}
+{{Figma}. \emph{Figma}. 2025. Ferramenta de design e prototipagem online.
+Disponível em: \url{https://www.figma.com}. Acessado em: 17 de julho de 2025.}
+
 \bibitem[{Firebase Open Source} 2023]{firebaseScrypt2023}
 \abntrefinfo{{Firebase Open Source}}{{Firebase Open Source}}{2023}
 {{Firebase Open Source}. \emph{Firebase Scrypt - Password hashing algorithm}.
@@ -103,6 +101,13 @@ Dispon{\'\i}vel em: \url{https://www.android.com}.}
 \abntrefinfo{{Google}}{{Google}}{2024b}
 {{Google}. \emph{Google Drive}. 2024. \url{https://www.google.com/drive/}.
 Acesso em 07 de maio de 2025.}
+
+\bibitem[{Google} 2025]{googlemaps2025}
+\abntrefinfo{{Google}}{{Google}}{2025}
+{{Google}. \emph{Google Maps Platform}. 2025. Plataforma de APIs de mapas e
+  geolocalização.
+Disponível em: \url{https://cloud.google.com/maps-platform}. Acessado em: 17
+  de julho de 2025.}
 
 \bibitem[{Google Firebase} 2025]{firebase2025}
 \abntrefinfo{{Google Firebase}}{{Google Firebase}}{2025}
@@ -148,6 +153,13 @@ Acesso em 10 de maio de 2025.}
   \url{https://pub.dev/documentation/hive/latest/}.
 Acesso em 08 de maio de 2025.}
 
+\bibitem[{Mapbox, Inc.} 2025]{mapbox2025}
+\abntrefinfo{{Mapbox, Inc.}}{{Mapbox, Inc.}}{2025}
+{{Mapbox, Inc.} \emph{Mapbox}. 2025. Plataforma de mapas e geolocalização
+  para desenvolvedores.
+Disponível em: \url{https://www.mapbox.com}. Acessado em: 17 de julho de
+  2025.}
+
 \bibitem[Martins e Cabral 2021]{Martins_Cabral_2021}
 \abntrefinfo{Martins e Cabral}{MARTINS; CABRAL}{2021}
 {MARTINS, D. G. d.~M.; CABRAL, E. H. d.~S. Panorama dos principais estudos
@@ -175,6 +187,13 @@ Acesso em 10 de maio de 2024.}
 {OHNO, T. \emph{Toyota Production System: Beyond Large-Scale Production}.
   [S.l.]: Productivity Press, 1988. 176~p.}
 
+\bibitem[{OpenStreetMap Foundation} 2025]{openstreetmap2025}
+\abntrefinfo{{OpenStreetMap Foundation}}{{OpenStreetMap Foundation}}{2025}
+{{OpenStreetMap Foundation}. \emph{OpenStreetMap}. 2025. Mapa colaborativo
+  online.
+Disponível em: \url{https://www.openstreetmap.org}. Acessado em: 17 de julho
+  de 2025.}
+
 \bibitem[Palma 2016]{palma2016monitoramento}
 \abntrefinfo{Palma}{PALMA}{2016}
 {PALMA, D.~A.
@@ -193,6 +212,13 @@ Dispon{\'\i}vel em: \url{https://simba.petrobras.com.br/simba/web/}.}
 \abntrefinfo{Pressman}{PRESSMAN}{2011}
 {PRESSMAN, R.~S. \emph{Engenharia de Software -- uma Abordagem Profissional}.
   7. ed. [S.l.]: AMGH Editora LTDA, 2011.}
+
+\bibitem[Schwaber e Sutherland 2020]{sutherland2020scrum}
+\abntrefinfo{Schwaber e Sutherland}{SCHWABER; SUTHERLAND}{2020}
+{SCHWABER, K.; SUTHERLAND, J. \emph{The Scrum Guide}. 2020. Disponível online.
+The Definitive Guide to Scrum: The Rules of the Game. Acessado em: 17 de julho
+  de 2025.
+Dispon{\'\i}vel em: \url{https://scrumguides.org}.}
 
 \bibitem[Serafim 2012]{Serafim2012}
 \abntrefinfo{Serafim}{SERAFIM}{2012}

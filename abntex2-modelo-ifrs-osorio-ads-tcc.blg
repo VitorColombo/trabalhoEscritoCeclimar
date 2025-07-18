@@ -14,6 +14,8 @@ A level-1 auxiliary file: elementos-textuais/conclusao.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 35 items.
 Reallocating 'name_of_file' (item size: 1) to 48 items.
+A level-1 auxiliary file: elementos-pos-textuais/apendices/apendice-b.aux
+Reallocating 'name_of_file' (item size: 1) to 48 items.
 A level-1 auxiliary file: elementos-pos-textuais/apendices/apendice-a.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
@@ -60,8 +62,6 @@ Warning--entry type for "atlassian_jira_2025" isn't style-file defined
 --line 1291 of file elementos-pos-textuais/referencias.bib
 Warning--entry type for "google_scholar_2025" isn't style-file defined
 --line 1307 of file elementos-pos-textuais/referencias.bib
-Warning--entry type for "androidstudio2025" isn't style-file defined
---line 1391 of file elementos-pos-textuais/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -71,45 +71,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 38 entries,
+You've used 42 entries,
             6714 wiz_defined-function locations,
-            1414 strings with 15654 characters,
-and the built_in function-call counts, 44483 in all, are:
-= -- 5106
-> -- 657
-< -- 1031
-+ -- 1284
-- -- 212
-* -- 2583
-:= -- 5631
-add.period$ -- 181
-call.type$ -- 38
-change.case$ -- 299
-chr.to.int$ -- 60
-cite$ -- 37
-duplicate$ -- 4265
-empty$ -- 2217
-format.name$ -- 985
-if$ -- 9116
+            1435 strings with 16375 characters,
+and the built_in function-call counts, 46702 in all, are:
+= -- 5243
+> -- 734
+< -- 1009
++ -- 1290
+- -- 237
+* -- 2726
+:= -- 5946
+add.period$ -- 202
+call.type$ -- 42
+change.case$ -- 336
+chr.to.int$ -- 64
+cite$ -- 41
+duplicate$ -- 4333
+empty$ -- 2451
+format.name$ -- 1101
+if$ -- 9682
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 671
-newline$ -- 210
-num.names$ -- 185
-pop$ -- 857
+missing$ -- 745
+newline$ -- 230
+num.names$ -- 205
+pop$ -- 950
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 133
 quote$ -- 0
-skip$ -- 4365
+skip$ -- 4441
 stack$ -- 1
-substring$ -- 1929
-swap$ -- 1566
+substring$ -- 1994
+swap$ -- 1604
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 0
-while$ -- 252
+while$ -- 276
 width$ -- 0
-write$ -- 587
-(There were 17 warnings)
+write$ -- 648
+(There were 16 warnings)

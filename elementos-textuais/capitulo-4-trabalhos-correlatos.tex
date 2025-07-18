@@ -42,7 +42,7 @@ Entre as principais reclamações dos usuários estão: sistema pouco intuitivo,
 \section{Sistema Urubu}\label{urubu}
 % --- 
 
-O Sistema Urubu é uma iniciativa do Centro Brasileiro de Ecologia de Estradas da UFLA, sob a coordenação do professor Alex Bager. Criado em 2014, o aplicativo de ciência cidadã é a maior rede para conservação da biodiversidade brasileira, destinada à coleta e gestão de informações de fauna selvagem ao longo de rodovias e ferrovias no Brasil. 
+O Sistema Urubu é uma iniciativa do Centro Brasileiro de Ecologia de Estradas da Universidade Federal de Lavras (UFLA), sob a coordenação do professor Alex Bager. Criado em 2014, o aplicativo de ciência cidadã é a maior rede para conservação da biodiversidade brasileira, destinada à coleta e gestão de informações de fauna selvagem ao longo de rodovias e ferrovias no Brasil. 
 
 A aplicação permite que voluntários enviem registros de animais atropelados e infraestruturas viárias por meio de aplicativo móvel, enquanto especialistas validam e caracterizam esses registros para torná-los confiáveis. Os dados coletados são centralizados em um banco de dados e disponibilizados em um Sistema de Informações Geográficas, facilitando a visualização e análise pelos usuários. O Sistema Urubu também oferece ferramentas como o Urubu \textit{web}, para gestão e validação dos dados, e o Urubu Map, para visualização geográfica dos registros \cite{castro2019sistema}. Ao longo de seus anos de existência, o sistema reuniu mais de 25 mil usuários e 150 mil registros de animais atropelados em todo o território brasileiro, demonstrando seu impacto e relevância na conservação da biodiversidade.
 
@@ -68,13 +68,15 @@ Em contato com o coordenador do projeto Alex Bager por e-mail, foi informado de 
 \section{SIMBA}\label{simba}
 % --- 
 
-O Sistema de Monitoramento da Biota Aquática (SIMBA), é um sistema \textit{web} de gerenciamento de dados criado pelo Laboratório de Oceanografia Biológica da UNIVALI com a finalidade de armazenar dados coletados por instituições executoras dos projetos de monitoramentos de praias. O desenvolvimento do SIMBA se iniciou para auxiliar nos fluxos de dados entre os atores sociais envolvidos nos Projetos de Monitoramento de Praias (PMPs) e fazer com que os dados obtidos sejam disponibilizados e divulgados para a população.
+O Sistema de Monitoramento da Biota Aquática (SIMBA), é um sistema \textit{web} de gerenciamento de dados criado pelo Laboratório de Oceanografia Biológica da Universidade do Vale do Itajaí (UNIVALI) com a finalidade de armazenar dados coletados por instituições executoras dos projetos de monitoramentos de praias. O desenvolvimento do SIMBA se iniciou para auxiliar nos fluxos de dados entre os atores sociais envolvidos nos Projetos de Monitoramento de Praias (PMPs) e fazer com que os dados obtidos sejam disponibilizados e divulgados para a população.
 
-Os PMPs são desenvolvidos para o atendimento de condicionantes de licenciamento ambiental federal, conduzido pelo IBAMA, de atividades de exploração e produção de petróleo e gás natural de bacias \textit{offshore} sob atuação da Petrobras. Estes projetos tem o objetivo de avaliar as possíveis interferências na área de abrangência dos projetos, analisando tanto tetrápodes marinhos (aves, tartarugas e mamíferos) por meio do monitoramento das praias, atendimento veterinário aos animais debilitados e da coleta de dados de animais mortos, quanto resíduos sólidos encontrados \cite{petrobras_simba_2024}.
+Os PMPs são desenvolvidos para o atendimento de condicionantes de licenciamento ambiental federal, conduzido pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA), de atividades de exploração e produção de petróleo e gás natural de bacias \textit{offshore} sob atuação da Petrobras. Estes projetos tem o objetivo de avaliar as possíveis interferências na área de abrangência dos projetos, analisando tanto tetrápodes marinhos (aves, tartarugas e mamíferos) por meio do monitoramento das praias, atendimento veterinário aos animais debilitados e da coleta de dados de animais mortos, quanto resíduos sólidos encontrados \cite{petrobras_simba_2024}.
 
 Atualmente os projetos estão presentes nas bacias de Santos, Campos, Espírito Santo, Sergipe-Alagoas e Potiguar.
 
-\begin{figure}[htb]
+O SIMBA conta com funcionalidades de cadastro de ocorrências de fauna, resíduos sólidos (Figura~\ref{fig:simbaRegistro}), exames, jornadas de campo com os caminhamentos realizados. Os pontos de ocorrência de cada cadastro são georreferenciados, assim como as jornadas de monitoramento, gerando mapas para melhor visualização e análise dos dados (Figura~\ref{fig:simbaMonitoramento}).
+
+\begin{figure}[H]
   \centering
   \caption{Captura de tela de uma página \textit{web} de registro de visualização de ocorrências cadastradas no SIMBA.}
   \includegraphics[width=1\textwidth]{imagens/simbaRegistro.png}
@@ -82,9 +84,7 @@ Atualmente os projetos estão presentes nas bacias de Santos, Campos, Espírito 
   \label{fig:simbaRegistro}
 \end{figure}
 
-O SIMBA conta com funcionalidades de cadastro de ocorrências de fauna, resíduos sólidos (Figura~\ref{fig:simbaRegistro}), exames, jornadas de campo com os caminhamentos realizados. Os pontos de ocorrência de cada cadastro são georreferenciados, assim como as jornadas de monitoramento, gerando mapas para melhor visualização e análise dos dados (Figura~\ref{fig:simbaMonitoramento}).
-
-\begin{figure}[htb]
+\begin{figure}[H]
   \centering
   \caption{Captura de tela de um mapa georreferenciado gerado a partir dos dados de jornada de monitoramento cadastrado no SIMBA.}
   \includegraphics[width=1\textwidth]{imagens/simbaTrajetoria.png}

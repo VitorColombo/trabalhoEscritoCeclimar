@@ -6,7 +6,7 @@
 
 A Ciência Cidadã representa uma ponte entre a comunidade científica e o público geral, permitindo que pessoas sem formação científica formal possam contribuir em pesquisas científicas. Essa metodologia colaborativa tem se destacado em diversas áreas de pesquisa como na conservação da biodiversidade e na preservação ambiental. Através da Ciência Cidadã é possível que voluntários coletem e analisem dados, fornecendo informações que agregam no conhecimento acadêmico e auxiliam na resolução de questões sociais.
 
-Segundo \citeonline{palma2016monitoramento}, trata-se de uma metodologia de pesquisa promissora na produção de conhecimento para ser aplicada em diversos campos científicos. Essa abordagem se destaca, em especial, com seu potencial de geração de dados e análises, temporal e espacial, quando comparada com os métodos tradicionais de pesquisa. Para \citeonline{wildschut2017citizen}, a metodologia da ciência cidadã tem potencial para ampliar o escopo de pesquisas e aumentar e aprimorar a capacidade na coleta de dados e que os cidadãos que participam podem contribuir com informações importantes enquanto aprendem sobre as mais diversas áreas científicas.
+Segundo \citeonline{palma2016monitoramento}, trata-se de uma metodologia de pesquisa promissora na produção de conhecimento para ser aplicada em diversos campos científicos. Essa abordagem se destaca, em especial, com seu potencial de geração de dados e análises, temporal e espacial, quando comparada com os métodos tradicionais de pesquisa. Para \citeonline{wildschut2017citizen}, a metodologia da Ciência Cidadã tem potencial para ampliar o escopo de pesquisas e aumentar e aprimorar a capacidade na coleta de dados e que os cidadãos que participam podem contribuir com informações importantes enquanto aprendem sobre as mais diversas áreas científicas.
 
 A construção de conhecimento colaborativo realizado entre cidadãos e cientistas se mostra uma maneira poderosa de construção de conhecimentos, que agrega tanto no meio científico quanto social. Estes projetos instigam que as pessoas participem de maneira voluntária e ativa na resolução de situações do dia-a-dia da nossa sociedade, disseminando conhecimento de diversas áreas e fazendo com que diversos conteúdos saiam de suas bolhas científicas e obtenham um alcance maior.
 
@@ -83,14 +83,9 @@ representam as tarefas se movem de uma coluna para outra, refletindo o progresso
 \section{Jira}
 % ---
 
-O \textit{Jira} é um \textit{software} comercial de gerenciamento de projetos desenvolvido 
-pela empresa \citeonline{atlassian_jira_2025}. Ele permite a criação, acompanhamento e gerência de tarefas e projetos a partir de uma interface personalizável que suporta diversas metodologias ágeis como Scrum e Kanban, facilitando a colaboração e comunicação durante o desenvolvimento.
+O \textit{Jira} é um \textit{software} comercial de gerenciamento de projetos desenvolvido pela empresa \citeonline{atlassian_jira_2025}. Ele permite a criação, acompanhamento e gerência de tarefas e projetos a partir de uma interface personalizável que suporta diversas metodologias ágeis como Scrum \cite{sutherland2020scrum} e Kanban, facilitando a colaboração e comunicação durante o desenvolvimento.
 
-A ferramenta pode ser usada para planejar \textit{sprints}, atribuir tarefas, acompanhar 
-\textit{bugs}, gerar relatórios e analisar o desempenho da equipe. Ele possui 
-integração com uma variedade de ferramentas de desenvolvimento e oferece funcionalidades 
-para personalizar fluxos de trabalho, campos e painéis, tornando-o adaptável às 
-necessidades específicas de cada projeto ou organização.
+A ferramenta pode ser usada para planejar \textit{sprints}\footnote{Sprints são ciclos de trabalho curtos e com duração fixa, geralmente de uma a quatro semanas, que são centrais na metodologia ágil Scrum. Durante um \textit{sprint}, a equipe se concentra em completar um conjunto predefinido de tarefas do \textit{backlog} do projeto com o objetivo de entregar um incremento de produto funcional e utilizável ao final do período.}, atribuir tarefas, acompanhar \textit{bugs}, gerar relatórios e analisar o desempenho da equipe. Ele possui integração com uma variedade de ferramentas de desenvolvimento e oferece funcionalidades para personalizar fluxos de trabalho, campos e painéis, tornando-o adaptável às necessidades específicas de cada projeto ou organização.
 
 
 \section{Tecnologias e Frameworks}\label{tecnologias}
@@ -119,44 +114,16 @@ que facilitam a implementação de funcionalidades essenciais, como a autentica�
 \textit{Dart} é uma linguagem de programação lançada pelo Google em 2013, criada com foco em produtividade e performance para aplicações multiplataforma. A linguagem é orientada a objetos e oferece tipagem estática forte, porém também é possível optar pelo uso de tipagem dinâmica, 
 o que pode ser útil em algumas situações. \cite{dartDocs2025}.
 
-Um aspecto importante do \textit{Dart} é sua flexibilidade de compilação. 
-É uma linguagem que utiliza tanto a compilação \textit{just-in-time} 
-(JIT) quanto \textit{ahead-of-time} (AOT). 
-Em tempo de desenvolvimento, o \textit{Dart} roda no \textit{Dart} VM 
-usando JIT, o que permite recompilar apenas partes 
-do código em tempo real sem reiniciar toda a aplicação. Essa funcionalidade 
-viabiliza o recurso de \textit{hot reload} do \textit{Flutter}, permitindo 
-que alterações sejam refletidas imediatamente na aplicação sem alterar o 
-estado da interface.
-Após realizar o lançamento de uma versão, o \textit{Dart} usa AOT para compilar o código diretamente 
-para código nativo, o que garante um desempenho maior com relação ao JIT \cite{dartDocs2025}.
+Um aspecto importante do \textit{Dart} é sua flexibilidade de compilação. É uma linguagem que utiliza tanto a compilação \textit{just-in-time} (JIT) quanto \textit{ahead-of-time} (AOT). 
+Em tempo de desenvolvimento, o \textit{Dart} roda no \textit{Dart} VM usando JIT, o que permite recompilar apenas partes do código em tempo real sem reiniciar toda a aplicação. Essa funcionalidade viabiliza o recurso de \textit{hot reload} do \textit{Flutter}, permitindo que alterações sejam refletidas imediatamente na aplicação sem alterar o estado da interface. Após realizar o lançamento de uma versão, o \textit{Dart} usa AOT para compilar o código diretamente para código nativo, o que garante um desempenho maior com relação ao JIT \cite{dartDocs2025}.
 
-A escolha do Dart (versão 3.7.2) como linguagem de programação para o projeto se deu pela sua
-proximidade com o \textit{Flutter}, pela tipagem forte, pelas características de 
-programação orientada a objetos e pela facilidade de integração com o \textit{Firebase}.
+A escolha do Dart (versão 3.7.2) como linguagem de programação para o projeto se deu pela sua proximidade com o \textit{Flutter}, pela tipagem forte, pelas características de programação orientada a objetos e pela facilidade de integração com o \textit{Firebase}.
 
 \subsection{Firebase}
 
-O \textit{Firebase} é uma plataforma de desenvolvimento de aplicativos móveis e \textit{web} 
-fornecida pelo Google, que oferece uma ampla gama de serviços \textit{backend} para 
-facilitar a criação de aplicações robustas e escaláveis. Tem como característica 
-permitir o desenvolvimento centralizado sem a necessidade de infraestrutura própria, 
-fornecendo soluções completas para autenticação de usuários, banco de dados em tempo real, 
-armazenamento de arquivos, envio de notificações, análises de uso e monitoramento de 
-desempenho. Além disso, a plataforma integra ferramentas para teste, distribuição 
-e acompanhamento do ciclo de vida do aplicativo com suporte multiplataforma \cite{firebase2025}.
+O \textit{Firebase} é uma plataforma de desenvolvimento de aplicativos móveis e \textit{web} fornecida pelo Google, que oferece uma ampla gama de serviços \textit{backend} para facilitar a criação de aplicações robustas e escaláveis. Tem como característica permitir o desenvolvimento centralizado sem a necessidade de infraestrutura própria, fornecendo soluções completas para autenticação de usuários, banco de dados em tempo real, armazenamento de arquivos, envio de notificações, análises de uso e monitoramento de desempenho. Além disso, a plataforma integra ferramentas para teste, distribuição e acompanhamento do ciclo de vida do aplicativo com suporte multiplataforma \cite{firebase2025}.
 
-Dentre os principais serviços disponibilizados no plano \textit{Spark} que foram 
-utilizados no projeto, estão o \textit{Firebase Authentication}, 
-que possibilita a autenticação de usuários via e-mail/senha e Google, com suporte 
-para até 50 mil usuários ativos mensais sem custo. O \textit{Firebase Analytics} que fornece 
-relatórios detalhados sobre o comportamento e uso do aplicativo, permitindo a 
-análise de métricas essenciais. O \textit{App Distribution} que possibilita a distribuição de versões 
-de teste do aplicativo para usuários selecionados durante as fases de desenvolvimento e teste. 
-Além do \textit{Cloud Firestore Database} que oferece até 1 GB de armazenamento, com limites diários de 50 
-mil leituras, 20 mil gravações e 20 mil exclusões de documentos. E do \textit{Cloud Storage} que
-disponibiliza 5 GB de armazenamento, 1 GB de download diário, além de 20 mil operações 
-de upload e 50 mil operações de download por dia \cite{firebase2025}.
+Dentre os principais serviços disponibilizados no plano \textit{Spark} que foram utilizados no projeto, estão o \textit{Firebase Authentication}, que possibilita a autenticação de usuários via e-mail/senha e Google, com suporte para até 50 mil usuários ativos mensais sem custo. O \textit{Firebase Analytics} que fornece relatórios detalhados sobre o comportamento e uso do aplicativo, permitindo a análise de métricas essenciais. O \textit{App Distribution} que possibilita a distribuição de versões de teste do aplicativo para usuários selecionados durante as fases de desenvolvimento e teste. Além do \textit{Cloud Firestore Database} que oferece até 1 GB de armazenamento, com limites diários de 50 mil leituras, 20 mil gravações e 20 mil exclusões de documentos. E do \textit{Cloud Storage} que disponibiliza 5 GB de armazenamento, 1 GB de download diário, além de 20 mil operações de upload e 50 mil operações de download por dia \cite{firebase2025}.
 
 Neste projeto, o \textit{Firebase} foi escolhido para gerenciar a autenticação e o armazenamento de 
 dados, utilizando o \textit{Firebase Authentication} para autenticar usuários com diferentes métodos de login e o \textit{Firebase Storage} para armazenar imagens, além do banco de dados NoSQL \textit{Cloud Firestore Database} para salvar os dados gerais do sistema e do \textit{Analytics} para geração de \textit{dashboards} visando analisar o funcionamento geral da aplicação.
@@ -177,7 +144,7 @@ E as ferramentas auxiliares, que contribuem com a geração
 de código e automação de processos durante o desenvolvimento, como \texttt{hive\_generator} 
 (geração de adaptadores para o \textit{Hive}) e \texttt{build\_runner} (execução de processos automáticos de geração de código).
 
-Essas dependencias permitem incorporar funcionalidades reutilizáveis no projeto 
+Essas dependências permitem incorporar funcionalidades reutilizáveis no projeto 
 como renderização de mapas, autenticação com \textit{Firebase} e diversos formatos de gráficos 
 sem a necessidade de implementações manuais que seriam custosas e extensas. 
 Além disso, possibilitam o acesso a recursos nativos dos dispositivo, como a 
@@ -246,21 +213,20 @@ em \textit{Dart}, projetado para ser usado em aplicações \textit{Flutter} e
 oferecendo uma alternativa eficiente ao SQLite e a outros bancos de dados 
 mais complexos, especialmente em contextos mobile \cite{hive2025}.
 
-Nesse projeto, o Hive foi escolhido como opção de banco de dados local para armazenamento dos registros em momentos em que o dispositivo está offline, 
+Nesse projeto, o Hive foi escolhido como opção de banco de dados local para armazenamento dos registros em momentos em que o dispositivo está \textit{offline}, 
 permitindo que até 40 registros sejam armazenados localmente e sincronizados assim que a conexão com a internet retornar.
 A principal vantagem do Hive é a simplicidade e velocidade em dispositivos móveis.
 
 \subsubsection{Flutter Map}
 O \textit{Flutter Map} é um plugin gratuito, multiplataforma e de código aberto
 que permite a renderização de mapas dentro de aplicativos \textit{Flutter}. Oferece uma interface fácil de usar para adicionar camadas, marcadores personalizados e interações em mapas.
-Possui suporte de diversos provedores de mapas, como \textit{OpenStreetMap}, \textit{Mapbox} e \textit{Google Maps}, permitindo que os desenvolvedores escolham a fonte de dados que melhor atende às suas necessidades. Além disso, ele oferece suporte a recursos avançados, como geolocalização, desenho de rotas e manipulação de gestos do usuário, adição de \textit{layers} \cite{flutter_map_doc}.
+Possui suporte de diversos provedores de mapas, como \textit{OpenStreetMap} \cite{openstreetmap2025}, \textit{Mapbox} \cite{mapbox2025} e \textit{Google Maps} \cite{googlemaps2025}, permitindo que os desenvolvedores escolham a fonte de dados que melhor atende às suas necessidades. Além disso, ele oferece suporte a recursos avançados, como geolocalização, desenho de rotas e manipulação de gestos do usuário e adição de \textit{layers} \cite{flutter_map_doc}.
  
 Neste projeto, o \textit{Flutter Map} foi utilizado para renderizar o mapa com marcadores personalizados das localizações dos registros realizados pelos usuários, permitindo uma visão geográfica dos dados coletados.
 
 \subsubsection{Excel}
 
-O \textit{excel} é uma biblioteca de código aberto para o \textit{Dart} que permite a leitura e escrita de arquivos do Microsoft Excel no formato \textit{XLSX} com customizações avançadas de template \cite{excel_flutter}.
-Neste projeto foi utilizada para construir a planilha de registros personalizada para download e compartilhamento.
+O \textit{Excel} é uma biblioteca de código aberto para o \textit{Dart} que permite a leitura e escrita de arquivos do Microsoft Excel no formato \textit{XLSX} com customizações avançadas de \textit{template} \cite{excel_flutter}. Neste projeto foi utilizada para construir a planilha de registros personalizada para \textit{download} e compartilhamento.
 
 \subsubsection{Graphic}
 

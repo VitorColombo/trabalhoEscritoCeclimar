@@ -20,61 +20,62 @@
 \contentsline {section}{\numberline {3.2}Agenda 2030}{26}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Objetivos de Desenvolvimento Sustentável (ODS)}{27}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Metodologia Iterativa Incremental}{29}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Kanban}{29}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Kanban}{30}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Jira}{30}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Tecnologias e Frameworks}{31}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Flutter}{31}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Dart}{32}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Firebase}{32}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Pacotes e Plugins do Flutter}{33}{subsection.3.6.4}%
-\contentsline {subsubsection}{\numberline {3.6.4.1}Hive}{36}{subsubsection.3.6.4.1}%
-\contentsline {subsubsection}{\numberline {3.6.4.2}Flutter Map}{36}{subsubsection.3.6.4.2}%
-\contentsline {subsubsection}{\numberline {3.6.4.3}Excel}{36}{subsubsection.3.6.4.3}%
-\contentsline {subsubsection}{\numberline {3.6.4.4}Graphic}{37}{subsubsection.3.6.4.4}%
+\contentsline {section}{\numberline {3.6}Gamificação}{31}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Tecnologias e Frameworks}{31}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Flutter}{32}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Dart}{32}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Firebase}{33}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Pacotes e Plugins do Flutter}{34}{subsection.3.7.4}%
+\contentsline {subsubsection}{\numberline {3.7.4.1}Hive}{37}{subsubsection.3.7.4.1}%
+\contentsline {subsubsection}{\numberline {3.7.4.2}Flutter Map}{37}{subsubsection.3.7.4.2}%
+\contentsline {subsubsection}{\numberline {3.7.4.3}Excel}{37}{subsubsection.3.7.4.3}%
+\contentsline {subsubsection}{\numberline {3.7.4.4}Graphic}{38}{subsubsection.3.7.4.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Evolução Temporal do Projeto}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Diagnóstico do Processo Atual}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Levantamento de Requisitos}{43}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Requisitos Funcionais}{44}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Requisitos Não Funcionais}{48}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Prototipação da Interface com o Usuário}{49}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Definição da Identidade Visual}{49}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Criação do Design das Telas}{51}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Desenvolvimento do Protótipo Navegável}{62}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Projeto Gerencial}{63}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Desenvolvimento Geral}{66}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Correções}{70}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Débitos Técnicos e Melhorias}{73}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Arquitetura de Armazenamento de Dados}{75}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Armazenamento Remoto}{76}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Armazenamento Local}{80}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Implementação do Sistema}{83}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Splashscreen}{84}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Login e Cadastro}{85}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Menu Inicial e Barra de Navegação}{92}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Novo Registro}{95}{subsection.4.7.4}%
-\contentsline {subsection}{\numberline {4.7.5}Meus Registros}{109}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Avaliar Registro}{116}{subsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.7.7}Meu Perfil}{122}{subsection.4.7.7}%
-\contentsline {subsection}{\numberline {4.7.8}Painel de Registros}{129}{subsection.4.7.8}%
-\contentsline {subsection}{\numberline {4.7.9}Adicionar Pesquisador}{134}{subsection.4.7.9}%
-\contentsline {subsection}{\numberline {4.7.10}Fauna Local}{138}{subsection.4.7.10}%
-\contentsline {subsection}{\numberline {4.7.11}Sobre o app}{140}{subsection.4.7.11}%
-\contentsline {section}{\numberline {4.8}Execução de Testes e Versionamento}{141}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Execução de Testes}{141}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Versionamento do Aplicativo}{143}{subsection.4.8.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Obtidos}}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evolução Temporal do Projeto}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diagnóstico do Processo Atual}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Levantamento de Requisitos}{44}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Requisitos Funcionais}{45}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Requisitos Não Funcionais}{49}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Prototipação da Interface com o Usuário}{50}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Definição da Identidade Visual}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Criação do Design das Telas}{52}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Desenvolvimento do Protótipo Navegável}{63}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Projeto Gerencial}{64}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Desenvolvimento Geral}{67}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Correções}{71}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Débitos Técnicos e Melhorias}{74}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Arquitetura de Armazenamento de Dados}{76}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Armazenamento Remoto}{77}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Armazenamento Local}{81}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Implementação do Sistema}{84}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Splashscreen}{85}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Login e Cadastro}{86}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Menu Inicial e Barra de Navegação}{93}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Novo Registro}{96}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Meus Registros}{110}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Avaliar Registro}{117}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}Meu Perfil}{123}{subsection.4.7.7}%
+\contentsline {subsection}{\numberline {4.7.8}Painel de Registros}{130}{subsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.7.9}Adicionar Pesquisador}{135}{subsection.4.7.9}%
+\contentsline {subsection}{\numberline {4.7.10}Fauna Local}{139}{subsection.4.7.10}%
+\contentsline {subsection}{\numberline {4.7.11}Sobre o app}{141}{subsection.4.7.11}%
+\contentsline {section}{\numberline {4.8}Execução de Testes e Versionamento}{142}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Execução de Testes}{142}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Versionamento do Aplicativo}{144}{subsection.4.8.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{145}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{146}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{148}{section*.88}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{149}{section*.88}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Diagrama de Casos de Uso}}{152}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Diagrama de Casos de Uso}}{153}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Tabelas de Exportação}}{154}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Tabelas de Exportação}}{155}{appendix.B}%
